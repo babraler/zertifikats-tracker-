@@ -1,5 +1,5 @@
 {
-  "stand": "2026-11-09T22:13:32+01:00",
+  "stand": "2026-11-12T19:14:30+01:00",
   "produkt": {
     "isin": "DE000JE3NTM6",
     "wkn": "JE3NTM",
@@ -15,18 +15,18 @@
     "lauf_ende": "2027-01-18"
   },
   "aktuell": {
-    "z_geld": 140.14,
-    "z_brief": 140.64,
-    "max_ertrag_eur": 2.35,
-    "max_ertrag_pct": 1.67677488405,
-    "delta": 0.072473201268,
-    "discount_pct": 33.6640680369,
-    "cap_abstand_pct": 48.52631578947369
+    "z_geld": 140.17,
+    "z_brief": 140.67,
+    "max_ertrag_eur": 2.32,
+    "max_ertrag_pct": 1.65501498074,
+    "delta": 0.0711836591633,
+    "discount_pct": 33.9308398024,
+    "cap_abstand_pct": 49.15789473684211
   },
   "fortschritt": {
-    "tag": 0,
+    "tag": 3,
     "tage_gesamt": 70,
-    "woche": 0
+    "woche": 1
   },
   "tage": [
     {
@@ -1008,12 +1008,204 @@
       "beta_geschaetzt": false,
       "theta_tag": 0.0313585656255,
       "iv": 47.7270175934
+    },
+    {
+      "datum": "2026-11-10",
+      "phase": "lauf",
+      "z_geld": 140.05,
+      "z_brief": null,
+      "z_quelle": "historie",
+      "basis": 209.95,
+      "dax": 26347.45,
+      "z_pct": -0.064221,
+      "basis_pct": -0.803213,
+      "dax_pct": 0.305552,
+      "dz": -0.09,
+      "delta": 0.072473,
+      "beta": 0.607783,
+      "effekt_markt": 0.028486,
+      "effekt_aktie": -0.15169,
+      "effekt_zeit": 0.031359,
+      "effekt_rest": 0.001846,
+      "haupttreiber": "Aktie selbst",
+      "auffaellig": false,
+      "z_score": -0.542613,
+      "text": "Das Zertifikat fiel von 140,14 € auf 140,05 € (−0,09 € oder −0,06 %). Die SAP-Aktie fiel um 0,80 %, der DAX stieg um 0,31 %; davon entfallen rechnerisch etwa +0,19 Prozentpunkte auf die allgemeine Marktbewegung. Das Zertifikat liegt nahe seinem Höchstwert (Cap), deshalb kommen Aktienbewegungen kaum an (Delta 0,07); der Zeitwert trug +0,03 € bei. Haupttreiber des Tages: Aktie selbst (−0,15 €).",
+      "verdikt": "Im normalen Rauschen",
+      "nachrichten": [
+        {
+          "titel": "SAP-Aktie: JPMorgan hebt Kursziel auf 275 Euro",
+          "quelle": "ad-hoc-news.de",
+          "zeit": "2026-11-10T17:01:16+01:00",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWtTeDZ5RnR0bVNKWXFUaDNsTXNxR0FOWHgtM1dFdWNrc1g4TWZWeHF2MW54QzhsWklocVpzSkMxT3BZdmhjazdZZUZZNG50ZU96TmZFbFQtTXdDS09zQkJMSnNrQ2cwRkg0TFRkWU81a3AxN3IxZ1ozOW4zQ3VqR1Ztc21LbS1wZEVwWF9VZVRVbTd4WFVjVlRjbVpsRzAtdjAwZll4dkdDSDJQ?oc=5",
+          "kategorie": "Analyst/Kursziel",
+          "richtung": "positiv",
+          "passt": false
+        },
+        {
+          "titel": "SAP Aktie: JPMorgan hievt das Kursziel auf 275 Euro",
+          "quelle": "Finanztrends",
+          "zeit": "2026-11-10T13:00:21+01:00",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUkdIb25TZDVmZU1tYTYtTml5NlZWU1lTdGRrWXRzQktSLXYxQnNHM0IzcGNYMFRlUVIwZXRYWHlKLXd2QXJuYnNBb3hVaEJwYW40TG1JZWhtZUJHOFJiSDZPZmlCMkFtZFZzV29QM3dxUGQ1RXNaMmFWZzdiUzBVa0lXWnlVa2c?oc=5",
+          "kategorie": "Analyst/Kursziel",
+          "richtung": "neutral",
+          "passt": null
+        },
+        {
+          "titel": "Aktie im Fokus: SAP – Analysten von J.P. Morgan sehen über 30% Kurspotential",
+          "quelle": "Broker-Test.de",
+          "zeit": "2026-11-10T10:28:44+01:00",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQck9vZzVfNmRDdGc3WEZ2Qklodi11cUo1R044Z3owdUJJMDRTQW55SEN5azczQWx5ZHU3ajZkR05YVGxMMjl5ZjVKODZQWnpCT3kzRjdpX1JTLUlkU3RidHN2WVFBdzlBZ1RNS0E5aW9Kazk5UHF1NDR4YXJEdFFsalB0YmdoNG1CblM2c1cyQkxzdjZQSXBOa2xObTdfNWotaGNOSmg2NUJxZy16c1E?oc=5",
+          "kategorie": "Analyst/Kursziel",
+          "richtung": "neutral",
+          "passt": null
+        }
+      ],
+      "effekt_basis": -0.123204,
+      "aktie_spez_pct": -0.988922,
+      "cap_abstand_pct": 47.333333,
+      "delta_geschaetzt": false,
+      "beta_geschaetzt": false,
+      "theta_tag": null,
+      "iv": null
+    },
+    {
+      "datum": "2026-11-11",
+      "phase": "lauf",
+      "z_geld": 140.18,
+      "z_brief": null,
+      "z_quelle": "historie",
+      "basis": 210.95,
+      "dax": 26662.77,
+      "z_pct": 0.092824,
+      "basis_pct": 0.476304,
+      "dax_pct": 1.196776,
+      "dz": 0.13,
+      "delta": 0.072473,
+      "beta": 0.632068,
+      "effekt_markt": 0.115099,
+      "effekt_aktie": -0.042625,
+      "effekt_zeit": 0.031359,
+      "effekt_rest": 0.026168,
+      "haupttreiber": "DAX-Bewegung",
+      "auffaellig": false,
+      "z_score": -0.154844,
+      "text": "Das Zertifikat stieg von 140,05 € auf 140,18 € (+0,13 € oder +0,09 %). Die SAP-Aktie stieg um 0,48 %, der DAX stieg um 1,20 %; davon entfallen rechnerisch etwa +0,76 Prozentpunkte auf die allgemeine Marktbewegung. Das Zertifikat liegt nahe seinem Höchstwert (Cap), deshalb kommen Aktienbewegungen kaum an (Delta 0,07); der Zeitwert trug +0,03 € bei. Haupttreiber des Tages: DAX-Bewegung (+0,12 €).",
+      "verdikt": "Marktbewegung",
+      "nachrichten": [
+        {
+          "titel": "SAP-Aktie: JPMorgan erhöht Kursziel auf 275 Euro",
+          "quelle": "ad-hoc-news.de",
+          "zeit": "2026-11-11T12:26:27+01:00",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU0ZfeFV5OExEZG1wdUh4RTBjdTE2SHdRdmh4eFgyaHNNdmx2cjY0dGVmNHFBSEQ0ZERyVHM4ZjE5cmxCZmhkbGM4ZGF5WlA3bGUwdDFXRTRkWXlndXVxdDdUbEhSMlN3aldOY3I4dVRZalRJTXhhN01xTHNaVTRNeUZvN1M5eXdDNjBuYnpOb3E3MFZBVW53T0Z6UXpub3F2c3F2SU1FX0VlQ05PYkczRg?oc=5",
+          "kategorie": "Analyst/Kursziel",
+          "richtung": "positiv",
+          "passt": false
+        },
+        {
+          "titel": "Milliardeninvestitionen geplant: DAX-Dividendenaktie fällt nach Zahlen",
+          "quelle": "Börse Online",
+          "zeit": "2026-11-11T10:15:00+01:00",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTHBfTEd6VVRKNkJ3NjRsNVN5RHluNGhNZUFuLWtNVXpTMEdJcmVQSWlqQXdoZXV1cmdJY3ZYNVFPOHI4c0VVMWI0ME9jeGp6QWdpV3dldWIzekVWS1oyZzJkZEpSMmVFdnhsR09vVlZKN2dZQ0M1Q2x2a2E5TGVaWW9FRXJEVUtVM3BMejVfM3FLY203TTdhOHI2WW10YUxuN1VJTzA5VDkxanU5eU1pc3d5Q3o0NDdXN1FLczFOdkVsaDlnejZieGZBOVQ?oc=5",
+          "kategorie": "Dividende/Rückkauf",
+          "richtung": "negativ",
+          "passt": true
+        },
+        {
+          "titel": "SAP-Aktie: JPMorgan erhöht Kursziel um 100 € – jetzt +31%?",
+          "quelle": "sharedeals.de",
+          "zeit": "2026-11-11T07:37:52+01:00",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbVY4R09rd2JFUktwWjJubGw0cGtnZnpmRzVPSE5xOTJQeDEwWXNjRF9JeFcxNGZQcmZmQlpEWlB1Tk5Pb2lsV3MtQlMwaU41RnN5bzllMG4xQVQwOTh2aWowOGhqM2tEbHJNTXg5SWl5QllVbS1COEV3dFl1NDhXbVJ2YU95YzA?oc=5",
+          "kategorie": "Analyst/Kursziel",
+          "richtung": "positiv",
+          "passt": false
+        }
+      ],
+      "effekt_basis": 0.072473,
+      "aktie_spez_pct": -0.280139,
+      "cap_abstand_pct": 48.035088,
+      "delta_geschaetzt": false,
+      "beta_geschaetzt": false,
+      "theta_tag": null,
+      "iv": null
+    },
+    {
+      "datum": "2026-11-12",
+      "phase": "lauf",
+      "z_geld": 140.17,
+      "z_brief": 140.67,
+      "z_quelle": "snapshot",
+      "basis": 212.55,
+      "dax": 26771.88,
+      "z_pct": -0.007134,
+      "basis_pct": 0.758474,
+      "dax_pct": 0.409222,
+      "dz": -0.01,
+      "delta": 0.071184,
+      "beta": 0.625956,
+      "effekt_markt": 0.038465,
+      "effekt_aktie": 0.075429,
+      "effekt_zeit": 0.031879,
+      "effekt_rest": -0.155773,
+      "haupttreiber": "Sonstiges (Spread, Vola, Zinsen)",
+      "auffaellig": false,
+      "z_score": 0.279681,
+      "text": "Das Zertifikat fiel von 140,18 € auf 140,17 € (−0,01 € oder −0,01 %). Die SAP-Aktie stieg um 0,76 %, der DAX stieg um 0,41 %; davon entfallen rechnerisch etwa +0,26 Prozentpunkte auf die allgemeine Marktbewegung. Das Zertifikat liegt nahe seinem Höchstwert (Cap), deshalb kommen Aktienbewegungen kaum an (Delta 0,07); der Zeitwert trug +0,03 € bei. Haupttreiber des Tages: Sonstiges (Spread, Vola, Zinsen) (−0,16 €).",
+      "verdikt": "Im normalen Rauschen",
+      "nachrichten": [
+        {
+          "titel": "SAP Aktie: Rückkauf-Maschine läuft weiter!",
+          "quelle": "Kapitalmarktexperten",
+          "zeit": "2026-11-12T10:38:10+01:00",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNklyelhKV1ZPWTNKeG1kLWhqMWU4WXFwZEhGbkxkRGdjTlBXdXE3UUtGSHc5Qm1VbTVvWHQzbjR6alpsSE40NE1nM0R2bkF5UTZCSTloZkhrVHFtd1dRQzVGWmpBdDJRRG4yQ1Z5OGdIakNhZFpsWjhRWUlNQ29JZG1Jemh5Zw?oc=5",
+          "kategorie": "Dividende/Rückkauf",
+          "richtung": "neutral",
+          "passt": null
+        },
+        {
+          "titel": "DAX auf Rekordfahrt – Siemens mit Top-Ausblick",
+          "quelle": "Der Aktionär",
+          "zeit": "2026-11-12T09:01:39+01:00",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa2ItcE5WUmF4eEJVZjF2ejl6cjdPNkhLRHVLdmo4azZMNWczN1NXMXBrRVkxamNqRWZDM0N6YThBZ3lodmd1T1o1Q1ZxX0Z6NTFGeVplTlZTOHZETXdDNi1nalVEY1dVWU1Dd29Mb1VQeGZaOHR5bDhsYlJzOURMRGZhVFVscS1WcUtaOVBSTDFZUWpuNld6QTF3ZUcyVmtoRHNJQ3REbEMyWTFxOXdwWVU4aHZMQQ?oc=5",
+          "kategorie": "Prognose",
+          "richtung": "positiv",
+          "passt": true
+        },
+        {
+          "titel": "SAP Aktie: Qi Lu räumt seinen Platz im Aufsichtsrat",
+          "quelle": "Börse Express",
+          "zeit": "2026-11-12T08:45:11+01:00",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZExRN3FxSDJBekNla1JMWnBXX1hEU0YwWkVjSDRUbWpwUVR1MUx3eUhfQ09hRVd2cTcyWXBjQ296ajRVRWhLWnltZ0VESG5xaGJOTnRTcjBMVFJFOU1RWDRFallVRGl4Q0FsTHljdkFDM1QtZk5mZUxGZktmSXZqNnNFVEp1VW1OSTJRdGVzcGpOcHVHbHBIOVg0cE5PbGpDbEpVZWJ3?oc=5",
+          "kategorie": "Personalie",
+          "richtung": "neutral",
+          "passt": null
+        }
+      ],
+      "effekt_basis": 0.113894,
+      "aktie_spez_pct": 0.502319,
+      "cap_abstand_pct": 49.157895,
+      "delta_geschaetzt": false,
+      "beta_geschaetzt": false,
+      "theta_tag": 0.0318790827973,
+      "iv": 48.4569072723
     }
   ],
-  "wochen": [],
+  "wochen": [
+    {
+      "woche": "2026-W46",
+      "von": "2026-11-10",
+      "bis": "2026-11-12",
+      "tage": 3,
+      "unvollstaendig": true,
+      "z_schnitt": 140.133333,
+      "basis_schnitt": 211.15,
+      "dax_schnitt": 26594.033333,
+      "z_vorwoche_pct": null
+    }
+  ],
   "status": {
     "ok": true,
     "meldung": "",
-    "letzter_lauf": "2026-11-09T22:13:32+01:00"
+    "letzter_lauf": "2026-11-12T19:14:30+01:00"
   }
 }
