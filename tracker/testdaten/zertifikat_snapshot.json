@@ -1,0 +1,79 @@
+{
+ "instrument": {
+  "entityType": "DERIVATIVE",
+  "entityValue": "330631105",
+  "name": "DISCOUNT CERTIFICATE AUF SAP SE",
+  "isin": "DE000JE3NTM6",
+  "wkn": "JE3NTM"
+ },
+ "quote": {
+  "bid": 140.18,
+  "ask": 140.68,
+  "last": 140.18,
+  "datetimeLast": "2026-11-09T19:40:57.000+00:00",
+  "market": {
+   "name": "JPMorgan",
+   "codeMarket": "@_JPML",
+   "nameExchange": "auÃŸerbÃ¶rslich Deutschland",
+   "codeExchange": "@DE",
+   "nameContributor": "JPMorgan",
+   "codeContributor": "JPML",
+   "idNotation": 562543634,
+   "isoCountry": "DE"
+  }
+ },
+ "derivativesIssuer": {
+  "name": "J.P. Morgan"
+ },
+ "derivativesDetails": {
+  "datetimeMaturity": "2027-03-19T12:00:00.000+00:00",
+  "derivativesSubCategory": {
+   "entitySubType": "DISCOUNT_CERTIFICATE"
+  }
+ },
+ "derivativesFigure": {
+  "deltaBid": 0.0721140435787,
+  "thetaDay": 0.0311432932914,
+  "impliedVolatilityAsk": 47.5977424622,
+  "theoreticalValue": 140.419981167,
+  "maximumEarningBid": 2.33,
+  "maximumEarningBidPct": 1.66226724691,
+  "discountPct": 33.6546184739
+ },
+ "derivativesUnderlyingList": {
+  "list": [
+   {
+    "instrument": {
+     "entityValue": "82849",
+     "isin": "DE0007164600",
+     "name": "SAP",
+     "entityType": "STOCK"
+    },
+    "market": {
+     "name": "Xetra",
+     "codeMarket": "_GER",
+     "nameExchange": "Xetra",
+     "codeExchange": "GER",
+     "idNotation": 163500,
+     "isoCountry": "DE",
+     "codeExchangeGoogle": "ETR"
+    },
+    "coverRatio": 1.0,
+    "derivativesBarrierList": {
+     "list": [
+      {
+       "typeBarrier": "CAP",
+       "barrier": 142.5,
+       "datetimeEnd": "2027-03-19T12:00:00.000+00:00",
+       "nameTypeBarrierProductIssuer": "",
+       "hasBeenHit": false,
+       "isoCurrencyUnderlying": "EUR",
+       "datetimeStart": "2026-05-26T12:00:00.000+00:00",
+       "variable": false
+      }
+     ]
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+  "produkt": {
+    "isin": "DE000JE3NTM6",
+    "wkn": "JE3NTM",
+    "name": "DISCOUNT CERTIFICATE AUF SAP SE",
+    "emittent": "J.P. Morgan",
+    "cap": 142.5,
+    "bezug": 1.0,
+    "faellig": "2027-03-19",
+    "basis_name": "SAP",
+    "basis_isin": "DE0007164600"
+  },
+  "kennzahlen": {
+    "max_ertrag_eur": 2.35,
+    "max_ertrag_pct": 1.67677488405,
+    "discount_pct": 33.6640680369
+  },
+  "abruf": {
+    "datum": "2026-11-09",
+    "handelstag": "2026-11-09",
+    "zeit": "2026-11-09T21:57:48+01:00"
+  },
+  "quelle": "onvista.de"
+}

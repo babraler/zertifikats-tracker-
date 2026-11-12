@@ -1,0 +1,38 @@
+{
+ "instrument": {
+  "entityValue": "82849",
+  "isin": "DE0007164600",
+  "name": "SAP"
+ },
+ "quoteList": {
+  "list": [
+   {
+    "last": 212.75,
+    "datetimeLast": "2026-11-09T19:24:03.490+00:00",
+    "market": {
+     "name": "Xetra",
+     "codeMarket": "_GER",
+     "nameExchange": "Xetra",
+     "codeExchange": "GER",
+     "idNotation": 163500,
+     "isoCountry": "DE",
+     "codeExchangeGoogle": "ETR"
+    },
+    "prePostTrading": true
+   },
+   {
+    "last": 212.8,
+    "datetimeLast": "2026-11-09T19:39:00.759+00:00",
+    "market": {
+     "name": "Tradegate BSX",
+     "codeMarket": "_GAT",
+     "nameExchange": "Tradegate BSX",
+     "codeExchange": "GAT",
+     "idNotation": 9386131,
+     "isoCountry": "DE"
+    },
+    "prePostTrading": false
+   }
+  ]
+ }
+}

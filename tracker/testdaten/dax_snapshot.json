@@ -1,0 +1,38 @@
+{
+ "instrument": {
+  "entityValue": "20735",
+  "isin": "DE0008469008",
+  "name": "DAX"
+ },
+ "quoteList": {
+  "list": [
+   {
+    "last": 26267.19,
+    "datetimeLast": "2026-11-09T16:50:00.000+00:00",
+    "market": {
+     "name": "Xetra",
+     "codeMarket": "_GER",
+     "nameExchange": "Xetra",
+     "codeExchange": "GER",
+     "idNotation": 20735,
+     "isoCountry": "DE",
+     "codeExchangeGoogle": "ETR"
+    }
+   },
+   {
+    "last": 26469.7541,
+    "datetimeLast": "2026-11-09T19:41:20.000+00:00",
+    "market": {
+     "name": "J.P. Indikation",
+     "codeMarket": "@_JPML",
+     "nameExchange": "auÃŸerbÃ¶rslich Deutschland",
+     "codeExchange": "@DE",
+     "nameContributor": "JPMorgan",
+     "codeContributor": "JPML",
+     "idNotation": 476605631,
+     "isoCountry": "DE"
+    }
+   }
+  ]
+ }
+}

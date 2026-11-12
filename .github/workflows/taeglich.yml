@@ -1,0 +1,60 @@
+name: Kurse abrufen
+
+on:
+  schedule:
+    # UTC: 17:40 = 18:40 Berlin im Winter; zweiter Lauf 20:40 UTC ist die Sicherung
+    - cron: "40 17 * * 1-5"
+    - cron: "40 20 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kurse
+  cancel-in-progress: false
+
+jobs:
+  abruf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Abhängigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: Kurse abrufen und auswerten
+        id: lauf
+        continue-on-error: true
+        timeout-minutes: 10
+        run: python lauf.py
+
+      - name: Daten committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add daten ausgabe
+          if git diff --cached --quiet; then
+            echo "Keine Änderung."
+          else
+            git commit -m "daten: Kurse $(TZ=Europe/Berlin date +%F)"
+            # Falls zwischendurch jemand gepusht hat. Bei Konflikten in Daten gewinnt dieser Lauf.
+            git pull --rebase -X theirs
+            git push
+          fi
+
+      # Absichtlich nach dem Commit: Ein roter Test darf keinen Tag an Kursen kosten.
+      - name: Tests
+        run: python -m unittest discover -s tracker -t .
+
+      - name: Job rot machen, wenn der Abruf fehlgeschlagen ist
+        if: steps.lauf.outcome == 'failure'
+        run: |
+          echo "Abruf fehlgeschlagen, siehe ausgabe/status.json"
+          exit 1
