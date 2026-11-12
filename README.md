@@ -24,6 +24,15 @@ Nur `config.json` ändern (`isin`, `start`, `wochen`, optional `basis_suchbegrif
 
 `ausgabe/index.html` (Dashboard), `kurse.xlsx`, `daten.json`, `status.json`. Das Dashboard liest nur `daten.json` (Vertrag in `SPEC.md`).
 
+## App am Handy
+
+Adresse: https://babraler.github.io/zertifikats-tracker-/ (nach dem Einrichten, siehe `app-einrichten.md`). Aktualisiert sich nach jedem Lauf selbst, auch wenn der PC aus ist. Ohne Netz zeigt die App den zuletzt geladenen Stand.
+
+- iPhone: Adresse in Safari öffnen → Teilen → „Zum Home-Bildschirm“.
+- Android: Adresse in Chrome öffnen → Menü → „App installieren“.
+
+Lokal testen: `python -m http.server 4420 --directory ausgabe`, dann http://localhost:4420 (unter `file://` läuft der Service Worker nicht).
+
 ## GitHub Actions
 
 `.github/workflows/taeglich.yml` läuft werktags um 18:40 und 21:40 Uhr Berlin (Winterzeit; zweiter Lauf als Sicherung). Es ruft ab, committet `daten` und `ausgabe` nur bei Änderung und führt danach die Tests aus, damit ein roter Test keine Tagesdaten kostet. Schlägt der Abruf fehl, wird `status.json` mit der Meldung trotzdem committet und der Job wird rot. Hinweis: Im Sommer (MESZ) verschieben sich die UTC-Zeiten um eine Stunde nach vorn, die Cron-Zeiten müssen dann auf 16:40 und 19:40 UTC stehen. Nach dem Laufende ruft das Skript nichts mehr ab; den Workflow dann unter Actions deaktivieren.

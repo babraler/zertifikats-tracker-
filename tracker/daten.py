@@ -50,13 +50,30 @@ def _produkt(config, meta):
             "demo": bool(config.get("demo")), "lauf_start": config["start"], "lauf_ende": lauf_ende(config).isoformat()}
 
 
+def _seit_start(rows, start):
+    """Entwicklung vom letzten Schluss vor dem Start bis zum letzten bekannten Kurs."""
+    davor = [rows[d] for d in sorted(rows) if date.fromisoformat(d) < start]
+    alle = [rows[d] for d in sorted(rows)]
+    ref = next((r for r in reversed(davor) if r["z_geld"] is not None), None)
+    im_lauf = any(r["z_geld"] is not None for r in alle if date.fromisoformat(r["datum"]) >= start)
+    if ref is None or not im_lauf:
+        return {"bezug_datum": None, "z_eur": None, "z_pct": None, "basis_pct": None, "dax_pct": None}
+    jetzt = {k: speicher._letzter(alle, k) for k in speicher.KURSE}
+    basis_ref, dax_ref = speicher._letzter(davor, "basis"), speicher._letzter(davor, "dax")
+    return {"bezug_datum": ref["datum"], "z_eur": jetzt["z_geld"] - ref["z_geld"],
+            "z_pct": speicher._pct_aenderung(jetzt["z_geld"], ref["z_geld"]),
+            "basis_pct": speicher._pct_aenderung(jetzt["basis"], basis_ref),
+            "dax_pct": speicher._pct_aenderung(jetzt["dax"], dax_ref)}
+
+
 def _aktuell(rows, meta, produkt):
     letzte = next((rows[d] for d in sorted(rows, reverse=True) if rows[d]["z_geld"] is not None), None)
     k = meta.get("kennzahlen", {})
     z = letzte or {}
     return {"z_geld": z.get("z_geld"), "z_brief": z.get("z_brief"), "max_ertrag_eur": k.get("max_ertrag_eur"),
             "max_ertrag_pct": k.get("max_ertrag_pct"), "delta": z.get("delta"), "discount_pct": k.get("discount_pct"),
-            "cap_abstand_pct": analyse.cap_abstand_pct(z.get("basis"), produkt["cap"])}
+            "cap_abstand_pct": analyse.cap_abstand_pct(z.get("basis"), produkt["cap"]),
+            "seit_start": {k: _r(v) for k, v in _seit_start(rows, date.fromisoformat(produkt["lauf_start"])).items()}}
 
 
 def tage_mit_analyse(config, meta, rows, news_roh):
@@ -75,9 +92,10 @@ def tage_mit_analyse(config, meta, rows, news_roh):
     return erg
 
 
-def baue_daten(config, meta, rows, news_roh, jetzt, ok, meldung):
+def baue_daten(config, meta, rows, news_roh, jetzt, ok, meldung, stand_zeit=None):
+    """jetzt bestimmt den Fortschritt; stand_zeit (Zeit des letzten Abrufs) den angezeigten Stand."""
     produkt = _produkt(config, meta)
-    stand = jetzt.isoformat(timespec="seconds")
+    stand = (stand_zeit or jetzt).isoformat(timespec="seconds")
     wochen = [{k: _r(v) for k, v in w.items()} for w in speicher.wochenschnitte(rows, lauf_start(config))]
     return {
         "stand": stand, "produkt": produkt, "aktuell": _aktuell(rows, meta, produkt),

@@ -46,6 +46,14 @@ def lade_config(pfad):
         raise ConfigFehler("config.json fehlt oder ist unlesbar (nötig: isin, start, wochen).") from None
 
 
+def _zeit_letzter_abruf(meta):
+    try:
+        zeit = datetime.fromisoformat(meta["abruf"]["zeit"])
+    except (KeyError, TypeError, ValueError):
+        return None
+    return zeit if zeit.tzinfo else None
+
+
 def _meta_neu(z, heute, handelstag, jetzt):
     keys = ("isin", "wkn", "name", "emittent", "cap", "bezug", "faellig", "basis_name", "basis_isin")
     return {
@@ -114,9 +122,10 @@ def hole_nachrichten(config, meta, rows, pfad, heute, fetch, schlafen):
         print(f"Hinweis: Nachrichten übersprungen ({type(e).__name__}).")
 
 
-def erzeuge_ausgabe(config, meta, rows, pfad_news, jetzt, ok, meldung, wurzel):
+def erzeuge_ausgabe(config, meta, rows, pfad_news, jetzt, ok, meldung, wurzel, stand_zeit=None):
     aus = wurzel / "ausgabe"
-    d = daten_modul.baue_daten(config, meta, rows, speicher.lies_nachrichten(pfad_news), jetzt, ok, meldung)
+    d = daten_modul.baue_daten(config, meta, rows, speicher.lies_nachrichten(pfad_news), jetzt, ok, meldung,
+                               stand_zeit)
     speicher.schreibe_json(aus / "daten.json", d)
     speicher.schreibe_json(aus / "status.json", d["status"])
     try:
@@ -143,11 +152,12 @@ def main(argv=None, *, jetzt=None, oeffnen=None, schlafen=time.sleep, wurzel=WUR
     rows, meta = speicher.lies_kurse(ordner / "kurse.csv"), speicher.lies_meta(ordner / "meta.json")
     pfad_news = ordner / "nachrichten.jsonl"
     ausgabe_da = (wurzel / "ausgabe" / "daten.json").exists()
-    ok, meldung = True, ""
+    ok, meldung, stand_zeit = True, "", None
     kw = {"oeffnen": oeffnen, "schlafen": schlafen}
 
     if args.neu_bauen:
         print("Neu bauen ohne Netz.")
+        stand_zeit = _zeit_letzter_abruf(meta)  # "Stand" bleibt die Zeit des Abrufs, nicht des Neubaus
     elif heute > daten_modul.lauf_ende(config):
         print(f"Laufende erreicht ({daten_modul.lauf_ende(config)}). Keine Abrufe mehr.")
         if ausgabe_da:
@@ -169,7 +179,7 @@ def main(argv=None, *, jetzt=None, oeffnen=None, schlafen=time.sleep, wurzel=WUR
             ok, meldung = False, f"Unerwarteter Fehler beim Abruf ({type(e).__name__})."
             print(meldung)
     try:
-        erzeuge_ausgabe(config, meta, rows, pfad_news, jetzt, ok, meldung, wurzel)
+        erzeuge_ausgabe(config, meta, rows, pfad_news, jetzt, ok, meldung, wurzel, stand_zeit)
     except Exception as e:  # bewusst breit: siehe oben
         ok, meldung = False, f"Unerwarteter Fehler in der Auswertung ({type(e).__name__})."
         print(meldung)

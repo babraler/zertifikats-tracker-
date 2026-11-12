@@ -15,10 +15,11 @@ tracker/analyse.py     Beta, Zerlegung in Effekte, Auffälligkeit, Erklärungste
 tracker/nachrichten.py Google-News-RSS: Abruf, Einordnung, Zuordnung zum Handelstag
 tracker/excel.py       ausgabe/kurse.xlsx
 tracker/seite.py       setzt daten in tracker/vorlage.html ein → ausgabe/index.html
-tracker/vorlage.html   Dashboard (Agent Design)
+tracker/vorlage.html   Dashboard (Agent Design), installierbar als App
+tracker/app/           manifest.webmanifest, sw.js, Icons (seite.py kopiert sie neben index.html); icons_erzeugen.py erzeugt die PNGs
 daten/<ISIN>/kurse.csv, nachrichten.jsonl, meta.json
 ausgabe/index.html, ausgabe/kurse.xlsx, ausgabe/daten.json, ausgabe/status.json
-.github/workflows/taeglich.yml, requirements.txt, oeffnen.bat, .gitignore, README.md
+.github/workflows/taeglich.yml, .github/workflows/seite.yml, requirements.txt, oeffnen.bat, .gitignore, README.md
 ```
 Tests neben dem Modul: `tracker/test_<modul>.py`, `unittest`, Netz immer gemockt (Fixtures unter `tracker/testdaten/`). TDD: Test rot, dann grün. Ziel 80 % Kernlogik. Dateien 200–400 Zeilen, Funktionen < 50 Zeilen. Konstanten oben mit Quelle.
 
@@ -75,7 +76,7 @@ Einordnung per Stichwort, Konstanten-Tabelle:
 
 ## Wochenschnitte
 
-ISO-Woche, Mittelwert der Tageskurse z_geld, basis, dax, dazu `tage`, `von`, `bis`, Änderung zur Vorwoche in %. Nur Zeilen ab `start`, unvollständige Woche mit `tage < 5` kennzeichnen.
+ISO-Woche, Mittelwert der Tageskurse z_geld, basis, dax, dazu `tage`, `von`, `bis`, Änderung des Schnitts zur Vorwoche in % (`z_vorwoche_pct`). Je Kurs zusätzlich Wochenschluss (`z_schluss`, `basis_schluss`, `dax_schluss`: letzter vorhandene Wert der Woche) und Änderung Schluss zu Vorwochenschluss (`z_woche_pct`, `basis_woche_pct`, `dax_woche_pct`); Bezug der ersten Woche ist der letzte Schluss vor `start`, ohne Vorlauf `null`. Nur Zeilen ab `start`, unvollständige Woche mit `tage < 5` kennzeichnen.
 
 ## daten.json (Vertrag zwischen Logik und Dashboard)
 
@@ -83,7 +84,8 @@ ISO-Woche, Mittelwert der Tageskurse z_geld, basis, dax, dazu `tage`, `von`, `bi
 {
   "stand": "2026-11-09T18:40:00+01:00",
   "produkt": {"isin":"","wkn":"","name":"","emittent":"","cap":142.5,"bezug":1.0,"faellig":"2027-03-19","basis_name":"SAP","basis_isin":"","demo":true,"lauf_start":"2026-11-10","lauf_ende":"2027-01-18"},
-  "aktuell": {"z_geld":140.17,"z_brief":140.67,"max_ertrag_eur":2.33,"max_ertrag_pct":1.66,"delta":0.07,"discount_pct":33.65,"cap_abstand_pct":48.5},
+  "aktuell": {"z_geld":140.17,"z_brief":140.67,"max_ertrag_eur":2.33,"max_ertrag_pct":1.66,"delta":0.07,"discount_pct":33.65,"cap_abstand_pct":48.5,
+             "seit_start":{"bezug_datum":"2026-11-09","z_eur":0.03,"z_pct":0.02,"basis_pct":0.43,"dax_pct":1.92}},
   "fortschritt": {"tag":1,"tage_gesamt":70,"woche":1},
   "tage": [{
     "datum":"2026-11-09","phase":"vorlauf","z_geld":140.17,"z_brief":140.67,"z_quelle":"snapshot","basis":211.65,"dax":26267.19,
@@ -91,10 +93,12 @@ ISO-Woche, Mittelwert der Tageskurse z_geld, basis, dax, dazu `tage`, `von`, `bi
     "haupttreiber":"DAX-Bewegung","auffaellig":false,"z_score":0.4,"text":"…","verdikt":"Im normalen Rauschen",
     "nachrichten":[{"titel":"","quelle":"","zeit":"2026-11-09T14:09:00+01:00","url":"https://…","kategorie":"Analyst/Kursziel","richtung":"positiv","passt":true}]
   }],
-  "wochen": [{"woche":"2026-W46","von":"2026-11-10","bis":"2026-11-13","tage":4,"z_schnitt":140.2,"basis_schnitt":212.0,"dax_schnitt":26200.0,"z_vorwoche_pct":null}],
+  "wochen": [{"woche":"2026-W46","von":"2026-11-10","bis":"2026-11-13","tage":4,"z_schnitt":140.2,"basis_schnitt":212.0,"dax_schnitt":26200.0,"z_vorwoche_pct":null,
+              "z_schluss":140.17,"basis_schluss":212.55,"dax_schluss":26771.88,"z_woche_pct":0.02,"basis_woche_pct":0.43,"dax_woche_pct":1.92}],
   "status": {"ok":true,"meldung":"","letzter_lauf":"2026-11-09T18:40:00+01:00"}
 }
 ```
+`seit_start`: letzter Schluss vor `start` bis zum letzten bekannten Kurs; ohne Vorlauf alle Felder `null`. `--neu-bauen` übernimmt `stand` aus `meta.json` (Zeit des letzten Abrufs).
 `phase` = `vorlauf` (vor `start`, höchstens 30 Kalendertage anzeigen) oder `lauf`. Felder dürfen `null` sein; Dashboard muss das aushalten.
 
 `seite.py`: ersetzt in `vorlage.html` genau den Platzhalter `/*__DATEN__*/null` durch JSON mit maskiertem `<`, `>`, `&`, U+2028, U+2029 (`<` → `<` usw.), damit Schlagzeilen kein Skript einschleusen können.
@@ -102,6 +106,10 @@ ISO-Woche, Mittelwert der Tageskurse z_geld, basis, dax, dazu `tage`, `von`, `bi
 ## Excel
 
 Blätter: „Tageskurse“ (Datum echt, Zertifikat Geld/Brief, Basiswert, DAX, % je Tag, Phase), „Wochenschnitte“, „Erklärungen“ (Datum, Text, Verdikt, Top-Nachricht), „Info“ (Stammdaten, Quelle, Abrufzeit). Kopfzeile fixiert, Autofilter, deutsche Zahlenformate, Spaltenbreiten, nativer Linien-Chart für Zertifikat und Wochenschnitt.
+
+## App (GitHub Pages)
+
+`seite.yml` lädt `ausgabe/` als Pages-Seite hoch: nach jedem Lauf von „Kurse abrufen“ (`workflow_run`, auch bei rotem Lauf, dann zeigt die Seite die Störung), bei Pushes auf `ausgabe/**` und von Hand. Voraussetzung: Repo öffentlich, unter Settings → Pages die Quelle „GitHub Actions“. Service Worker: zuerst Netz, ohne Netz der zuletzt geladene Stand; neue Fassung über `CACHE` in `sw.js`.
 
 ## Workflow
 

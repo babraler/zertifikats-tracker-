@@ -21,7 +21,14 @@
     "max_ertrag_pct": 1.65501498074,
     "delta": 0.0711836591633,
     "discount_pct": 33.9308398024,
-    "cap_abstand_pct": 49.15789473684211
+    "cap_abstand_pct": 49.15789473684211,
+    "seit_start": {
+      "bezug_datum": "2026-11-09",
+      "z_eur": 0.03,
+      "z_pct": 0.021407,
+      "basis_pct": 0.42523,
+      "dax_pct": 1.92137
+    }
   },
   "fortschritt": {
     "tag": 3,
@@ -1200,7 +1207,13 @@
       "z_schnitt": 140.133333,
       "basis_schnitt": 211.15,
       "dax_schnitt": 26594.033333,
-      "z_vorwoche_pct": null
+      "z_vorwoche_pct": null,
+      "z_schluss": 140.17,
+      "z_woche_pct": 0.021407,
+      "basis_schluss": 212.55,
+      "basis_woche_pct": 0.42523,
+      "dax_schluss": 26771.88,
+      "dax_woche_pct": 1.92137
     }
   ],
   "status": {

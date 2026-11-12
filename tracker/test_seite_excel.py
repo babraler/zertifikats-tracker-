@@ -50,6 +50,18 @@ class TestSeite(unittest.TestCase):
         self.assertIn("\\u003c/script\\u003e", html)
         self.assertIn("\\u0026", html)
 
+    def test_app_dateien_landen_neben_der_seite(self):
+        ok, _ = seite.rendere(beispiel(), self.vorlage, self.ziel)
+        self.assertTrue(ok)
+        for name in seite.APP_DATEIEN:
+            self.assertTrue((self.ziel.parent / name).is_file(), name)
+        self.assertNotIn("icons_erzeugen.py", seite.APP_DATEIEN)
+
+    def test_echte_vorlage_bindet_app_ein(self):
+        html = (Path(seite.__file__).parent / "vorlage.html").read_text(encoding="utf-8")
+        for teil in ('rel="manifest" href="manifest.webmanifest"', 'rel="apple-touch-icon"', "serviceWorker.register('sw.js')"):
+            self.assertIn(teil, html)
+
     def test_fehlende_vorlage_meldet_klar_und_wirft_nicht(self):
         ok, meldung = seite.rendere(beispiel(), self.dir / "gibt-es-nicht.html", self.ziel)
         self.assertFalse(ok)
@@ -100,6 +112,15 @@ class TestExcel(unittest.TestCase):
         letzte = [r for r in e.iter_rows(min_row=2, values_only=True) if r[0] is not None][-1]
         self.assertIn("Das Zertifikat", letzte[1])
         self.assertIn("SAP hebt Prognose an", letzte[3])
+
+    def test_wochen_mit_schlusskursen(self):
+        ws = self.wb["Wochenschnitte"]
+        kopf = [c.value for c in ws[1]]
+        for k in ("Zertifikat Schluss", "Zertifikat Woche", "Basiswert Schluss", "Basiswert Woche", "DAX Schluss", "DAX Woche"):
+            self.assertIn(k, kopf)
+        w = self.d["wochen"][0]
+        self.assertEqual(ws.cell(2, kopf.index("Zertifikat Schluss") + 1).value, w["z_schluss"])
+        self.assertEqual(ws.cell(2, kopf.index("DAX Schluss") + 1).value, w["dax_schluss"])
 
     def test_info_blatt(self):
         werte = {r[0]: r[1] for r in self.wb["Info"].iter_rows(values_only=True) if r[0]}

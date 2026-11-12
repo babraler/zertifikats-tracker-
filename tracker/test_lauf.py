@@ -150,6 +150,14 @@ class TestSonderfaelle(Basis):
         self.assertEqual(r.urls, [])
         self.assertTrue(self.pfad("ausgabe", "daten.json").exists())
 
+    def test_neu_bauen_behaelt_zeit_des_letzten_abrufs(self):
+        self.lauf(Router())
+        abruf = json.loads(self.pfad("ausgabe", "daten.json").read_text(encoding="utf-8"))["stand"]
+        self.lauf(Router(), ["--neu-bauen"], jetzt=datetime(2026, 11, 12, 23, 59, tzinfo=BERLIN))
+        d = json.loads(self.pfad("ausgabe", "daten.json").read_text(encoding="utf-8"))
+        self.assertEqual((d["stand"], d["status"]["letzter_lauf"]), (abruf, abruf))
+        self.assertEqual(d["fortschritt"]["tag"], 3)  # Fortschritt nach dem echten Datum des Neubaus
+
     def test_nach_laufende_keine_abrufe_exit_null(self):
         r = Router()
         code = self.lauf(r, jetzt=datetime(2027, 1, 19, 18, 40, tzinfo=BERLIN))

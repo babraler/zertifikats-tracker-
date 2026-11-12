@@ -85,21 +85,29 @@ def _tageskurse(wb, d):
     _diagramm(ws, "Zertifikat (Geldkurs)", 2, len(d["tage"]), 1, "K2")
 
 
+WOCHEN_KURSE = (("z", "Zertifikat"), ("basis", "Basiswert"), ("dax", "DAX"))
+
+
 def _wochen(wb, d):
     ws = wb.create_sheet("Wochenschnitte")
-    _kopf(ws, ["Woche", "Von", "Bis", "Tage", "Zertifikat Schnitt", "Basiswert Schnitt", "DAX Schnitt", "Änderung Vorwoche", "Hinweis"],
-          [11, 12, 12, 7, 18, 18, 14, 18, 16])
+    kopf = ["Woche", "Von", "Bis", "Tage"]
+    for _, name in WOCHEN_KURSE:
+        kopf += [f"{name} Schluss", f"{name} Woche", f"{name} Schnitt"]
+    _kopf(ws, kopf + ["Schnitt zur Vorwoche", "Hinweis"], [11, 12, 12, 7] + [16, 13, 16] * 3 + [20, 22])
     for i, w in enumerate(d["wochen"], start=2):
         _zelle(ws, i, 1, w["woche"])
         _zelle(ws, i, 2, _datum(w["von"]), FMT_DATUM)
         _zelle(ws, i, 3, _datum(w["bis"]), FMT_DATUM)
         _zelle(ws, i, 4, w["tage"])
-        for sp, k in ((5, "z_schnitt"), (6, "basis_schnitt"), (7, "dax_schnitt")):
-            _zelle(ws, i, sp, w[k], FMT_KURS)
-        _zelle(ws, i, 8, _pct(w["z_vorwoche_pct"]), FMT_PCT)
-        _zelle(ws, i, 9, "unvollständige Woche" if w.get("unvollstaendig") else "")
+        for j, (k, _) in enumerate(WOCHEN_KURSE):
+            sp = 5 + 3 * j
+            _zelle(ws, i, sp, w.get(f"{k}_schluss"), FMT_KURS)
+            _zelle(ws, i, sp + 1, _pct(w.get(f"{k}_woche_pct")), FMT_PCT)
+            _zelle(ws, i, sp + 2, w.get(f"{k}_schnitt"), FMT_KURS)
+        _zelle(ws, i, 14, _pct(w["z_vorwoche_pct"]), FMT_PCT)
+        _zelle(ws, i, 15, "unvollständige Woche" if w.get("unvollstaendig") else "")
     _filter_bis(ws, len(d["wochen"]))
-    _diagramm(ws, "Wochenschnitt Zertifikat", 5, len(d["wochen"]), 1, "K2")
+    _diagramm(ws, "Wochenschluss Zertifikat", 5, len(d["wochen"]), 1, "Q2")
 
 
 def _erklaerungen(wb, d):

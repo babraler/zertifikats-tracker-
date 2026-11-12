@@ -66,6 +66,30 @@ class TestBaue(unittest.TestCase):
         self.assertEqual(self.d["wochen"][0]["woche"], "2026-W46")
         self.assertEqual(self.d["status"], {"ok": True, "meldung": "", "letzter_lauf": "2026-11-12T18:40:00+01:00"})
 
+    def test_seit_start_bezug_ist_letzter_schluss_vor_start(self):
+        s = self.d["aktuell"]["seit_start"]
+        ref, jetzt = self.r["2026-11-09"], self.r["2026-11-12"]
+        self.assertEqual(s["bezug_datum"], "2026-11-09")
+        self.assertAlmostEqual(s["z_eur"], jetzt["z_geld"] - ref["z_geld"], places=5)
+        self.assertAlmostEqual(s["z_pct"], (jetzt["z_geld"] / ref["z_geld"] - 1) * 100, places=5)
+        self.assertAlmostEqual(s["basis_pct"], (jetzt["basis"] / ref["basis"] - 1) * 100, places=5)
+        self.assertAlmostEqual(s["dax_pct"], (jetzt["dax"] / ref["dax"] - 1) * 100, places=5)
+
+    def test_seit_start_ohne_vorlauf_ist_leer(self):
+        r = {d: v for d, v in self.r.items() if d >= "2026-11-10"}
+        s = daten.baue_daten(CONFIG, META, r, {}, JETZT, True, "")["aktuell"]["seit_start"]
+        self.assertEqual(s, {"bezug_datum": None, "z_eur": None, "z_pct": None, "basis_pct": None, "dax_pct": None})
+
+    def test_seit_start_leer_solange_kein_kurs_im_lauf(self):
+        r = {d: v for d, v in self.r.items() if d < "2026-11-10"}
+        s = daten.baue_daten(CONFIG, META, r, {}, JETZT, True, "")["aktuell"]["seit_start"]
+        self.assertIsNone(s["z_pct"])
+
+    def test_stand_zeit_getrennt_vom_fortschritt(self):
+        abruf = datetime(2026, 11, 10, 18, 40, tzinfo=BERLIN)
+        d = daten.baue_daten(CONFIG, META, self.r, {}, JETZT, True, "", stand_zeit=abruf)
+        self.assertEqual((d["stand"], d["fortschritt"]["tag"]), ("2026-11-10T18:40:00+01:00", 3))
+
     def test_fortschritt_vor_start_und_nach_ende(self):
         vor = daten.baue_daten(CONFIG, META, self.r, {}, datetime(2026, 11, 9, 18, 40, tzinfo=BERLIN), True, "")
         self.assertEqual(vor["fortschritt"]["tag"], 0)

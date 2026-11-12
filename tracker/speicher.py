@@ -177,26 +177,51 @@ def _schnitt(werte):
     return sum(werte) / len(werte) if werte else None
 
 
+KURSE = ("z_geld", "basis", "dax")
+KURZ = {"z_geld": "z", "basis": "basis", "dax": "dax"}
+
+
+def _letzter(zeilen, k):
+    return next((r[k] for r in reversed(zeilen) if r[k] is not None), None)
+
+
+def _pct_aenderung(neu, alt):
+    return (neu / alt - 1) * 100 if neu is not None and alt else None
+
+
 def wochenschnitte(rows, start):
-    """ISO-Wochen ab start: Mittel von z_geld, basis, dax; tage; Änderung zur Vorwoche in %."""
-    gruppen = {}
+    """ISO-Wochen ab start: Mittel und Schluss von z_geld, basis, dax; Änderung Schluss zu Vorwochenschluss in %.
+
+    Bezug der ersten Woche ist der letzte Schluss vor dem Start (Vorlauf), sonst None.
+    z_vorwoche_pct vergleicht weiter die Wochenschnitte.
+    """
+    gruppen, davor = {}, []
     for d in sorted(rows):
         dd = date.fromisoformat(d)
         if dd < start:
+            davor.append(rows[d])
             continue
         j, w, _ = dd.isocalendar()
         gruppen.setdefault(f"{j}-W{w:02d}", []).append(rows[d])
+    schluss = {k: _letzter(davor, k) for k in KURSE}
     erg, vorher = [], None
     for name, zeilen in gruppen.items():
         z = _schnitt([r["z_geld"] for r in zeilen])
         tage = sum(1 for r in zeilen if r["z_geld"] is not None)
-        erg.append({
+        w = {
             "woche": name, "von": zeilen[0]["datum"], "bis": zeilen[-1]["datum"], "tage": tage,
             "unvollstaendig": tage < VOLLE_WOCHE_TAGE,
             "z_schnitt": z, "basis_schnitt": _schnitt([r["basis"] for r in zeilen]),
             "dax_schnitt": _schnitt([r["dax"] for r in zeilen]),
             "z_vorwoche_pct": (z / vorher - 1) * 100 if z is not None and vorher else None,
-        })
+        }
+        for k in KURSE:
+            neu = _letzter(zeilen, k)
+            w[f"{KURZ[k]}_schluss"] = neu
+            w[f"{KURZ[k]}_woche_pct"] = _pct_aenderung(neu, schluss[k])
+            if neu is not None:
+                schluss[k] = neu
+        erg.append(w)
         if z is not None:
             vorher = z
     return erg

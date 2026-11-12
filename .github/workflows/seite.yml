@@ -1,0 +1,44 @@
+name: App veröffentlichen
+
+# Stellt ausgabe/ als GitHub-Pages-Seite bereit (Handy-App).
+# Läuft nach jedem Kursabruf (auch einem fehlgeschlagenen: dann zeigt die Seite die Störung),
+# nach Pushes, die ausgabe/ ändern, und von Hand.
+on:
+  workflow_run:
+    workflows: ["Kurse abrufen"]
+    types: [completed]
+  push:
+    branches: [main]
+    paths: ["ausgabe/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  veroeffentlichen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      # Immer den neuesten Stand von main, auch nach workflow_run (sonst wäre es der alte Commit).
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ausgabe
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

@@ -129,6 +129,32 @@ class TestWochen(unittest.TestCase):
     def test_leer(self):
         self.assertEqual(speicher.wochenschnitte({}, date(2026, 11, 10)), [])
 
+    def test_wochenschluss_je_kurs(self):
+        w46, w47 = speicher.wochenschnitte(self.rows(), date(2026, 11, 10))
+        self.assertEqual((w46["z_schluss"], w46["basis_schluss"], w46["dax_schluss"]), (115.0, 215.0, 10400.0))
+        self.assertEqual((w47["z_schluss"], w47["basis_schluss"], w47["dax_schluss"]), (124.0, 224.0, 10900.0))
+
+    def test_wochenaenderung_schluss_zu_schluss(self):
+        w46, w47 = speicher.wochenschnitte(self.rows(), date(2026, 11, 10))
+        # erste Woche: Bezug ist der letzte Schluss vor dem Start (06.11.)
+        self.assertAlmostEqual(w46["z_woche_pct"], (115 / 100 - 1) * 100)
+        self.assertAlmostEqual(w46["basis_woche_pct"], (215 / 200 - 1) * 100)
+        self.assertAlmostEqual(w46["dax_woche_pct"], (10400 / 10000 - 1) * 100)
+        self.assertAlmostEqual(w47["z_woche_pct"], (124 / 115 - 1) * 100)
+        self.assertAlmostEqual(w47["dax_woche_pct"], (10900 / 10400 - 1) * 100)
+
+    def test_wochenschluss_ueberspringt_luecken(self):
+        r = self.rows()
+        r["2026-11-13"] = dict(r["2026-11-13"], z_geld=None, dax=None)
+        w46 = speicher.wochenschnitte(r, date(2026, 11, 10))[0]
+        self.assertEqual((w46["z_schluss"], w46["dax_schluss"], w46["basis_schluss"]), (111.0, 10300.0, 215.0))
+
+    def test_ohne_vorlauf_keine_erste_wochenaenderung(self):
+        r = {d: v for d, v in self.rows().items() if d >= "2026-11-10"}
+        w46, w47 = speicher.wochenschnitte(r, date(2026, 11, 10))
+        self.assertIsNone(w46["z_woche_pct"])
+        self.assertAlmostEqual(w47["basis_woche_pct"], (224 / 215 - 1) * 100)
+
 
 class TestJsonDateien(unittest.TestCase):
     def test_meta_und_nachrichten(self):
