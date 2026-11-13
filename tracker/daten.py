@@ -6,6 +6,12 @@ from tracker import analyse, nachrichten, speicher
 
 VORLAUF_TAGE = 30        # Quelle: SPEC.md, daten.json ("höchstens 30 Kalendertage anzeigen")
 RUNDEN = 6
+# Kurssprung-Schwellen in % je Tag, etwa 2- bis 4-fache Tagesschwankung.
+# Quelle: eigene kurse.csv 12.08.–12.11.2026, Std.-Abw. der Tagesrenditen: Zertifikat 0,25 %, SAP 1,82 %, DAX 0,86 %.
+# Überschreibbar in config.json ("sprung_pct").
+SPRUNG_PCT = {"z": 2.0, "basis": 5.0, "dax": 3.0}
+SPRUNG_FELD = {"z": "z_pct", "basis": "basis_pct", "dax": "dax_pct"}
+EPS = 1e-9
 EXTRA_FELDER = ("effekt_basis", "aktie_spez_pct", "cap_abstand_pct", "delta_geschaetzt", "beta_geschaetzt")
 
 
@@ -19,6 +25,20 @@ def lauf_ende(config):
 
 def _r(x):
     return round(x, RUNDEN) if isinstance(x, float) and math.isfinite(x) else x
+
+
+def sprung_schwellen(config):
+    return {**SPRUNG_PCT, **(config.get("sprung_pct") or {})}
+
+
+def _spruenge(a, schwellen, basis_name):
+    namen = {"z": "Zertifikat", "basis": basis_name or "Basiswert", "dax": "DAX"}
+    erg = []
+    for k, feld in SPRUNG_FELD.items():
+        x = a.get(feld)
+        if isinstance(x, float) and math.isfinite(x) and abs(x) >= schwellen[k] - EPS:
+            erg.append({"wert": namen[k], "pct": _r(x), "schwelle": schwellen[k]})
+    return erg
 
 
 def _tag(row, a, start, news, verdikt):
@@ -47,7 +67,8 @@ def _produkt(config, meta):
     return {"isin": p.get("isin") or config["isin"], "wkn": p.get("wkn"), "name": p.get("name"),
             "emittent": p.get("emittent"), "cap": p.get("cap"), "bezug": p.get("bezug", 1.0),
             "faellig": p.get("faellig"), "basis_name": p.get("basis_name"), "basis_isin": p.get("basis_isin"),
-            "demo": bool(config.get("demo")), "lauf_start": config["start"], "lauf_ende": lauf_ende(config).isoformat()}
+            "demo": bool(config.get("demo")), "lauf_start": config["start"], "lauf_ende": lauf_ende(config).isoformat(),
+            "sprung_pct": sprung_schwellen(config)}
 
 
 def _seit_start(rows, start):
@@ -88,7 +109,9 @@ def tage_mit_analyse(config, meta, rows, news_roh):
         if date.fromisoformat(row["datum"]) < grenze:
             continue
         news = nachrichten.bewerte(news_roh.get(row["datum"], []), a, produkt["basis_name"]) if a["dz"] is not None else []
-        erg.append(_tag(row, a, start, news, nachrichten.verdikt(a, news)))
+        t = _tag(row, a, start, news, nachrichten.verdikt(a, news))
+        t["spruenge"] = _spruenge(a, sprung_schwellen(config), produkt["basis_name"])
+        erg.append(t)
     return erg
 
 

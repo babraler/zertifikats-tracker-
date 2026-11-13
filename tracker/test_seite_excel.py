@@ -122,6 +122,20 @@ class TestExcel(unittest.TestCase):
         self.assertEqual(ws.cell(2, kopf.index("Zertifikat Schluss") + 1).value, w["z_schluss"])
         self.assertEqual(ws.cell(2, kopf.index("DAX Schluss") + 1).value, w["dax_schluss"])
 
+    def test_kurssprung_spalte(self):
+        d = beispiel()
+        d["tage"][-1]["spruenge"] = [{"wert": "SAP", "pct": -6.1, "schwelle": 5.0}]
+        with tempfile.TemporaryDirectory() as tmp:
+            pfad = Path(tmp) / "k.xlsx"
+            excel.schreibe(d, pfad)
+            wb = openpyxl.load_workbook(pfad)
+            ws = wb["Tageskurse"]
+            kopf = [c.value for c in ws[1]]
+            sp = kopf.index("Kurssprung") + 1
+            self.assertEqual(ws.cell(len(d["tage"]) + 1, sp).value, "SAP −6,1 %")
+            self.assertIn(ws.cell(2, sp).value, (None, ""))
+            wb.close()
+
     def test_info_blatt(self):
         werte = {r[0]: r[1] for r in self.wb["Info"].iter_rows(values_only=True) if r[0]}
         self.assertEqual(werte["ISIN"], "DE000JE3NTM6")

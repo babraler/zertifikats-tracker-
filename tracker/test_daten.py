@@ -90,6 +90,30 @@ class TestBaue(unittest.TestCase):
         d = daten.baue_daten(CONFIG, META, self.r, {}, JETZT, True, "", stand_zeit=abruf)
         self.assertEqual((d["stand"], d["fortschritt"]["tag"]), ("2026-11-10T18:40:00+01:00", 3))
 
+    def test_kurssprung_je_wert_eigene_schwelle(self):
+        r = dict(self.r)
+        r["2026-11-12"] = dict(r["2026-11-12"], basis=r["2026-11-11"]["basis"] * 1.06, dax=r["2026-11-11"]["dax"] * 1.02)
+        t = daten.baue_daten(CONFIG, META, r, {}, JETZT, True, "")["tage"][-1]
+        self.assertEqual([s["wert"] for s in t["spruenge"]], ["SAP"])
+        self.assertAlmostEqual(t["spruenge"][0]["pct"], 6.0, places=4)
+        self.assertEqual(t["spruenge"][0]["schwelle"], 5.0)
+
+    def test_kurssprung_genau_auf_schwelle_und_nach_unten(self):
+        r = dict(self.r)
+        r["2026-11-12"] = dict(r["2026-11-12"], dax=r["2026-11-11"]["dax"] * 0.97)
+        t = daten.baue_daten(CONFIG, META, r, {}, JETZT, True, "")["tage"][-1]
+        self.assertEqual([(s["wert"], round(s["pct"], 4)) for s in t["spruenge"]], [("DAX", -3.0)])
+
+    def test_kurssprung_schwellen_aus_config(self):
+        cfg = dict(CONFIG, sprung_pct={"z": 2.0, "basis": 0.1, "dax": 3.0})
+        t = daten.baue_daten(cfg, META, self.r, {}, JETZT, True, "")["tage"][-1]
+        self.assertEqual([s["wert"] for s in t["spruenge"]], ["SAP"])
+
+    def test_ohne_sprung_leere_liste_und_erster_tag_ohne_vortag(self):
+        d = daten.baue_daten(CONFIG, META, self.r, {}, JETZT, True, "")
+        self.assertEqual(d["tage"][-1]["spruenge"], [])
+        self.assertEqual(d["produkt"]["sprung_pct"], {"z": 2.0, "basis": 5.0, "dax": 3.0})
+
     def test_fortschritt_vor_start_und_nach_ende(self):
         vor = daten.baue_daten(CONFIG, META, self.r, {}, datetime(2026, 11, 9, 18, 40, tzinfo=BERLIN), True, "")
         self.assertEqual(vor["fortschritt"]["tag"], 0)

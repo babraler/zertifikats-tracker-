@@ -176,7 +176,8 @@ class TestSonderfaelle(Basis):
         self.assertTrue(json.loads(self.pfad("ausgabe", "status.json").read_text(encoding="utf-8"))["ok"])
 
     def test_ungueltige_config(self):
-        for kaputt in ({**CONFIG, "isin": "../../x"}, {**CONFIG, "start": "morgen"}, {**CONFIG, "wochen": 0}, {"isin": "x"}):
+        for kaputt in ({**CONFIG, "isin": "../../x"}, {**CONFIG, "start": "morgen"}, {**CONFIG, "wochen": 0}, {"isin": "x"},
+                       {**CONFIG, "sprung_pct": {"z": -1}}, {**CONFIG, "sprung_pct": {"aktie": 5}}, {**CONFIG, "sprung_pct": "5"}):
             (self.w / "config.json").write_text(json.dumps(kaputt), encoding="utf-8")
             self.assertEqual(self.lauf(Router()), 2, kaputt)
 

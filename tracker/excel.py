@@ -72,8 +72,8 @@ def _diagramm(ws, titel, spalte, n, kat_spalte, anker):
 def _tageskurse(wb, d):
     ws = wb.active
     ws.title = "Tageskurse"
-    _kopf(ws, ["Datum", "Zertifikat Geld", "Zertifikat Brief", "Basiswert", "DAX", "Zertifikat %", "Basiswert %", "DAX %", "Phase"],
-          [12, 15, 15, 12, 12, 13, 13, 11, 10])
+    _kopf(ws, ["Datum", "Zertifikat Geld", "Zertifikat Brief", "Basiswert", "DAX", "Zertifikat %", "Basiswert %", "DAX %", "Phase", "Kurssprung"],
+          [12, 15, 15, 12, 12, 13, 13, 11, 10, 24])
     for i, t in enumerate(d["tage"], start=2):
         _zelle(ws, i, 1, _datum(t["datum"]), FMT_DATUM)
         for sp, k in ((2, "z_geld"), (3, "z_brief"), (4, "basis"), (5, "dax")):
@@ -81,8 +81,20 @@ def _tageskurse(wb, d):
         for sp, k in ((6, "z_pct"), (7, "basis_pct"), (8, "dax_pct")):
             _zelle(ws, i, sp, _pct(t[k]), FMT_PCT)
         _zelle(ws, i, 9, t["phase"])
+        _zelle(ws, i, 10, sprung_text(t.get("spruenge")))
     _filter_bis(ws, len(d["tage"]))
-    _diagramm(ws, "Zertifikat (Geldkurs)", 2, len(d["tage"]), 1, "K2")
+    _diagramm(ws, "Zertifikat (Geldkurs)", 2, len(d["tage"]), 1, "L2")
+
+
+def sprung_text(spruenge):
+    """[{wert, pct}] → "SAP −6,1 %, DAX +3,2 %" (deutsches Format, echtes Minuszeichen)."""
+    teile = []
+    for s in spruenge or []:
+        pct = s.get("pct")
+        if isinstance(pct, (int, float)):
+            zahl = f"{abs(pct):.1f}".replace(".", ",")
+            teile.append(f"{s.get('wert', '')} {'+' if pct > 0 else '−'}{zahl} %")
+    return ", ".join(teile) or None
 
 
 WOCHEN_KURSE = (("z", "Zertifikat"), ("basis", "Basiswert"), ("dax", "DAX"))

@@ -18,7 +18,7 @@ py -3 -m venv .venv
 
 ## Zertifikat wechseln
 
-Nur `config.json` ändern (`isin`, `start`, `wochen`, optional `basis_suchbegriff`). Daten liegen je ISIN getrennt unter `daten/<ISIN>/`.
+Nur `config.json` ändern (`isin`, `start`, `wochen`, optional `basis_suchbegriff` und `sprung_pct`: Schwellen in % für den Vermerk „Kurssprung“, Standard Zertifikat 2, Basiswert 5, DAX 3). Daten liegen je ISIN getrennt unter `daten/<ISIN>/`.
 
 ## Ergebnis
 
@@ -35,7 +35,7 @@ Lokal testen: `python -m http.server 4420 --directory ausgabe`, dann http://loca
 
 ## GitHub Actions
 
-`.github/workflows/taeglich.yml` läuft werktags um 18:40 und 21:40 Uhr Berlin (Winterzeit; zweiter Lauf als Sicherung). Es ruft ab, committet `daten` und `ausgabe` nur bei Änderung und führt danach die Tests aus, damit ein roter Test keine Tagesdaten kostet. Schlägt der Abruf fehl, wird `status.json` mit der Meldung trotzdem committet und der Job wird rot. Hinweis: Im Sommer (MESZ) verschieben sich die UTC-Zeiten um eine Stunde nach vorn, die Cron-Zeiten müssen dann auf 16:40 und 19:40 UTC stehen. Nach dem Laufende ruft das Skript nichts mehr ab; den Workflow dann unter Actions deaktivieren.
+`.github/workflows/taeglich.yml` läuft werktags um 17:50 und 21:40 Uhr Berlin (Winterzeit; zweiter Lauf als Sicherung). Es ruft ab, committet `daten` und `ausgabe` nur bei Änderung und führt danach die Tests aus, damit ein roter Test keine Tagesdaten kostet. Schlägt der Abruf fehl, wird `status.json` mit der Meldung trotzdem committet und der Job wird rot. Hinweis: Im Sommer (MESZ) verschieben sich die UTC-Zeiten um eine Stunde nach vorn, die Cron-Zeiten müssen dann auf 15:50 und 19:40 UTC stehen. Nach dem Laufende ruft das Skript nichts mehr ab; den Workflow dann unter Actions deaktivieren.
 
 ## Hinweise
 

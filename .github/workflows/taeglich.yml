@@ -2,8 +2,9 @@ name: Kurse abrufen
 
 on:
   schedule:
-    # UTC: 17:40 = 18:40 Berlin im Winter; zweiter Lauf 20:40 UTC ist die Sicherung
-    - cron: "40 17 * * 1-5"
+    # UTC: 16:50 = 17:50 Berlin im Winter (kurz nach Xetra-Schluss 17:35, Zertifikatskurs nah am Schlusskurs);
+    # zweiter Lauf 20:40 UTC = 21:40 Berlin ist die Sicherung und füllt fehlende Schlusskurse nach
+    - cron: "50 16 * * 1-5"
     - cron: "40 20 * * 1-5"
   workflow_dispatch:
 

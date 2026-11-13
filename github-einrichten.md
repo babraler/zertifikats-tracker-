@@ -21,5 +21,5 @@ Sobald du es ausgesucht hast, reicht mir die ISIN. Ich trage sie in `config.json
 
 ## Täglicher Betrieb
 
-- GitHub ruft werktags um 18:40 Uhr ab, um 21:40 Uhr läuft die Sicherung. Dein PC kann aus sein.
+- GitHub ruft werktags um 17:50 Uhr ab, um 21:40 Uhr läuft die Sicherung. Dein PC kann aus sein.
 - Doppelklick auf `oeffnen.bat` holt den neuesten Stand und öffnet das Dashboard. Die Excel-Datei liegt daneben: `ausgabe/kurse.xlsx`.

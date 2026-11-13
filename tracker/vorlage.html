@@ -192,6 +192,9 @@ tr.vor td{color:var(--ink-2)}
 .dbtn .ch{display:inline-block;width:8px;height:8px;border-right:2px solid var(--ink-3);border-bottom:2px solid var(--ink-3);transform:rotate(-45deg);margin-top:7px;flex:none;transition:transform .15s}
 .dbtn[aria-expanded="true"] .ch{transform:rotate(45deg)}
 .dbtn small{font-weight:400}
+.jump{display:inline-block;font-size:11.5px;font-weight:650;line-height:1;padding:3px 6px;border-radius:6px;background:var(--warn-bg);color:var(--warn-ink);margin-left:6px;vertical-align:1px;letter-spacing:.01em}
+.dbtn .jump{display:table;margin:4px 0 0}
+.jumpnote{margin:0 0 12px;padding:8px 12px;border-radius:10px;background:var(--warn-bg);color:var(--warn-ink);font-size:14px;border:1px solid var(--ring)}
 .flag{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ink);margin-left:6px;vertical-align:1px}
 .vcol{display:none;text-align:left}
 @media(min-width:900px){.vcol{display:table-cell}}
@@ -346,9 +349,13 @@ function effRows(r){
   rows.append(h('div',{class:'erow sum'},h('div',{class:'l',text:'Zertifikat gesamt'}),h('div',{class:'track'}),h('div',{class:'v num',text:eur(dz,2,true)})));
   return rows;
 }
+const spr=r=>arr(r&&r.spruenge).filter(s=>s&&num(s.pct)!=null);
+function sprungText(s){return str(s.wert)+' '+pct(s.pct)+(num(s.schwelle)!=null?' (Schwelle ±'+fmt(s.schwelle,0)+' %)':'');}
 function dayBody(r){
   const frag=h('div',{class:'daygrid'});
   const left=h('div');
+  const sj=spr(r);
+  if(sj.length)left.append(h('p',{class:'jumpnote',role:'note'},h('b',{text:'Kurssprung: '}),sj.map(sprungText).join(', ')+'.'));
   const vk=str(r.verdikt);
   if(vk)left.append(h('span',{class:'verdict'+(r.auffaellig===true||vk.indexOf('Zusammenhang')>=0?'':' soft'),text:vk}));
   left.append(h('p',{class:'daytext',text:str(r.text)||'Für diesen Tag liegt keine Erklärung vor (kein Vortag oder unvollständige Kurse).'}));
@@ -581,19 +588,20 @@ function weeksSection(){
 const open=new Set();
 function daysSection(){
   const sec=h('section',{'aria-label':'Alle Tage'},h('h2',{text:'Alle Tage'}));
-  const only=h('label',{class:'chk filter'},h('input',{type:'checkbox',onchange:e=>build(e.target.checked)}),'Nur auffällige Tage');
+  const only=h('label',{class:'chk filter'},h('input',{type:'checkbox',onchange:e=>build(e.target.checked)}),'Nur auffällige Tage und Kurssprünge');
   const tb=h('tbody');
   const thead=h('thead',null,h('tr',null,h('th',{text:'Datum'}),h('th',{text:'Zertifikat'}),h('th',{text:bname}),h('th',{text:'DAX'}),h('th',{class:'vcol',text:'Einordnung'})));
   function build(onlyAuf){
     tb.replaceChildren();
     for(let i=T.length-1;i>=0;i--){
-      const r=T[i]; if(onlyAuf&&r.auffaellig!==true)continue;
+      const r=T[i]; if(onlyAuf&&r.auffaellig!==true&&!spr(r).length)continue;
       const key=r.datum, isOpen=open.has(key);
       const btn=h('button',{class:'dbtn',type:'button','aria-expanded':String(isOpen),'aria-controls':'det-'+key,onclick:()=>{
         if(open.has(key))open.delete(key);else open.add(key);
         const d=document.getElementById('det-'+key),o=open.has(key);d.hidden=!o;btn.setAttribute('aria-expanded',String(o));}},
         h('span',{class:'ch','aria-hidden':'true'}),
         h('span',{style:'white-space:nowrap'},h('span',{class:'num',title:dLong(r.datum),text:WT[pd(r.datum).getUTCDay()]+' '+dShort(r.datum)}),r.auffaellig===true?[h('span',{class:'flag','aria-hidden':'true'}),h('span',{class:'sr',text:' auffällig'})]:null,
+          spr(r).length?h('span',{class:'jump',title:spr(r).map(sprungText).join(', '),text:'Sprung'}):null,
           r.phase==='vorlauf'?h('small',{text:'Vorlauf'}):null));
       const c=(sr)=>h('td',null,fmt(r[sr.key],sr.id==='d'?0:2),h('small',null,chg(r[sr.pc])));
       tb.append(h('tr',{class:r.phase==='vorlauf'?'vor':''},h('td',null,btn),c(SER[0]),c(SER[1]),c(SER[2]),

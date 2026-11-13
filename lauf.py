@@ -27,6 +27,18 @@ class ConfigFehler(Exception):
     pass
 
 
+def _pruefe_sprung(s):
+    """Optional {"z"|"basis"|"dax": Prozent > 0 und <= 100}."""
+    if s is None:
+        return {}
+    gueltig = isinstance(s, dict) and all(
+        k in ("z", "basis", "dax") and isinstance(v, (int, float)) and not isinstance(v, bool) and 0 < v <= 100
+        for k, v in s.items())
+    if not gueltig:
+        raise ConfigFehler('config.json: sprung_pct muss z. B. {"z": 2, "basis": 5, "dax": 3} sein (Prozent, größer 0).')
+    return {k: float(v) for k, v in s.items()}
+
+
 def lade_config(pfad):
     try:
         c = json.loads(Path(pfad).read_text(encoding="utf-8"))
@@ -39,7 +51,7 @@ def lade_config(pfad):
         if begriff is not None and not (isinstance(begriff, str) and 0 < len(begriff) <= 100):
             raise ConfigFehler("config.json: basis_suchbegriff muss null oder ein kurzer Text sein.")
         return {"isin": c["isin"], "demo": bool(c.get("demo", False)), "start": c["start"],
-                "wochen": c["wochen"], "basis_suchbegriff": begriff}
+                "wochen": c["wochen"], "basis_suchbegriff": begriff, "sprung_pct": _pruefe_sprung(c.get("sprung_pct"))}
     except ConfigFehler:
         raise
     except (OSError, ValueError, KeyError, TypeError):

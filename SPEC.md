@@ -57,6 +57,7 @@ Für jeden Tag t mit Vortag t−1 (nur Zeilen mit allen drei Kursen):
 - `effekt_rest = dz − effekt_basis − effekt_zeit` (Spread, Volatilität, Zinsen, Dividendenerwartung)
 - `haupttreiber`: betragsgrößter unter markt/aktie/zeit/rest, Namen „DAX-Bewegung“, „Aktie selbst“, „Zeitwert“, „Sonstiges (Spread, Vola, Zinsen)“
 - `auffaellig`: |aktienspez. Rendite| / Std.-Abw. der aktienspez. Renditen der 60 Tage davor ≥ 1,5 (`z_score`, null bei < 20 Punkten)
+- `spruenge`: Liste `{wert, pct, schwelle}` für jeden Kurs, dessen Tagesänderung betragsmäßig ≥ Schwelle ist. Schwellen in % (`daten.SPRUNG_PCT`, Quelle: Std.-Abw. der Tagesrenditen 12.08.–12.11.2026): Zertifikat 2, Basiswert 5, DAX 3; überschreibbar mit `config.json` → `sprung_pct` (Schlüssel `z`, `basis`, `dax`, Werte > 0 bis 100). Dashboard: Vermerk am Tag und Marke „Sprung“ in der Tagesliste; Excel: Spalte „Kurssprung“.
 - `cap_abstand_pct = (S − Cap)/Cap*100`. Über dem Cap und Delta klein ⇒ Satz: Zertifikat nahe Höchstwert, Aktienbewegungen kommen kaum an.
 
 `text` (reines Deutsch, 2–4 kurze Sätze, keine Fachkürzel ohne Erklärung; Zahlen deutsch formatiert): Was passierte mit Zertifikat in € und %; Bewegung der Aktie, davon DAX-Anteil; wie viel durch Delta ankam; Zeitwert; Haupttreiber.
@@ -113,4 +114,4 @@ Blätter: „Tageskurse“ (Datum echt, Zertifikat Geld/Brief, Basiswert, DAX, %
 
 ## Workflow
 
-Cron `40 17 * * 1-5` und `40 20 * * 1-5` (UTC, also 18:40 und 21:40 Berlin im Winter; zweiter Lauf ist Sicherung), dazu `workflow_dispatch`. `permissions: contents: write`, `actions/checkout@v4`, `actions/setup-python@v5` mit Python 3.12. `git add daten ausgabe`, Commit nur bei Änderung mit `daten: Kurse <datum>`, Autor github-actions[bot]. Fehlgeschlagener Abruf ⇒ `status.json` mit Meldung wird trotzdem committet, dann Job rot.
+Cron `50 16 * * 1-5` und `40 20 * * 1-5` (UTC, also 17:50 und 21:40 Berlin im Winter; zweiter Lauf ist Sicherung), dazu `workflow_dispatch`. `permissions: contents: write`, `actions/checkout@v4`, `actions/setup-python@v5` mit Python 3.12. `git add daten ausgabe`, Commit nur bei Änderung mit `daten: Kurse <datum>`, Autor github-actions[bot]. Fehlgeschlagener Abruf ⇒ `status.json` mit Meldung wird trotzdem committet, dann Job rot.
