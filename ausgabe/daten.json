@@ -1,8 +1,8 @@
 {
-  "stand": "2026-11-12T19:14:30+01:00",
+  "stand": "2026-11-13T18:36:41+01:00",
   "zertifikate": [
     {
-      "stand": "2026-11-12T19:14:30+01:00",
+      "stand": "2026-11-13T18:36:41+01:00",
       "produkt": {
         "isin": "DE000JE3NTM6",
         "wkn": "JE3NTM",
@@ -23,19 +23,19 @@
         }
       },
       "aktuell": {
-        "z_geld": 140.17,
-        "z_brief": 140.67,
-        "max_ertrag_eur": 2.32,
-        "max_ertrag_pct": 1.65501498074,
-        "delta": 0.0711836591633,
-        "discount_pct": 33.9308398024,
-        "cap_abstand_pct": 49.15789473684211,
+        "z_geld": 140.27,
+        "z_brief": 140.77,
+        "max_ertrag_eur": 2.21,
+        "max_ertrag_pct": 1.57530828997,
+        "delta": 0.0684610529872,
+        "discount_pct": 34.1578824081,
+        "cap_abstand_pct": 49.78947368421052,
         "seit_start": {
           "bezug_datum": "2026-11-09",
-          "z_eur": 0.03,
-          "z_pct": 0.021407,
-          "basis_pct": 0.42523,
-          "dax_pct": 1.92137
+          "z_eur": 0.13,
+          "z_pct": 0.092764,
+          "basis_pct": 0.850461,
+          "dax_pct": 1.837882
         }
       },
       "fortschritt": {
@@ -1227,38 +1227,99 @@
           "theta_tag": 0.0318790827973,
           "iv": 48.4569072723,
           "spruenge": []
+        },
+        {
+          "datum": "2026-11-13",
+          "phase": "lauf",
+          "z_geld": 140.27,
+          "z_brief": 140.77,
+          "z_quelle": "snapshot",
+          "basis": 213.45,
+          "dax": 26749.95,
+          "z_pct": 0.071342,
+          "basis_pct": 0.42343,
+          "dax_pct": -0.081914,
+          "dz": 0.1,
+          "delta": 0.068461,
+          "beta": 0.627398,
+          "effekt_markt": -0.007478,
+          "effekt_aktie": 0.069093,
+          "effekt_zeit": 0.030996,
+          "effekt_rest": 0.007389,
+          "haupttreiber": "Aktie selbst",
+          "auffaellig": false,
+          "z_score": 0.264323,
+          "text": "Das Zertifikat stieg von 140,17 € auf 140,27 € (+0,10 € oder +0,07 %). Die SAP-Aktie stieg um 0,42 %, der DAX fiel um 0,08 %; davon entfallen rechnerisch etwa −0,05 Prozentpunkte auf die allgemeine Marktbewegung. Das Zertifikat liegt nahe seinem Höchstwert (Cap), deshalb kommen Aktienbewegungen kaum an (Delta 0,07); der Zeitwert trug +0,03 € bei. Haupttreiber des Tages: Aktie selbst (+0,07 €).",
+          "verdikt": "Im normalen Rauschen",
+          "nachrichten": [
+            {
+              "titel": "WOCHENAUSBLICK: Anleger warten nach Dax-Rekord auf Nvidia-Zahlen und Anthropic",
+              "quelle": "T-Online",
+              "zeit": "2026-11-13T15:14:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYk4wVGZleVB3OV9nclpVbXVpRkhmTm9uczF0Rms4MHBhbENidVZBLTgxcU1COHQ0a2JPWE5wT2hLcG13Wi1EOEFoaFRWdkxKUTdkbmFYU0ZUYTNHOWRJQUpQalZEQThBQXdQYmQ5ZEtLRER6bTkzeUZ2Z25BT1N5cmNWNVhoRUZlY29tcXlUd3U3eFZsZ3M0OUplQ0Z4WWJIeHZONTRWSGNrUUVEbVVhZDJycmZKN25Sbk5icXVPZEtZUElKOUNJbHdrdUdvXzB2NTZuMHl3WXU4UQ?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "positiv",
+              "passt": true
+            },
+            {
+              "titel": "SAP Aktie: Führende Einstufung in IDC-Lagerverwaltungsstudien",
+              "quelle": "ad-hoc-news.de",
+              "zeit": "2026-11-13T15:09:40+01:00",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd0FaU0tWeU1ZcEh3NVJKX0taQV9WSkZES1drUDJ1c1ZKemZ2enlIRkNuWmtPZ2VpWF9Qa1RVek9ydjVOQXRBZzl0Qy1PcU93ZDRUVDFGYlhYSEJwYXkxaVRWVkFudVZVTHFveWpIREp3dl9fUXhma3NveC0wUGNzNHRBZDFVR3VCN1N0bFJlSjRIaFJBMFpycUFXblpaZGR5Q0N0RnhFcFF6Y2VGRnI5anJvUTZrdlBpM3pqX2ZDQmpsMk5iYUpCSmVSQXZ4UQ?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "DAX vor neuer Rekordjagd? Infineon mit neuen Kurszielen",
+              "quelle": "BörsenNEWS.de",
+              "zeit": "2026-11-13T10:33:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSjBiZ0ZDaUIwZFkwRWZnRk1yaVNRZ0NrN0hrWDlQUWxHVGlWcm5EZlpQUW5wNHBlRXlPb3AzZERXQ1J1YkdRcFl0QTlfOXhFMUI2OGd3QmtwZ0NOaUFvWkpiNjhYdUJTN2k4Q0NZUHpnb2FKWGxoOWFqbDRLZzVXcXJ4TDFkZnBJMEZWbHVYX2ZCbjduR085UnBPdmJIQlBWd2lpRndDWE5jWDc1M1NNeklYOWRhYjVudzN1aXdEQQ?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "positiv",
+              "passt": true
+            }
+          ],
+          "effekt_basis": 0.061615,
+          "aktie_spez_pct": 0.474823,
+          "cap_abstand_pct": 49.789474,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": false,
+          "theta_tag": 0.0309956272977,
+          "iv": 48.2750068665,
+          "spruenge": []
         }
       ],
       "wochen": [
         {
           "woche": "2026-W46",
           "von": "2026-11-10",
-          "bis": "2026-11-12",
-          "tage": 3,
+          "bis": "2026-11-13",
+          "tage": 4,
           "unvollstaendig": true,
-          "z_schnitt": 140.133333,
-          "basis_schnitt": 211.15,
-          "dax_schnitt": 26594.033333,
+          "z_schnitt": 140.1675,
+          "basis_schnitt": 211.725,
+          "dax_schnitt": 26633.0125,
           "z_vorwoche_pct": null,
-          "z_schluss": 140.17,
-          "z_woche_pct": 0.021407,
-          "basis_schluss": 212.55,
-          "basis_woche_pct": 0.42523,
-          "dax_schluss": 26771.88,
-          "dax_woche_pct": 1.92137
+          "z_schluss": 140.27,
+          "z_woche_pct": 0.092764,
+          "basis_schluss": 213.45,
+          "basis_woche_pct": 0.850461,
+          "dax_schluss": 26749.95,
+          "dax_woche_pct": 1.837882
         }
       ],
       "status": {
         "ok": true,
         "meldung": "",
-        "letzter_lauf": "2026-11-12T19:14:30+01:00"
+        "letzter_lauf": "2026-11-13T18:36:41+01:00"
       }
     }
   ],
   "status": {
     "ok": true,
     "meldung": "",
-    "letzter_lauf": "2026-11-12T19:14:30+01:00",
+    "letzter_lauf": "2026-11-13T18:36:41+01:00",
     "je_zertifikat": {
       "DE000JE3NTM6": {
         "ok": true,
