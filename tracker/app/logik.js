@@ -109,40 +109,41 @@ const LOGIK = (() => {
     return `https://github.com/${repo}/issues/new?title=${encodeURIComponent(titel)}&body=${encodeURIComponent(text)}`;
   }
 
-  /* ---------- Routen ---------- */
-  function route(hash, isins) {
+  /* ---------- Routen: jede Ansicht zeigt genau ein Zertifikat ---------- */
+  function startIsin(isins, gemerkt) {
+    const l = arr(isins);
+    return l.includes(gemerkt) ? gemerkt : (l[0] || null);
+  }
+  function route(hash, isins, start) {
     const h = str(hash).replace(/^#\/?/, '');
-    if (h === 'suche') return {seite: 'suche'};
-    const m = /^z\/([A-Z0-9]{12})$/.exec(h);
+    const m = /^z\/([A-Za-z0-9]{12})$/.exec(h);
+    if (m) m[1] = m[1].toUpperCase();
     if (m && arr(isins).includes(m[1])) return {seite: 'zertifikat', isin: m[1]};
-    return {seite: 'uebersicht'};
+    if (h === 'suche' || !start) return {seite: 'suche'};
+    return {seite: 'zertifikat', isin: start};
   }
 
-  /* ---------- Übersicht ---------- */
+  /* ---------- Teilen ---------- */
+  /** Link, der direkt die Übersicht dieses Zertifikats öffnet (ohne Suchparameter). */
+  function teilenUrl(seite, isin) {
+    if (!isinGueltig(str(isin))) return null;
+    try { const u = new URL(seite); u.search = ''; u.hash = '/z/' + isin; return u.href; } catch (e) { return null; }
+  }
+  /** Nachricht an den Betreiber, der das Zertifikat aufnehmen soll. */
+  function anfrageText(v) {
+    v = v || {};
+    return `Bitte nimm dieses Discount-Zertifikat in den Tracker auf: ${str(v.name) || 'Discount-Zertifikat'}, ` +
+      `WKN ${str(v.wkn) || '–'}, ISIN ${str(v.isin) || '–'}.`;
+  }
+
   function kurzname(p) {
     p = p || {};
     const b = str(p.basis_name), c = num(p.cap);
     if (b && c != null) return `${b} ${fmt(c, c % 1 ? 2 : 0)}`;
     return b || str(p.wkn) || str(p.isin) || 'Zertifikat';
   }
-  function letzterTag(z) {
-    const t = arr(z && z.tage);
-    for (let i = t.length - 1; i >= 0; i--) if (t[i] && num(t[i].z_geld) != null) return t[i];
-    return null;
-  }
-  /** Geldkurse ab Laufbeginn (ohne Lücken) für die kleine Verlaufslinie. */
-  function verlauf(z) {
-    return arr(z && z.tage).filter(t => t && t.phase === 'lauf').map(t => num(t.z_geld)).filter(v => v != null);
-  }
-  function sparkPfad(werte, w, h, rand = 2) {
-    const v = arr(werte).filter(x => num(x) != null);
-    if (v.length < 2) return '';
-    const lo = Math.min(...v), hi = Math.max(...v), sp = hi - lo || 1;
-    return v.map((x, i) => (i ? 'L' : 'M') + (rand + (w - 2 * rand) * i / (v.length - 1)).toFixed(1) + ' ' +
-      (h - rand - (h - 2 * rand) * (x - lo) / sp).toFixed(1)).join(' ');
-  }
 
   return {MAX_ZERTIFIKATE, num, str, arr, fmt, eur, pct, WT, pd, dShort, dFull, dLong, tZeit, tStand, safeUrl,
-    isinGueltig, erkenne, snapshotUrl, filtere, verfolgt, vorschau, issueUrl, route, kurzname, letzterTag, verlauf, sparkPfad};
+    isinGueltig, erkenne, snapshotUrl, filtere, verfolgt, vorschau, issueUrl, startIsin, route, teilenUrl, anfrageText, kurzname};
 })();
 if (typeof module !== 'undefined') module.exports = LOGIK;

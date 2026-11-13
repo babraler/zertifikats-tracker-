@@ -79,25 +79,44 @@ test('issueUrl verweigert Unsinn', () => {
   assert.equal(L.issueUrl(null, 'hinzufügen', 'JE3NTM'), null);
 });
 
-test('route', () => {
-  const isins = ['DE000JE3NTM6'];
-  assert.deepEqual(L.route('#/z/DE000JE3NTM6', isins), {seite: 'zertifikat', isin: 'DE000JE3NTM6'});
-  assert.deepEqual(L.route('#/z/DE0007164600', isins), {seite: 'uebersicht'});   // nicht verfolgt
-  assert.deepEqual(L.route('#/suche', isins), {seite: 'suche'});
-  assert.deepEqual(L.route('', isins), {seite: 'uebersicht'});
-  assert.deepEqual(L.route('#/z/<script>', isins), {seite: 'uebersicht'});
+test('route: ein Zertifikat je Ansicht, sonst das Startzertifikat', () => {
+  const isins = ['DE000JE3NTM6', 'DE0007164600'];
+  const z = isin => ({seite: 'zertifikat', isin});
+  assert.deepEqual(L.route('#/z/DE0007164600', isins, 'DE000JE3NTM6'), z('DE0007164600'));
+  assert.deepEqual(L.route('#/z/US0378331005', isins, 'DE000JE3NTM6'), z('DE000JE3NTM6'));   // nicht verfolgt
+  assert.deepEqual(L.route('#/suche', isins, 'DE000JE3NTM6'), {seite: 'suche'});
+  assert.deepEqual(L.route('', isins, 'DE0007164600'), z('DE0007164600'));
+  assert.deepEqual(L.route('#/', isins, 'DE0007164600'), z('DE0007164600'));
+  assert.deepEqual(L.route('#/z/<script>', isins, 'DE000JE3NTM6'), z('DE000JE3NTM6'));
+  assert.deepEqual(L.route('#/', [], null), {seite: 'suche'});
+  assert.deepEqual(L.route('#/z/de0007164600', isins, 'DE000JE3NTM6'), z('DE0007164600'));   // klein geschrieben
 });
 
-test('kurzname, letzterTag, verlauf, sparkPfad', () => {
+test('startIsin: gemerktes Zertifikat, sonst das erste', () => {
+  const isins = ['DE000JE3NTM6', 'DE0007164600'];
+  assert.equal(L.startIsin(isins, 'DE0007164600'), 'DE0007164600');
+  assert.equal(L.startIsin(isins, 'US0378331005'), 'DE000JE3NTM6');   // nicht mehr verfolgt
+  assert.equal(L.startIsin(isins, null), 'DE000JE3NTM6');
+  assert.equal(L.startIsin([], 'DE000JE3NTM6'), null);
+});
+
+test('teilenUrl zeigt direkt auf ein Zertifikat', () => {
+  assert.equal(L.teilenUrl('https://babraler.github.io/zertifikats-tracker-/?v=1#/suche', 'DE000JE3NTM6'),
+    'https://babraler.github.io/zertifikats-tracker-/#/z/DE000JE3NTM6');
+  assert.equal(L.teilenUrl('https://x.de/a/', 'kaputt'), null);
+});
+
+test('anfrageText für den Betreiber', () => {
+  const t = L.anfrageText({isin: 'DE000JE3NTM6', wkn: 'JE3NTM', name: 'Discount auf SAP'});
+  assert.match(t, /JE3NTM/);
+  assert.match(t, /DE000JE3NTM6/);
+  assert.match(t, /in den Tracker auf/);
+});
+
+test('kurzname', () => {
   assert.equal(L.kurzname({basis_name: 'SAP', cap: 142.5}), 'SAP 142,50');
   assert.equal(L.kurzname({basis_name: 'SAP', cap: 140}), 'SAP 140');
   assert.equal(L.kurzname({wkn: 'JE3NTM'}), 'JE3NTM');
-  const z = {tage: [{phase: 'vorlauf', z_geld: 1}, {phase: 'lauf', z_geld: 2}, {phase: 'lauf', z_geld: null}, {phase: 'lauf', z_geld: 4}]};
-  assert.equal(L.letzterTag(z).z_geld, 4);
-  assert.deepEqual(L.verlauf(z), [2, 4]);
-  assert.equal(L.sparkPfad([2, 4], 100, 20), 'M2.0 18.0 L98.0 2.0');
-  assert.equal(L.sparkPfad([2], 100, 20), '');
-  assert.equal(L.letzterTag({tage: []}), null);
 });
 
 test('Formatierung deutsch', () => {

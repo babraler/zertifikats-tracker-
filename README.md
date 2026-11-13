@@ -18,7 +18,9 @@ py -3 -m venv .venv
 
 ## Zertifikate verwalten
 
-**In der App:** Menü „Suchen“ → WKN oder ISIN eingeben → „bei onvista nachsehen“ → „Über GitHub hinzufügen“. Das öffnet ein vorbereitetes Issue (`Zertifikat hinzufügen: <ISIN>`); absenden genügt, dafür bei GitHub angemeldet sein. Der Workflow `zertifikat-verwalten.yml` prüft das Zertifikat bei onvista (nur Discount-Zertifikate), trägt es mit Start heute und 10 Wochen ein, holt die ersten Kurse, baut die App neu und antwortet im Issue. Entfernen geht genauso über „Entfernen“ (`Zertifikat entfernen: <ISIN>`); die Kurse bleiben unter `daten/<ISIN>/`. Nur Issues des Repo-Besitzers zählen. Kommt nach 5 Minuten kein Kommentar, das Issue schließen und wieder öffnen.
+**Für andere Nutzer:** Menü „Suchen“ → WKN oder ISIN eingeben → „bei onvista nachsehen“ → „Hinzufügen anfragen“. Das teilt WKN und ISIN per Nachricht an den Betreiber. Alle teilen sich dieselben 10 Plätze.
+
+**Betreiber:** Gleicher Weg, dann „Über GitHub hinzufügen (Betreiber)“. Das öffnet ein vorbereitetes Issue (`Zertifikat hinzufügen: <ISIN>`); absenden genügt, dafür bei GitHub angemeldet sein. Der Workflow `zertifikat-verwalten.yml` prüft das Zertifikat bei onvista (nur Discount-Zertifikate), trägt es mit Start heute und 10 Wochen ein, holt die ersten Kurse, baut die App neu und antwortet im Issue. Entfernen geht genauso über „Entfernen“ (`Zertifikat entfernen: <ISIN>`); die Kurse bleiben unter `daten/<ISIN>/`. Nur Issues des Repo-Besitzers zählen. Kommt nach 5 Minuten kein Kommentar, das Issue schließen und wieder öffnen.
 
 **Von Hand:** `config.json`:
 
@@ -32,7 +34,7 @@ py -3 -m venv .venv
 
 ## Ergebnis
 
-`ausgabe/index.html` (App mit Menü: Übersicht mit einer Spalte je Zertifikat, Detailseite je Zertifikat, Suche), `kurse.xlsx` (Blatt „Übersicht“ plus je Zertifikat Tage, Wochen, Erklärungen), `daten.json` (alle Zertifikate), `status.json` (Gesamtstatus plus `je_zertifikat`). Die App-Skripte liegen in `tracker/app/*.js` und werden in `index.html` eingebettet.
+`ausgabe/index.html` (App mit Menü: je Zertifikat eine eigene Übersicht, dazu Suchen; die App öffnet das zuletzt gewählte Zertifikat; „Link teilen“ führt direkt auf ein Zertifikat, `#/z/<ISIN>`), `kurse.xlsx` (Blatt „Übersicht“ plus je Zertifikat Tage, Wochen, Erklärungen), `daten.json` (alle Zertifikate), `status.json` (Gesamtstatus plus `je_zertifikat`). Die App-Skripte liegen in `tracker/app/*.js` und werden in `index.html` eingebettet.
 
 ## App am Handy
 

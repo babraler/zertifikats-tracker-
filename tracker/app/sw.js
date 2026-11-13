@@ -2,7 +2,7 @@
 // Neue Fassung = CACHE hochzählen. Alle Repos auf <name>.github.io teilen eine Origin,
 // deshalb nur eigene Caches (Präfix) aufräumen.
 const PRAEFIX = 'discount-tracker-';
-const CACHE = PRAEFIX + 'v3';
+const CACHE = PRAEFIX + 'v4';
 const NETZ_TIMEOUT_MS = 4000;
 const HUELLE = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 

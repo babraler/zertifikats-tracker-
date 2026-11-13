@@ -53,7 +53,7 @@ function head(){
   const dl=h('dl',{class:'facts'});
   facts.forEach(([k,v])=>dl.append(h('div',null,h('dt',{text:k}),h('dd',{class:'num',text:str(v)||(typeof v==='number'?String(v):'–')}))));
   const wrap=h('header',{class:'head'},
-    h('h1',null,h('span',{text:str(prod.name)||'Discount-Zertifikat'}),prod.demo===true?h('span',{class:'pill',text:'Beispiel-Zertifikat'}):null),dl);
+    h('h1',null,h('span',{text:str(prod.name)||'Discount-Zertifikat'}),prod.demo===true?h('span',{class:'pill',text:'Beispiel-Zertifikat'}):null),dl,extra.aktionen||null);
   const tag=num(fort.tag),ges=num(fort.tage_gesamt);
   if(tag!=null&&ges){
     wrap.append(h('div',{class:'prog'},h('span',{class:'num',text:`Tag ${fmt(tag,0)} von ${fmt(ges,0)}`+(num(fort.woche)!=null?`, Woche ${fmt(fort.woche,0)} von 10`:'')}),
@@ -403,7 +403,7 @@ function foot(){
     h('div',{text:'Stand: '+tStand(P.stand)}),
     h('div',null,'Quellen: onvista (Kurse), Google News (Schlagzeilen). Alle Kurse als Excel: ',x,'.'),
     h('div',{text:'Regelbasierte Auswertung ohne KI. Keine Anlageberatung.'}),
-    extra.entfernen?h('div',null,h('a',{href:extra.entfernen,target:'_blank',rel:'noopener noreferrer',text:'Dieses Zertifikat nicht mehr verfolgen'}),' (öffnet GitHub)'):null);
+    extra.entfernen?h('div',null,h('a',{href:extra.entfernen,target:'_blank',rel:'noopener noreferrer',text:'Dieses Zertifikat nicht mehr verfolgen'}),' (nur für den Betreiber, öffnet GitHub)'):null);
 }
 app.append(head(),kpis(),daySection(),chartSection(),weeksSection(),daysSection(),foot());
 updateLegend();drawChart();

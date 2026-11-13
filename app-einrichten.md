@@ -23,4 +23,6 @@ Adresse: https://babraler.github.io/zertifikats-tracker-/
 
 Die App holt bei jedem Öffnen den neuesten Stand. Ohne Netz zeigt sie den zuletzt geladenen.
 
-Neue Zertifikate fügst du in der App unter „Suchen“ hinzu (WKN oder ISIN). Das Absenden läuft über ein GitHub-Issue, dafür im Browser bei GitHub angemeldet sein. Nach etwa 2 Minuten steht das Zertifikat in der App.
+Neue Zertifikate fügst du in der App unter „Suchen“ hinzu (WKN oder ISIN) → „Über GitHub hinzufügen (Betreiber)“. Das Absenden läuft über ein GitHub-Issue, dafür im Browser bei GitHub angemeldet sein. Nach etwa 2 Minuten steht das Zertifikat in der App.
+
+**Für Freunde:** Link schicken (oben im Zertifikat „Link teilen“, der Link öffnet direkt diese Übersicht). Wer ein eigenes Zertifikat verfolgen will, sucht es in der App und tippt „Hinzufügen anfragen“; die Nachricht mit WKN und ISIN kommt bei dir an, du fügst es hinzu. Danach steht es im Menü, jedes Zertifikat hat seine eigene Übersicht. Alle teilen sich 10 Plätze.
