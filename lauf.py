@@ -1,61 +1,33 @@
-"""Einstieg: python lauf.py [--neu-bauen]
+"""Einstieg: python lauf.py [--neu-bauen] [--isin ISIN]
 
-Abfolge: Snapshot Zertifikat → Historien (Lücken füllen) → heutige Zeile → Nachrichten → Auswertung → Ausgabe.
---neu-bauen: ohne Netz, nur Auswertung und Ausgabe aus den gespeicherten Daten.
+Je Zertifikat aus config.json: Snapshot → Historien (Lücken füllen) → heutige Zeile → Nachrichten.
+Danach entsteht die Ausgabe für alle Zertifikate aus den gespeicherten Daten.
+--neu-bauen: ohne Netz, nur Auswertung und Ausgabe.  --isin: nur dieses Zertifikat abrufen.
+Ein Fehler bei einem Zertifikat hält die anderen nicht auf (Exit 1, wenn eines fehlschlug).
 Alle Pfade liegen relativ zur Projektwurzel (läuft so auch auf dem GitHub-Runner).
 """
 import argparse
+import hashlib
 import json
-import re
 import sys
 import time
-from datetime import date, datetime
+from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from tracker import daten as daten_modul
-from tracker import excel, nachrichten, onvista, seite, speicher
+from tracker import excel, konfig, nachrichten, onvista, seite, speicher
+from tracker.konfig import ConfigFehler
 
 WURZEL = Path(__file__).resolve().parent
 BERLIN = ZoneInfo("Europe/Berlin")
-ISIN_MUSTER = re.compile(r"^[A-Z]{2}[A-Z0-9]{9}[0-9]$")
 NEWS_PAUSE_S = 1.5
+ZERT_PAUSE_S = 3.0   # Abstand zwischen zwei Zertifikaten, schont onvista
 EXIT_OK, EXIT_ABRUF, EXIT_CONFIG = 0, 1, 2
 
 
-class ConfigFehler(Exception):
-    pass
-
-
-def _pruefe_sprung(s):
-    """Optional {"z"|"basis"|"dax": Prozent > 0 und <= 100}."""
-    if s is None:
-        return {}
-    gueltig = isinstance(s, dict) and all(
-        k in ("z", "basis", "dax") and isinstance(v, (int, float)) and not isinstance(v, bool) and 0 < v <= 100
-        for k, v in s.items())
-    if not gueltig:
-        raise ConfigFehler('config.json: sprung_pct muss z. B. {"z": 2, "basis": 5, "dax": 3} sein (Prozent, größer 0).')
-    return {k: float(v) for k, v in s.items()}
-
-
 def lade_config(pfad):
-    try:
-        c = json.loads(Path(pfad).read_text(encoding="utf-8"))
-        if not (isinstance(c["isin"], str) and ISIN_MUSTER.match(c["isin"])):
-            raise ConfigFehler("config.json: isin ist keine gültige ISIN.")
-        date.fromisoformat(c["start"])
-        if not (isinstance(c["wochen"], int) and 1 <= c["wochen"] <= 52):
-            raise ConfigFehler("config.json: wochen muss eine Zahl von 1 bis 52 sein.")
-        begriff = c.get("basis_suchbegriff")
-        if begriff is not None and not (isinstance(begriff, str) and 0 < len(begriff) <= 100):
-            raise ConfigFehler("config.json: basis_suchbegriff muss null oder ein kurzer Text sein.")
-        return {"isin": c["isin"], "demo": bool(c.get("demo", False)), "start": c["start"],
-                "wochen": c["wochen"], "basis_suchbegriff": begriff, "sprung_pct": _pruefe_sprung(c.get("sprung_pct"))}
-    except ConfigFehler:
-        raise
-    except (OSError, ValueError, KeyError, TypeError):
-        raise ConfigFehler("config.json fehlt oder ist unlesbar (nötig: isin, start, wochen).") from None
+    return konfig.lade_config(pfad)
 
 
 def _zeit_letzter_abruf(meta):
@@ -134,71 +106,116 @@ def hole_nachrichten(config, meta, rows, pfad, heute, fetch, schlafen):
         print(f"Hinweis: Nachrichten übersprungen ({type(e).__name__}).")
 
 
-def erzeuge_ausgabe(config, meta, rows, pfad_news, jetzt, ok, meldung, wurzel, stand_zeit=None):
-    aus = wurzel / "ausgabe"
-    d = daten_modul.baue_daten(config, meta, rows, speicher.lies_nachrichten(pfad_news), jetzt, ok, meldung,
-                               stand_zeit)
-    speicher.schreibe_json(aus / "daten.json", d)
-    speicher.schreibe_json(aus / "status.json", d["status"])
+def _ordner(wurzel, z):
+    return wurzel / "daten" / z["isin"]
+
+
+def _lies_status(ordner):
+    s = speicher.lies_meta(ordner / "status.json")
+    return bool(s.get("ok", True)), str(s.get("meldung") or "")
+
+
+def verarbeite(z, wurzel, jetzt, kw, schlafen):
+    """Ein Zertifikat abrufen und speichern. Rückgabe "erledigt", "abgerufen" oder "fehler"."""
+    heute, ordner = jetzt.date(), _ordner(wurzel, z)
+    rows, meta = speicher.lies_kurse(ordner / "kurse.csv"), speicher.lies_meta(ordner / "meta.json")
+    if heute > daten_modul.lauf_ende(z):
+        print(f"{z['isin']}: Laufende erreicht ({daten_modul.lauf_ende(z)}). Keine Abrufe mehr.")
+        return "erledigt"
+    if schon_erledigt(rows, meta, heute):
+        print(f"{z['isin']}: heute schon abgerufen.")
+        return "erledigt"
+    ok, meldung = True, ""
     try:
-        excel.schreibe(d, aus / "kurse.xlsx")
+        rows, meta, meldung = abruf(z, rows, jetzt, **kw)
+        speicher.schreibe_kurse(ordner / "kurse.csv", rows)
+        speicher.schreibe_meta(ordner / "meta.json", meta)
+        fetch = lambda url: onvista.hole_bytes(url, max_bytes=nachrichten.MAX_RSS_BYTES, **kw)  # noqa: E731
+        hole_nachrichten(z, meta, rows, ordner / "nachrichten.jsonl", heute, fetch, schlafen)
+    except onvista.AbrufFehler as e:
+        ok, meldung = False, str(e)
+    except Exception as e:  # bewusst breit: Das Dashboard darf nie "alles gut" zeigen, wenn der Lauf kaputt ist
+        ok, meldung = False, f"Unerwarteter Fehler beim Abruf ({type(e).__name__})."
+    if not ok:
+        print(f"{z['isin']}: Fehler beim Abruf: {meldung}")
+    speicher.schreibe_json(ordner / "status.json",
+                           {"ok": ok, "meldung": meldung, "letzter_lauf": jetzt.isoformat(timespec="seconds")})
+    return "abgerufen" if ok else "fehler"
+
+
+def _daten_je_zertifikat(z, wurzel, jetzt):
+    ordner = _ordner(wurzel, z)
+    rows, meta = speicher.lies_kurse(ordner / "kurse.csv"), speicher.lies_meta(ordner / "meta.json")
+    ok, meldung = _lies_status(ordner)
+    return daten_modul.baue_daten(z, meta, rows, speicher.lies_nachrichten(ordner / "nachrichten.jsonl"), jetzt,
+                                  ok, meldung, _zeit_letzter_abruf(meta))
+
+
+def erzeuge_ausgabe(cfg, jetzt, wurzel):
+    aus = wurzel / "ausgabe"
+    g = daten_modul.baue_gesamt([_daten_je_zertifikat(z, wurzel, jetzt) for z in cfg["zertifikate"]])
+    g["repo"], g["konfig"] = cfg.get("repo"), fingerabdruck(cfg)
+    speicher.schreibe_json(aus / "daten.json", g)
+    speicher.schreibe_json(aus / "status.json", g["status"])
+    try:
+        excel.schreibe_gesamt(g, aus / "kurse.xlsx")
     except Exception as e:  # bewusst breit: Excel ist Beiwerk, Dashboard und Status sollen trotzdem entstehen
         print(f"Hinweis: kurse.xlsx konnte nicht geschrieben werden ({type(e).__name__}); ist die Datei geöffnet?")
-    seite_ok, seite_meldung = seite.rendere(d, wurzel / "tracker" / "vorlage.html", aus / "index.html")
+    seite_ok, seite_meldung = seite.rendere(g, wurzel / "tracker" / "vorlage.html", aus / "index.html")
     if not seite_ok:
         print("Hinweis:", seite_meldung)
+    return g
+
+
+def fingerabdruck(cfg):
+    """Ändert sich, sobald sich irgendetwas an config.json ändert (Zertifikate, Wochen, Schwellen, Repo)."""
+    return hashlib.sha256(json.dumps(cfg, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()[:16]
+
+
+def _ausgabe_passt(wurzel, cfg):
+    return speicher.lies_meta(wurzel / "ausgabe" / "daten.json").get("konfig") == fingerabdruck(cfg)
+
+
+def _abrufen(ziele, wurzel, jetzt, kw, schlafen):
+    ergebnisse = []
+    for z in ziele:
+        if "abgerufen" in ergebnisse or "fehler" in ergebnisse:
+            schlafen(ZERT_PAUSE_S)
+        ergebnisse.append(verarbeite(z, wurzel, jetzt, kw, schlafen))
+    return ergebnisse
 
 
 def main(argv=None, *, jetzt=None, oeffnen=None, schlafen=time.sleep, wurzel=WURZEL):
-    p = argparse.ArgumentParser(description="Täglicher Kursspeicher für ein Discount-Zertifikat")
+    p = argparse.ArgumentParser(description="Täglicher Kursspeicher für Discount-Zertifikate")
     p.add_argument("--neu-bauen", action="store_true", help="ohne Netz nur Auswertung und Ausgabe neu bauen")
+    p.add_argument("--isin", help="nur dieses Zertifikat abrufen (muss in config.json stehen)")
     args = p.parse_args(argv)
     try:
-        config = lade_config(wurzel / "config.json")
+        cfg = lade_config(wurzel / "config.json")
+        ziele = [z for z in cfg["zertifikate"] if args.isin in (None, z["isin"])]
+        if not ziele:
+            raise ConfigFehler(f"{args.isin} steht nicht in config.json.")
     except ConfigFehler as e:
         print(f"Fehler: {e}")
         return EXIT_CONFIG
     jetzt = jetzt or datetime.now(BERLIN)
-    heute = jetzt.date()
-    ordner = wurzel / "daten" / config["isin"]
-    rows, meta = speicher.lies_kurse(ordner / "kurse.csv"), speicher.lies_meta(ordner / "meta.json")
-    pfad_news = ordner / "nachrichten.jsonl"
-    ausgabe_da = (wurzel / "ausgabe" / "daten.json").exists()
-    ok, meldung, stand_zeit = True, "", None
-    kw = {"oeffnen": oeffnen, "schlafen": schlafen}
-
+    ergebnisse = [] if args.neu_bauen else _abrufen(ziele, wurzel, jetzt, {"oeffnen": oeffnen, "schlafen": schlafen},
+                                                    schlafen)
     if args.neu_bauen:
         print("Neu bauen ohne Netz.")
-        stand_zeit = _zeit_letzter_abruf(meta)  # "Stand" bleibt die Zeit des Abrufs, nicht des Neubaus
-    elif heute > daten_modul.lauf_ende(config):
-        print(f"Laufende erreicht ({daten_modul.lauf_ende(config)}). Keine Abrufe mehr.")
-        if ausgabe_da:
-            return EXIT_OK
-    elif schon_erledigt(rows, meta, heute) and ausgabe_da:
+    elif all(e == "erledigt" for e in ergebnisse) and _ausgabe_passt(wurzel, cfg):
         print("Heute schon abgerufen. Kein neuer Abruf.")
         return EXIT_OK
-    else:
-        try:
-            rows, meta, meldung = abruf(config, rows, jetzt, **kw)
-            speicher.schreibe_kurse(ordner / "kurse.csv", rows)
-            speicher.schreibe_meta(ordner / "meta.json", meta)
-            fetch = lambda url: onvista.hole_bytes(url, max_bytes=nachrichten.MAX_RSS_BYTES, **kw)  # noqa: E731
-            hole_nachrichten(config, meta, rows, pfad_news, heute, fetch, schlafen)
-        except onvista.AbrufFehler as e:
-            ok, meldung = False, str(e)
-            print(f"Fehler beim Abruf: {meldung}")
-        except Exception as e:  # bewusst breit: Das Dashboard darf nie "alles gut" zeigen, wenn der Lauf kaputt ist
-            ok, meldung = False, f"Unerwarteter Fehler beim Abruf ({type(e).__name__})."
-            print(meldung)
     try:
-        erzeuge_ausgabe(config, meta, rows, pfad_news, jetzt, ok, meldung, wurzel, stand_zeit)
-    except Exception as e:  # bewusst breit: siehe oben
-        ok, meldung = False, f"Unerwarteter Fehler in der Auswertung ({type(e).__name__})."
+        erzeuge_ausgabe(cfg, jetzt, wurzel)
+    except Exception as e:  # bewusst breit: siehe verarbeite
+        meldung = f"Unerwarteter Fehler in der Auswertung ({type(e).__name__})."
         print(meldung)
         speicher.schreibe_json(wurzel / "ausgabe" / "status.json",
                                {"ok": False, "meldung": meldung, "letzter_lauf": jetzt.isoformat(timespec="seconds")})
-    print(f"Fertig: {len(rows)} Handelstage gespeichert, letzter Tag {max(rows) if rows else 'keiner'}.")
-    return EXIT_OK if ok else EXIT_ABRUF
+        return EXIT_ABRUF
+    print(f"Fertig: {len(cfg['zertifikate'])} Zertifikate, {ergebnisse.count('abgerufen')} abgerufen.")
+    return EXIT_ABRUF if "fehler" in ergebnisse else EXIT_OK
 
 
 if __name__ == "__main__":

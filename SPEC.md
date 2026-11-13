@@ -81,6 +81,17 @@ ISO-Woche, Mittelwert der Tageskurse z_geld, basis, dax, dazu `tage`, `von`, `bi
 
 ## daten.json (Vertrag zwischen Logik und Dashboard)
 
+Gesamtobjekt (mehrere Zertifikate, Reihenfolge wie `config.json`):
+
+```json
+{"stand": "<neuester Abruf>", "repo": "besitzer/name", "konfig": "<Fingerabdruck von config.json>",
+ "zertifikate": [<Objekt je Zertifikat, siehe unten>],
+ "status": {"ok": true, "meldung": "", "letzter_lauf": "...", "je_zertifikat": {"<ISIN>": {"ok": true, "meldung": ""}}}}
+```
+`status.json` = `status` des Gesamtobjekts. Ändert sich `config.json`, baut der nächste Lauf `ausgabe/` neu, auch wenn heute schon abgerufen wurde (Vergleich über `konfig`). Je Zertifikat liegt der letzte Abrufstatus in `daten/<ISIN>/status.json`.
+
+Objekt je Zertifikat:
+
 ```json
 {
   "stand": "2026-11-09T18:40:00+01:00",
@@ -106,11 +117,17 @@ ISO-Woche, Mittelwert der Tageskurse z_geld, basis, dax, dazu `tage`, `von`, `bi
 
 ## Excel
 
-Blätter: „Tageskurse“ (Datum echt, Zertifikat Geld/Brief, Basiswert, DAX, % je Tag, Phase), „Wochenschnitte“, „Erklärungen“ (Datum, Text, Verdikt, Top-Nachricht), „Info“ (Stammdaten, Quelle, Abrufzeit). Kopfzeile fixiert, Autofilter, deutsche Zahlenformate, Spaltenbreiten, nativer Linien-Chart für Zertifikat und Wochenschnitt.
+Gesamtdatei (`schreibe_gesamt`): „Übersicht“ (eine Spalte je Zertifikat: Stammdaten, Kurs, Seit Start, Max. Ertrag, Discount, Abstand zum Cap, Handelstage, Status; darunter Quelle und Abrufzeit), dann je Zertifikat „<WKN> Tage“, „<WKN> Wochen“, „<WKN> Erklärungen“ (ohne WKN die ISIN). Einzeldatei (`schreibe`, nur Tests): Blätter: „Tageskurse“ (Datum echt, Zertifikat Geld/Brief, Basiswert, DAX, % je Tag, Phase), „Wochenschnitte“, „Erklärungen“ (Datum, Text, Verdikt, Top-Nachricht), „Info“ (Stammdaten, Quelle, Abrufzeit). Kopfzeile fixiert, Autofilter, deutsche Zahlenformate, Spaltenbreiten, nativer Linien-Chart für Zertifikat und Wochenschnitt.
 
 ## App (GitHub Pages)
 
 `seite.yml` lädt `ausgabe/` als Pages-Seite hoch: nach jedem Lauf von „Kurse abrufen“ (`workflow_run`, auch bei rotem Lauf, dann zeigt die Seite die Störung), bei Pushes auf `ausgabe/**` und von Hand. Voraussetzung: Repo öffentlich, unter Settings → Pages die Quelle „GitHub Actions“. Service Worker: zuerst Netz, ohne Netz der zuletzt geladene Stand; neue Fassung über `CACHE` in `sw.js`.
+
+Seite: Menü oben (Übersicht, je Zertifikat ein Eintrag, Suchen), Hash-Routen `#/`, `#/z/<ISIN>`, `#/suche`. Übersicht = Tabelle mit fester erster Spalte und einer Spalte je Zertifikat (am Handy seitlich scrollbar). Suche filtert die verfolgten Zertifikate; eine gültige WKN/ISIN fragt auf Knopfdruck den onvista-Snapshot direkt aus dem Browser ab (CORS erlaubt) und bietet einen vorbereiteten Issue-Link an. Skripte: `tracker/app/logik.js` (reine Logik, `node --test`), `ansicht.js` (Detailansicht), `app.js` (Menü, Übersicht, Suche); `seite.py` bettet sie ein. Content-Security-Policy als Meta-Tag: Netz nur zur eigenen Seite und `api.onvista.de`.
+
+## Zertifikat verwalten (Issue)
+
+`zertifikat-verwalten.yml` startet bei `issues: opened/reopened`, nur wenn Autor = Repo-Besitzer (`author_association OWNER`) und der Titel mit `Zertifikat ` beginnt. Titel nur über die Umgebungsvariable `ISSUE_TITLE` an `verwalten.py`. Erlaubt: `^Zertifikat (hinzufügen|entfernen): ([A-Z0-9]{6}|[A-Z0-9]{12})$`, ISIN mit Prüfziffer. Hinzufügen: onvista-Snapshot per WKN/ISIN, nur `DISCOUNT_CERTIFICATE`, Start heute (Berlin), 10 Wochen, dann `lauf.py --isin`. Entfernen: aus `config.json`, Daten bleiben, Ausgabe neu ohne Netz. Antwort als Issue-Kommentar, bei Erfolg Issue schließen. Gleiche Concurrency-Gruppe `kurse` wie der tägliche Lauf.
 
 ## Workflow
 

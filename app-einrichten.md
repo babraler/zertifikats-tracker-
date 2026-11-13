@@ -22,3 +22,5 @@ Adresse: https://babraler.github.io/zertifikats-tracker-/
 - Android: in Chrome öffnen → Menü → „App installieren“.
 
 Die App holt bei jedem Öffnen den neuesten Stand. Ohne Netz zeigt sie den zuletzt geladenen.
+
+Neue Zertifikate fügst du in der App unter „Suchen“ hinzu (WKN oder ISIN). Das Absenden läuft über ein GitHub-Issue, dafür im Browser bei GitHub angemeldet sein. Nach etwa 2 Minuten steht das Zertifikat in der App.

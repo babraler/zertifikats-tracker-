@@ -100,7 +100,7 @@ class TestErsterLauf(Basis):
         self.lauf(Router())
         status = json.loads(self.pfad("ausgabe", "status.json").read_text(encoding="utf-8"))
         self.assertTrue(status["ok"])
-        d = json.loads(self.pfad("ausgabe", "daten.json").read_text(encoding="utf-8"))
+        d = json.loads(self.pfad("ausgabe", "daten.json").read_text(encoding="utf-8"))["zertifikate"][0]
         self.assertEqual(d["produkt"]["basis_name"], "SAP")
         self.assertEqual(d["tage"][-1]["datum"], "2026-11-09")
         self.assertEqual(d["tage"][-1]["nachrichten"][0]["titel"], "SAP hebt Prognose an")
@@ -154,8 +154,9 @@ class TestSonderfaelle(Basis):
         self.lauf(Router())
         abruf = json.loads(self.pfad("ausgabe", "daten.json").read_text(encoding="utf-8"))["stand"]
         self.lauf(Router(), ["--neu-bauen"], jetzt=datetime(2026, 11, 12, 23, 59, tzinfo=BERLIN))
-        d = json.loads(self.pfad("ausgabe", "daten.json").read_text(encoding="utf-8"))
-        self.assertEqual((d["stand"], d["status"]["letzter_lauf"]), (abruf, abruf))
+        g = json.loads(self.pfad("ausgabe", "daten.json").read_text(encoding="utf-8"))
+        d = g["zertifikate"][0]
+        self.assertEqual((g["stand"], d["stand"], d["status"]["letzter_lauf"]), (abruf, abruf, abruf))
         self.assertEqual(d["fortschritt"]["tag"], 3)  # Fortschritt nach dem echten Datum des Neubaus
 
     def test_nach_laufende_keine_abrufe_exit_null(self):
@@ -186,6 +187,92 @@ class TestSonderfaelle(Basis):
         vorher = self.csv().read_bytes()
         self.lauf(Router(), ["--neu-bauen"])
         self.assertEqual(self.csv().read_bytes(), vorher)
+
+
+ZWEITE = "DE000VU1ABC2"
+MEHRERE = {"zertifikate": [CONFIG, {"isin": ZWEITE, "start": "2026-11-10", "wochen": 10}]}
+
+
+class TestMehrere(Basis):
+    def setUp(self):
+        super().setUp()
+        (self.w / "config.json").write_text(json.dumps(MEHRERE), encoding="utf-8")
+        self.pausen = []
+
+    def lauf(self, router, args=(), jetzt=datetime(2026, 11, 9, 18, 40, tzinfo=BERLIN)):
+        with contextlib.redirect_stdout(io.StringIO()) as out, contextlib.redirect_stderr(out):
+            code = lauf.main(list(args), jetzt=jetzt, oeffnen=router, schlafen=self.pausen.append, wurzel=self.w)
+        self.out = out.getvalue()
+        return code
+
+    def gesamt(self):
+        return json.loads(self.pfad("ausgabe", "daten.json").read_text(encoding="utf-8"))
+
+    def snapshots(self, r):
+        return [u for u in r.urls if "/derivatives/" in u]
+
+    def test_beide_werden_abgerufen_in_config_reihenfolge(self):
+        r = Router()
+        self.assertEqual(self.lauf(r), 0, self.out)
+        self.assertEqual(len(self.snapshots(r)), 2)
+        for isin in ("DE000JE3NTM6", ZWEITE):
+            self.assertTrue(self.pfad("daten", isin, "kurse.csv").exists())
+        self.assertEqual([z["produkt"]["isin"] for z in self.gesamt()["zertifikate"]], ["DE000JE3NTM6", ZWEITE])
+        self.assertEqual(self.pausen.count(lauf.ZERT_PAUSE_S), 1)
+
+    def test_fehler_bei_einem_haelt_das_andere_nicht_auf(self):
+        code = self.lauf(Router(fehler={ZWEITE: 429}))
+        self.assertEqual(code, 1)
+        self.assertTrue(self.pfad("daten", "DE000JE3NTM6", "kurse.csv").exists())
+        status = json.loads(self.pfad("ausgabe", "status.json").read_text(encoding="utf-8"))
+        self.assertFalse(status["ok"])
+        self.assertTrue(status["je_zertifikat"]["DE000JE3NTM6"]["ok"])
+        self.assertIn("429", status["je_zertifikat"][ZWEITE]["meldung"])
+        z2 = self.gesamt()["zertifikate"][1]
+        self.assertFalse(z2["status"]["ok"])
+        self.assertEqual(z2["tage"], [])
+
+    def test_geaenderte_config_baut_ausgabe_neu_ohne_abruf(self):
+        self.assertEqual(self.lauf(Router()), 0)
+        c = dict(MEHRERE, repo="a/b")
+        (self.w / "config.json").write_text(json.dumps(c), encoding="utf-8")
+        r = Router()
+        self.assertEqual(self.lauf(r), 0, self.out)
+        self.assertEqual(r.urls, [])
+        self.assertEqual(self.gesamt()["repo"], "a/b")
+        self.assertEqual(self.lauf(Router()), 0)
+        self.assertIn("schon abgerufen", self.out)
+
+    def test_nur_eine_isin(self):
+        r = Router()
+        self.assertEqual(self.lauf(r, ["--isin", ZWEITE]), 0, self.out)
+        self.assertEqual(len(self.snapshots(r)), 1)
+        self.assertIn(ZWEITE, self.snapshots(r)[0])
+        self.assertFalse(self.pfad("daten", "DE000JE3NTM6", "kurse.csv").exists())
+        self.assertEqual(self.lauf(Router(), ["--isin", "DE0000000000"]), 2)
+
+    def test_zweiter_lauf_ruft_nichts_ab(self):
+        self.lauf(Router())
+        r2 = Router()
+        self.assertEqual(self.lauf(r2, jetzt=datetime(2026, 11, 9, 21, 40, tzinfo=BERLIN)), 0)
+        self.assertEqual(r2.urls, [])
+
+    def test_neu_eingetragenes_wird_nachgeholt_und_ausgabe_neu_gebaut(self):
+        (self.w / "config.json").write_text(json.dumps({"zertifikate": [CONFIG]}), encoding="utf-8")
+        self.lauf(Router())
+        self.assertEqual(len(self.gesamt()["zertifikate"]), 1)
+        (self.w / "config.json").write_text(json.dumps(MEHRERE), encoding="utf-8")
+        r2 = Router()
+        self.lauf(r2, jetzt=datetime(2026, 11, 9, 21, 40, tzinfo=BERLIN))
+        self.assertEqual(len(self.snapshots(r2)), 1)
+        self.assertEqual(len(self.gesamt()["zertifikate"]), 2)
+
+    def test_entferntes_verschwindet_aus_ausgabe_daten_bleiben(self):
+        self.lauf(Router())
+        (self.w / "config.json").write_text(json.dumps({"zertifikate": [CONFIG]}), encoding="utf-8")
+        self.assertEqual(self.lauf(Router(), jetzt=datetime(2026, 11, 9, 21, 40, tzinfo=BERLIN)), 0)
+        self.assertEqual([z["produkt"]["isin"] for z in self.gesamt()["zertifikate"]], ["DE000JE3NTM6"])
+        self.assertTrue(self.pfad("daten", ZWEITE, "kurse.csv").exists())
 
 
 if __name__ == "__main__":

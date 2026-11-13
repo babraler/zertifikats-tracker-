@@ -1,5 +1,11 @@
 {
   "ok": true,
   "meldung": "",
-  "letzter_lauf": "2026-11-12T19:14:30+01:00"
+  "letzter_lauf": "2026-11-12T19:14:30+01:00",
+  "je_zertifikat": {
+    "DE000JE3NTM6": {
+      "ok": true,
+      "meldung": ""
+    }
+  }
 }

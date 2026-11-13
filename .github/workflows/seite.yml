@@ -1,11 +1,11 @@
 name: App veröffentlichen
 
 # Stellt ausgabe/ als GitHub-Pages-Seite bereit (Handy-App).
-# Läuft nach jedem Kursabruf (auch einem fehlgeschlagenen: dann zeigt die Seite die Störung),
+# Läuft nach jedem Kursabruf und jeder Zertifikats-Änderung (auch fehlgeschlagen: dann zeigt die Seite die Störung),
 # nach Pushes, die ausgabe/ ändern, und von Hand.
 on:
   workflow_run:
-    workflows: ["Kurse abrufen"]
+    workflows: ["Kurse abrufen", "Zertifikat verwalten"]
     types: [completed]
   push:
     branches: [main]
@@ -23,6 +23,8 @@ concurrency:
 
 jobs:
   veroeffentlichen:
+    # Fremde Issues lassen "Zertifikat verwalten" übersprungen enden: dann nichts neu veröffentlichen.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion != 'skipped'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     environment:

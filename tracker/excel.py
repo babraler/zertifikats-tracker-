@@ -1,4 +1,8 @@
-"""Schreibt ausgabe/kurse.xlsx (Tageskurse, Wochenschnitte, Erklärungen, Info) mit nativen Diagrammen."""
+"""Schreibt kurse.xlsx mit nativen Diagrammen.
+
+schreibe(d): ein Zertifikat (Tageskurse, Wochenschnitte, Erklärungen, Info).
+schreibe_gesamt(g): Übersicht (eine Spalte je Zertifikat) plus je Zertifikat Tage, Wochen, Erklärungen.
+"""
 import re
 from datetime import date, datetime
 from pathlib import Path
@@ -69,9 +73,7 @@ def _diagramm(ws, titel, spalte, n, kat_spalte, anker):
     ws.add_chart(ch, anker)
 
 
-def _tageskurse(wb, d):
-    ws = wb.active
-    ws.title = "Tageskurse"
+def _tageskurse(ws, d):
     _kopf(ws, ["Datum", "Zertifikat Geld", "Zertifikat Brief", "Basiswert", "DAX", "Zertifikat %", "Basiswert %", "DAX %", "Phase", "Kurssprung"],
           [12, 15, 15, 12, 12, 13, 13, 11, 10, 24])
     for i, t in enumerate(d["tage"], start=2):
@@ -100,8 +102,7 @@ def sprung_text(spruenge):
 WOCHEN_KURSE = (("z", "Zertifikat"), ("basis", "Basiswert"), ("dax", "DAX"))
 
 
-def _wochen(wb, d):
-    ws = wb.create_sheet("Wochenschnitte")
+def _wochen(ws, d):
     kopf = ["Woche", "Von", "Bis", "Tage"]
     for _, name in WOCHEN_KURSE:
         kopf += [f"{name} Schluss", f"{name} Woche", f"{name} Schnitt"]
@@ -122,8 +123,7 @@ def _wochen(wb, d):
     _diagramm(ws, "Wochenschluss Zertifikat", 5, len(d["wochen"]), 1, "Q2")
 
 
-def _erklaerungen(wb, d):
-    ws = wb.create_sheet("Erklärungen")
+def _erklaerungen(ws, d):
     _kopf(ws, ["Datum", "Erklärung", "Einordnung", "Wichtigste Schlagzeile"], [12, 90, 26, 60])
     for i, t in enumerate(d["tage"], start=2):
         _zelle(ws, i, 1, _datum(t["datum"]), FMT_DATUM)
@@ -134,8 +134,7 @@ def _erklaerungen(wb, d):
     _filter_bis(ws, len(d["tage"]))
 
 
-def _info(wb, d):
-    ws = wb.create_sheet("Info")
+def _info(ws, d):
     p = d["produkt"]
     zeilen = [("ISIN", p["isin"]), ("WKN", p["wkn"]), ("Name", p["name"]), ("Emittent", p["emittent"]),
               ("Cap", p["cap"]), ("Bezugsverhältnis", p["bezug"]), ("Fällig am", p["faellig"]),
@@ -149,12 +148,72 @@ def _info(wb, d):
         _zelle(ws, i, 2, "" if v is None else v)
 
 
-def schreibe(d, pfad):
-    wb = Workbook()
-    _tageskurse(wb, d)
-    _wochen(wb, d)
-    _erklaerungen(wb, d)
-    _info(wb, d)
+def _speichern(wb, pfad):
     pfad = Path(pfad)
     pfad.parent.mkdir(parents=True, exist_ok=True)
     wb.save(pfad)
+
+
+def schreibe(d, pfad):
+    wb = Workbook()
+    wb.active.title = "Tageskurse"
+    _tageskurse(wb.active, d)
+    _wochen(wb.create_sheet("Wochenschnitte"), d)
+    _erklaerungen(wb.create_sheet("Erklärungen"), d)
+    _info(wb.create_sheet("Info"), d)
+    _speichern(wb, pfad)
+
+
+def _kuerzel(p):
+    """Blattname-Präfix: WKN, sonst ISIN (Excel erlaubt 31 Zeichen)."""
+    return _text(p.get("wkn") or p["isin"])[:12]
+
+
+UEBERSICHT = (  # (Zeile, Wert aus d, Format)
+    ("Name", lambda d: d["produkt"].get("name"), None),
+    ("ISIN", lambda d: d["produkt"].get("isin"), None),
+    ("WKN", lambda d: d["produkt"].get("wkn"), None),
+    ("Emittent", lambda d: d["produkt"].get("emittent"), None),
+    ("Basiswert", lambda d: d["produkt"].get("basis_name"), None),
+    ("Cap", lambda d: d["produkt"].get("cap"), FMT_KURS),
+    ("Fällig am", lambda d: d["produkt"].get("faellig"), None),
+    ("Laufstart", lambda d: d["produkt"].get("lauf_start"), None),
+    ("Laufende", lambda d: d["produkt"].get("lauf_ende"), None),
+    ("Geldkurs", lambda d: (d.get("aktuell") or {}).get("z_geld"), FMT_KURS),
+    ("Briefkurs", lambda d: (d.get("aktuell") or {}).get("z_brief"), FMT_KURS),
+    ("Seit Start", lambda d: _pct(((d.get("aktuell") or {}).get("seit_start") or {}).get("z_pct")), FMT_PCT),
+    ("Max. Ertrag", lambda d: _pct((d.get("aktuell") or {}).get("max_ertrag_pct")), FMT_PCT),
+    ("Discount", lambda d: _pct((d.get("aktuell") or {}).get("discount_pct")), FMT_PCT),
+    ("Abstand zum Cap", lambda d: _pct((d.get("aktuell") or {}).get("cap_abstand_pct")), FMT_PCT),
+    ("Handelstage im Lauf", lambda d: sum(1 for t in d["tage"] if t["phase"] == "lauf" and t["z_geld"] is not None), None),
+    ("Status", lambda d: "ok" if d["status"]["ok"] else (d["status"]["meldung"] or "gestört"), None),
+)
+
+
+def _uebersicht(ws, g):
+    liste = g["zertifikate"]
+    _kopf(ws, ["Kennzahl"] + [_kuerzel(d["produkt"]) for d in liste], [18] + [22] * len(liste))
+    ws.freeze_panes, ws.auto_filter.ref = "B2", None
+    for i, (titel, wert, fmt) in enumerate(UEBERSICHT, start=2):
+        _zelle(ws, i, 1, titel).font = Font(name=SCHRIFT, size=10, bold=True)
+        for j, d in enumerate(liste, start=2):
+            v = wert(d)
+            _zelle(ws, i, j, "" if v is None else v, fmt)
+    fuss = len(UEBERSICHT) + 3
+    for k, v in (("Quelle", QUELLE), ("Abrufzeit", g["stand"] or ""),
+                 ("Hinweis", "Schlagzeilen zeigen einen zeitlichen Zusammenhang, keinen Beweis.")):
+        _zelle(ws, fuss, 1, k).font = Font(name=SCHRIFT, size=10, bold=True)
+        _zelle(ws, fuss, 2, v)
+        fuss += 1
+
+
+def schreibe_gesamt(g, pfad):
+    wb = Workbook()
+    wb.active.title = "Übersicht"
+    _uebersicht(wb.active, g)
+    for d in g["zertifikate"]:
+        k = _kuerzel(d["produkt"])
+        _tageskurse(wb.create_sheet(f"{k} Tage"), d)
+        _wochen(wb.create_sheet(f"{k} Wochen"), d)
+        _erklaerungen(wb.create_sheet(f"{k} Erklärungen"), d)
+    _speichern(wb, pfad)

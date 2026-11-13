@@ -52,7 +52,9 @@ jobs:
 
       # Absichtlich nach dem Commit: Ein roter Test darf keinen Tag an Kursen kosten.
       - name: Tests
-        run: python -m unittest discover -s tracker -t .
+        run: |
+          python -m unittest discover -s tracker -t .
+          node --test tracker/app/logik.test.mjs
 
       - name: Job rot machen, wenn der Abruf fehlgeschlagen ist
         if: steps.lauf.outcome == 'failure'

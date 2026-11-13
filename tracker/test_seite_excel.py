@@ -62,6 +62,30 @@ class TestSeite(unittest.TestCase):
         for teil in ('rel="manifest" href="manifest.webmanifest"', 'rel="apple-touch-icon"', "serviceWorker.register('sw.js')"):
             self.assertIn(teil, html)
 
+    def test_echte_vorlage_bettet_skripte_ein(self):
+        echte = Path(seite.__file__).parent / "vorlage.html"
+        ok, meldung = seite.rendere(daten.baue_gesamt([beispiel()]), echte, self.ziel)
+        self.assertTrue(ok, meldung)
+        html = self.ziel.read_text(encoding="utf-8")
+        self.assertNotIn(seite.SKRIPT_PLATZHALTER, html)
+        for teil in ("const LOGIK", "function zeigeZertifikat", "function starteApp"):
+            self.assertIn(teil, html)
+        self.assertEqual(html.count("</script>"), 2)  # Daten+App und Service-Worker
+        self.assertFalse((self.ziel.parent / "logik.js").exists())
+
+    def test_skript_mit_script_ende_wird_abgelehnt(self):
+        self.vorlage.write_text("<script>const DATEN = /*__DATEN__*/null;/*__SKRIPTE__*/</script>", encoding="utf-8")
+        alt = seite.SKRIPTE
+        try:
+            boese = self.dir / "boese.js"
+            boese.write_text("x='</script>'", encoding="utf-8")
+            seite.SKRIPTE = (boese,)
+            ok, meldung = seite.rendere(beispiel(), self.vorlage, self.ziel)
+        finally:
+            seite.SKRIPTE = alt
+        self.assertFalse(ok)
+        self.assertIn("script", meldung)
+
     def test_fehlende_vorlage_meldet_klar_und_wirft_nicht(self):
         ok, meldung = seite.rendere(beispiel(), self.dir / "gibt-es-nicht.html", self.ziel)
         self.assertFalse(ok)
@@ -147,6 +171,48 @@ class TestExcel(unittest.TestCase):
         p = Path(self.tmp.name) / "leer.xlsx"
         excel.schreibe(leer, p)
         self.assertEqual(openpyxl.load_workbook(p).sheetnames[0], "Tageskurse")
+
+
+class TestExcelGesamt(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.pfad = Path(self.tmp.name) / "kurse.xlsx"
+        eins = beispiel()
+        zwei = beispiel()
+        zwei["produkt"] = {**zwei["produkt"], "isin": "DE000VU1ABC2", "wkn": "VU1ABC", "name": "Discount B"}
+        self.g = daten.baue_gesamt([eins, zwei])
+        excel.schreibe_gesamt(self.g, self.pfad)
+        self.wb = openpyxl.load_workbook(self.pfad)
+
+    def tearDown(self):
+        self.wb.close()
+        self.tmp.cleanup()
+
+    def test_blaetter_je_zertifikat(self):
+        wkn1 = self.g["zertifikate"][0]["produkt"]["wkn"]
+        self.assertEqual(self.wb.sheetnames[0], "Übersicht")
+        for w in (wkn1, "VU1ABC"):
+            for teil in ("Tage", "Wochen", "Erklärungen"):
+                self.assertIn(f"{w} {teil}", self.wb.sheetnames)
+        self.assertTrue(all(len(n) <= 31 for n in self.wb.sheetnames))
+
+    def test_uebersicht_eine_spalte_je_zertifikat(self):
+        ws = self.wb["Übersicht"]
+        zeilen = {r[0]: r[1:] for r in ws.iter_rows(values_only=True) if r[0]}
+        self.assertEqual(zeilen["ISIN"][:2], ("DE000JE3NTM6", "DE000VU1ABC2"))
+        self.assertEqual(zeilen["Name"][1], "Discount B")
+        self.assertIn("Geldkurs", zeilen)
+        self.assertIn("Seit Start", zeilen)
+        self.assertEqual(ws.freeze_panes, "B2")
+
+    def test_ohne_wkn_und_ohne_daten(self):
+        leer = daten.baue_daten({**CONFIG, "isin": "DE000VU1ABC2"}, {}, {}, {}, JETZT, False, "x")
+        g = daten.baue_gesamt([beispiel(), leer])
+        p = Path(self.tmp.name) / "l.xlsx"
+        excel.schreibe_gesamt(g, p)
+        wb = openpyxl.load_workbook(p)
+        self.assertIn("DE000VU1ABC2 Tage", wb.sheetnames)
+        wb.close()
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 # Discount-Tracker
 
-Täglicher Kursspeicher für ein Discount-Zertifikat, seinen Basiswert und den DAX. Erklärt Kursänderungen regelbasiert, ohne LLM und ohne bezahlte API (0 Tokens im Betrieb). Vorgabe: `SPEC.md`.
+Täglicher Kursspeicher für bis zu 10 Discount-Zertifikate, ihre Basiswerte und den DAX. Erklärt Kursänderungen regelbasiert, ohne LLM und ohne bezahlte API (0 Tokens im Betrieb). Vorgabe: `SPEC.md`.
 
 ## Einrichten (einmalig, Windows)
 
@@ -11,18 +11,28 @@ py -3 -m venv .venv
 
 ## Benutzen
 
-- `.venv\Scripts\python lauf.py` ruft heute ab (höchstens ein erfolgreicher Abruf pro Tag), wertet aus und baut `ausgabe/`.
+- `.venv\Scripts\python lauf.py` ruft heute alle Zertifikate ab (je Zertifikat höchstens ein erfolgreicher Abruf pro Tag), wertet aus und baut `ausgabe/`. `--isin <ISIN>` ruft nur eines ab.
 - `.venv\Scripts\python lauf.py --neu-bauen` baut ohne Netz nur Auswertung und Ausgabe neu.
 - `oeffnen.bat` baut neu und öffnet `ausgabe/index.html`.
-- Tests: `.venv\Scripts\python -m unittest discover -s tracker -t .`
+- Tests: `.venv\Scripts\python -m unittest discover -s tracker -t .` und `node --test tracker/app/logik.test.mjs`
 
-## Zertifikat wechseln
+## Zertifikate verwalten
 
-Nur `config.json` ändern (`isin`, `start`, `wochen`, optional `basis_suchbegriff` und `sprung_pct`: Schwellen in % für den Vermerk „Kurssprung“, Standard Zertifikat 2, Basiswert 5, DAX 3). Daten liegen je ISIN getrennt unter `daten/<ISIN>/`.
+**In der App:** Menü „Suchen“ → WKN oder ISIN eingeben → „bei onvista nachsehen“ → „Über GitHub hinzufügen“. Das öffnet ein vorbereitetes Issue (`Zertifikat hinzufügen: <ISIN>`); absenden genügt, dafür bei GitHub angemeldet sein. Der Workflow `zertifikat-verwalten.yml` prüft das Zertifikat bei onvista (nur Discount-Zertifikate), trägt es mit Start heute und 10 Wochen ein, holt die ersten Kurse, baut die App neu und antwortet im Issue. Entfernen geht genauso über „Entfernen“ (`Zertifikat entfernen: <ISIN>`); die Kurse bleiben unter `daten/<ISIN>/`. Nur Issues des Repo-Besitzers zählen. Kommt nach 5 Minuten kein Kommentar, das Issue schließen und wieder öffnen.
+
+**Von Hand:** `config.json`:
+
+```json
+{"repo": "babraler/zertifikats-tracker-",
+ "sprung_pct": {"z": 2, "basis": 5, "dax": 3},
+ "zertifikate": [{"isin": "DE000JE3NTM6", "start": "2026-11-10", "wochen": 10, "demo": false, "basis_suchbegriff": null}]}
+```
+
+`sprung_pct` sind die Schwellen in % für den Vermerk „Kurssprung“ (global, je Zertifikat überschreibbar). Das alte Format mit nur einem Zertifikat wird weiter gelesen. Höchstens 10 Zertifikate, damit die Abrufe bei onvista klein bleiben (3 s Pause zwischen zwei Zertifikaten).
 
 ## Ergebnis
 
-`ausgabe/index.html` (Dashboard), `kurse.xlsx`, `daten.json`, `status.json`. Das Dashboard liest nur `daten.json` (Vertrag in `SPEC.md`).
+`ausgabe/index.html` (App mit Menü: Übersicht mit einer Spalte je Zertifikat, Detailseite je Zertifikat, Suche), `kurse.xlsx` (Blatt „Übersicht“ plus je Zertifikat Tage, Wochen, Erklärungen), `daten.json` (alle Zertifikate), `status.json` (Gesamtstatus plus `je_zertifikat`). Die App-Skripte liegen in `tracker/app/*.js` und werden in `index.html` eingebettet.
 
 ## App am Handy
 

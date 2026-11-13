@@ -1,0 +1,81 @@
+name: Zertifikat verwalten
+
+# Ein Issue mit dem Titel "Zertifikat hinzufügen: <WKN|ISIN>" oder "Zertifikat entfernen: <WKN|ISIN>"
+# ändert config.json, holt beim Hinzufügen die ersten Kurse und baut die App neu.
+# Nur Issues des Repo-Besitzers zählen; alle anderen ignoriert der Job (Repo ist öffentlich).
+on:
+  issues:
+    # reopened: Falls ein Lauf in der Warteschlange verdrängt wurde (kein Kommentar), Issue schließen und wieder öffnen.
+    types: [opened, reopened]
+
+permissions:
+  contents: write
+  issues: write
+
+# Gleiche Gruppe wie der tägliche Abruf: nie zwei Läufe gleichzeitig auf config.json und daten/
+concurrency:
+  group: kurse
+  cancel-in-progress: false
+
+jobs:
+  verwalten:
+    if: >-
+      github.event.issue.user.login == github.repository_owner &&
+      github.event.issue.author_association == 'OWNER' &&
+      startsWith(github.event.issue.title, 'Zertifikat ')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Abhängigkeiten installieren
+        run: pip install -r requirements.txt
+
+      # Der Titel geht nur als Umgebungsvariable hinein, nie in die Shell-Zeile.
+      - name: Zertifikat verwalten
+        id: lauf
+        continue-on-error: true
+        timeout-minutes: 6
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ANTWORT_DATEI: ${{ runner.temp }}/antwort.md
+        run: python verwalten.py
+
+      - name: Änderung committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config.json daten ausgabe
+          if git diff --cached --quiet; then
+            echo "Keine Änderung."
+          else
+            git commit -m "daten: Zertifikate geändert (Issue ${{ github.event.issue.number }})"
+            git pull --rebase -X theirs
+            git push
+          fi
+
+      - name: Antwort ins Issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NR: ${{ github.event.issue.number }}
+          ANTWORT_DATEI: ${{ runner.temp }}/antwort.md
+          ERGEBNIS: ${{ steps.lauf.outcome }}
+        run: |
+          [ -s "$ANTWORT_DATEI" ] || echo "Der Lauf ist abgebrochen, siehe Actions-Protokoll." > "$ANTWORT_DATEI"
+          gh issue comment "$NR" --body-file "$ANTWORT_DATEI"
+          if [ "$ERGEBNIS" = "success" ]; then gh issue close "$NR"; fi
+
+      - name: Tests
+        run: |
+          python -m unittest discover -s tracker -t .
+          node --test tracker/app/logik.test.mjs
+
+      - name: Job rot machen, wenn nichts geändert wurde
+        if: steps.lauf.outcome == 'failure'
+        run: exit 1

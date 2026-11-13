@@ -1,6 +1,6 @@
 """Baut daten.json (Vertrag zwischen Logik und Dashboard) aus Kursen, Analyse und Nachrichten."""
 import math
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 
 from tracker import analyse, nachrichten, speicher
 
@@ -64,7 +64,7 @@ def _fortschritt(config, jetzt):
 
 def _produkt(config, meta):
     p = meta.get("produkt", {})
-    return {"isin": p.get("isin") or config["isin"], "wkn": p.get("wkn"), "name": p.get("name"),
+    return {"isin": config["isin"], "wkn": p.get("wkn"), "name": p.get("name"),
             "emittent": p.get("emittent"), "cap": p.get("cap"), "bezug": p.get("bezug", 1.0),
             "faellig": p.get("faellig"), "basis_name": p.get("basis_name"), "basis_isin": p.get("basis_isin"),
             "demo": bool(config.get("demo")), "lauf_start": config["start"], "lauf_ende": lauf_ende(config).isoformat(),
@@ -125,3 +125,12 @@ def baue_daten(config, meta, rows, news_roh, jetzt, ok, meldung, stand_zeit=None
         "fortschritt": _fortschritt(config, jetzt), "tage": tage_mit_analyse(config, meta, rows, news_roh),
         "wochen": wochen, "status": {"ok": ok, "meldung": meldung, "letzter_lauf": stand},
     }
+
+
+def baue_gesamt(liste):
+    """Alle Zertifikate (Reihenfolge wie config) → Gesamtobjekt mit zusammengefasstem Status."""
+    je = {d["produkt"]["isin"]: {"ok": d["status"]["ok"], "meldung": d["status"]["meldung"]} for d in liste}
+    fehler = [f"{isin}: {s['meldung'] or 'Abruf gestört'}" for isin, s in je.items() if not s["ok"]]
+    stand = max((d["stand"] for d in liste), key=datetime.fromisoformat, default=None)
+    return {"stand": stand, "zertifikate": liste,
+            "status": {"ok": not fehler, "meldung": " | ".join(fehler), "letzter_lauf": stand, "je_zertifikat": je}}

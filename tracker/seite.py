@@ -6,7 +6,10 @@ from pathlib import Path
 from tracker.speicher import _atomar_schreiben
 
 PLATZHALTER = "/*__DATEN__*/null"
+SKRIPT_PLATZHALTER = "/*__SKRIPTE__*/"
 APP_ORDNER = Path(__file__).parent / "app"
+# In dieser Reihenfolge in die Seite eingebettet (eine Datei, offline vollständig)
+SKRIPTE = tuple(APP_ORDNER / n for n in ("logik.js", "ansicht.js", "app.js"))
 # Dateien, die die Seite zur installierbaren App machen (Handy-Startbildschirm, offline lesbar)
 APP_DATEIEN = ("manifest.webmanifest", "sw.js", "icon-192.png", "icon-512.png", "apple-touch-icon.png")
 # Diese Zeichen könnten ein <script> beenden oder JS-Zeilen brechen; als \uXXXX-Escape bleibt das JSON gültig.
@@ -28,6 +31,17 @@ def rendere(daten, vorlage, ziel):
     html = vorlage.read_text(encoding="utf-8")
     if PLATZHALTER not in html:
         return False, f"In {vorlage.name} fehlt der Platzhalter {PLATZHALTER}, index.html wurde nicht erzeugt."
+    if SKRIPT_PLATZHALTER in html:
+        try:
+            skripte = "\n".join(Path(p).read_text(encoding="utf-8") for p in SKRIPTE)
+        except OSError:
+            return False, "Ein App-Skript unter tracker/app fehlt, index.html wurde nicht erzeugt."
+        if PLATZHALTER in skripte:
+            return False, "Ein App-Skript enthält den Daten-Platzhalter, index.html wurde nicht erzeugt."
+        if "</script" in skripte.lower():
+            return False, "Ein App-Skript enthält </script>, index.html wurde nicht erzeugt."
+        html = html.replace(SKRIPT_PLATZHALTER, skripte, 1)
+    # Daten zuletzt einsetzen: So kann kein Text aus den Daten als Platzhalter gelesen werden.
     _atomar_schreiben(ziel, html.replace(PLATZHALTER, daten_als_js(daten), 1).encode("utf-8"))
     kopiere_app(Path(ziel).parent)
     return True, ""
