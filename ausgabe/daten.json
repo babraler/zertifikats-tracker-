@@ -1,8 +1,8 @@
 {
-  "stand": "2026-11-13T18:36:41+01:00",
+  "stand": "2026-11-17T01:30:44+01:00",
   "zertifikate": [
     {
-      "stand": "2026-11-13T18:36:41+01:00",
+      "stand": "2026-11-17T01:30:44+01:00",
       "produkt": {
         "isin": "DE000JE3NTM6",
         "wkn": "JE3NTM",
@@ -23,25 +23,25 @@
         }
       },
       "aktuell": {
-        "z_geld": 140.27,
-        "z_brief": 140.77,
-        "max_ertrag_eur": 2.21,
-        "max_ertrag_pct": 1.57530828997,
-        "delta": 0.0684610529872,
-        "discount_pct": 34.1578824081,
-        "cap_abstand_pct": 49.78947368421052,
+        "z_geld": 140.31,
+        "z_brief": null,
+        "max_ertrag_eur": 2.19,
+        "max_ertrag_pct": 1.56082959162,
+        "delta": null,
+        "discount_pct": 34.1330834114,
+        "cap_abstand_pct": 49.75438596491229,
         "seit_start": {
           "bezug_datum": "2026-11-09",
-          "z_eur": 0.13,
-          "z_pct": 0.092764,
-          "basis_pct": 0.850461,
-          "dax_pct": 1.837882
+          "z_eur": 0.17,
+          "z_pct": 0.121307,
+          "basis_pct": 0.826837,
+          "dax_pct": 1.26184
         }
       },
       "fortschritt": {
-        "tag": 4,
+        "tag": 8,
         "tage_gesamt": 70,
-        "woche": 1
+        "woche": 2
       },
       "tage": [
         {
@@ -1288,6 +1288,67 @@
           "theta_tag": 0.0309956272977,
           "iv": 48.2750068665,
           "spruenge": []
+        },
+        {
+          "datum": "2026-11-16",
+          "phase": "lauf",
+          "z_geld": 140.31,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 213.4,
+          "dax": 26598.64,
+          "z_pct": 0.028516,
+          "basis_pct": -0.023425,
+          "dax_pct": -0.565646,
+          "dz": 0.04,
+          "delta": 0.068461,
+          "beta": 0.617856,
+          "effekt_markt": -0.051071,
+          "effekt_aktie": 0.047648,
+          "effekt_zeit": 0.092987,
+          "effekt_rest": -0.049564,
+          "haupttreiber": "Zeitwert",
+          "auffaellig": false,
+          "z_score": 0.181609,
+          "text": "Das Zertifikat stieg von 140,27 € auf 140,31 € (+0,04 € oder +0,03 %). Die SAP-Aktie fiel um 0,02 %, der DAX fiel um 0,57 %; davon entfallen rechnerisch etwa −0,35 Prozentpunkte auf die allgemeine Marktbewegung. Das Zertifikat liegt nahe seinem Höchstwert (Cap), deshalb kommen Aktienbewegungen kaum an (Delta 0,07); der Zeitwert trug +0,09 € bei. Haupttreiber des Tages: Zeitwert (+0,09 €).",
+          "verdikt": "Marktbewegung",
+          "nachrichten": [
+            {
+              "titel": "SAP Aktie: UBS hebt Kursziel auf 215 Euro",
+              "quelle": "ad-hoc-news.de",
+              "zeit": "2026-11-16T15:34:15+01:00",
+              "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQkJTZVVZVmdncHlqbEI5ZHRxYWpVZVBRdjZ1OC02aFZrcjZ5VEtMWFo0V3dCdDVZYnNXSDBsMlNNNzRNTkktd3BmWENfYnJuVE5ZekdNb2xwOTh6VFVoVnJISWV4dnVZdUF2aG01NkM1YVdnb3FYRjg1aXNZYjhHWExQZWxiYVBMT2x0TFhZQ20wQnJmYjdZbHhzRVdwMkVESTBXeGpHSFptVEFQWDRGOVZR?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "positiv",
+              "passt": true
+            },
+            {
+              "titel": "Deutsche Börse-News: Wochenausblick: Starke Zahlen beflügeln den DAX Von dpa-AFX",
+              "quelle": "Investing.com Deutsch",
+              "zeit": "2026-11-16T10:59:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdUR3cEZBaEVkcHdsSU5xNFhKbVh6U2F1TXF2NW0zQ2VudkRONWdsX2JGTGZkSmVyZkZGQUdCRnpwU0NQQWpLcHdWSlhabXJOaEVacWN5VXp2alJDTEVudDlLNGxVdUJqMS1qUzN6T01Ba1JLWE1MUGhScjZQRE9tbGYyaElmUm8wb0stbkt2WHd6VTdJSlRhUnk1MzRQUWFuRWFLM2lEcHpBVFUydTZLWk1tU1JfclU?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "positiv",
+              "passt": true
+            },
+            {
+              "titel": "Börse 6:45: DAX-Ausblick, Nvidia-Bilanz morgen, DAX-Rekordjagd",
+              "quelle": "tagesschau.de",
+              "zeit": "2026-11-16T06:17:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jZ0tWN2N2MUlCVXpXeWlIckFzVHJ5N3FMejhpZm9FZjVjaFREb1cwVEllZXVTdHVFbzJhYVN1dlBpbU80eG9jR3M5YjBiTkVKcGNjZHRqc3JuUk1RRWZTclF6a0NIbnRsTVVvaG5n?oc=5",
+              "kategorie": "Quartalszahlen",
+              "richtung": "positiv",
+              "passt": true
+            }
+          ],
+          "effekt_basis": -0.003423,
+          "aktie_spez_pct": 0.326063,
+          "cap_abstand_pct": 49.754386,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": false,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": []
         }
       ],
       "wochen": [
@@ -1307,23 +1368,40 @@
           "basis_woche_pct": 0.850461,
           "dax_schluss": 26749.95,
           "dax_woche_pct": 1.837882
+        },
+        {
+          "woche": "2026-W47",
+          "von": "2026-11-16",
+          "bis": "2026-11-16",
+          "tage": 1,
+          "unvollstaendig": true,
+          "z_schnitt": 140.31,
+          "basis_schnitt": 213.4,
+          "dax_schnitt": 26598.64,
+          "z_vorwoche_pct": 0.101664,
+          "z_schluss": 140.31,
+          "z_woche_pct": 0.028516,
+          "basis_schluss": 213.4,
+          "basis_woche_pct": -0.023425,
+          "dax_schluss": 26598.64,
+          "dax_woche_pct": -0.565646
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "",
-        "letzter_lauf": "2026-11-13T18:36:41+01:00"
+        "meldung": "Heute (2026-11-17) kein Handelstag, letzter Handelstag 2026-11-16.",
+        "letzter_lauf": "2026-11-17T01:30:44+01:00"
       }
     }
   ],
   "status": {
     "ok": true,
     "meldung": "",
-    "letzter_lauf": "2026-11-13T18:36:41+01:00",
+    "letzter_lauf": "2026-11-17T01:30:44+01:00",
     "je_zertifikat": {
       "DE000JE3NTM6": {
         "ok": true,
-        "meldung": ""
+        "meldung": "Heute (2026-11-17) kein Handelstag, letzter Handelstag 2026-11-16."
       }
     }
   },
