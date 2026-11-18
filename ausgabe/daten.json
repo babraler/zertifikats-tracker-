@@ -1,8 +1,8 @@
 {
-  "stand": "2026-11-18T00:40:18+01:00",
+  "stand": "2026-11-19T00:10:06+01:00",
   "zertifikate": [
     {
-      "stand": "2026-11-18T00:40:18+01:00",
+      "stand": "2026-11-19T00:10:06+01:00",
       "produkt": {
         "isin": "DE000JE3NTM6",
         "wkn": "JE3NTM",
@@ -23,23 +23,23 @@
         }
       },
       "aktuell": {
-        "z_geld": 139.83,
+        "z_geld": 139.36,
         "z_brief": null,
-        "max_ertrag_eur": 2.67,
-        "max_ertrag_pct": 1.90946148895,
+        "max_ertrag_eur": 3.14,
+        "max_ertrag_pct": 2.25315729047,
         "delta": null,
-        "discount_pct": 30.5310173697,
-        "cap_abstand_pct": 41.40350877192983,
+        "discount_pct": 28.0579620462,
+        "cap_abstand_pct": 36.08421052631578,
         "seit_start": {
           "bezug_datum": "2026-11-09",
-          "z_eur": -0.31,
-          "z_pct": -0.221207,
-          "basis_pct": -4.795653,
-          "dax_pct": -0.844476
+          "z_eur": -0.78,
+          "z_pct": -0.556586,
+          "basis_pct": -8.377038,
+          "dax_pct": -2.021343
         }
       },
       "fortschritt": {
-        "tag": 9,
+        "tag": 10,
         "tage_gesamt": 70,
         "woche": 2
       },
@@ -1416,6 +1416,67 @@
               "schwelle": 5.0
             }
           ]
+        },
+        {
+          "datum": "2026-11-18",
+          "phase": "lauf",
+          "z_geld": 139.36,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 193.92,
+          "dax": 25736.24,
+          "z_pct": -0.336122,
+          "basis_pct": -3.761787,
+          "dax_pct": -1.18689,
+          "dz": -0.47,
+          "delta": 0.068461,
+          "beta": 0.814682,
+          "effekt_markt": -0.133388,
+          "effekt_aktie": -0.385547,
+          "effekt_zeit": 0.030996,
+          "effekt_rest": 0.017939,
+          "haupttreiber": "Aktie selbst",
+          "auffaellig": false,
+          "z_score": -1.491602,
+          "text": "Das Zertifikat fiel von 139,83 € auf 139,36 € (−0,47 € oder −0,34 %). Die SAP-Aktie fiel um 3,76 %, der DAX fiel um 1,19 %; davon entfallen rechnerisch etwa −0,97 Prozentpunkte auf die allgemeine Marktbewegung. Das Zertifikat liegt nahe seinem Höchstwert (Cap), deshalb kommen Aktienbewegungen kaum an (Delta 0,07); der Zeitwert trug +0,03 € bei. Haupttreiber des Tages: Aktie selbst (−0,39 €).",
+          "verdikt": "Marktbewegung",
+          "nachrichten": [
+            {
+              "titel": "SAP-Aktie fällt auf Vierwochentief – doch Analysten sehen 243 Euro",
+              "quelle": "Investing.com Deutsch",
+              "zeit": "2026-11-18T08:32:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORkxfZTZXVHBzU2p5Q1JrdENVTWRCN3d1MWtIU3ZZN0xJOVRNRER0RU5lNVdLN0hwR2ZXcVJ6MldHVE8tTmZIVVRUdTlZRmFqV0hwZW1rcTR6ckN0TkVPX1NESjhQMEFLeVkxMzdJNGZwd3ZfZWRiY1NhMWFEa1VudkVfUXlfTXlMQ3RlZzF2UXNyMU5JM1pLTVBmWDRiUWVFNWxjQjM2RXRNSndFbGNhYWpzUEVLYmhXdTNVeg?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "negativ",
+              "passt": true
+            },
+            {
+              "titel": "SAP Aktie Prognose: Absturz an die 200-Euro-Marke, JPMorgan sieht 275 Euro – wie viel KI-Angst ist schon eingepreist?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-18T07:39:30+01:00",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVm1yT3JYSFkxREhxNVJiUkJkelFkRE5pcnZQQ1BtVk9xdnpVeTNrSURYbGl4cDRQaVRwQ1hWcHF1RWpodjkzdi1Lcjk4clJIYzJLcXlycjFTQTB6NmVPVEZrTHhCM29OYTM2T3BGRXJEM1d5S09KYXk2R0JKeTFad0c0QWo2bk50cGQ2RzJzcFJvSkd5NlZCMC1iaVZWbFU4b3NBSF9HYWNySUU?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "negativ",
+              "passt": true
+            },
+            {
+              "titel": "DAX-Prognose: Stabil, Gold fällt – Nvidia, Fed, Dt. Bank, SAP, Siemens Energy, Anthropic im Fokus",
+              "quelle": "Der Aktionär",
+              "zeit": "2026-11-18T07:02:29+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbWZyZld0SnlxYkI0MUl0TTRNVGxuUk1nZHhDc3B6RUZkS2FRMWxTMnFOV3ZyMlJRd3dzWVZVSHpvN05lNkFfa1VkdzVfbDNXaTFnOUNxRGFQUXREUE90RU5RUDJNX0xJZTN2MlduM1RFaEljczliY1I2Nkx0VU1Vdk5IT2Yzdlhtby1UcDQwdmo5YkJ0QmN5Y3V4RDVSNWEyN19QREVQam1FMUxsb0RYTFk3NkwxMU9Vc0Z6eVRFRTZQUzVKUlRQNW0xOUFPRHRpM2NMRkxmczZ2alc3aDgw?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "negativ",
+              "passt": true
+            }
+          ],
+          "effekt_basis": -0.518935,
+          "aktie_spez_pct": -2.794848,
+          "cap_abstand_pct": 36.084211,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": false,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": []
         }
       ],
       "wochen": [
@@ -1439,36 +1500,36 @@
         {
           "woche": "2026-W47",
           "von": "2026-11-16",
-          "bis": "2026-11-17",
-          "tage": 2,
+          "bis": "2026-11-18",
+          "tage": 3,
           "unvollstaendig": true,
-          "z_schnitt": 140.07,
-          "basis_schnitt": 207.45,
-          "dax_schnitt": 26322.005,
-          "z_vorwoche_pct": -0.06956,
-          "z_schluss": 139.83,
-          "z_woche_pct": -0.313681,
-          "basis_schluss": 201.5,
-          "basis_woche_pct": -5.598501,
-          "dax_schluss": 26045.37,
-          "dax_woche_pct": -2.633949
+          "z_schnitt": 139.833333,
+          "basis_schnitt": 202.94,
+          "dax_schnitt": 26126.75,
+          "z_vorwoche_pct": -0.238405,
+          "z_schluss": 139.36,
+          "z_woche_pct": -0.648749,
+          "basis_schluss": 193.92,
+          "basis_woche_pct": -9.149684,
+          "dax_schluss": 25736.24,
+          "dax_woche_pct": -3.789577
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "Heute (2026-11-18) kein Handelstag, letzter Handelstag 2026-11-17.",
-        "letzter_lauf": "2026-11-18T00:40:18+01:00"
+        "meldung": "Heute (2026-11-19) kein Handelstag, letzter Handelstag 2026-11-18.",
+        "letzter_lauf": "2026-11-19T00:10:06+01:00"
       }
     }
   ],
   "status": {
     "ok": true,
     "meldung": "",
-    "letzter_lauf": "2026-11-18T00:40:18+01:00",
+    "letzter_lauf": "2026-11-19T00:10:06+01:00",
     "je_zertifikat": {
       "DE000JE3NTM6": {
         "ok": true,
-        "meldung": "Heute (2026-11-18) kein Handelstag, letzter Handelstag 2026-11-17."
+        "meldung": "Heute (2026-11-19) kein Handelstag, letzter Handelstag 2026-11-18."
       }
     }
   },
