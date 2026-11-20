@@ -19,6 +19,13 @@
       "wochen": 10,
       "demo": false,
       "basis_suchbegriff": null
+    },
+    {
+      "isin": "DE000UN3TQH3",
+      "start": "2026-11-20",
+      "wochen": 10,
+      "demo": false,
+      "basis_suchbegriff": null
     }
   ]
 }

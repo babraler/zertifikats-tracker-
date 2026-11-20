@@ -1,0 +1,24 @@
+{
+  "produkt": {
+    "isin": "DE000UN3TQH3",
+    "wkn": "UN3TQH",
+    "name": "DISCOUNT-ZERTIFIKAT AUF SAP SE",
+    "emittent": "UniCredit",
+    "cap": 160.0,
+    "bezug": 1.0,
+    "faellig": "2027-02-19",
+    "basis_name": "SAP",
+    "basis_isin": "DE0007164600"
+  },
+  "kennzahlen": {
+    "max_ertrag_eur": 5.4,
+    "max_ertrag_pct": 3.49288486417,
+    "discount_pct": 15.347130968
+  },
+  "abruf": {
+    "datum": "2026-11-20",
+    "handelstag": "2026-11-20",
+    "zeit": "2026-11-20T15:34:37+01:00"
+  },
+  "quelle": "onvista.de"
+}
