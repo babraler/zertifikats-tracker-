@@ -1,0 +1,24 @@
+{
+  "produkt": {
+    "isin": "DE000BE4S0F9",
+    "wkn": "BE4S0F",
+    "name": "PROTECT PRO DISCOUNT ZERTIFIKAT AUF SAP SE",
+    "emittent": "Vontobel",
+    "cap": 219.81,
+    "bezug": 1.0,
+    "faellig": "2027-02-18",
+    "basis_name": "SAP",
+    "basis_isin": "DE0007164600"
+  },
+  "kennzahlen": {
+    "max_ertrag_eur": 34.1,
+    "max_ertrag_pct": 18.3619621991,
+    "discount_pct": -1.78493210688
+  },
+  "abruf": {
+    "datum": "2026-11-20",
+    "handelstag": "2026-11-20",
+    "zeit": "2026-11-20T15:33:36+01:00"
+  },
+  "quelle": "onvista.de"
+}

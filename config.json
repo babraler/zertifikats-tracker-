@@ -1,7 +1,24 @@
 {
   "repo": "babraler/zertifikats-tracker-",
-  "sprung_pct": {"z": 2, "basis": 5, "dax": 3},
+  "sprung_pct": {
+    "z": 2.0,
+    "basis": 5.0,
+    "dax": 3.0
+  },
   "zertifikate": [
-    {"isin": "DE000JE3NTM6", "start": "2026-11-10", "wochen": 10, "demo": true, "basis_suchbegriff": null}
+    {
+      "isin": "DE000JE3NTM6",
+      "start": "2026-11-10",
+      "wochen": 10,
+      "demo": true,
+      "basis_suchbegriff": null
+    },
+    {
+      "isin": "DE000BE4S0F9",
+      "start": "2026-11-20",
+      "wochen": 10,
+      "demo": false,
+      "basis_suchbegriff": null
+    }
   ]
 }
