@@ -1,0 +1,24 @@
+{
+  "produkt": {
+    "isin": "DE000VY26180",
+    "wkn": "VY2618",
+    "name": "DISCOUNT ZERTIFIKAT AUF SAP SE",
+    "emittent": "Vontobel",
+    "cap": 150.0,
+    "bezug": 1.0,
+    "faellig": "2027-03-19",
+    "basis_name": "SAP",
+    "basis_isin": "DE0007164600"
+  },
+  "kennzahlen": {
+    "max_ertrag_eur": 4.74,
+    "max_ertrag_pct": 3.26311441553,
+    "discount_pct": 21.2201735358
+  },
+  "abruf": {
+    "datum": "2026-11-20",
+    "handelstag": "2026-11-20",
+    "zeit": "2026-11-20T16:06:31+01:00"
+  },
+  "quelle": "onvista.de"
+}

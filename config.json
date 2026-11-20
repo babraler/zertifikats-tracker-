@@ -26,6 +26,13 @@
       "wochen": 10,
       "demo": false,
       "basis_suchbegriff": null
+    },
+    {
+      "isin": "DE000VY26180",
+      "start": "2026-11-20",
+      "wochen": 10,
+      "demo": false,
+      "basis_suchbegriff": null
     }
   ]
 }
