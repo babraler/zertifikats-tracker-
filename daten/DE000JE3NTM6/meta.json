@@ -11,14 +11,14 @@
     "basis_isin": "DE0007164600"
   },
   "kennzahlen": {
-    "max_ertrag_eur": 3.7,
-    "max_ertrag_pct": 2.66570605187,
-    "discount_pct": 25.7031333547
+    "max_ertrag_eur": 3.98,
+    "max_ertrag_pct": 2.87323130234,
+    "discount_pct": 24.5045731707
   },
   "abruf": {
-    "datum": "2026-11-20",
-    "handelstag": "2026-11-19",
-    "zeit": "2026-11-20T00:15:34+01:00"
+    "datum": "2026-11-21",
+    "handelstag": "2026-11-20",
+    "zeit": "2026-11-21T02:44:38+01:00"
   },
   "quelle": "onvista.de"
 }

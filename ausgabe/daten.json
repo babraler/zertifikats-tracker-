@@ -1,8 +1,8 @@
 {
-  "stand": "2026-11-20T16:06:31+01:00",
+  "stand": "2026-11-21T02:44:38+01:00",
   "zertifikate": [
     {
-      "stand": "2026-11-20T00:15:34+01:00",
+      "stand": "2026-11-21T02:44:38+01:00",
       "produkt": {
         "isin": "DE000JE3NTM6",
         "wkn": "JE3NTM",
@@ -23,23 +23,23 @@
         }
       },
       "aktuell": {
-        "z_geld": 138.8,
+        "z_geld": 138.52,
         "z_brief": null,
-        "max_ertrag_eur": 3.7,
-        "max_ertrag_pct": 2.66570605187,
+        "max_ertrag_eur": 3.98,
+        "max_ertrag_pct": 2.87323130234,
         "delta": null,
-        "discount_pct": 25.7031333547,
-        "cap_abstand_pct": 31.242105263157903,
+        "discount_pct": 24.5045731707,
+        "cap_abstand_pct": 28.898245614035094,
         "seit_start": {
           "bezug_datum": "2026-11-09",
-          "z_eur": -1.34,
-          "z_pct": -0.956187,
-          "basis_pct": -11.637137,
-          "dax_pct": -3.058492
+          "z_eur": -1.62,
+          "z_pct": -1.155987,
+          "basis_pct": -13.215214,
+          "dax_pct": -5.575054
         }
       },
       "fortschritt": {
-        "tag": 11,
+        "tag": 12,
         "tage_gesamt": 70,
         "woche": 2
       },
@@ -1538,6 +1538,67 @@
           "theta_tag": null,
           "iv": null,
           "spruenge": []
+        },
+        {
+          "datum": "2026-11-20",
+          "phase": "lauf",
+          "z_geld": 138.52,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 183.68,
+          "dax": 24802.78,
+          "z_pct": -0.201729,
+          "basis_pct": -1.785905,
+          "dax_pct": -2.595959,
+          "dz": -0.28,
+          "delta": 0.068461,
+          "beta": 0.904299,
+          "effekt_markt": -0.300567,
+          "effekt_aktie": 0.071907,
+          "effekt_zeit": 0.030996,
+          "effekt_rest": -0.082336,
+          "haupttreiber": "DAX-Bewegung",
+          "auffaellig": false,
+          "z_score": 0.314549,
+          "text": "Das Zertifikat fiel von 138,80 € auf 138,52 € (−0,28 € oder −0,20 %). Die SAP-Aktie fiel um 1,79 %, der DAX fiel um 2,60 %; davon entfallen rechnerisch etwa −2,35 Prozentpunkte auf die allgemeine Marktbewegung. Das Zertifikat liegt nahe seinem Höchstwert (Cap), deshalb kommen Aktienbewegungen kaum an (Delta 0,07); der Zeitwert trug +0,03 € bei. Haupttreiber des Tages: DAX-Bewegung (−0,30 €).",
+          "verdikt": "Marktbewegung",
+          "nachrichten": [
+            {
+              "titel": "DAX-Prognose: Verluste, Asien tiefrot, Gold rutscht ab – Dt. Bank, Infineon, SAP, Anthropic im Fokus",
+              "quelle": "Der Aktionär",
+              "zeit": "2026-11-20T09:41:57+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTzJkd0ltZ0pQTDlxVXcxaEdIRTczQVhnci16V2dQU29DR3JRYWF2dzJrNzhwWVZTOUVOaVNJaVlKOTI5ZHhFQnlzaEtpWXg3ZkNGN0ItWWJSN3ZlWEh6OWR6aGZPSy1OZ2FnS3BDVG1NbUVFWHB3NkdLR2pEYkxPWmV1S3lMWVczZ3YzSkR1MDY5SFFOVXhGRk5iZ3l1V0sxVVFyY0s1VU1GaURlTkhza3lqT24zOURCMWVaSUZyaVhWOG9zcnBNUl94bTg0MjBlRV9hUjNvTWhfM1BGazc5QnhoTQ?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "Aktien Frankfurt Ausblick: Sechster Verlusttag im 'stark angeknacksten' Dax",
+              "quelle": "T-Online",
+              "zeit": "2026-11-20T08:17:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRUxBbUlQOGJTcDd3MHl1UnRUYzFoNzJUOU5lNTRfWGtTODZMM21IUjBEWC0wb2Z4bGYxVnNJc28wT0hzQUliVFlZM0s3MXJWRWt5ZHo1MDRMWmUxampyWnJmUUVQRzhkNnBMelluZk1qWS1od3hHbWdtMXpCVlJ5aTFXMXN2Uzc4UGpEdlJmcmlrOWdiTFZ5akFCdWNVRXpWeXVFMlJwT2FtV2JkNTFOdXNWNndLMHlGSXZ4ek1JOGRyM3BxSXRoOTlpWFFiR1VOdnlv?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "positiv",
+              "passt": true
+            },
+            {
+              "titel": "SAP Aktie Prognose: Analysten sehen im Schnitt 243 Euro Kursziel – reicht das Cloud-Wachstum gegen die KI-Angst bei Software?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-19T20:50:28+01:00",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOXh2eW5hT1pBbDJQb3NRZHIwXzY4d0pHa1U2WFJ6OUhRQm81QnFLTnN6OW9hek9aUFEtd092ckxsMVM2bF90NENRQ2w4TnU1OWtvRFg4S2VEaFMyeFRnTmZRNW5ad1o2QXJ6VzhxbmFqX3J0Q0oydEo1QjFxWVVQVGZEM0o2WnFqTmFSNG5NS2dHU0tnUlE1c3lMWi1jaFhKYlpLZERSRHpvdzdkc3BLZQ?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            }
+          ],
+          "effekt_basis": -0.22866,
+          "aktie_spez_pct": 0.561618,
+          "cap_abstand_pct": 28.898246,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": false,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": []
         }
       ],
       "wochen": [
@@ -1561,29 +1622,29 @@
         {
           "woche": "2026-W47",
           "von": "2026-11-16",
-          "bis": "2026-11-19",
-          "tage": 4,
-          "unvollstaendig": true,
-          "z_schnitt": 139.575,
-          "basis_schnitt": 198.96,
-          "dax_schnitt": 25961.015,
-          "z_vorwoche_pct": -0.422709,
-          "z_schluss": 138.8,
-          "z_woche_pct": -1.047979,
-          "basis_schluss": 187.02,
-          "basis_woche_pct": -12.382291,
-          "dax_schluss": 25463.81,
-          "dax_woche_pct": -4.808009
+          "bis": "2026-11-20",
+          "tage": 5,
+          "unvollstaendig": false,
+          "z_schnitt": 139.364,
+          "basis_schnitt": 195.904,
+          "dax_schnitt": 25729.368,
+          "z_vorwoche_pct": -0.573243,
+          "z_schluss": 138.52,
+          "z_woche_pct": -1.247594,
+          "basis_schluss": 183.68,
+          "basis_woche_pct": -13.94706,
+          "dax_schluss": 24802.78,
+          "dax_woche_pct": -7.279154
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "Heute (2026-11-20) kein Handelstag, letzter Handelstag 2026-11-19.",
-        "letzter_lauf": "2026-11-20T00:15:34+01:00"
+        "meldung": "Heute (2026-11-21) kein Handelstag, letzter Handelstag 2026-11-20.",
+        "letzter_lauf": "2026-11-21T02:44:38+01:00"
       }
     },
     {
-      "stand": "2026-11-20T15:33:36+01:00",
+      "stand": "2026-11-21T02:44:38+01:00",
       "produkt": {
         "isin": "DE000BE4S0F9",
         "wkn": "BE4S0F",
@@ -1606,10 +1667,10 @@
       "aktuell": {
         "z_geld": 186.71,
         "z_brief": 187.09,
-        "max_ertrag_eur": 34.1,
-        "max_ertrag_pct": 18.3619621991,
+        "max_ertrag_eur": 35.93,
+        "max_ertrag_pct": 19.5399173374,
         "delta": 1.0,
-        "discount_pct": -1.78493210688,
+        "discount_pct": -0.3293771777,
         "cap_abstand_pct": -16.891861152813792,
         "seit_start": {
           "bezug_datum": "2026-11-19",
@@ -1620,7 +1681,7 @@
         }
       },
       "fortschritt": {
-        "tag": 1,
+        "tag": 2,
         "tage_gesamt": 70,
         "woche": 1
       },
@@ -2468,12 +2529,12 @@
       ],
       "status": {
         "ok": true,
-        "meldung": "",
-        "letzter_lauf": "2026-11-20T15:33:36+01:00"
+        "meldung": "Heute (2026-11-21) kein Handelstag, letzter Handelstag 2026-11-20.",
+        "letzter_lauf": "2026-11-21T02:44:38+01:00"
       }
     },
     {
-      "stand": "2026-11-20T15:34:37+01:00",
+      "stand": "2026-11-21T02:44:38+01:00",
       "produkt": {
         "isin": "DE000UN3TQH3",
         "wkn": "UN3TQH",
@@ -2496,10 +2557,10 @@
       "aktuell": {
         "z_geld": 154.81,
         "z_brief": 154.83,
-        "max_ertrag_eur": 5.4,
-        "max_ertrag_pct": 3.49288486417,
+        "max_ertrag_eur": 5.76,
+        "max_ertrag_pct": 3.73443983402,
         "delta": 0.22611816552,
-        "discount_pct": 15.347130968,
+        "discount_pct": 15.6331663763,
         "cap_abstand_pct": 14.212500000000006,
         "seit_start": {
           "bezug_datum": "2026-11-19",
@@ -2510,7 +2571,7 @@
         }
       },
       "fortschritt": {
-        "tag": 1,
+        "tag": 2,
         "tage_gesamt": 70,
         "woche": 1
       },
@@ -3610,12 +3671,12 @@
       ],
       "status": {
         "ok": true,
-        "meldung": "",
-        "letzter_lauf": "2026-11-20T15:34:37+01:00"
+        "meldung": "Heute (2026-11-21) kein Handelstag, letzter Handelstag 2026-11-20.",
+        "letzter_lauf": "2026-11-21T02:44:38+01:00"
       }
     },
     {
-      "stand": "2026-11-20T16:06:31+01:00",
+      "stand": "2026-11-21T02:44:38+01:00",
       "produkt": {
         "isin": "DE000VY26180",
         "wkn": "VY2618",
@@ -3638,10 +3699,10 @@
       "aktuell": {
         "z_geld": 145.29,
         "z_brief": 145.31,
-        "max_ertrag_eur": 4.74,
-        "max_ertrag_pct": 3.26311441553,
+        "max_ertrag_eur": 5.23,
+        "max_ertrag_pct": 3.61262692547,
         "delta": 0.170561658748,
-        "discount_pct": 21.2201735358,
+        "discount_pct": 21.0828614983,
         "cap_abstand_pct": 23.093333333333323,
         "seit_start": {
           "bezug_datum": "2026-11-19",
@@ -3652,7 +3713,7 @@
         }
       },
       "fortschritt": {
-        "tag": 1,
+        "tag": 2,
         "tage_gesamt": 70,
         "woche": 1
       },
@@ -4502,8 +4563,36 @@
           "auffaellig": true,
           "z_score": -2.439328,
           "text": "Das Zertifikat fiel von 147,68 € auf 147,12 € (−0,56 € oder −0,38 %). Die SAP-Aktie fiel um 5,58 %, der DAX fiel um 2,08 %; davon entfallen rechnerisch etwa −1,28 Prozentpunkte auf die allgemeine Marktbewegung. Das Delta von 0,17 sagt, welcher Anteil der Aktienbewegung beim Zertifikat ankommt; so kamen −2,03 € an, der Zeitwert trug 0,00 € bei. Haupttreiber des Tages: Aktie selbst (−1,56 €).",
-          "verdikt": "Marktbewegung",
-          "nachrichten": [],
+          "verdikt": "Wahrscheinlicher Zusammenhang",
+          "nachrichten": [
+            {
+              "titel": "Die SAP-Aktie (XTRA:SAP) könnte trotz der Meldung über einen Rücktritt aus dem Vorstand um 33 % unterbewertet sein",
+              "quelle": "Simply Wall St",
+              "zeit": "2026-11-17T17:12:42+01:00",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZWt1Q1BMblpob0hEc0tLakQyT2FvZDFSQ1M4TnNlajhkRFR6MUxDdDlXYjNJNi1aUkU5Z3JabUx3MlU1TTJQV0duYnphNEVTTmZuSVdvZzZtQnBqU25yWkhjNS10RF9rQ01wb2YzVDhWR2Rob2RwR1BKaTBoazlDVVFnMDg3THZ2V282aFhGdml5V01JVFMzS0VWNkljdWV3RkJRU2w2U005WEVTYkkySU5NMTk2NkhlYUFXOTZlVTRoZWgwcVHSAcsBQVVfeXFMTzR0S3g5cWZSSmhlTnliQnVZVHRLLWswTnJwR3ctS0pHMXJ4UlFRNHpDWnU5MGx4MTB0RVotUVpaZzhPMFpiLVN2RjE2YnZSRTJnNWNXQzZYZHIwUzBMVF9IaUtNckdaczhPOXhMbHlNekppZGg4ellBMlN1dkZMaklRcmVHNkx0cmQxblp3aGpQWGZsc1paMFU3UlRUX1hNbmJJbzZtT3ZWd3NxWENiOTlmdHNMWjdrMWZ0NDk5Z0hLUEJvYkFzcDk2aGM?oc=5",
+              "kategorie": "Personalie",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "DAX-Aktie fällt weiter: Jetzt verkaufen, rät Analyst",
+              "quelle": "Börse Online",
+              "zeit": "2026-11-17T17:03:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTVFNa1BMTUVpcGpVbmFjdlg5UnhXaHFTeUtTMkZTT1V3dGUydHVURlJIb1ptNnV5NEFvcndYTzRKNHhGdkE4TFNnRmFXNDUtazM4UTR6NGo2YThZWXJzQVNUQjJybVJMRk5GWDhEQlVPcG1pSFl3WV9VV0NFYlYtZlBYci1FLUV4dGNGMy0wenY5dmczNHlPMnlDbHFMZTBncU93bjB5RW50cklLc0tEeFNxcXc?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "negativ",
+              "passt": true
+            },
+            {
+              "titel": "SAP-Vorstand Thomas Saueressig wechselt als CEO zu IONOS - Aktien im Minus",
+              "quelle": "Finanzen.net",
+              "zeit": "2026-11-17T16:03:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUHYxMmxLM3lEZm1SVUlpd1FXYlJ5RkF2bWRhVl81Y3pzbGlCSmpfV0lhZmVIbld4TXdWdXRzUkxHd0c1UjJXclFKdzNhN0pveWdUUGlGV01uMklFNWZmNUlxZEFSN2pzUV93VDR1V3lyTnhVZWFyNEp1NTl3dE9EQ3h5a0RNVmJ0bG1TTGlYRHU3MVlfNVpaRDlWdzBCQTRlTXB5akhZb0NfcU1nMklCTFNpR0JncDdJdlVIczhrcTVPYnZMRkt5d3VoSjFmRmVPMmpqVFBjUmRKUnpYQVE?oc=5",
+              "kategorie": "Personalie",
+              "richtung": "neutral",
+              "passt": null
+            }
+          ],
           "effekt_basis": -2.029684,
           "aktie_spez_pct": -4.298586,
           "cap_abstand_pct": 34.333333,
@@ -4541,8 +4630,36 @@
           "auffaellig": true,
           "z_score": -1.516237,
           "text": "Das Zertifikat fiel von 147,12 € auf 146,35 € (−0,77 € oder −0,52 %). Die SAP-Aktie fiel um 3,76 %, der DAX fiel um 1,19 %; davon entfallen rechnerisch etwa −0,97 Prozentpunkte auf die allgemeine Marktbewegung. Das Delta von 0,17 sagt, welcher Anteil der Aktienbewegung beim Zertifikat ankommt; so kamen −1,29 € an, der Zeitwert trug 0,00 € bei. Haupttreiber des Tages: Aktie selbst (−0,96 €).",
-          "verdikt": "Marktbewegung",
-          "nachrichten": [],
+          "verdikt": "Wahrscheinlicher Zusammenhang",
+          "nachrichten": [
+            {
+              "titel": "SAP-Aktie fällt auf Vierwochentief – doch Analysten sehen 243 Euro",
+              "quelle": "Investing.com Deutsch",
+              "zeit": "2026-11-18T08:32:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORkxfZTZXVHBzU2p5Q1JrdENVTWRCN3d1MWtIU3ZZN0xJOVRNRER0RU5lNVdLN0hwR2ZXcVJ6MldHVE8tTmZIVVRUdTlZRmFqV0hwZW1rcTR6ckN0TkVPX1NESjhQMEFLeVkxMzdJNGZwd3ZfZWRiY1NhMWFEa1VudkVfUXlfTXlMQ3RlZzF2UXNyMU5JM1pLTVBmWDRiUWVFNWxjQjM2RXRNSndFbGNhYWpzUEVLYmhXdTNVeg?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "negativ",
+              "passt": true
+            },
+            {
+              "titel": "SAP Aktie Prognose: Absturz an die 200-Euro-Marke, JPMorgan sieht 275 Euro – wie viel KI-Angst ist schon eingepreist?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-18T07:39:30+01:00",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVm1yT3JYSFkxREhxNVJiUkJkelFkRE5pcnZQQ1BtVk9xdnpVeTNrSURYbGl4cDRQaVRwQ1hWcHF1RWpodjkzdi1Lcjk4clJIYzJLcXlycjFTQTB6NmVPVEZrTHhCM29OYTM2T3BGRXJEM1d5S09KYXk2R0JKeTFad0c0QWo2bk50cGQ2RzJzcFJvSkd5NlZCMC1iaVZWbFU4b3NBSF9HYWNySUU?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "negativ",
+              "passt": true
+            },
+            {
+              "titel": "DAX-Prognose: Stabil, Gold fällt – Nvidia, Fed, Dt. Bank, SAP, Siemens Energy, Anthropic im Fokus",
+              "quelle": "Der Aktionär",
+              "zeit": "2026-11-18T07:02:29+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbWZyZld0SnlxYkI0MUl0TTRNVGxuUk1nZHhDc3B6RUZkS2FRMWxTMnFOV3ZyMlJRd3dzWVZVSHpvN05lNkFfa1VkdzVfbDNXaTFnOUNxRGFQUXREUE90RU5RUDJNX0xJZTN2MlduM1RFaEljczliY1I2Nkx0VU1Vdk5IT2Yzdlhtby1UcDQwdmo5YkJ0QmN5Y3V4RDVSNWEyN19QREVQam1FMUxsb0RYTFk3NkwxMU9Vc0Z6eVRFRTZQUzVKUlRQNW0xOUFPRHRpM2NMRkxmczZ2alc3aDgw?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "negativ",
+              "passt": true
+            }
+          ],
           "effekt_basis": -1.292857,
           "aktie_spez_pct": -2.794848,
           "cap_abstand_pct": 29.28,
@@ -4575,7 +4692,35 @@
           "z_score": -1.42623,
           "text": "Das Zertifikat fiel von 146,35 € auf 145,63 € (−0,72 € oder −0,50 %). Die SAP-Aktie fiel um 3,56 %, der DAX fiel um 1,06 %; davon entfallen rechnerisch etwa −0,94 Prozentpunkte auf die allgemeine Marktbewegung. Das Delta von 0,17 sagt, welcher Anteil der Aktienbewegung beim Zertifikat ankommt; so kamen −1,18 € an, der Zeitwert trug 0,00 € bei. Haupttreiber des Tages: Aktie selbst (−0,87 €).",
           "verdikt": "Marktbewegung",
-          "nachrichten": [],
+          "nachrichten": [
+            {
+              "titel": "SAP Aktie Prognose: Analysten sehen im Schnitt rund 244 Euro, die Aktie fällt auf 194 - Wie viel KI-Angst steckt jetzt im Kurs?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-19T09:36:06+01:00",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN0tLTExwYjJJQU1WYVRlbE9ZVVlrTk9DMVpUMzZZNllvcHhTVFpOSEZWZkNyQy1jVm01akRmTVk3cktQSzVDbmVHVDVMakxnVmR2RG5ycmw1c0M2ZGJPYTFvSTN3ejdUaVpMWWt4c24xYUpRdjFKZjdJcndmNk1LbnFsYm9tWWc2djFWTV9BQkNKY1l5VllMaGVNUmZEM3Q5Wk5jT0FMdlRNS09XbTlBeQ?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "negativ",
+              "passt": true
+            },
+            {
+              "titel": "DAX-Prognose: Fest, Gold schwach – Anthropic, Nvidia, Zalando, Siemens Energy, SAP, Walmart im Fokus",
+              "quelle": "Der Aktionär",
+              "zeit": "2026-11-19T06:56:57+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYjJvS3ZEMWN6QUh6MXlSUUhmWktZdUx2Mi13SWpzVU1PTzFhUk1YcXA4SEFBRG1tRVRYcTBndmJwT294c2JObkNyWmlrMzk1WVNLU2lfazVDYTV5MGx2LURoa015bURrem1ORFIxdkllMm1uZnVsODhYb0NNSjlHWXFLTTZPbUtFcGM1bHdJb2hSQlRMa2lXc1hHZ0FDQ1V5aS1VS0lCQmF0cUF4LTExQy1lbWp3NGVlbGFmVHdfQmFlM2FxZGtiaGhfOTNFRGpSV1RiOWRLN0tNcjJFdmpoZU5xVQ?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "negativ",
+              "passt": true
+            },
+            {
+              "titel": "SAP-Aktie unter Druck: Finanzchef Asam im Fokus – TechWolf-Übernahme abgeschlossen",
+              "quelle": "DWN | Deutsche Wirtschaftsnachrichten",
+              "zeit": "2026-11-19T16:09:11+01:00",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcl9WUGFRYVQ5UURWWXFCb01fYW5uZmtiUy1MWVVMc2ZVNUpuaGNDWmEzWFFJWkZ1RjVmVHNNbjhzel9tWVhDaXRQeEI4eWFqOXRMTGFfTk9rQ3M1bU4wbjkwdlI1aW9fNU1xcFFUenZNMTRrbWNUSV9KNlhGV3RNUkthWVptQ3NrUTliWGlLS0JUU0NxU0hwdnRTclhHNGR6MnhWTDZlemo1TkttU0UxVGt2RC10SmFwX05FLUp5UWVZZVBBZFN3OFln?oc=5",
+              "kategorie": "Übernahme/Beteiligung",
+              "richtung": "neutral",
+              "passt": null
+            }
+          ],
           "effekt_basis": -1.176875,
           "aktie_spez_pct": -2.620265,
           "cap_abstand_pct": 24.68,
@@ -4608,7 +4753,35 @@
           "z_score": 0.211099,
           "text": "Das Zertifikat fiel von 145,63 € auf 145,29 € (−0,34 € oder −0,23 %). Die SAP-Aktie fiel um 1,27 %, der DAX fiel um 1,82 %; davon entfallen rechnerisch etwa −1,64 Prozentpunkte auf die allgemeine Marktbewegung. Das Delta von 0,17 sagt, welcher Anteil der Aktienbewegung beim Zertifikat ankommt; so kamen −0,41 € an, der Zeitwert trug +0,05 € bei. Haupttreiber des Tages: DAX-Bewegung (−0,52 €).",
           "verdikt": "Marktbewegung",
-          "nachrichten": [],
+          "nachrichten": [
+            {
+              "titel": "DAX-Prognose: Verluste, Asien tiefrot, Gold rutscht ab – Dt. Bank, Infineon, SAP, Anthropic im Fokus",
+              "quelle": "Der Aktionär",
+              "zeit": "2026-11-20T09:41:57+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTzJkd0ltZ0pQTDlxVXcxaEdIRTczQVhnci16V2dQU29DR3JRYWF2dzJrNzhwWVZTOUVOaVNJaVlKOTI5ZHhFQnlzaEtpWXg3ZkNGN0ItWWJSN3ZlWEh6OWR6aGZPSy1OZ2FnS3BDVG1NbUVFWHB3NkdLR2pEYkxPWmV1S3lMWVczZ3YzSkR1MDY5SFFOVXhGRk5iZ3l1V0sxVVFyY0s1VU1GaURlTkhza3lqT24zOURCMWVaSUZyaVhWOG9zcnBNUl94bTg0MjBlRV9hUjNvTWhfM1BGazc5QnhoTQ?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "Aktien Frankfurt Ausblick: Sechster Verlusttag im 'stark angeknacksten' Dax",
+              "quelle": "T-Online",
+              "zeit": "2026-11-20T08:17:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRUxBbUlQOGJTcDd3MHl1UnRUYzFoNzJUOU5lNTRfWGtTODZMM21IUjBEWC0wb2Z4bGYxVnNJc28wT0hzQUliVFlZM0s3MXJWRWt5ZHo1MDRMWmUxampyWnJmUUVQRzhkNnBMelluZk1qWS1od3hHbWdtMXpCVlJ5aTFXMXN2Uzc4UGpEdlJmcmlrOWdiTFZ5akFCdWNVRXpWeXVFMlJwT2FtV2JkNTFOdXNWNndLMHlGSXZ4ek1JOGRyM3BxSXRoOTlpWFFiR1VOdnlv?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "positiv",
+              "passt": true
+            },
+            {
+              "titel": "SAP Aktie Prognose: Analysten sehen im Schnitt 243 Euro Kursziel – reicht das Cloud-Wachstum gegen die KI-Angst bei Software?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-19T20:50:28+01:00",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOXh2eW5hT1pBbDJQb3NRZHIwXzY4d0pHa1U2WFJ6OUhRQm81QnFLTnN6OW9hek9aUFEtd092ckxsMVM2bF90NENRQ2w4TnU1OWtvRFg4S2VEaFMyeFRnTmZRNW5ad1o2QXJ6VzhxbmFqX3J0Q0oydEo1QjFxWVVQVGZEM0o2WnFqTmFSNG5NS2dHU0tnUlE1c3lMWi1jaFhKYlpLZERSRHpvdzdkc3BLZQ?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            }
+          ],
           "effekt_basis": -0.405937,
           "aktie_spez_pct": 0.369962,
           "cap_abstand_pct": 23.093333,
@@ -4640,31 +4813,31 @@
       ],
       "status": {
         "ok": true,
-        "meldung": "",
-        "letzter_lauf": "2026-11-20T16:06:31+01:00"
+        "meldung": "Heute (2026-11-21) kein Handelstag, letzter Handelstag 2026-11-20.",
+        "letzter_lauf": "2026-11-21T02:44:38+01:00"
       }
     }
   ],
   "status": {
     "ok": true,
     "meldung": "",
-    "letzter_lauf": "2026-11-20T16:06:31+01:00",
+    "letzter_lauf": "2026-11-21T02:44:38+01:00",
     "je_zertifikat": {
       "DE000JE3NTM6": {
         "ok": true,
-        "meldung": "Heute (2026-11-20) kein Handelstag, letzter Handelstag 2026-11-19."
+        "meldung": "Heute (2026-11-21) kein Handelstag, letzter Handelstag 2026-11-20."
       },
       "DE000BE4S0F9": {
         "ok": true,
-        "meldung": ""
+        "meldung": "Heute (2026-11-21) kein Handelstag, letzter Handelstag 2026-11-20."
       },
       "DE000UN3TQH3": {
         "ok": true,
-        "meldung": ""
+        "meldung": "Heute (2026-11-21) kein Handelstag, letzter Handelstag 2026-11-20."
       },
       "DE000VY26180": {
         "ok": true,
-        "meldung": ""
+        "meldung": "Heute (2026-11-21) kein Handelstag, letzter Handelstag 2026-11-20."
       }
     }
   },
