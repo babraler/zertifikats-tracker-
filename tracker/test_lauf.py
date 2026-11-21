@@ -96,6 +96,17 @@ class TestErsterLauf(Basis):
         self.assertEqual(heute[5], "26267.19")
         self.assertTrue(any(z.startswith("2026-11-06") and ",historie," in z for z in zeilen))
 
+    def test_tagesberichte_werden_gespeichert(self):
+        self.lauf(Router())
+        alle = json.loads(self.pfad("daten", "DE000JE3NTM6", "tagesberichte.json").read_text(encoding="utf-8"))
+        b = alle["2026-11-09"]
+        self.assertIn("SAP hebt Prognose an", b["zusammenfassung"])
+        self.assertEqual(b["nachrichten_unternehmen"][0]["kategorie"], "Prognose")
+        md = self.pfad("daten", "DE000JE3NTM6", "tagesberichte.md").read_text(encoding="utf-8")
+        self.assertIn("## Montag, 09.11.2026", md)
+        tage = json.loads(self.pfad("ausgabe", "daten.json").read_text(encoding="utf-8"))["zertifikate"][0]["tage"]
+        self.assertEqual(tage[-1]["zusammenfassung"], b["zusammenfassung"])
+
     def test_status_und_daten_json(self):
         self.lauf(Router())
         status = json.loads(self.pfad("ausgabe", "status.json").read_text(encoding="utf-8"))

@@ -2,7 +2,7 @@
 import math
 from datetime import date, datetime, timedelta
 
-from tracker import analyse, nachrichten, speicher
+from tracker import analyse, nachrichten, speicher, tagesbericht
 
 VORLAUF_TAGE = 30        # Quelle: SPEC.md, daten.json ("höchstens 30 Kalendertage anzeigen")
 RUNDEN = 6
@@ -111,6 +111,7 @@ def tage_mit_analyse(config, meta, rows, news_roh):
         news = nachrichten.bewerte(news_roh.get(row["datum"], []), a, produkt["basis_name"]) if a["dz"] is not None else []
         t = _tag(row, a, start, news, nachrichten.verdikt(a, news))
         t["spruenge"] = _spruenge(a, sprung_schwellen(config), produkt["basis_name"])
+        t["zusammenfassung"] = tagesbericht.erstelle(t, news_roh.get(row["datum"]), produkt["basis_name"])["zusammenfassung"]
         erg.append(t)
     return erg
 

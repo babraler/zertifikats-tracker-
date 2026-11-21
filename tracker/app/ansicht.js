@@ -123,6 +123,8 @@ function dayBody(r){
   const left=h('div');
   const sj=spr(r);
   if(sj.length)left.append(h('p',{class:'jumpnote',role:'note'},h('b',{text:'Kurssprung: '}),sj.map(sprungText).join(', ')+'.'));
+  const zf=str(r.zusammenfassung);
+  if(zf)left.append(h('div',{class:'daysum'},h('h3',{text:'Zusammenfassung des Tages'}),h('p',{text:zf})));
   const vk=str(r.verdikt);
   if(vk)left.append(h('span',{class:'verdict'+(r.auffaellig===true||vk.indexOf('Zusammenhang')>=0?'':' soft'),text:vk}));
   left.append(h('p',{class:'daytext',text:str(r.text)||'Für diesen Tag liegt keine Erklärung vor (kein Vortag oder unvollständige Kurse).'}));

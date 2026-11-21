@@ -1,0 +1,1503 @@
+{
+ "2026-10-26": {
+  "datum": "2026-10-26",
+  "phase": "vorlauf",
+  "zusammenfassung": "Zertifikat +0,07 % (+0,10 €), SAP-Aktie −1,00 %, DAX +0,91 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie Prognose: Sollten Sie jetzt kaufen?“ (Finanztrends, Prognose). Gesamtmarkt: „Börse Aktuell: DAX im Aufwind: Fed-Zinsentscheid und Brasilien-Beben 🏛️“ (XTB.com, Makro).",
+  "kurse": {
+   "z_geld": 139.85,
+   "basis": 212.25,
+   "dax": 25410.84,
+   "z_pct": 0.071556,
+   "basis_pct": -1.002799,
+   "dax_pct": 0.910147,
+   "dz": 0.1,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP-Aktie Prognose: Sollten Sie jetzt kaufen?",
+    "quelle": "Finanztrends",
+    "zeit": "2026-10-26T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yaTFHMmowUlA3ODN6UGM4N1I2QlJudHJ0QndDdXY0RTBQUFZTNy1GcUFQMVhRVUR0TFdUZ3Z3WmFrUlpSWnZ2X3ZHcWV4M2szb19qYnpKSGd3MXAyUmVqeXNpODZUSE1FYzlCd3hEOTVQb1U?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP Aktienanalyse: Citi erhöht Kursziel deutlich - 11% Potenzial",
+    "quelle": "AktienCheck.de",
+    "zeit": "2026-10-26T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYnM3RGdNYmlzRmFNMFhFTVBzdHBoUEctdmVQT0lJanJqdlA3UXlselFBLWFocnBhU3JWckFvdFNJOTFUS3J2S1dDV2tyQVhLSS1fMmJMeXB5dlRZY2NUbDA3SzZUeDY2emxCNkhfQ3poWmZDbGoybUQ5RWdjTXE2QUxLODAzeGRpLXdBUEc4STZjWF8xWUFxV1JxeTNaTF9BZmtjWWozLTY3NHlOM3g0?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "positiv",
+    "passt": false
+   },
+   {
+    "titel": "SAP-Anleihe mit 7,25% Zinsen und 50% Schutz",
+    "quelle": "Börse Express",
+    "zeit": "2026-10-26T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONlZocVduMUFMZ1EyeG1xWTNGb2Y0TnNBM3pIZHkwN0YwODdlNjlXcGdhekRXS09YMFF0X1lrd2hfM0dMNnZjUlY0V0sybUFrcGVlR0FtWEl1bmN5RzYtSzVfRVV0VExScHZQWjZXQ1NEaGE1bGNoc21HNEJ2bWJ5SmROS3liTl9uRVVRdTE4QzhFaUg1ZW5r?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Börse Aktuell: DAX im Aufwind: Fed-Zinsentscheid und Brasilien-Beben 🏛️",
+    "quelle": "XTB.com",
+    "zeit": "2026-10-26T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZWVzeWZmOUJxZVB3VFZjZ3NUX0N6QzhoaWlSUF9waTdqUk1hcXRsSTQyal9ITnZyMXM5OWVvMVE2OUswNUhGX09fRUlrc01oeFlCZGFaMUJqSWlVTHZlRkFXbldxRy01cHNjbjJON0o3OEVRSE5hOG10SWp4SWdBRV93SmpGRTJhZ21UNTNJTGFOc2c0LUd1eGVPbmI4U0xpdnY5Znk4V2kyTTlWVWlIUWZWRkpjdnBL?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Börse 9:45: DAX-Start, Ölpreise, Zinsentscheide der Notenbanken in der Wirtschaft anbieten?",
+    "quelle": "tagesschau.de",
+    "zeit": "2026-10-26T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00RTVqckVGano5M3hHMGdGOXVDX1RwbFN4c2ZnUW9OWGRxOGtPV0haQndkZlZHZXE2bENMN3lFZVBZaXJHNkZTUjMzMlVuaWcyMlZweDFtR3lqb3VPVzliaGw4T0tWb3huS3RiRHNn?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Börse: Dax steigt, Bayer Aktie und Siemens Energy mit Kursrallye",
+    "quelle": "Manager Magazin",
+    "zeit": "2026-10-26T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYmZBUHhTOWFSaXMxaEY1cUN1Qjl4WkZfVmFxNnBGM0IyRXMydmJCOUp4RFpOd09SRnFYRmN6Vll1TENMMWxSYkc4SzNFWXFHYzJMdWxka3lmcnZMZ25KQS10UlFqVVZndXNFcjY0NGNSMm13TFM4YU5nb0xFR3Y0V0pIdGRyRU51M1o0VzZqNDAtSHRPRFdHYlJ1SjNvcl9td1RZYVBGTWtrVEdlekl3cVp4R0RXUHk0M1JlakFZVlNuM05hVWVkOWVQVmNURkJ4bDVfNg?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": true
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-10-27": {
+  "datum": "2026-10-27",
+  "phase": "vorlauf",
+  "zusammenfassung": "Zertifikat +0,01 % (+0,02 €), SAP-Aktie +0,42 %, DAX +0,71 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktienprognose: Seitwärtsbewegung erwartet, Widerstand bei €213,85 im Fokus“ (Traders Union, Prognose). Gesamtmarkt: „Börse: DAX-Ausblick, Anthropic-IPO hebt Stimmung“ (tagesschau.de, Prognose, eher positiv, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 139.87,
+   "basis": 213.15,
+   "dax": 25590.77,
+   "z_pct": 0.014301,
+   "basis_pct": 0.424028,
+   "dax_pct": 0.708084,
+   "dz": 0.02,
+   "haupttreiber": "DAX-Bewegung",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP übertraf Erwartungen im dritten Quartal: SAP-Aktie steigt 1,23 Prozent",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-10-27T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUGVtUmNwT0FSTDFBT1htNkh0bHBiYV9jRHhxLThaNXBoVXdkeWk5X2M4MFVGTDBvNjJfSjk3ZlZJNUMxbkFWMGhpcTByTVY3OHZlaWhsR2NPN0F4TGdvbDh3VzA4Wm5qTnZ5MHgzcnM2V0lqcWg2QzVFZnNDV0lXcU9xU3FPczNleGJJUzNQUlVDcU9EUktpeTFfbll4cUlvVTJaMnhXdnFMYXVudmJ2TXJjSXVfb1dkT1VXWHFJeU5weFJLN3NreGV6ZjBlZ2RtQ0tF?oc=5",
+    "kategorie": "Quartalszahlen",
+    "richtung": "positiv",
+    "passt": false
+   },
+   {
+    "titel": "SAP-Aktienprognose: Seitwärtsbewegung erwartet, Widerstand bei €213,85 im Fokus",
+    "quelle": "Traders Union",
+    "zeit": "2026-10-27T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOV0N3eXcyMUQxNnFwVWlUVFprU3ZKclJqV2RjWTJFeER2TE5JSWExRGRGMFBPR2lnVmlMNzY5NmVadklKaXVoSlg3Y1RmVnpNZVpXcFNYMXMtcTNXRDhSUFZiaF9RRmEwOFdDbmx2TnVXeHNQYUh0YlBHYWhOY3E3NzB6MWZUbldmRG5MTA?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP Aktie: Wird die Luft zu dünn?",
+    "quelle": "4investors.de",
+    "zeit": "2026-10-27T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Od08tQktLMTNNdE1seGVKWjRydlBERkxCdzZWVEdnenFkTEZDSHJ4QkttWmZ1d0xqU1lPMWZ6U28xdWVVYzg4UG10aFpfcDlTRzRYTVZkTEZkTmtIeWNySWFXZjJfeEFHS1BwMjZFRHJ6NUcxTEJseDNMaUE?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Börse: DAX-Ausblick, Anthropic-IPO hebt Stimmung",
+    "quelle": "tagesschau.de",
+    "zeit": "2026-10-27T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZbmVUNUVNRWhMc3dxbEdfaFNMVDk3MzBULWtSY1BnTFV2bndaek1jU21nTkxNNEVUUnZfUHh6b1pfWTd4Ni1FMnNsZE1wNmNpLVhobTZ6RnlXRVh3YnNoT203YmUyR0hvbmRDWG9R?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "Rekord-Dividende von 55 Milliarden Euro: Warum die Ausschüttung kein Geschenk ist",
+    "quelle": "Merkur",
+    "zeit": "2026-10-27T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbDY0VWRZSGxpRzJ2ZFM1SmZENzdDWXl4NmFMalRONTZLYU5pLTR0ZHNFZkVXSVA1dlh2WjZpREo0d2dTSmdxUDhlWFNNVWJYYTJ4bHhaVkFRMGt2ZXZjRkZEajBjS3BRd2E4NXhXUnhhYXdEemZqRXYxMjB5a1FLOTNuZ1hRc0MzRDlSY1FKRTBhdXhMNFgta2FPQUJES3VQNGNXaFgyQUdPV1VlamloZFBMSjdzUG1YVkFxR2VoMDNNcDZIa1pyUndSOA?oc=5",
+    "kategorie": "Dividende/Rückkauf",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "Finanzen: Deutsche Börse führt Handel rund um Uhr für Dax-Aktien ein",
+    "quelle": "DIE ZEIT",
+    "zeit": "2026-10-27T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWGhydFh3S2JPV0lfSkFERzZlUFdOakdnTjZYMFEtQVc0MS1MOGVtUnRNZm5XS1R3TlJVT1F4OGJfek04UTlyb3ZpcG1kUU1Sc1J2ZTc2YUhRbTV6bmdMc0h6SzRVSzhaRE1ub1J3M2FEeU5zUmxWMWwzQVhXSEVjUzZmeDdlTGFtbE9fT2dQQnJwYjNfelFpa0RLX3ZOdw?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 18,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-10-28": {
+  "datum": "2026-10-28",
+  "phase": "vorlauf",
+  "zusammenfassung": "Zertifikat −0,03 % (−0,04 €), SAP-Aktie −0,91 %, DAX +0,44 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP verliert weiter: Vierter Rückgang in Folge“ (Wallstreet Online, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: Kursgewinne in Dax und Dow Jones vor Fed Zinsentscheid“ (Manager Magazin, Makro).",
+  "kurse": {
+   "z_geld": 139.83,
+   "basis": 211.2,
+   "dax": 25704.02,
+   "z_pct": -0.028598,
+   "basis_pct": -0.914849,
+   "dax_pct": 0.442542,
+   "dz": -0.04,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Im normalen Rauschen",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP verliert weiter: Vierter Rückgang in Folge",
+    "quelle": "Wallstreet Online",
+    "zeit": "2026-10-28T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZDYtVFU4MEc5ME5lV0hTbGV0RmZRRzlZY3hGaFpyZmlNZElmVEhNUzlqX3l0MVNIaUNtZVBiN19jdlVCUnJoSVh0MWg2UnZraG5fS0JMY1A4MmNDUUlMZHN4dm80aDlUaUVPNXUxcEVHUE10TF9mSW5IaW9wb0lsUVJmT3JhZmczSFFibC1OR3lBNmRRbF81WGpzOXQyQm9wU3Ewa2xHOUc3Zw?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "Trading Idee: SAP — Rekordquartal bringt Käufer in Stellung, Ziel 232 Euro",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-10-28T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOY3BHWnMzM0h3Ulg0cXpVZjFZaGJXUEdnam1zamhLdlluM1p1SjNtZ0daSFI1Um1Pc3FoZERrS2tsSkhoanJEbkZxNEtoOWlWMS0tTWdQR3BiQXZUa29rVnA0S3R0SFdjcTRwTGR2cmNscTctYzBvQ0ExNmp0ZlZKUS1rMU1YX19nTVZMZnV6SXZkRkYxbzNVTDBlOWM1SmFjb3VOV01LRXJJYmVMTklXal9DQnFLN29sNWUwNERXVm05LVBTTUhvUzF4WV9MU21kdUpSN3lNSQ?oc=5",
+    "kategorie": "Quartalszahlen",
+    "richtung": "positiv",
+    "passt": false
+   },
+   {
+    "titel": "SAP Aktie: Goldman hievt das Kursziel auf 258 Euro",
+    "quelle": "Finanztrends",
+    "zeit": "2026-10-28T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRnRLTi0zZFQ3cEI3Y1lVdnZsQ1hCVHJkNkZkN0R0TGtILXR5TDdVWDZSX2pUZHNTb0Z3VGY4Q0N3RnV6aG5NNlZ1Rm9IV2ZYSjdBazFQa1JFajh1Nm8wdlpCZjdtWXB1YWkyOW1YTGFUVWRCZGpsTTVVeTdZWlUxSkxFZ096QQ?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Börse: Kursgewinne in Dax und Dow Jones vor Fed Zinsentscheid",
+    "quelle": "Manager Magazin",
+    "zeit": "2026-10-28T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcFZDdkctS0hqNVFWajlNalEtcGs0Z0h4UDF0NExSV0JBcW5pNEJiV2FxandBU0dzdm9jQjBNWWV6UlpjS0h3b2RoS3gtaHk1QXh1alhHY2ZGRy0zRFRjYWZPN3lMd2cybUt3anN6VEJiLWNUMDVnTDIyTmxZYVg1a1Y4OE1VV3VoSTBOanhTbDUyQW1Fei15WEZHSkh5RUhjZzh0aGN4ZE01Q29XRHMyZFc5cHEyVzJDSk1kNzR4UlNjNVZPYmVyUjVqNUppMUg3TFgzRmlOUVVyanNydzJBYUYwZ0J2dw?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "DAX in Wartestellung – Heute müssen Fed und KI-Giganten liefern",
+    "quelle": "Wallstreet Online",
+    "zeit": "2026-10-28T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSkkzblVDb21fWk5aX1JIdi1INkNTN3lEWGtWMWlOdTV5TzZkMDR5WTNhQ0RGeWcyaHZtSnNTdTBhc2JRaTFyUXMzSU81eVpyMy1BNjM1ZE9uYVViN3BxTFBTX1RYTVVDTVlmcXp0TTRLdWpBTk5fMGdqZ3NkMzllQ1VhdUp4dE5uVEh0TWdUaFJ1aENZRVJWbFpZNHdpOFM1dnA0MjBkTXZVR2xzVG8xOExDV29wR3MxZ1V6NFlB?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Frauenanteil in Dax-Vorständen steigt wieder, und Christian löst Thomas ab",
+    "quelle": "Personalwirtschaft",
+    "zeit": "2026-10-28T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSEE3SVVuWlpEamNaX1hfdkFHbGRaTG9yVWVSbnBRSU9NQXhPM0dIdVFudGtfMEJDNExPNWZ0cFBXQ1NXR2RFQVRJUG44X0NaWGNyYnQwR0VfTHJWZ1dEd0RRa3VPWW5jd3BBdVdzRGdVa3hULWZjYXk0cjJqeDRzQ3dmdl9TM2M1cE5WQ0FlMUY2Um9pZWNIRTAwa2tYU2R1QWE0QUpvQ1VaRDgwQ3Y5SXBjZi1kNkhISkJvQnNtSGpiMW5xeEl4NERhb0s?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": true
+   }
+  ],
+  "nachrichten_gesamt": 29,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-10-29": {
+  "datum": "2026-10-29",
+  "phase": "vorlauf",
+  "zusammenfassung": "Zertifikat +0,02 % (+0,03 €), SAP-Aktie −1,09 %, DAX +1,31 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „ServiceNow-Absturz: Warnsignal für Software – SAP im Prüfstand“ (Der Aktionär, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Siemens Energy Aktie mit Kurssprung: Dax baut Gewinne nach EZB Zinspause aus“ (Manager Magazin, Makro, eher positiv, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 139.86,
+   "basis": 208.9,
+   "dax": 26039.68,
+   "z_pct": 0.021455,
+   "basis_pct": -1.089015,
+   "dax_pct": 1.305866,
+   "dz": 0.03,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "ServiceNow-Absturz: Warnsignal für Software – SAP im Prüfstand",
+    "quelle": "Der Aktionär",
+    "zeit": "2026-10-29T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcTkwSU4zcE9MeUk5QWV3bll6UUg1MmVweGtFWHhLaGUtR1hMc2RwV0xNOHJlcUp0anpkTkZQZmlXc2tJV3d3QVV0YWdoTVJkdnlPRHRIeXpPNElid0RkR1dNcmNNNGxBaENpSVZIdno4X0gzTWFwNVV3eldrOXZLdFZBdFY3UlN4c0tNTEJtNWU0b0NDU0VqQm5ONjNUU3otWGd6cFpicHkwb0tLaVdXOGV2R3BHbV9aR1RkREJiZG5yNWFDcEQ1QXlmNEVEODk1?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "SAP-Aktie gibt nach: Absturz bei Fortinet und ServiceNow schürt KI-Sorgen",
+    "quelle": "Investing.com Deutsch",
+    "zeit": "2026-10-29T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQczZOdVVSU21qUHJsMnpBdTdlYTRLS05jdFNvcThmWFQyWWZhVXdIc0ZlWHJwemx6cnhtNTljdlVHOTJrUnk0QWlZbGRFT18tU1VITXBZd2JxaEp2Y2EwYmJKQnZZR0dzRThNVHB3Rlh1UHpQeUc0SVc5RTNUeHo2bXVEMHgtQXRHa2ZMcTVKb0VRQThJMWp2NHltNS1Ya2JxeGVJckNpNWNRUlZSQ2Rnei1PWTBWd080Rlh5YS14Nm5wOTU2SEprb1gwSXQ?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "SAP-Aktie fällt, da kurzfristig die Abwärtsdynamik dominiert",
+    "quelle": "Traders Union",
+    "zeit": "2026-10-29T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMmdNZlhWRXI0YUNHOGdUOXFwTzNxaW9iOTJ1TDBpaV9HQi1ucE5xdTJVYm9DUkNsd2VyNFZNRkFNUTJQMDAyY0ZqN3NlZ2RwcW5JNnZ6S0xyR01CRkFZTGs5UzhNMWFhZnR0REZhRmZCVWtHbWs3cUQxSzlaaHEzNENtMjZCTjFreWZ6VXdrbjRpZw?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Siemens Energy Aktie mit Kurssprung: Dax baut Gewinne nach EZB Zinspause aus",
+    "quelle": "Manager Magazin",
+    "zeit": "2026-10-29T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYWZJQnktU2Q5Z1JvNGMyZW1UZktnZWNGMURJU1NuejdtSW5PaHJQbWMzYlFSeDlsT3RXS3NOVmtpMURmQnc1TkxvSzU1VTlPOUI1SVl3aE1pa0ZaQ3kxa2pobEQ2QnFkZ25iWFA5Tk1YdkdpU182Sk9vOUJLVVZ4eVgwZVJ5Zzl5NWhKaVJHbUI0dzVZTXNKbDJJSlZHZFFSRUw3U0FYUHROWTE4OWwzcTFnTEc0b3pJN3ZaUHlpOHlMbmtrVkFSRUpIOUxUcm5RY19zVzVRd2NBNDJkdjRxZDlWVm54Zw?oc=5",
+    "kategorie": "Makro",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "DAX stabil im Aufwärtstrend – Nach der Fed ist vor der EZB",
+    "quelle": "Wallstreet Online",
+    "zeit": "2026-10-29T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVjZFTi1pOUsxZXRVNHpsa0VNVEM3M1VvZlE2NXowWXo5UWtpYjM5dkZuaUVMY3g2WGlYc3BUa0J6RzVlcFdkbXpnUFN2TXpVQ3hhd3lyUkNsZG1oRkh5R0FveTh4ZGVYeHZCZ3BZaGI3ZFVRWndTMzAwSDlubFl6ak1tNDVOdkxyVDdvdDA3SklYVGVGZ0daak9SbXVIN2FMZzJEZTRzQ2ZNdmFxeXhRaEcwZw?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "DAX: 26.000-Punkte-Marke geknackt – Adidas, Rheinmetall und Deutsche Bank stark – Vonovia sackt ab",
+    "quelle": "Der Aktionär",
+    "zeit": "2026-10-29T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNLWVaN2hMSmQ1c3F3QUt4SmRDLWM4YUlTRG1pbFhIZDNfRkR4VUE3cVB5VmhocVJ4R0ZGQ0MxaTNVeHFoLThMU3BaRk9XV1BvS3VXeUVaTXYzMWt1Mzk2YUs3VFBDM2VaY3NDRDdOTjhhTlN6Mk9OVHdyV1JMT1JaQkZyWTdPX243b1puaWdhYmFCQU5jeU84S09YRllZVlA2dWxFNFJGbFd6TVJFbElLM0VucWtRa2djRXhWWTlDWGlzTTBzZkNPRzY1U0Z5ZWRyek0xU0d0aDVRVlNsdUpaTEFXeXFkVDBRMHQyYS1PTEVtNFlV?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": true
+   }
+  ],
+  "nachrichten_gesamt": 28,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-10-30": {
+  "datum": "2026-10-30",
+  "phase": "vorlauf",
+  "zusammenfassung": "Zertifikat +0,09 % (+0,13 €), SAP-Aktie +1,12 %, DAX −0,85 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP-Aktie: Es geht wieder stark bergauf“ (WELT, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Schwacher Handel: DAX verliert mittags“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 139.99,
+   "basis": 211.25,
+   "dax": 25818.21,
+   "z_pct": 0.09295,
+   "basis_pct": 1.12494,
+   "dax_pct": -0.85051,
+   "dz": 0.13,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Im normalen Rauschen",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP-Aktie: Es geht wieder stark bergauf",
+    "quelle": "WELT",
+    "zeit": "2026-10-30T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUkFtemZEWkYtSm5hVnVrTmtnLVFVcEFES3c0OUtidnFGQmU4aWpwdVhGUENIYURQa3UxYVlCaExfdWdoYmUwZGhmQnl6VDZaVkV3TEQ1c2JzdXR3ZFNGYlc4SlJOc014YUg4MFZoT2lZNXZOZFp0b0JZb3FEYlpRU2dFbFFJcGUydEJUSHZ1VTFnVTBqbHdoWVYwRHJrU0doOElRVlI3TEJNTVBTcFZUeg?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "SAP-Aktie: Günstigere KI-Modelle sollen Milliarden sparen",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-10-30T10:46:19+01:00",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPd21zWllub1l1OEhZeFpacFlSM2NpVE5mRU9rMXVoYTRTVGxDXy10SmZSX05VOURWUTRZdTRqWlJhVWExM3BCYTgxQWZ4eklMQU9IODBQMmlBNnZHOFFRSUU5MDlvRmxhTFFPZlVfTmNZMnFibzRfczdTaXc5UFY5dnJsVTVXUng3Tm4zTmJYOEk5UVJxbmtjWHhaU1Vtb3piZVJUNU5lVmtlQTA3bHY1WlhrZ01mWTFiZU5PSA?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP Aktie: Gesunde Pause oder Ende der Rallye?",
+    "quelle": "4investors.de",
+    "zeit": "2026-10-30T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11S3U0Q3M2aHd3SU9KTnhvS1ZCYTJacUplazR3NUV4aXBpYXZ2d2ZnZXFWTGlsQzY1cE9CVkF6OUZhZFBRZ2xUWUU0QkU3b2NsWUw4dG9XZW5ZVnV4aGZHMzVvZG1tbElqT2RxVU5XOVN3UGlBZ2M3aDh4RTM?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Schwacher Handel: DAX verliert mittags",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-10-30T12:25:42+01:00",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUmlKeGk5elVxelcwMGpJQnNhSThmRGZzSFRqbFpwcnhhUjVFQUJweXg4MlczQW1ud0dIWjZuekFYVUxEN29RdXhEcFFNYnFtZDhxdVBRYV9MejRUZmZjd252TTZuYjRXUDBMTkVtVlZYeVp5X3NRLVpMVmxUZnlOWENxVzRaZDlWXzN4STVGWDhtQQ?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "Angespannte Stimmung in Frankfurt: DAX verliert zum Start",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-10-30T09:27:42+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNLWVWTnltVmdwVzUwOGxIOTRjTHJITG1KQWRBMl9mT0xTdWVPeTN0bFRHMUwwNUtYVXg3ZFRUWkRlNWFqdDJILWtPeFYyMnJfV1cycEIxeHRTMTd4bUJRX1lxMktJbnFtY3AybzV0OGhPaXI5eVdkTDRYZFpQTlBFM09TTW4zQlhLb2xyRE9nZHZBLTlqZVlpbW1Cd1FTc1phZFVrLU5IS3Z5N2M?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "Börse 6:45: DAX-Ausblick, schwache Bilanzen von Intel und Amazon",
+    "quelle": "tagesschau.de",
+    "zeit": "2026-10-30T08:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZZFRCLTM3UkxWZ2Y4bng3Nks0OUs2Q2p2aVN1VDFUaUZ6NktrMm9fN19jQnk4NWJCOVJhQThnWGRNNjhoTGNrV1lTd1ViOUlKWHA3UHEzWC02UWt2S2hydTMyMVhNdFN5OWhTTXln?oc=5",
+    "kategorie": "Quartalszahlen",
+    "richtung": "negativ",
+    "passt": true
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-02": {
+  "datum": "2026-11-02",
+  "phase": "vorlauf",
+  "zusammenfassung": "Zertifikat +0,08 % (+0,11 €), SAP-Aktie −0,36 %, DAX +0,63 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie +14% im Oktober: Warum ich jetzt nicht mehr kaufen würde!“ (sharedeals.de, Übernahme/Beteiligung). Gesamtmarkt: „Dax: Die Börsenstimmung steigt, doch es fehlt das Geld für neue Käufe“ (Handelsblatt, eher positiv, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 140.1,
+   "basis": 210.5,
+   "dax": 25981.09,
+   "z_pct": 0.078577,
+   "basis_pct": -0.35503,
+   "dax_pct": 0.630873,
+   "dz": 0.11,
+   "haupttreiber": "Sonstiges (Spread, Vola, Zinsen)",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP-Aktie +14% im Oktober: Warum ich jetzt nicht mehr kaufen würde!",
+    "quelle": "sharedeals.de",
+    "zeit": "2026-11-01T22:47:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTHotcktNd2l3eVBlNVBVbFppNGFoLVZjTTRHY1FBb1FwdGJ2ZHhVQzFXcHJFY0d6VzhzZ0hpM1BMeTB0WDR0anZ3aDEzZU9pLUtpaTBXd1Q1Rm5aaDRaeGVxMG0wZ1NSNjZBbE5ERERDTTFMazZJM3p1ZEtYMVJwOThRSFoyemN4ckxCZjF5T291R3dIUFE?oc=5",
+    "kategorie": "Übernahme/Beteiligung",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP-Aktie: US-Arbeitsmarktbericht setzt Akzent in der neuen Woche",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-11-01T17:35:15+01:00",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcnl0UkRGaFRLdGtZS3VtQ1hDUTN3bFlzc0ZUaW9nQjI4UXFocTRNZk5lX1ZvRWsweVphclhNVk9vUkt2LS1nUlZDdDc0aXdJRl9jMFdzY1J4WW5sWkJZM0ljMk5La2lwNmFYWF9hZXFWYUQ2Q0JLa1k0cnBxTlUzcmJTblVPMmRiUUFGMnFqVm9aUG1yNU1rcWZYenQyRG1iODFvU2JWaVNsS09PU1lFOVBLM1ZIMXF2Y0ZlMXBEaG1jQWZtd2c?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP Aktie: Der Quartalsumsatz knackt zehn Milliarden",
+    "quelle": "Finanztrends",
+    "zeit": "2026-11-01T11:41:07+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSEI3UFZZejkwQmhoTVV3MXppMzZjUXJ1T3YwN2plMVlBX0dienJNTE13UEp0V1htQTF5RFhFVG1OY2tZTWZZOW9DUnJqYW5FVzlaLVpwclE3Z2wyeEU5RkJmcmxHcmlOX3Vtd2JaRzJBMWRHZU8xRUZ6T2dvLXFINHdWTUJ3Z1hH?oc=5",
+    "kategorie": "Quartalszahlen",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Dax: Die Börsenstimmung steigt, doch es fehlt das Geld für neue Käufe",
+    "quelle": "Handelsblatt",
+    "zeit": "2026-11-02T15:31:54+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQak0wVmI0S0YwXzFhYXBsZFFqWEtodGtjb2Y1R19ZSm1XNjI4YzZBRklQVDJuUVhqRE5QZms3cHpMRTFqRDJQQmtyRDNNR2c4dndoYmlEQkVQamtidzVJMW5FM2lUTDFHR0FPeDdoU2g4aVlucGtKNXNCbVFMZjU2RFYzdC15a2V6c2tyZU5sR2RlTUdhbV9GX3FBaml4cnpaU1FFUjJWUDlSN2dXZC1aSEVrTEdEems0aEFMRGppQV9SSV91Rk9BNEM3N25ZbXJBSDJiRkVVRjNsZ2FEWWpz?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "XETRA-Handel: So performt der DAX aktuell",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-02T16:02:10+01:00",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbGp4ZngyMUFFaGlrdkVEZzZBMkVROEd0cW42VXFTT1B0U0taa2FZd1MtY2pGa0ljMlNSWl8yUW1zQVhYYlIzbXJNeXVhSU0yVlZZRWdUWXZjOU5weVUyUDFMQTZ4cFBrRmttZlVVMnFzbjhmWDdkOWZRY1dQVEZIQ2dKNGt4MGhaSnhOTzkwVkxsWVZFS1E?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "DAX Prognose: Kampf um die 25.850er-Marke nach turbulentem Wochenausklang 🚀",
+    "quelle": "XTB.com",
+    "zeit": "2026-11-02T11:12:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRzZJYUg2RWZsWGt5TGMtNk56bDdqVWhGcGRRYVVtSERQcXNjZDNZR2dtZkF2bldyX0J1X1dCSU5IV084SHNDT2pZbVVISndEeXVuTXNVM2ZybjM3dnRxYnJWUXd3VGJvNzZPZi1Od1RqbUVIQ283UkNySGt0WTBlQ012cFRMekcwSE55Q3REcG5xUVpBT3N6UWUySTUwS21sS0liYUdjS2FkZFVETDU3bnpoWWJ6Qk9WeTk0aDNBYw?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-03": {
+  "datum": "2026-11-03",
+  "phase": "vorlauf",
+  "zusammenfassung": "Zertifikat −0,23 % (−0,32 €), SAP-Aktie −1,83 %, DAX −0,45 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP-Aktie: Teamviewer warnt, SAP fällt mit – obwohl die Zahlen stimmten“ (Investing.com Deutsch, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Dax am Mittag weiter schwach – Firmenbilanzen im Fokus“ (Oldenburger Online Zeitung, Quartalszahlen, eher negativ, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 139.78,
+   "basis": 206.65,
+   "dax": 25864.62,
+   "z_pct": -0.228408,
+   "basis_pct": -1.828979,
+   "dax_pct": -0.448288,
+   "dz": -0.32,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Im normalen Rauschen",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP-Aktie: Teamviewer warnt, SAP fällt mit – obwohl die Zahlen stimmten",
+    "quelle": "Investing.com Deutsch",
+    "zeit": "2026-11-03T13:09:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNlNIeXhrVUFvLVBfMHk2WEFBRm1NWWt2ZjRCNkhDVTdxNHNSLUtXV3VYOVJ6RmpoLTl2UTRiRGlsc2xkS3VvZUV5TXQtYUJNVU4weFVCWU9IeVo3blRDRnQwd2ZfNDVOc3RzbmtEVnFHSV9Qc19zdDNtSDBNYTVYcHpZMGtBbnBPclFiYXY5Mzg1UDgwdTlqeVg4ZXNaUGRIQlF5ay1uelUxSVZiX2NFdGFlaUJaN182LVFtdA?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "SAP: Aktie verliert mit anderen Softwarewerten",
+    "quelle": "Wallstreet Online",
+    "zeit": "2026-11-03T09:33:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWEtHcUNLTlRuZWlvWGpwdnNQUzQycWpQb1NMcGdzTzB1VW9ITUhIajlTbmgweHNwRGJ5ZmhPZ29VX3Voa0dtYnJ1UThJeENDbnVyQ3VnRVp4VlJpTFVWVlp2aWRVVmctZ3o3Mm1LRGVlXzhOOHBMRl9WV19KSk9FQkctS1BrQXlNUjdCaWVsNkh4MGppZGFRRTZjS2ZIZw?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "SAP Aktie: Analyst Esters bremst die Begeisterung vor dem Jahr 2027",
+    "quelle": "Börse Express",
+    "zeit": "2026-11-03T16:59:06+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZXNqTHJpaGptX1hscE14dnVoQzQ4NFJFelRUc09JZG5PWXJGVWQtczhBTlRDRlJBLWYzMi0xSGllbnhWVW02X2VMMHZPVms0NXk0OFhDSFBBUUpaMFA1THIwNDRoSkFobGFJUmY1WjcwbzdnSGVIOFBveEVRTDFqTnlUSXVNdU01d280RnVoRTloeEhPQ1VROEQ4QVczTkpZeDE5THdwQmstenE5RDMwTGpHVGhfUjRiMmc?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Dax am Mittag weiter schwach – Firmenbilanzen im Fokus",
+    "quelle": "Oldenburger Online Zeitung",
+    "zeit": "2026-11-03T12:30:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ3FBdkN0bWRVU0RKV2Rpc29sb0l2R0Fuc0xrZGF6R2MzT0stSldYc25QOHVDRUxLVVFqTnUzbjU0eFVXMXMxZTFHUWtUZUpFQklDaGJfWXdyT1RSTDRGUGJ6cjJLNGxsVzEtWnRuOV9xeERQV1FmOUhzVnZET1VoN0ROb1hvYVE0MXZQTm82THF1TEVWYUxXMWpjVThYNTR1TzE0eUJtYWZtZkItYmJPRmdIQ2ZEc0Ns?oc=5",
+    "kategorie": "Quartalszahlen",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "Schwacher Handel in Frankfurt: LUS-DAX verbucht zum Start Abschläge",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-03T09:27:41+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYUZUdnh3Mk9xR2JKZ3M5TzhGMkhySUJ4VlJ5N1JGcEdhVGVGMEhwcjlHUnVIVGEwcEsxeFg4U1NYRVptc09FV3VIamw5RGFlSkFXb0JUcXRiUC1NeFhhdDBucUczaVVJbmluV01sTjVpREVBVzd6UXZ4SHhaYXpJOUI5bElwZ21EX2s1TU1CRGlKZkVwcUdMSVltNWVBTTRuZ3VYSEJGX0lURHFiR2NwcnhnOFJmX3hmN0E?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "DAX Analyse am Mittag - Ich habe die Nase voll! Zumindest ein bisschen!",
+    "quelle": "stock3",
+    "zeit": "2026-11-03T12:45:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdnBES3E3amdKUGRtNHZRM0Zrak91eFhkWjJKLUtBQmg2VjRaalNkZHhIbXZ2U2w2SFNtSFBaNTUxWFJnOTNmclp6NmxPaEFPdkZOMHZJR1NqZGVBenBzVUE1SEVYYXREOG1xVFpoaW90OTZ6U3lWVWN1eDlhaHpXclZLRGlEbml0d0Fxb19uRXFseUZodncxMmdoY1I2MDFRX0E?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-04": {
+  "datum": "2026-11-04",
+  "phase": "vorlauf",
+  "zusammenfassung": "Zertifikat +0,28 % (+0,39 €), SAP-Aktie +3,70 %, DAX +2,22 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie: Es geht wieder stark bergauf“ (WELT, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Warum der Dax nach der Schlappe für Donald Trump zulegt“ (FAZ, Makro).",
+  "kurse": {
+   "z_geld": 140.17,
+   "basis": 214.3,
+   "dax": 26437.67,
+   "z_pct": 0.27901,
+   "basis_pct": 3.701911,
+   "dax_pct": 2.215575,
+   "dz": 0.39,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP-Aktie: Es geht wieder stark bergauf",
+    "quelle": "WELT",
+    "zeit": "2026-11-04T11:03:18+01:00",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV25POVpUSW4wUmJNVmhNd1BxWVk2Z1lHQXgwdHpXZVhqbTZpci0zS1JSUzdNWUdlWFNKT3M2Tl9LQkhSQWJJSVNUUHhyM1B5akV0bDctUldhRE15VUNlZjNFR05DZVBjLUtlTUtuUl9PbUNCdU56M2JDTnptbnlYaTlnMVZTMV81U21hekg0dlV2d0JEa3Z4bjBXU2RNalhNRE1VSzlscE5PZFhvVm05SQ?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "SAP-Aktie: Es geht wieder stark bergab",
+    "quelle": "WELT",
+    "zeit": "2026-11-03T18:05:55+01:00",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRTM4c3RtNzEzbVVLZnNXWXJtN3E0ajhVZF96VGIwLVUzV1d2UklCQXBIZDFQQUNweHBSb0h3Zm5QOHF6ZlFPakk4X05OaFNOcVl6ZDF4VktzVjZoSjVCVGtzRm5maEluREdYWlNJNEd4Wk1MU3FBakUtSGFvbzhTaXhJOHZ5Q0lPUkJIOEYzdnZlQVk3Qi1GOUNQM0JBb0ZFcUVHU3RmR0pOZlN6ejM0?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "SAP-Aktie: Cohere North für regulierte Kunden verfügbar",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-11-04T16:22:38+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY0V5aW03S3FiWGxvWXBkY2g5OGg3WU9ZVjE2blBUM0FMRjREd1I4ZTQtLW1oMVl2YzYyMXAxb3RwZUkxUDVKRjJtYk1sVUtBM2V1d1hNQklyR3FaREhKM0RVN2xUNnJiWmpGLUJsdjcwTXF1SG9wbjZZb3hGUEt6NkpVcGZxTFp1VFFlbjRyd3pUMTRFT3FtbVVxQm50cHhOZ0l4LXAzU2xxekZBOWpKYi1Vd2hoYXVER01j?oc=5",
+    "kategorie": "Recht/Regulierung",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Warum der Dax nach der Schlappe für Donald Trump zulegt",
+    "quelle": "FAZ",
+    "zeit": "2026-11-04T16:08:21+01:00",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQREtGR1o0X2NuV3YtOTNlaDBwVVNqdlJOTWNRM0lPM3dGNklVVlg2SHVPVkppak1KU1piLWNMWnUxQXBkQlJpLWZHVWJzaG94LWx1bzN6TU9SX1JMMWRMSks5V01jZlh3bGZjN3JYU3hzSmRGSWtLNGZuUWhfazVKbWxlWGR5LVhOWVlpX0RLR3lVMDVoM0hPMFUzRjVpYVFCbnc1YU9RdThyNldLSzFONGJlYmxLUzdaVHdqRw?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "US-Midterms: Trump verliert den Kongress – was bedeutet das für DAX & Nasdaq? Heute 15 Uhr LIVE!",
+    "quelle": "Wallstreet Online",
+    "zeit": "2026-11-04T13:15:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZl9oNjBHM3UtRW5JREY4NkFGdWJ0bmEzNDZUYktNVzFWeE15b0RhaHpkQXV0SndRbC0zTEYtcm1SVXNsWW9pNjVPNzdWX0s4WVFNMUd5WHF6RWp1M2dmY2ZxT3MyQkMzM2NkSmQ0Q2NvN3JlbGxhUDRGbnNvZXJHZnhIb0RzT1VDSUtMcDZmQWVBdmpETXV2SjdvUGgxWTljdm5PSjQ3aU1kMURzUUc4aldMb0F4UWZBczBz?oc=5",
+    "kategorie": "Makro",
+    "richtung": "negativ",
+    "passt": false
+   },
+   {
+    "titel": "DAX feiert Trumps Wahl-Klatsche. Doch Vorsicht! Deutsche Bank ist völlig entfesselt. Aktie nun auf 36 Euro?",
+    "quelle": "BörsenNEWS.de",
+    "zeit": "2026-11-04T12:22:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPaUJrWkFxVHRReGFfVEMwOVF3RDl3Vl9kcmFzNG9kdm1kOTZoY0dUTXd2YldYMWh2d3VJZnpiSVlxU1Z3WF84dmM4OGlrdlNkazhjbmxGY3Q1WjRLbmhMMm9lakVfNWhsTU5IQTAzUXJLS19NWDVzQjJjWERNRk4xTHJ6SnJIZFhxWUdGVEF2Y1lNRXNUU0JuQV9sdUNYMFFpT3dIOEwxX1dQY1RVdjh6YlNvR2FqMGYxNGdtcmRITEk2dzVzTFVGN1FwMWdRY1oyYWR0VWJwczMtdjZCTm1GazhuckV6cWdfX0FUZDI4ZVUxMHF3TXFLcWtqaEJ4NFg2bWc?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-05": {
+  "datum": "2026-11-05",
+  "phase": "vorlauf",
+  "zusammenfassung": "Zertifikat +0,06 % (+0,08 €), SAP-Aktie +0,68 %, DAX −0,43 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP-Aktienprognose: Aufwärtsdynamik hält an, während Anleger den Widerstand bei 219,27 € im Blick haben“ (Traders Union, Prognose). Gesamtmarkt: „Rheinmetall senkt Prognose 2026 erneut - Aktie bricht am Dax-Ende ein“ (T-Online, Prognose, eher negativ, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 140.25,
+   "basis": 215.75,
+   "dax": 26325.01,
+   "z_pct": 0.057074,
+   "basis_pct": 0.676622,
+   "dax_pct": -0.426134,
+   "dz": 0.08,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Im normalen Rauschen",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP-Aktienprognose: Aufwärtsdynamik hält an, während Anleger den Widerstand bei 219,27 € im Blick haben",
+    "quelle": "Traders Union",
+    "zeit": "2026-11-05T09:42:37+01:00",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdDZKaWxBVDZFMXJNM3dEcFhfMDFtUjN4bWk1Njl1RmtuYXE0dFY0QjFyUWhlTlB5UTU4S0JEelN0TkNEWlJEYnoyY2dNVUZWbFBaR1RaRkk0Y2NlV0pCYXprejFzR1VNaGpOSzJtczR0d3RHeEp0RzNHOGdmOGI2MUlBRDh1S1o3cFBUSA?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP-Aktie zieht weiter an: Folgt der nächste Kursschub?",
+    "quelle": "sharedeals.de",
+    "zeit": "2026-11-05T17:05:16+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMTltMW1YWDFvQUVLQ082bGszUWlDcjE3X205NjN2cjdFMk1rOFRjalNhVm8yZlV5ZHBuSDRfMnBJLVpBNEJSS1FjY1ZXV0FqckJXU2kybXhHUWVubVRQekdOazZESTlkYkpCMXBTaW9DSk1NenhWOHVIMlRRYzlmMV9ISFVmZkdU?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP-Aktie: Souveräne Cloud soll Behörden digital stärken",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-11-05T16:22:24+01:00",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORkJPME0wUzA2WG0yYllwVS1zQ1pKV2ZVeWpPWnVKYTdndEhiN0IwU0Nya2NDd25GM0ZQX09sQWo4eGRweTc1NG9GTTFGRjB5aGlRYk9KSHh1WFlac1pfV0VDaUdYd0dqVUJxOXVjVTlLUGV2Tmp5OFBJVWJSd1Rub3BzU0IwQWlGdXhXci1GaERoTkZIaG9QY3psdDFuMWJmSnRMQW5wNUxZODd3ejBiZ01NVUJSOXZSQWpmR0lB?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Rheinmetall senkt Prognose 2026 erneut - Aktie bricht am Dax-Ende ein",
+    "quelle": "T-Online",
+    "zeit": "2026-11-05T11:26:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPM1Zmc3hfLVNzcnlEeTA2a1MzUlBDcExFR19lcUR0NXJTNGxfNUNOWV82Qzhhc0JoS2YtS3dPVnUxbGxEclRrOENfc0xodGpnOVFjeTI2YTZkVmxNS0hDMmxhM0E4VWVMNU1rLUU2WHIzUFFPQ0tObjh3QnJreHZTZ2lNVDRBY21ZWG5HN21PX0RhYWdmRWFrajl1UDA1MS1PQTFZTjc0RGEyOVBCclBHZ0RoWURFM1oxNWtmaG5hS0w5U1ktcVR3STVNdWM?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "Rheinmetall: Aktie fällt zeitweise 18 Prozent - Dax-Konzern schockt Anleger mit Gewinnwarnung",
+    "quelle": "Manager Magazin",
+    "zeit": "2026-11-05T10:39:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPZm1UbnRvMHBELTZqLWRyTGVfcHJYV1F3TFhwT0pLX0swNGxpLVgyX2JyaVZGNWV0ODZRb09uaFNGQ21JT2lpc3Njb1ZSalRNZGFtQjBMazVKcVlmNWVGbm5pWGNfYlJvQzFuZWxtNDVzMl9qU3FBQ21xSUR6M0R1RjdxQjdDUWthWW5HOVVuOUkycmRzWXVnWG9QWnNJZmVQVkdXZUMzaFRXX0RKN0tWMkdYSzZCbFROd1YxbmxfLUcwWWVHZllFS0VTaloxZ3JLLWJxazZrZGdYOG1senlmam9XVnFrVy10U2tKV01JSTQwNjhVMl9zYmg0c3BjVmRwMmo4bzlHbmZKN01FcmZHXw?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "Neuer DAX-Rekord? - Commerzbank, DHL, Bitcoin, Trump, Siltronic, Meta, Sony, Siemens Healthineers",
+    "quelle": "Börse Online",
+    "zeit": "2026-11-05T08:59:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYWliR0ZMd1FmNFBGakZvWXZSay1pZ1pQcWNlVGpId2dDVnNlOHVLZ09RbGZpLVFoLW1BZlRLSGZrb0haMS1GbWpmRmVkSllHM3Q4YTYzTE1UaGZHRG9LYlo1dFNWU1pJOHJXcTFYRWFGUFg1RHhxZHJadndoUnZSMFU5cXJHa2JLeE9MQlJNZDJiUi11a0NkN3FLejViOG1yQ3JTQmJzcFlsejg5Tlp4V01fbXRWRHREby1yZjB6Um9VbnhQOUF0QXdtOC11dXFhWlZFcTZUbGNVbF9lMktEby1tRQ?oc=5",
+    "kategorie": "Makro",
+    "richtung": "positiv",
+    "passt": false
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-06": {
+  "datum": "2026-11-06",
+  "phase": "vorlauf",
+  "zusammenfassung": "Zertifikat −0,18 % (−0,25 €), SAP-Aktie −2,32 %, DAX −1,92 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: TeamViewer-Prognose drückt auch hier“ (Börse Express, Prognose). Gesamtmarkt: „Dax startet mit 1,7 Prozent Minus nach Nasdaq-Einbruch“ (FAZ, eher negativ, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 140.0,
+   "basis": 210.75,
+   "dax": 25820.36,
+   "z_pct": -0.178253,
+   "basis_pct": -2.317497,
+   "dax_pct": -1.916998,
+   "dz": -0.25,
+   "haupttreiber": "DAX-Bewegung",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP Aktie: TeamViewer-Prognose drückt auch hier",
+    "quelle": "Börse Express",
+    "zeit": "2026-11-06T12:23:10+01:00",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa1YzX25TbHZSOW1nMlFISmg1SWVseGFBMTE1RDlGZjJCdWJzbS1DWEI2Ync4MXVkNzREbUNSeHQtVUZnZFBYX0dzd3U4Ukk1ZjRaSUZRQTZKUHk1TFZoY3hQT1UzSVZXMGtyQUxsbEZ5YW1oVlJpaXZzby1QV3lPcUlhQy05MUxHZVdyS0lSMVoxOEtRSUxsbGk1aTlVaXh0?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP Aktie Prognose 2026 & Kursziel von Analysten",
+    "quelle": "Börse Express",
+    "zeit": "2026-11-06T09:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9GcjI0bVExbzZUSG95eUFqMFdOM0FreVVKRVVrRkJPYjYzaWVMNWlfbTVLeGEzMm5oWmRxWGZ2RmZvcDY3d3UwX0p6YWp1SkJDNHZMdFhQNmFlMXljMWYzY0R0dnF1TF9lczM2eFpJQWpteUlZM0xwdExR?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP-Aktie: Es geht wieder stark bergab",
+    "quelle": "WELT",
+    "zeit": "2026-11-06T17:05:20+01:00",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOajNBaDh0OUMwT2hmanExeUpfa1ZidVJYQnBuUnpxR2Rpb0RHcEFxLXc1RmRoRzlxUVotWm9BSnZaVWVSbURJYm9IUGNpUXllR0twdHBjNkM2NG9wM0tXOUdaaVBNeFdoRUk3b1hoSnBTVkoxMWFZZDFZa0g4S2M2N3J3VENRRzd6a01rYkRtRmpsNzF6YzlQTEktTEdIU2F0WHk5OEdEQjJfdzY4cHhN?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": false
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Dax startet mit 1,7 Prozent Minus nach Nasdaq-Einbruch",
+    "quelle": "FAZ",
+    "zeit": "2026-11-06T09:22:56+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeGNwMWFwR0dDdVdOQjFUTWVFS0htT1VEcWM2cjNKY2NxeDBrWlp1dkc2RXlHUmZoTzc1X18zSDhFWGx2QU9SakJDbGZ0OVQ3XzNIRUxuWEVsZnBOb1YzZkp1ZkpRRmFxSDJtWXp2R3lzSS0zQzlJU2dUdzNDMlgzQW82UXpBNzh5VF9rT2tLTW1aTzlGdEFORC1HelVxeXEtM19VQ3cwaU5QZGNiVWN0eXdtVFU0OTBBSDIwQnMzN3Y?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "Börse: DAX-Ausblick, Wall Street bricht ein",
+    "quelle": "tagesschau.de",
+    "zeit": "2026-11-06T06:11:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwMGlkTjVuQzZUR2JIR2ZVeXc3VlV2T19nd09WcW1XVnV2UmdvSjRWZVZ3TThIb2J6OWFsV2JIVzdGdDNVVURXTzVkenJyQ1FzMzVjNmxlSTliRlRFaFQtbU1CYXJMbmpFcHdMdWJn?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "Börse: Ausverkauf bei KI-Aktien, Nasdaq bricht ein, Dax dreht ins Minus",
+    "quelle": "Manager Magazin",
+    "zeit": "2026-11-05T21:55:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZTg3WFdlVjBidGR5S0lPMUgtYU5XVjJaQ1hmem1XeTViQ1h3cFBxZExuLWdyVjdqTTQ5cDV6emZienZQOHZKVVc1anJKbmxEaW93ai1qYUZhUWtLQ0IzUVZtenhZNm1vcjNCa0N6QV9jZl9FckxpUFItVDdqVHdTOWIxTjI5eFgyV3dLS2l0cUNWNlFLNmJ0Wkl4MjJQRlRUbjZIRUVPWFRRNWhTSzhod2FUWlBWMks2dzNWS1ZSOGF0bzZTSGNXNG1vTWswSWNtNi0ydTBOaERfUjNZcy10Wk9mdDg?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-09": {
+  "datum": "2026-11-09",
+  "phase": "vorlauf",
+  "zusammenfassung": "Zertifikat +0,10 % (+0,14 €), SAP-Aktie +0,43 %, DAX +1,73 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie: JPMorgan setzt auf produktive KI und hebt Kursziel an“ (ad-hoc-news.de, Analyst/Kursziel, eher positiv, läuft gegen die Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum.",
+  "kurse": {
+   "z_geld": 140.14,
+   "basis": 211.65,
+   "dax": 26267.19,
+   "z_pct": 0.1,
+   "basis_pct": 0.427046,
+   "dax_pct": 1.730534,
+   "dz": 0.14,
+   "haupttreiber": "DAX-Bewegung",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP-Aktie: JPMorgan setzt auf produktive KI und hebt Kursziel an",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-11-09T17:15:09+01:00",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUWJ1VGdlMGVCMnF0X3hoalJxcWFnSk9CRjN0QjQ1UVpRYXFEWXE2Z18zX21YQVBVTFJ0MTFEUWJnSmNVYnF0VUlGb3RfMERYdTdpNkFOaV9uOUdoZVFoZkZUejBwTDlIVU9FelhWOGtmeXkzcHRqSkdKWjVEYTlnZUtXX1BwMENxWWs1RmJTcFhEU0Fxc3ZfZlFyOVRlZUU4aGZRamZIVUZEM3AxZVFod2wzaFRaXzBSd2JQZ0xBMXJsbHpB?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "positiv",
+    "passt": false
+   },
+   {
+    "titel": "SAP-Aktie reagiert mit Kurssprung: JPMorgan wird optimistischer und erhöht das Kursziel deutlich",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-09T15:09:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcjdFaGRDak5vaDVvZENoNG1SZ0FETXJfNWQteTBCeGRadm5BMFp5bkpNOWY1dGMyQ1R6MmdfbWpWSHVGV2tIZWJJRTZnZlBKRUpINVh4Qy14QWpnVi1tY2lhMVpSUFBaT0x2R1pvVGxfZTNwSDlfeGcxX08yOGFSSFowLVlhbWt5b0g4RDctSjdzZ0lmeXpYYTFlQVJ2RzNoc3hmVGdiNTMxY2hRMkw1RXdmY0ZkZGZJOXlMcWpFbGVUVjVMR3VnczB5ZE5FdVB6OE1FWkVJQmo4aTJsRjBka0hBdVVJT1FlWGl5OVE4MF96elRO?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "positiv",
+    "passt": false
+   },
+   {
+    "titel": "SAP-Aktie: JPMorgan hebt Kursziel wegen produktiver KI auf 275 Euro",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-11-09T13:02:46+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRGtoNkZKck9yWEh2eTZKS2hNekh6Q0ZVNURUdTR5YzJnZEYtc0VSLUxpcHhaRVlEQmZWb0E1YmFmQ0M1NEEzQXZ5Q3UwcjhIUTRqZDNyaWFrenphVm96ZlppdnZnUFlLcllISjIwS2ZhRTBDUTExOHpQUmI5MFVMLUhOcTVraF80OVlVeDNUbW1pY2E4Xzc5QlluZm81S2xjQ3huUHA1czVrZDRMb2xUbVI1YV9XNHJwbEVZSS0tV1lyUnBMRi1tdg?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "positiv",
+    "passt": false
+   }
+  ],
+  "nachrichten_markt": [],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-10": {
+  "datum": "2026-11-10",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat −0,06 % (−0,09 €), SAP-Aktie −0,80 %, DAX +0,31 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP Aktie: JPMorgan hievt das Kursziel auf 275 Euro“ (Finanztrends, Analyst/Kursziel). Gesamtmarkt: „Dax auf Rekordjagd: Sinkender Ölpreis und KI-Comeback treiben Kurse“ (FAZ, eher positiv, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 140.05,
+   "basis": 209.95,
+   "dax": 26347.45,
+   "z_pct": -0.064221,
+   "basis_pct": -0.803213,
+   "dax_pct": 0.305552,
+   "dz": -0.09,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Im normalen Rauschen",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP-Aktie: JPMorgan hebt Kursziel auf 275 Euro",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-11-10T17:01:16+01:00",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWtTeDZ5RnR0bVNKWXFUaDNsTXNxR0FOWHgtM1dFdWNrc1g4TWZWeHF2MW54QzhsWklocVpzSkMxT3BZdmhjazdZZUZZNG50ZU96TmZFbFQtTXdDS09zQkJMSnNrQ2cwRkg0TFRkWU81a3AxN3IxZ1ozOW4zQ3VqR1Ztc21LbS1wZEVwWF9VZVRVbTd4WFVjVlRjbVpsRzAtdjAwZll4dkdDSDJQ?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "positiv",
+    "passt": false
+   },
+   {
+    "titel": "SAP Aktie: JPMorgan hievt das Kursziel auf 275 Euro",
+    "quelle": "Finanztrends",
+    "zeit": "2026-11-10T13:00:21+01:00",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUkdIb25TZDVmZU1tYTYtTml5NlZWU1lTdGRrWXRzQktSLXYxQnNHM0IzcGNYMFRlUVIwZXRYWHlKLXd2QXJuYnNBb3hVaEJwYW40TG1JZWhtZUJHOFJiSDZPZmlCMkFtZFZzV29QM3dxUGQ1RXNaMmFWZzdiUzBVa0lXWnlVa2c?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Aktie im Fokus: SAP – Analysten von J.P. Morgan sehen über 30% Kurspotential",
+    "quelle": "Broker-Test.de",
+    "zeit": "2026-11-10T10:28:44+01:00",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQck9vZzVfNmRDdGc3WEZ2Qklodi11cUo1R044Z3owdUJJMDRTQW55SEN5azczQWx5ZHU3ajZkR05YVGxMMjl5ZjVKODZQWnpCT3kzRjdpX1JTLUlkU3RidHN2WVFBdzlBZ1RNS0E5aW9Kazk5UHF1NDR4YXJEdFFsalB0YmdoNG1CblM2c1cyQkxzdjZQSXBOa2xObTdfNWotaGNOSmg2NUJxZy16c1E?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Dax auf Rekordjagd: Sinkender Ölpreis und KI-Comeback treiben Kurse",
+    "quelle": "FAZ",
+    "zeit": "2026-11-10T13:58:02+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSy1TVWFOSFVtam81bzExRHo0dEJidGZyVjBaWkMwVWxsdjVESXU1WTktdFJwSmowMnJvejREUmJBaElPRE5rUFZmRGExRnFwN2tWMkliLVNuUlN6dlg1UFBhR1ZNUF9YUjg3VGQ0ZmZRNWl6SkNrUHh1THdYZzVzZXE5U2lJT1psbUhMT1dYeHNqSnBLRXlENWZmcDRVWEZNeElFTE1iYXZhTFlPamJWMGFfZlJnZTJhdlhGT0w4Y2M0T2xtNlN0TXI2Z0d4QWdnNFE?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "DAX vor US-Inflationsdaten außer Rand und Band! Deutsche Bank nimmt Kursrallye wieder auf – Jetzt auf 36 Euro?",
+    "quelle": "BörsenNEWS.de",
+    "zeit": "2026-11-10T12:35:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQN0NUZHRvOG1LNU84WFpNcEYtdENWRGdWeXdoNHBzUWZNbzYtU0xydlZGWVhFdzBNM1F0ek1SS2pwa3l0eW1PSTUxbHZzZ2lCMHAyRVhES0g4dU1PT2xNMmE1R2tyQ1hzQ0tZajdGQ3pDWHRlZDFsMXVIbWZCMmFLeDE0Ui15V3dKamxlVV9VZFBmSmtwaGR1dE5UX1IxTVpTX2JzSnE5T2RJamoxWDlYZ3diSDZ0dVdXbTRkcUJXaEZMU1lIZkxXZnNBZ2l1WVRRWWpET1pfNEcyVF9CYlpQZy1yU2dVaFhGczlMcjY1X2Q1U2RTZ3lJdHlTYlo3dE80Z3JoR2NR?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "DAX-Bullen bleiben am Drücker – Infineon mit starkem Ausblick",
+    "quelle": "Der Aktionär",
+    "zeit": "2026-11-10T09:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUGJMdjVHd1pSUWZ2SjB5MEVwWmVMUEI3eUlXX1lsRlhwRHdVQkpxXzR3QjdmUlRzUHhPMlBsLWVXNXY1MHhtVS1TckxjWVNOZzlraFo5ZTNzMF9OVUk1WDk4U2tlY1JlQjdFNktKYkh4dFp1dlR3Um41RFk2dkVKUEZwMTNzTzVTNEx0eXNwWjQ2emNIZ1k3eWtiV0M2UzRKVnJ1alRfazhqZXNYaGF4dUFXRmhsazJyaXRMc0lSeC14d1VlOWZHTEc3VQ?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "positiv",
+    "passt": true
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-11": {
+  "datum": "2026-11-11",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat +0,09 % (+0,13 €), SAP-Aktie +0,48 %, DAX +1,20 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: Analyst Sasse sieht nur begrenztes weiteres Potenzial“ (Börse Express, Analyst/Kursziel). Gesamtmarkt: „DAX mit nächstem Anlauf aufs Rekordhoch? Siemens Energy mit Top-Ausblick“ (Der Aktionär, Prognose, eher positiv, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 140.18,
+   "basis": 210.95,
+   "dax": 26662.77,
+   "z_pct": 0.092824,
+   "basis_pct": 0.476304,
+   "dax_pct": 1.196776,
+   "dz": 0.13,
+   "haupttreiber": "DAX-Bewegung",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP-Aktie: JPMorgan erhöht Kursziel auf 275 Euro",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-11-11T12:26:27+01:00",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU0ZfeFV5OExEZG1wdUh4RTBjdTE2SHdRdmh4eFgyaHNNdmx2cjY0dGVmNHFBSEQ0ZERyVHM4ZjE5cmxCZmhkbGM4ZGF5WlA3bGUwdDFXRTRkWXlndXVxdDdUbEhSMlN3aldOY3I4dVRZalRJTXhhN01xTHNaVTRNeUZvN1M5eXdDNjBuYnpOb3E3MFZBVW53T0Z6UXpub3F2c3F2SU1FX0VlQ05PYkczRg?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "positiv",
+    "passt": false
+   },
+   {
+    "titel": "SAP-Aktie: JPMorgan erhöht Kursziel um 100 € – jetzt +31%?",
+    "quelle": "sharedeals.de",
+    "zeit": "2026-11-11T07:37:52+01:00",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbVY4R09rd2JFUktwWjJubGw0cGtnZnpmRzVPSE5xOTJQeDEwWXNjRF9JeFcxNGZQcmZmQlpEWlB1Tk5Pb2lsV3MtQlMwaU41RnN5bzllMG4xQVQwOTh2aWowOGhqM2tEbHJNTXg5SWl5QllVbS1COEV3dFl1NDhXbVJ2YU95YzA?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "positiv",
+    "passt": false
+   },
+   {
+    "titel": "SAP Aktie: Analyst Sasse sieht nur begrenztes weiteres Potenzial",
+    "quelle": "Börse Express",
+    "zeit": "2026-11-10T18:56:10+01:00",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWGNIWTZ3MDhEVndPTFBIU2hNcmtUTVZUTm1rWGFhX2owNEw1VWc0Ykk5X05Xd05USkZ6N0hub3hQSWo3V05nQklKQ1l0aVJ0dkRxVUJ2U0ZETHZkWUNRY19PYWVfamhfcXlzbV96cFZQNFdpQXlhZVFPSTR2TnA1MEV5RWpVRFFtNUhJRTJDVGpON0RPdWctRkMxZnhDTTY2SVNiRzhtNV9aVFktaGE4Vm5xbkt5UQ?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "DAX mit nächstem Anlauf aufs Rekordhoch? Siemens Energy mit Top-Ausblick",
+    "quelle": "Der Aktionär",
+    "zeit": "2026-11-11T09:01:41+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPR3EwbHcwd0hFRHk3b3lKdi1kaG56Zm9rRzlWOHd0THR2TlJCd2ZkWG9NeEE3UTBBNDBINTJ4ZU5TZDZqMHZkbWtmUkJLdEJ3cVdDYVJJUUJSX3JEalFwelVOUXZRUXBJSlNBbmR2aF8wdkVJb3ZEYkhQcW5WOE1vazdfZ3BZeHpWaE9MRHdyalhIT09EcXE1OVpwSlZsVEZ0T0xFZW5SWTZCUlpNbUZMakdJUXZWTVEyVzFIVXNnMEV1WlZBaEJvME04Ynk2RlVtV0hla0RjVXBGaU5v?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "Optimismus in Frankfurt: DAX am Nachmittag in Grün",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-11T15:57:42+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYlBRRXM0b0ttXzZpOFh2VmxhcUMyVDJSc2c5QTdZdHlZeVBwVkhxWWsxZmFrNjZnWmtQemhwaHNsRkNPTmxEa0tKSDhmNFBSbXQxZWxqbkJYVWpVUUQ5UmVEU0VJNFktb0pPNmZ1ZVEwbWFaRjVGeDF2R1l1Qm5qczduRnVLRFBwaDlNNWs4R1ZBeVpiaHA1REhXRnJENEhNTmhF?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Aktien Frankfurt: Dax bleibt vorerst auf Erfolgskurs - Tech-Erholung stützt",
+    "quelle": "Yahoo Finanzen Deutschland",
+    "zeit": "2026-11-11T14:25:54+01:00",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSFZEWWxNcEwtLVROUC1JMGhXRUJ2UFl2OGN5ZDVSVlFXM19pMzhJcHZyZzJpRmNPd3JqTF9qUzBwUzNPYWRsSF9wT1FFSUNsd2ZyZElSbnpjTS12R2VlQ0FzTFpmQ2dENUR1UjVObk02bmdFRHBJZ0NaYWpjamZTT2VCWnVQcmQzNmtCZEJLTUFrNUZMTWc?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-12": {
+  "datum": "2026-11-12",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat −0,01 % (−0,01 €), SAP-Aktie +0,76 %, DAX +0,41 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Im normalen Rauschen. Zu SAP: „SAP Aktie: Rückkauf-Maschine läuft weiter!“ (Kapitalmarktexperten, Dividende/Rückkauf). Gesamtmarkt: „Dax steigt erstmals über 27 000 Punkte - Wirtschaft - SZ.de“ (SZ.de, eher positiv, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 140.17,
+   "basis": 212.55,
+   "dax": 26771.88,
+   "z_pct": -0.007134,
+   "basis_pct": 0.758474,
+   "dax_pct": 0.409222,
+   "dz": -0.01,
+   "haupttreiber": "Sonstiges (Spread, Vola, Zinsen)",
+   "verdikt": "Im normalen Rauschen",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP Aktie: Rückkauf-Maschine läuft weiter!",
+    "quelle": "Kapitalmarktexperten",
+    "zeit": "2026-11-12T10:38:10+01:00",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNklyelhKV1ZPWTNKeG1kLWhqMWU4WXFwZEhGbkxkRGdjTlBXdXE3UUtGSHc5Qm1VbTVvWHQzbjR6alpsSE40NE1nM0R2bkF5UTZCSTloZkhrVHFtd1dRQzVGWmpBdDJRRG4yQ1Z5OGdIakNhZFpsWjhRWUlNQ29JZG1Jemh5Zw?oc=5",
+    "kategorie": "Dividende/Rückkauf",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP Aktie: Qi Lu räumt seinen Platz im Aufsichtsrat",
+    "quelle": "Börse Express",
+    "zeit": "2026-11-12T08:45:11+01:00",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZExRN3FxSDJBekNla1JMWnBXX1hEU0YwWkVjSDRUbWpwUVR1MUx3eUhfQ09hRVd2cTcyWXBjQ296ajRVRWhLWnltZ0VESG5xaGJOTnRTcjBMVFJFOU1RWDRFallVRGl4Q0FsTHljdkFDM1QtZk5mZUxGZktmSXZqNnNFVEp1VW1OSTJRdGVzcGpOcHVHbHBIOVg0cE5PbGpDbEpVZWJ3?oc=5",
+    "kategorie": "Personalie",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP Aktie: Aufsichtsrat Qi Lu tritt zurück",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-11-12T06:39:43+01:00",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ0llY0lreWFJOVdnVVFpaVBQdzlvUVhGcEMxWFViMENwc01iX0pBZlhsSjhTZzNoMWxmSVRITzVTTmk4UE1SaHdCYjZ1b1YwRWY5MjRFRTRqZERoRFF2eENMUE9TbmxsR1NLcEJrSjRDSDBoYWc4dFdORnVkRE9XcklzUUJZQlZnNEJhSFByOXc4UXBOejJGQTdua0dFb25rQkFhSEdvdFJhYXQ0dGpEOHg5Tm0?oc=5",
+    "kategorie": "Personalie",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Dax steigt erstmals über 27 000 Punkte - Wirtschaft - SZ.de",
+    "quelle": "SZ.de",
+    "zeit": "2026-11-12T12:33:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcGpfUV9lUEVqbHJxUUl0bUxpeDIwU2ZlMGZnUW5uU0p6TlZzZ2lrRXB3bUJxR0VONHJmdVhtRGxpdktwb08yNm5DaWMzdFJ5YkdBdjZjUng3eHMyNGs5aWVOWVNmMU9TQ05OTHlXU3dJRXZ4bjhUdzhMUnh5cXhzTU1UbE9GRXFjcDlrVDhkZ2Rxemc?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "Aktien Frankfurt: Konjunkturhoffnung treibt Dax erstmals über 27.000 Punkte - boerse.de",
+    "quelle": "boerse.de",
+    "zeit": "2026-11-12T12:03:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTVFRRzRCMl9vNk1vMEdaWWptNDFCajJ2dGhwY3pCR0RMMmsyMEhydHh6TGNYNTBxUnNrUmRVeU1RNm51WnFiQmNlQmJnVEx6OWQ5NHdSMlZkQXpqcThDM3RYbHFkSzlCY2Nvcm9HVF9GdXBiUXltZGw0d2p4b3BoTXVJcElfZ0U5UUlKWGZNWHJxYmVIMy1mTUxDT1h0LUxiRzcxYklrdEtFWm4zMDFJTFpvUzFNajhE0gG-AUFVX3lxTFB1NUYyVERFX3dfODNXRWkzQ3BFeHd3X0NoNW54UGVjWHJLWmwzV3dzaXlSRlFHTWJ3dWhDeDNYa1dDblVjYWwtMGFXaU03bFplMU9CRzBQaV9MNHBqTGswLWFud2lfTnFKSVNRQXdmR3dlQjNsT1Z5ak95UHdQLWVOd2xJSzBXY0JlX29HZURGaGt2SlhDeFBDV2k4TlFlX25BeHVPSk9yd0xQUGFmUUZveFBRSXE3bVVTVjYtNWc?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Deutscher Aktienindex: Dax steigt erstmals über 27.000 Punkte",
+    "quelle": "DIE ZEIT",
+    "zeit": "2026-11-12T11:48:31+01:00",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWFhURlpJZ1N2OEhzVWhOd29zT3U3RWZTNWJQQVdsb05rcHpvOXlvLThUbGhVRjVuMlJnOFlYb1VmajB5NElUNHVnMllIdE01OEhKdG1ZcndVdTJ6X1RNX0c4QmVFd2cyZUhJVHBFME5RQ3dMNUR6VmFVUldLamRITFp0eTg3Y050b2RtM0g1WFJxYjFy?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": true
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-13": {
+  "datum": "2026-11-13",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat +0,07 % (+0,10 €), SAP-Aktie +0,42 %, DAX −0,08 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP Aktie: Führende Einstufung in IDC-Lagerverwaltungsstudien“ (ad-hoc-news.de, Analyst/Kursziel). Gesamtmarkt: „DAX-Prognose: Etwas tiefer, Bitcoin schwach – Nvidia, Alphabet, Munich Re, Rheinmetall, VW im Fokus“ (Der Aktionär, Prognose, eher negativ, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 140.27,
+   "basis": 213.45,
+   "dax": 26749.95,
+   "z_pct": 0.071342,
+   "basis_pct": 0.42343,
+   "dax_pct": -0.081914,
+   "dz": 0.1,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Im normalen Rauschen",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP Aktie: Führende Einstufung in IDC-Lagerverwaltungsstudien",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-11-13T15:09:40+01:00",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd0FaU0tWeU1ZcEh3NVJKX0taQV9WSkZES1drUDJ1c1ZKemZ2enlIRkNuWmtPZ2VpWF9Qa1RVek9ydjVOQXRBZzl0Qy1PcU93ZDRUVDFGYlhYSEJwYXkxaVRWVkFudVZVTHFveWpIREp3dl9fUXhma3NveC0wUGNzNHRBZDFVR3VCN1N0bFJlSjRIaFJBMFpycUFXblpaZGR5Q0N0RnhFcFF6Y2VGRnI5anJvUTZrdlBpM3pqX2ZDQmpsMk5iYUpCSmVSQXZ4UQ?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP Aktie: 465.000 eigene Aktien zurückgekauft",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-11-13T04:28:09+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQU9JVjNtRVppVU41bFhNcmNHY1p0WHh2QVJzTnl6ZHRCU3dlT1VUZ1IzZV9QVEs1UzRITmk4dDlLTm1abk5FeXVlVnNOaTBvTnI2SkZvR3ZhUF9EWmdtcktIbGM3bDh2Nll2dGVNM0NHQWlfWnNlazUtN1ZQZFR2T0J2WndWRlMyNmRxQ0l0ZXpHNzdXZUJJeTNiWXh1VnhhanBvdGFUY3o3ZER1aTM5eVBsZ0REeTZoeGc?oc=5",
+    "kategorie": "Übernahme/Beteiligung",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP-Aktie: Kurs erholt sich",
+    "quelle": "WELT",
+    "zeit": "2026-11-13T17:06:34+01:00",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUDdXeWxrQTF1ZEdFLXhXQ002djRjdTNQWTVuay1sMTJxd0szU096YWFDV296QjhuT3dNcU5YNU1Cd01zb0NhZzcwYU5SWEw2V3FWUEpvSkF2bTRZMXJrb2J1TVlFblVYNFpSaFhVNXdwZ0ljY1ZETFI2SUFzMmR1X2xoTHA4WHFHSk16djdHUUEzYUNFYTNqUEtfa0YzekdH?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "DAX-Prognose: Etwas tiefer, Bitcoin schwach – Nvidia, Alphabet, Munich Re, Rheinmetall, VW im Fokus",
+    "quelle": "Der Aktionär",
+    "zeit": "2026-11-13T07:08:17+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQjFsS1ZMd25jdXVpRm1aQXlUTUY5MWpDUjJDNHY3aXpuZTZvLU5nV1NBbzhfUEFaRzFUWDdnT2hmR09rZW1rQ3NoOVpLeVpzb1h1SHhWZVhIX0xJX0ZGWndTblB3R3F2OUJvSjdER2V2RDRud3pZSl8yaXhqSG0zaExuWlVOR3kwWUQ5RTI4ck9ONHdwbjBXdEJkNlNNaVQ3Z3BXbzNDckpBR2NhVGpLUWdUOThXVE11ZWxTbXJiWXR6SUZFM01VeDI3UjIyLTBaTjk1UklfTzNwNUJld0o4Q1p2dV8?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "Handel in Frankfurt: DAX auf grünem Terrain",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-13T15:57:42+01:00",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNemFwY3ZZVnRkbi1oUW1kTWJoLUdKVExnR1pXVzlnWFhHSEs4QWpPNHdDVW05b3JwNDBCRG1QWVd0WXFNTjdUcmRpcHVXWlJiTTBNWUNpWEw3NjRSWnptVE1nSTVDenI1bzhNbUViNXNQek9HY1FRQzBtdUZ2MDVEUi1MZzRFa0t6UlpTUFlvYTFGYXNfZWRoUUln?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "LUS-DAX aktuell: LUS-DAX mit grünem Vorzeichen",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-13T15:57:42+01:00",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUklzUEk5Mkl4QkpueVpPcEpxVUduUEtoTkdyTXlkeWk4VTh1WUdvSWJ0cE1MSmVQbjR5SGRQbHh0ZkgzN1Z3WUFKRmNCSDBOVnRPUVY4eHRrV3B1ejFsRFJwUEZnR04xTHJyY1VoS2F3Y2ZtMkZLb01DNnBYQVptcDVZMXJCckJiQTA0dnJkSURFd3g5d2czV1p1dWg0Zw?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-16": {
+  "datum": "2026-11-16",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat +0,03 % (+0,04 €), SAP-Aktie −0,02 %, DAX −0,57 %. Haupttreiber beim Zertifikat: Zeitwert; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: UBS hebt Kursziel auf 215 Euro“ (ad-hoc-news.de, Analyst/Kursziel, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „DAX ohne Schwung – Technologieaktien belasten, Zinsängste bremsen“ (Wallstreet Online, Makro).",
+  "kurse": {
+   "z_geld": 140.31,
+   "basis": 213.4,
+   "dax": 26598.64,
+   "z_pct": 0.028516,
+   "basis_pct": -0.023425,
+   "dax_pct": -0.565646,
+   "dz": 0.04,
+   "haupttreiber": "Zeitwert",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP Aktie: UBS hebt Kursziel auf 215 Euro",
+    "quelle": "ad-hoc-news.de",
+    "zeit": "2026-11-16T15:34:15+01:00",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQkJTZVVZVmdncHlqbEI5ZHRxYWpVZVBRdjZ1OC02aFZrcjZ5VEtMWFo0V3dCdDVZYnNXSDBsMlNNNzRNTkktd3BmWENfYnJuVE5ZekdNb2xwOTh6VFVoVnJISWV4dnVZdUF2aG01NkM1YVdnb3FYRjg1aXNZYjhHWExQZWxiYVBMT2x0TFhZQ20wQnJmYjdZbHhzRVdwMkVESTBXeGpHSFptVEFQWDRGOVZR?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "SAP-Aktie: Ohne Veränderung",
+    "quelle": "WELT",
+    "zeit": "2026-11-16T17:28:59+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWDNzcnZkN1dWQ24waFNGS1hIcFVROW1LRWYwVHc3Rmc3MVRkV2RYQzkwYko3WmxaQnFBcVMwelhObXNIbThoV1dXam5NM3I4bjhIRW5vbDk3RWN2eGQzSHljT0hMQTlOWUdyeUxLY1oyRHpUemxXaHg5S3NxNzNDMmx5REhWWmhHaTlEd1BhSUJ1NmIyTDAtYUo0MFdIRWlvdmc?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP SE Aktie News: Anleger trennen sich am Nachmittag vermehrt von SAP SE",
+    "quelle": "finanzen.ch",
+    "zeit": "2026-11-16T16:29:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbnk5WGQtY2ZOMDgxVEZhemlhXzB1cnNHQ1VhYTVnTnBxYlRyd2x3RVNBT0Jhb0Qydlhua2FBWmljdU02eGdIWHpDek5ZbE0xUkVaQnlDZ0Rudk9DdndTR0JkeVV2UzVUR2E4MjZSRFBlNGFXNWZhYnZPa1Z6T2dlUTM0RUE5RHFLdkVzRnVPNmo?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "DAX ohne Schwung – Technologieaktien belasten, Zinsängste bremsen",
+    "quelle": "Wallstreet Online",
+    "zeit": "2026-11-16T17:06:43+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVVg2cWYzQnhZeFQybm5ydEpUNHpNbmpRclFYNm42SFlubTBvNnBJbXhLeWJqQUNuVE8zZFE0VzlSM040dFM1bVdsNGRETzJXejlCUmxHTFJXX3Z1LTN2RzRDcWt2Vl9mSDZXVEcyV2RUQWRsTjZyVUpCdG94eFFTMUdpX3VmOWtFbFIzYkFTeFdBOTJtYVgwNDEyU296OWRTc3RzdG0yTmNpTWhRNHVBMnZraFFIODF6TVBYZkZDLXBjQTl5QzBNM0s4eFBsbVJU?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "So startet der DAX in die Woche - Gold, Bitcoin, Nvidia, Trump, Amazon, SpaceX, Toyota",
+    "quelle": "Börse Online",
+    "zeit": "2026-11-16T08:30:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPT1RUSUFod1dPRktYOHZmTXNkZHZ5UWt2QmdtNmVaWGdZVndoT3A2UU1fX0UtZnBBaVJsLU1zSGw4cFQwYkpkZlpNbUdBVXo2V0xLWGk2WERLYWcwbVRMNkNnMlMyQ1h4UWxvSkFONE40VzBxcDA4aXBoSGxlUmpqMndBTWI3X3hITTFKdklzOGhPbFVrUGI3Vkk2bUl5SXl5REZqT0tXS3JZOVk3bXB3cHlGaTZ6RXFLbTVkZkl5MWJXS0luZ2xYam1SMWRTeTk5TXhfTHhjYw?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Dax tritt auf der Stelle: Nvidia und Anthropic im Blick",
+    "quelle": "DIE ZEIT",
+    "zeit": "2026-11-16T15:20:08+01:00",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUXNsdEc0bVQ1aGZJY0pUbDBRVmxhbmJVTEZ1a2VMTUpnYXFkaVNGa3A2alA4UWwyZWFkbDdBLWlreHpVX2ZLYWRITm5yOUg1U09Bdnp6OFcwcUFGTTdxR21WOUpXSHU3YzZzLThjemhtSnZNUUlOeG5kTndSRE9HTEthcmlTZmVzX202d0JvUThIdw?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-17": {
+  "datum": "2026-11-17",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat −0,34 % (−0,48 €), SAP-Aktie −5,58 %, DAX −2,08 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung; Kurssprung: SAP −5,58 %. Zu SAP: „Die SAP-Aktie (XTRA:SAP) könnte trotz der Meldung über einen Rücktritt aus dem Vorstand um 33 % unterbewertet sein“ (Simply Wall St, Personalie). Gesamtmarkt: „DAX Aktuell & DAX Prognose: Tech-Abverkauf belastet vor Nvidia-Zahlen | Jens Klatt“ (XTB.com, Prognose).",
+  "kurse": {
+   "z_geld": 139.83,
+   "basis": 201.5,
+   "dax": 26045.37,
+   "z_pct": -0.3421,
+   "basis_pct": -5.576382,
+   "dax_pct": -2.080069,
+   "dz": -0.48,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Marktbewegung",
+   "auffaellig": true
+  },
+  "spruenge": [
+   {
+    "wert": "SAP",
+    "pct": -5.576382,
+    "schwelle": 5.0
+   }
+  ],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "Die SAP-Aktie (XTRA:SAP) könnte trotz der Meldung über einen Rücktritt aus dem Vorstand um 33 % unterbewertet sein",
+    "quelle": "Simply Wall St",
+    "zeit": "2026-11-17T17:12:42+01:00",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZWt1Q1BMblpob0hEc0tLakQyT2FvZDFSQ1M4TnNlajhkRFR6MUxDdDlXYjNJNi1aUkU5Z3JabUx3MlU1TTJQV0duYnphNEVTTmZuSVdvZzZtQnBqU25yWkhjNS10RF9rQ01wb2YzVDhWR2Rob2RwR1BKaTBoazlDVVFnMDg3THZ2V282aFhGdml5V01JVFMzS0VWNkljdWV3RkJRU2w2U005WEVTYkkySU5NMTk2NkhlYUFXOTZlVTRoZWgwcVHSAcsBQVVfeXFMTzR0S3g5cWZSSmhlTnliQnVZVHRLLWswTnJwR3ctS0pHMXJ4UlFRNHpDWnU5MGx4MTB0RVotUVpaZzhPMFpiLVN2RjE2YnZSRTJnNWNXQzZYZHIwUzBMVF9IaUtNckdaczhPOXhMbHlNekppZGg4ellBMlN1dkZMaklRcmVHNkx0cmQxblp3aGpQWGZsc1paMFU3UlRUX1hNbmJJbzZtT3ZWd3NxWENiOTlmdHNMWjdrMWZ0NDk5Z0hLUEJvYkFzcDk2aGM?oc=5",
+    "kategorie": "Personalie",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Chefwechsel bei IONOS: Was der Wechsel von SAP-Vorstand Thomas Saueressig für die Aktien bedeutet",
+    "quelle": "finanzen.ch",
+    "zeit": "2026-11-17T16:03:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQThqV2hoT0JoaGV1QlBJT095SUF6TUJaUUNQQ3FaZmhtRkktMDVzN3k1QjVROS1xRU05d3FTbTY0NWxKWU93b2phTG9YbnI5TnJ0dnNNMFhtOXdnWnJqVlVDM1BwZk1mN1hQb1ljUFZTSHB5Q3o2amFFNVRETVdYSVo2UmJCM3Rib3o5UU9pdWpZZUZ0TWI5RVM3V0ZjNU02SENLM252aWVVTmF2a0lhcHozdjhKVHZPcnlIVWR4bm1LVTkwMUdkNk8tV0VGVFMwTXcycTcwdkZ2akh5U0Q3Z1BNRFNnZw?oc=5",
+    "kategorie": "Personalie",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP Aktie Prognose: Analysten sehen im Schnitt rund 244 Euro, JPMorgan sogar 275 – trägt die Cloud-Story über den Saueressig-Abgang?",
+    "quelle": "AktienCheck.de",
+    "zeit": "2026-11-17T15:18:15+01:00",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUXF6RWtUam04S3BzcUw2eHdWb3d6N2RfMFhGZ0lkb0FCYjR4cThlNUpNMFZaUjQ5aFpDQ1BzWUhqMDFnOS1fSkNJdGhnOE14R1duZVVhNjZibElGRmRSZy1FLVlJYnZtLUlhVVhyWHMzQmFQRm9rUnZQNnVFbVJ1bm9pNVQ3OFVFNGlvQVNHTVdpQmFvUVBaRW1qNW1rUUN5QXVmbHEwT19GdVBrSFE?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Zalando trotzt dem DAX-Abverkauf: BlackRock erhöht Beteiligung",
+    "quelle": "BörsenNEWS.de",
+    "zeit": "2026-11-17T14:45:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMTd2QlFJYl9PVXlCeFFEYzNFZTdXRE83SmZzQzk0cjJkS3B6NlFJcnktclRjQ0RJdnhfOFVJNEJNMHYzTGFnN095ckMzdWlaTUJjY2dsYzgwQ2ZTQ2hpdkk1WGk4cGlvTjh3dktMU0RiUDA3MUtzeDBOcHJta09WZHFaSU5tZENQdzB1NDdaaWRnTUczdGNqX2lad0d4OEZtWUNLRzNDNjdwVHFqX2ZYLXM2VklLYnk3XzNwcTJIdlBkN01tcHFLVE93?oc=5",
+    "kategorie": "Übernahme/Beteiligung",
+    "richtung": "positiv",
+    "passt": false
+   },
+   {
+    "titel": "DAX Aktuell & DAX Prognose: Tech-Abverkauf belastet vor Nvidia-Zahlen | Jens Klatt",
+    "quelle": "XTB.com",
+    "zeit": "2026-11-17T11:13:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM2NQWWhtZE1HUHRKSE90NTFlVlRlUmJHaE5LS3NycVYzaVF4X2YtZ0ZUSmJhRE9udnNTRFNIajJmN0lUdC02NWhZeWlaYTd4Y2g5dFNKenFYVy1zSjRCMzlFYnlXa0M5VDhUZDBqWFhwd1kzS2Y3b3Q3cTNzU2VLSkRrT1FLQlE5ZFJMQ1BSQnoyMWxJcDBBRTZndXBBaDktNTVRUHhR?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "DAX-Ausblick, Kursrutsch bei KI-Konzernen",
+    "quelle": "tagesschau.de",
+    "zeit": "2026-11-17T06:20:25+01:00",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ja0d4dWhEMW5sUmNwNElEWGEzRHB5RkxmTnZXS2pCb0hjeDdjd2lLQW5WaVZnTWlJMWh3Tm13YTdHdDRJZWQ0RkVma3J0WGNCaUN1NklEQ0hSaWp5bGtDMUd3d2tNdW1ob3ZqbklR?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-18": {
+  "datum": "2026-11-18",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat −0,34 % (−0,47 €), SAP-Aktie −3,76 %, DAX −1,19 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie fällt auf Vierwochentief – doch Analysten sehen 243 Euro“ (Investing.com Deutsch, Analyst/Kursziel, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum.",
+  "kurse": {
+   "z_geld": 139.36,
+   "basis": 193.92,
+   "dax": 25736.24,
+   "z_pct": -0.336122,
+   "basis_pct": -3.761787,
+   "dax_pct": -1.18689,
+   "dz": -0.47,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP-Aktie fällt auf Vierwochentief – doch Analysten sehen 243 Euro",
+    "quelle": "Investing.com Deutsch",
+    "zeit": "2026-11-18T08:32:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORkxfZTZXVHBzU2p5Q1JrdENVTWRCN3d1MWtIU3ZZN0xJOVRNRER0RU5lNVdLN0hwR2ZXcVJ6MldHVE8tTmZIVVRUdTlZRmFqV0hwZW1rcTR6ckN0TkVPX1NESjhQMEFLeVkxMzdJNGZwd3ZfZWRiY1NhMWFEa1VudkVfUXlfTXlMQ3RlZzF2UXNyMU5JM1pLTVBmWDRiUWVFNWxjQjM2RXRNSndFbGNhYWpzUEVLYmhXdTNVeg?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "SAP Aktie Prognose: Absturz an die 200-Euro-Marke, JPMorgan sieht 275 Euro – wie viel KI-Angst ist schon eingepreist?",
+    "quelle": "AktienCheck.de",
+    "zeit": "2026-11-18T07:39:30+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVm1yT3JYSFkxREhxNVJiUkJkelFkRE5pcnZQQ1BtVk9xdnpVeTNrSURYbGl4cDRQaVRwQ1hWcHF1RWpodjkzdi1Lcjk4clJIYzJLcXlycjFTQTB6NmVPVEZrTHhCM29OYTM2T3BGRXJEM1d5S09KYXk2R0JKeTFad0c0QWo2bk50cGQ2RzJzcFJvSkd5NlZCMC1iaVZWbFU4b3NBSF9HYWNySUU?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "DAX-Prognose: Stabil, Gold fällt – Nvidia, Fed, Dt. Bank, SAP, Siemens Energy, Anthropic im Fokus",
+    "quelle": "Der Aktionär",
+    "zeit": "2026-11-18T07:02:29+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbWZyZld0SnlxYkI0MUl0TTRNVGxuUk1nZHhDc3B6RUZkS2FRMWxTMnFOV3ZyMlJRd3dzWVZVSHpvN05lNkFfa1VkdzVfbDNXaTFnOUNxRGFQUXREUE90RU5RUDJNX0xJZTN2MlduM1RFaEljczliY1I2Nkx0VU1Vdk5IT2Yzdlhtby1UcDQwdmo5YkJ0QmN5Y3V4RDVSNWEyN19QREVQam1FMUxsb0RYTFk3NkwxMU9Vc0Z6eVRFRTZQUzVKUlRQNW0xOUFPRHRpM2NMRkxmczZ2alc3aDgw?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "negativ",
+    "passt": true
+   }
+  ],
+  "nachrichten_markt": [],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-19": {
+  "datum": "2026-11-19",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat −0,40 % (−0,56 €), SAP-Aktie −3,56 %, DAX −1,06 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie Prognose: Analysten sehen im Schnitt rund 244 Euro, die Aktie fällt auf 194 - Wie viel KI-Angst steckt jetzt im Kurs?“ (AktienCheck.de, Analyst/Kursziel, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: DAX-Ausblick, Anthropic-IPO“ (tagesschau.de, Prognose).",
+  "kurse": {
+   "z_geld": 138.8,
+   "basis": 187.02,
+   "dax": 25463.81,
+   "z_pct": -0.401837,
+   "basis_pct": -3.558168,
+   "dax_pct": -1.058546,
+   "dz": -0.56,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP Aktie Prognose: Analysten sehen im Schnitt rund 244 Euro, die Aktie fällt auf 194 - Wie viel KI-Angst steckt jetzt im Kurs?",
+    "quelle": "AktienCheck.de",
+    "zeit": "2026-11-19T09:36:06+01:00",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN0tLTExwYjJJQU1WYVRlbE9ZVVlrTk9DMVpUMzZZNllvcHhTVFpOSEZWZkNyQy1jVm01akRmTVk3cktQSzVDbmVHVDVMakxnVmR2RG5ycmw1c0M2ZGJPYTFvSTN3ejdUaVpMWWt4c24xYUpRdjFKZjdJcndmNk1LbnFsYm9tWWc2djFWTV9BQkNKY1l5VllMaGVNUmZEM3Q5Wk5jT0FMdlRNS09XbTlBeQ?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "DAX-Prognose: Fest, Gold schwach – Anthropic, Nvidia, Zalando, Siemens Energy, SAP, Walmart im Fokus",
+    "quelle": "Der Aktionär",
+    "zeit": "2026-11-19T06:56:57+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYjJvS3ZEMWN6QUh6MXlSUUhmWktZdUx2Mi13SWpzVU1PTzFhUk1YcXA4SEFBRG1tRVRYcTBndmJwT294c2JObkNyWmlrMzk1WVNLU2lfazVDYTV5MGx2LURoa015bURrem1ORFIxdkllMm1uZnVsODhYb0NNSjlHWXFLTTZPbUtFcGM1bHdJb2hSQlRMa2lXc1hHZ0FDQ1V5aS1VS0lCQmF0cUF4LTExQy1lbWp3NGVlbGFmVHdfQmFlM2FxZGtiaGhfOTNFRGpSV1RiOWRLN0tNcjJFdmpoZU5xVQ?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "SAP-Aktie verliert durch KI-Sorgen und Anthropic-Börsengang",
+    "quelle": "SuaraGarut.ID",
+    "zeit": "2026-11-19T14:35:58+01:00",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tMTl4a1lEdlpQYmlQWFhwdnZMTDlLYWdkWGdrX0w0Rkp2dU1vZ1RWS0xwY3lxV0pWS0VkWVVlbUd2aFBVQ1BZRW8wZmp6Z2NXUzZGZ0xXVFczT21IYkRMcTZCcjVidmN3MWhrZkNhUkxXeEE?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Vorstandsvergütung im DAX: Der Durchschnitt steigt 2025 um 4,0 Prozent, der Median sinkt – Jahresbonus-Ziele im Schnitt zu 123 Prozent erreicht",
+    "quelle": "PresseBox",
+    "zeit": "2026-11-19T17:00:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQU0s1YVE4MnF0aUVwTnhZcFVybC1TeFlOR1FJVGhOZHJoSzc2OXVtVzVZSXo4cS1IY2Zfc0Rubm9aa3NHUWdMT0NhTHU5N2VpYm1RSm1OYUp1amtiU3YtM0p5QUJjZENhVGhZSkZweEttYjhnX3hnREdBekhXbXc1dXU5Zkx6X1hqTENic0RZV0lNcnRLYXh5MHplNVZpSlpxalcweTJNc0VaUnZRcFhNdjhQYWpEZGdTQnlXa3VObGxMQ0dZM1lPWklXNHFmVGlTcUJ2N3RTTG5ySURNb2wwbzUxSkJadmZ0ekRtZ3FoNXdjd3ljaHZ2QjRlM0ozOGJNenlBRXB5d2taak1QVjMzaGYxNElGSDYxUnVJLVkzTV9Ib1FkWHBWeklod21LQXFudVZhVQ?oc=5",
+    "kategorie": "Personalie",
+    "richtung": "positiv",
+    "passt": false
+   },
+   {
+    "titel": "Börse: DAX-Ausblick, Anthropic-IPO",
+    "quelle": "tagesschau.de",
+    "zeit": "2026-11-19T06:13:34+01:00",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBqR3J4SnNaSEk5el9IVmEtbFpJWFVVWUtnY08xTVhaVVdEaEYxVkZ3ZWQ3U2FoSzlFcDZ4TGR5U2M2T1EzbEgtVmxRTjdVem95WEsxNXhTZVdyTmxLaXNqRlM3TDdWYVlpdXh0bkpn?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-20": {
+  "datum": "2026-11-20",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat −0,20 % (−0,28 €), SAP-Aktie −1,79 %, DAX −2,60 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „DAX-Prognose: Verluste, Asien tiefrot, Gold rutscht ab – Dt. Bank, Infineon, SAP, Anthropic im Fokus“ (Der Aktionär, Prognose). Gesamtmarkt: „Im Sog der Weltbörsen: DAX fällt unter 25.000-Punkte-Marke - sechster Verlusttag“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 138.52,
+   "basis": 183.68,
+   "dax": 24802.78,
+   "z_pct": -0.201729,
+   "basis_pct": -1.785905,
+   "dax_pct": -2.595959,
+   "dz": -0.28,
+   "haupttreiber": "DAX-Bewegung",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "DAX-Prognose: Verluste, Asien tiefrot, Gold rutscht ab – Dt. Bank, Infineon, SAP, Anthropic im Fokus",
+    "quelle": "Der Aktionär",
+    "zeit": "2026-11-20T09:41:57+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTzJkd0ltZ0pQTDlxVXcxaEdIRTczQVhnci16V2dQU29DR3JRYWF2dzJrNzhwWVZTOUVOaVNJaVlKOTI5ZHhFQnlzaEtpWXg3ZkNGN0ItWWJSN3ZlWEh6OWR6aGZPSy1OZ2FnS3BDVG1NbUVFWHB3NkdLR2pEYkxPWmV1S3lMWVczZ3YzSkR1MDY5SFFOVXhGRk5iZ3l1V0sxVVFyY0s1VU1GaURlTkhza3lqT24zOURCMWVaSUZyaVhWOG9zcnBNUl94bTg0MjBlRV9hUjNvTWhfM1BGazc5QnhoTQ?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP Aktie Prognose: Analysten sehen im Schnitt 243 Euro Kursziel – reicht das Cloud-Wachstum gegen die KI-Angst bei Software?",
+    "quelle": "AktienCheck.de",
+    "zeit": "2026-11-19T20:50:28+01:00",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOXh2eW5hT1pBbDJQb3NRZHIwXzY4d0pHa1U2WFJ6OUhRQm81QnFLTnN6OW9hek9aUFEtd092ckxsMVM2bF90NENRQ2w4TnU1OWtvRFg4S2VEaFMyeFRnTmZRNW5ad1o2QXJ6VzhxbmFqX3J0Q0oydEo1QjFxWVVQVGZEM0o2WnFqTmFSNG5NS2dHU0tnUlE1c3lMWi1jaFhKYlpLZERSRHpvdzdkc3BLZQ?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP SE Aktie News: Investoren trennen sich am Nachmittag vermehrt von SAP SE",
+    "quelle": "Finanzen.ch",
+    "zeit": "2026-11-20T16:29:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeUttVDg0TW8tbHdaVGJKUTczakdWVV82aFdrNktkcUtpbldsQnhfT1VQRS1RTzVmMlhtN1I2QzJ5MFJ2MXgtLVVpTmZYdS12aVQ4VnBkRlZQY0pKSXMxWDlJOXJvMzNRTUowbENfUkNxTWQ1eUVxVHh1V1pPWVA0ZGNWcl9wemNIRTBMTk5DTFU?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Im Sog der Weltbörsen: DAX fällt unter 25.000-Punkte-Marke - sechster Verlusttag",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-20T13:20:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSW51QkZVVXRtNnFRa0NXbW1DdGw4dUtDTkg3dTVmWWRxTzhSV0ZRQzBwamRhb0Z0U3NpeWpVbTNRUjAtNjVBTWh0MnVVLVhPVm5RTF94UnJVdTVuRk5mQjhhTE1DdFRvQ0pGNDFNTUMzdnk2bjZHZnNSSlBhd1RXZWhUSE00dFRzMzRkbERqVlNkelR0Vnl6dmI1N1k3YlM2aGdqRlM3VWc5MFZuR1ViR2l3aTlHWURDZkF5MXNucXVwcDRQZWMtbUUyanBHTGpwYmdrNnc0dTQwUQ?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "Schwacher Handel in Frankfurt: TecDAX zum Ende des Donnerstagshandels schwächer",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-19T17:57:40+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLTl4Q1ZLN2t0bmVWUG0temhyS2VPaFR1cXZwX0hMdExiUEEtM2tvQWU4YUg5Y01hek0tTFFmSTBUZ0E0alYwOWFYNjFJbUZMS0dpUEtDR3F6bFRhSnBmRWZCRFdFV2tMYm53OXBVcFpVbld6UzEwX2F4Szdxa0E0UXJtdzRMcGV6REJxNG9HQm0xRTQ4S0ctT2wySXA0eUxBUFh0dDhkUWxpT09MY3d3RGNFT2tsT3loZXlCaHZSWDgwYVZuZGZ2a2hB?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "WOCHENAUSBLICK: Getrübte Aussicht auf Jahresendrally beim Dax",
+    "quelle": "T-Online",
+    "zeit": "2026-11-20T15:29:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPU2VkdmRwRjEySWJwZGo0T21fOUJyekVmTDdqSGQtQm9DSjVhMVdoY2JIMmhSSldwQjRnYnA0Umt4bTZHWEtIWjFLNUxLMURWWm42dlI3Nmd6SnM3STlXSTgwbm5PZURuVEMzcGlCT2w1UG5nTlFJcEFCWW44dlVfOV9vYWhMS2p3QWYzTlZKeHVvSFROVFBRYmYwV3JLM0lFUUo5UEp1MVUtYmUwQ0Q5RUxDODdTa095R3phZGpjSm1YT1pM?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ }
+}
