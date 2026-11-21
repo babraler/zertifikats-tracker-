@@ -16,7 +16,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from tracker import daten as daten_modul
-from tracker import excel, konfig, nachrichten, onvista, seite, speicher
+from tracker import excel, konfig, nachrichten, onvista, seite, speicher, tagesbericht
 from tracker.konfig import ConfigFehler
 
 WURZEL = Path(__file__).resolve().parent
@@ -147,8 +147,22 @@ def _daten_je_zertifikat(z, wurzel, jetzt):
     ordner = _ordner(wurzel, z)
     rows, meta = speicher.lies_kurse(ordner / "kurse.csv"), speicher.lies_meta(ordner / "meta.json")
     ok, meldung = _lies_status(ordner)
-    return daten_modul.baue_daten(z, meta, rows, speicher.lies_nachrichten(ordner / "nachrichten.jsonl"), jetzt,
-                                  ok, meldung, _zeit_letzter_abruf(meta))
+    news = speicher.lies_nachrichten(ordner / "nachrichten.jsonl")
+    d = daten_modul.baue_daten(z, meta, rows, news, jetzt, ok, meldung, _zeit_letzter_abruf(meta))
+    speichere_tagesberichte(ordner, d, news)
+    return d
+
+
+def speichere_tagesberichte(ordner, d, news):
+    """Zusammenfassung je Handelstag dauerhaft unter daten/<ISIN>/ ablegen. Fehler brechen den Lauf nie ab."""
+    p = d["produkt"]
+    try:
+        neue = tagesbericht.berichte(d["tage"], news, p["basis_name"])
+        if neue:
+            titel = f"{p['name'] or 'Discount-Zertifikat'} ({p['isin']})"
+            tagesbericht.speichere(ordner, neue, titel, p["basis_name"])
+    except Exception as e:  # bewusst breit: Berichte sind Beiwerk, Kurse und Ausgabe gehen vor
+        print(f"Hinweis: Tagesberichte für {p['isin']} übersprungen ({type(e).__name__}).")
 
 
 def erzeuge_ausgabe(cfg, jetzt, wurzel):

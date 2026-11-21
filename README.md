@@ -34,6 +34,8 @@ py -3 -m venv .venv
 
 ## Ergebnis
 
+`daten/<ISIN>/tagesberichte.md` (und `.json`): je Handelstag eine Zusammenfassung, was mit Zertifikat, Aktie und DAX passierte und welche Schlagzeilen es zur Aktie und zum Gesamtmarkt gab (neuester Tag oben, wird dauerhaft gespeichert und mitcommittet). Derselbe Text steht in der App unter „Zusammenfassung des Tages“ und im Excel-Blatt „Erklärungen“.
+
 `ausgabe/index.html` (App mit Menü: je Zertifikat eine eigene Übersicht, dazu Suchen; die App öffnet das zuletzt gewählte Zertifikat; „Link teilen“ führt direkt auf ein Zertifikat, `#/z/<ISIN>`), `kurse.xlsx` (Blatt „Übersicht“ plus je Zertifikat Tage, Wochen, Erklärungen), `daten.json` (alle Zertifikate), `status.json` (Gesamtstatus plus `je_zertifikat`). Die App-Skripte liegen in `tracker/app/*.js` und werden in `index.html` eingebettet.
 
 ## App am Handy

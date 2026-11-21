@@ -13,11 +13,12 @@ tracker/onvista.py     Abruf und Umwandlung in Datensätze
 tracker/speicher.py    CSV/JSONL lesen, zusammenführen; Wochenschnitte
 tracker/analyse.py     Beta, Zerlegung in Effekte, Auffälligkeit, Erklärungstext
 tracker/nachrichten.py Google-News-RSS: Abruf, Einordnung, Zuordnung zum Handelstag
+tracker/tagesbericht.py Zusammenfassung je Handelstag (Kurse, Einordnung, Schlagzeilen zu Aktie und Markt), speichern
 tracker/excel.py       ausgabe/kurse.xlsx
 tracker/seite.py       setzt daten in tracker/vorlage.html ein → ausgabe/index.html
 tracker/vorlage.html   Dashboard (Agent Design), installierbar als App
 tracker/app/           manifest.webmanifest, sw.js, Icons (seite.py kopiert sie neben index.html); icons_erzeugen.py erzeugt die PNGs
-daten/<ISIN>/kurse.csv, nachrichten.jsonl, meta.json
+daten/<ISIN>/kurse.csv, nachrichten.jsonl, meta.json, tagesberichte.json, tagesberichte.md
 ausgabe/index.html, ausgabe/kurse.xlsx, ausgabe/daten.json, ausgabe/status.json
 .github/workflows/taeglich.yml, .github/workflows/seite.yml, requirements.txt, oeffnen.bat, .gitignore, README.md
 ```
@@ -75,6 +76,12 @@ Einordnung per Stichwort, Konstanten-Tabelle:
 - `relevanz`: Name im Titel, Kategorie ≠ Sonstiges, passt, Top 3 je Tag
 `verdikt`: `"Wahrscheinlicher Zusammenhang"` (auffällig und mind. eine passende Unternehmensnews), `"Marktbewegung"` (|DAX-Anteil| > |Aktienanteil|, Makro-Treffer oder große DAX-Änderung), `"Möglicher Zusammenhang"` (auffällig, News ohne klare Richtung), `"Im normalen Rauschen"` (nicht auffällig), `"Keine Erklärung gefunden"` (auffällig, keine News). Nie als Beweis formulieren; Zusatz in der Oberfläche: zeitlicher Zusammenhang, kein Beweis.
 
+## Tagesbericht
+
+Jeder Lauf (auch `--neu-bauen`) legt je Zertifikat eine Zusammenfassung jedes Handelstags ab: `daten/<ISIN>/tagesberichte.json` (Objekt `{datum: Bericht}`) und lesbar `daten/<ISIN>/tagesberichte.md` (neuester Tag oben). Berichte entstehen für alle Tage im Lauf und für Vorlauftage mit gespeicherten Schlagzeilen. Gleiches Datum wird aktualisiert (z. B. wenn Kurse nachgefüllt wurden), nichts wird gelöscht; ohne Zeitstempel, damit unveränderte Berichte keinen Commit erzeugen. Fehler hier brechen den Lauf nie ab.
+
+Bericht: `datum`, `phase`, `zusammenfassung` (Text), `kurse` (`z_geld, basis, dax, z_pct, basis_pct, dax_pct, dz, haupttreiber, verdikt, auffaellig`), `spruenge`, `nachrichten_unternehmen` (Basiswert im Titel), `nachrichten_markt` (übrige, meist aus der DAX-Abfrage), je höchstens 3 mit `kategorie`, `richtung`, `passt`, dazu `nachrichten_gesamt` und `hinweis` („Zeitlicher Zusammenhang, kein Beweis.“). `passt` misst Unternehmensmeldungen an der Rendite der Aktie ohne Marktanteil, Marktmeldungen an der DAX-Rendite. Rangfolge: Unternehmen nach Name im Titel und Kategorie ≠ Sonstiges, Markt nach „DAX“ im Titel und Kategorie Makro; jeweils +1 für passende, −1 für gegenläufige Richtung, +1 für erkennbare Richtung. Text: Kursänderungen (Zertifikat in % und €, Aktie, DAX), Haupttreiber, Einordnung, Kurssprünge, wichtigste Meldung zur Aktie und zum Gesamtmarkt (bevorzugt eine, die nicht gegen die Bewegung läuft). `daten.json` enthält den Text je Tag als `zusammenfassung`; App (Kasten „Zusammenfassung des Tages“) und Excel („Erklärungen“, Spalte „Zusammenfassung des Tages“) zeigen ihn.
+
 ## Wochenschnitte
 
 ISO-Woche, Mittelwert der Tageskurse z_geld, basis, dax, dazu `tage`, `von`, `bis`, Änderung des Schnitts zur Vorwoche in % (`z_vorwoche_pct`). Je Kurs zusätzlich Wochenschluss (`z_schluss`, `basis_schluss`, `dax_schluss`: letzter vorhandene Wert der Woche) und Änderung Schluss zu Vorwochenschluss (`z_woche_pct`, `basis_woche_pct`, `dax_woche_pct`); Bezug der ersten Woche ist der letzte Schluss vor `start`, ohne Vorlauf `null`. Nur Zeilen ab `start`, unvollständige Woche mit `tage < 5` kennzeichnen.
@@ -102,7 +109,7 @@ Objekt je Zertifikat:
   "tage": [{
     "datum":"2026-11-09","phase":"vorlauf","z_geld":140.17,"z_brief":140.67,"z_quelle":"snapshot","basis":211.65,"dax":26267.19,
     "z_pct":0.12,"basis_pct":0.43,"dax_pct":1.73,"dz":0.17,"delta":0.07,"beta":1.1,"effekt_markt":0.3,"effekt_aktie":-0.2,"effekt_zeit":0.03,"effekt_rest":0.04,
-    "haupttreiber":"DAX-Bewegung","auffaellig":false,"z_score":0.4,"text":"…","verdikt":"Im normalen Rauschen",
+    "haupttreiber":"DAX-Bewegung","auffaellig":false,"z_score":0.4,"text":"…","verdikt":"Im normalen Rauschen","zusammenfassung":"…",
     "nachrichten":[{"titel":"","quelle":"","zeit":"2026-11-09T14:09:00+01:00","url":"https://…","kategorie":"Analyst/Kursziel","richtung":"positiv","passt":true}]
   }],
   "wochen": [{"woche":"2026-W46","von":"2026-11-10","bis":"2026-11-13","tage":4,"z_schnitt":140.2,"basis_schnitt":212.0,"dax_schnitt":26200.0,"z_vorwoche_pct":null,

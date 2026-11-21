@@ -75,7 +75,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,18 % (+0,25 €), SAP-Aktie +1,57 %, DAX +0,76 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-13",
@@ -108,7 +109,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,14 % (+0,19 €), SAP-Aktie +1,45 %, DAX −0,07 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-14",
@@ -141,7 +143,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,09 % (+0,13 €), SAP-Aktie −0,17 %, DAX +0,15 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-15",
@@ -174,7 +177,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,17 % (+0,24 €), SAP-Aktie +2,19 %, DAX +0,33 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-16",
@@ -207,7 +211,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,03 % (+0,04 €), SAP-Aktie −1,01 %, DAX +0,95 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-19",
@@ -240,7 +245,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,04 % (+0,05 €), SAP-Aktie +0,31 %, DAX −1,18 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-20",
@@ -273,7 +279,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,05 % (+0,07 €), SAP-Aktie +0,86 %, DAX −0,06 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-21",
@@ -306,7 +313,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,23 % (+0,32 €), SAP-Aktie +3,52 %, DAX +1,35 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-22",
@@ -339,7 +347,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,25 % (+0,35 €), SAP-Aktie +3,21 %, DAX −1,07 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-23",
@@ -372,7 +381,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,05 % (−0,07 €), SAP-Aktie −0,44 %, DAX −0,75 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-26",
@@ -433,7 +443,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,07 % (+0,10 €), SAP-Aktie −1,00 %, DAX +0,91 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie Prognose: Sollten Sie jetzt kaufen?“ (Finanztrends, Prognose). Gesamtmarkt: „Börse Aktuell: DAX im Aufwind: Fed-Zinsentscheid und Brasilien-Beben 🏛️“ (XTB.com, Makro)."
         },
         {
           "datum": "2026-10-27",
@@ -494,7 +505,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,01 % (+0,02 €), SAP-Aktie +0,42 %, DAX +0,71 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktienprognose: Seitwärtsbewegung erwartet, Widerstand bei €213,85 im Fokus“ (Traders Union, Prognose). Gesamtmarkt: „Börse: DAX-Ausblick, Anthropic-IPO hebt Stimmung“ (tagesschau.de, Prognose, eher positiv, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-10-28",
@@ -555,7 +567,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,03 % (−0,04 €), SAP-Aktie −0,91 %, DAX +0,44 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP verliert weiter: Vierter Rückgang in Folge“ (Wallstreet Online, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: Kursgewinne in Dax und Dow Jones vor Fed Zinsentscheid“ (Manager Magazin, Makro)."
         },
         {
           "datum": "2026-10-29",
@@ -616,7 +629,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,02 % (+0,03 €), SAP-Aktie −1,09 %, DAX +1,31 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „ServiceNow-Absturz: Warnsignal für Software – SAP im Prüfstand“ (Der Aktionär, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Siemens Energy Aktie mit Kurssprung: Dax baut Gewinne nach EZB Zinspause aus“ (Manager Magazin, Makro, eher positiv, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-10-30",
@@ -677,7 +691,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,09 % (+0,13 €), SAP-Aktie +1,12 %, DAX −0,85 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP-Aktie: Es geht wieder stark bergauf“ (WELT, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Schwacher Handel: DAX verliert mittags“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-02",
@@ -738,7 +753,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,08 % (+0,11 €), SAP-Aktie −0,36 %, DAX +0,63 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie +14% im Oktober: Warum ich jetzt nicht mehr kaufen würde!“ (sharedeals.de, Übernahme/Beteiligung). Gesamtmarkt: „Dax: Die Börsenstimmung steigt, doch es fehlt das Geld für neue Käufe“ (Handelsblatt, eher positiv, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-03",
@@ -799,7 +815,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,23 % (−0,32 €), SAP-Aktie −1,83 %, DAX −0,45 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP-Aktie: Teamviewer warnt, SAP fällt mit – obwohl die Zahlen stimmten“ (Investing.com Deutsch, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Dax am Mittag weiter schwach – Firmenbilanzen im Fokus“ (Oldenburger Online Zeitung, Quartalszahlen, eher negativ, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-04",
@@ -860,7 +877,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,28 % (+0,39 €), SAP-Aktie +3,70 %, DAX +2,22 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie: Es geht wieder stark bergauf“ (WELT, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Warum der Dax nach der Schlappe für Donald Trump zulegt“ (FAZ, Makro)."
         },
         {
           "datum": "2026-11-05",
@@ -921,7 +939,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,06 % (+0,08 €), SAP-Aktie +0,68 %, DAX −0,43 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP-Aktienprognose: Aufwärtsdynamik hält an, während Anleger den Widerstand bei 219,27 € im Blick haben“ (Traders Union, Prognose). Gesamtmarkt: „Rheinmetall senkt Prognose 2026 erneut - Aktie bricht am Dax-Ende ein“ (T-Online, Prognose, eher negativ, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-06",
@@ -982,7 +1001,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,18 % (−0,25 €), SAP-Aktie −2,32 %, DAX −1,92 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: TeamViewer-Prognose drückt auch hier“ (Börse Express, Prognose). Gesamtmarkt: „Dax startet mit 1,7 Prozent Minus nach Nasdaq-Einbruch“ (FAZ, eher negativ, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-09",
@@ -1043,7 +1063,8 @@
           "beta_geschaetzt": false,
           "theta_tag": 0.0313585656255,
           "iv": 47.7270175934,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,10 % (+0,14 €), SAP-Aktie +0,43 %, DAX +1,73 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie: JPMorgan setzt auf produktive KI und hebt Kursziel an“ (ad-hoc-news.de, Analyst/Kursziel, eher positiv, läuft gegen die Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum."
         },
         {
           "datum": "2026-11-10",
@@ -1104,7 +1125,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,06 % (−0,09 €), SAP-Aktie −0,80 %, DAX +0,31 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP Aktie: JPMorgan hievt das Kursziel auf 275 Euro“ (Finanztrends, Analyst/Kursziel). Gesamtmarkt: „Dax auf Rekordjagd: Sinkender Ölpreis und KI-Comeback treiben Kurse“ (FAZ, eher positiv, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-11",
@@ -1165,7 +1187,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,09 % (+0,13 €), SAP-Aktie +0,48 %, DAX +1,20 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: Analyst Sasse sieht nur begrenztes weiteres Potenzial“ (Börse Express, Analyst/Kursziel). Gesamtmarkt: „DAX mit nächstem Anlauf aufs Rekordhoch? Siemens Energy mit Top-Ausblick“ (Der Aktionär, Prognose, eher positiv, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-12",
@@ -1226,7 +1249,8 @@
           "beta_geschaetzt": false,
           "theta_tag": 0.0318790827973,
           "iv": 48.4569072723,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,01 % (−0,01 €), SAP-Aktie +0,76 %, DAX +0,41 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Im normalen Rauschen. Zu SAP: „SAP Aktie: Rückkauf-Maschine läuft weiter!“ (Kapitalmarktexperten, Dividende/Rückkauf). Gesamtmarkt: „Dax steigt erstmals über 27 000 Punkte - Wirtschaft - SZ.de“ (SZ.de, eher positiv, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-13",
@@ -1287,7 +1311,8 @@
           "beta_geschaetzt": false,
           "theta_tag": 0.0309956272977,
           "iv": 48.2750068665,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,07 % (+0,10 €), SAP-Aktie +0,42 %, DAX −0,08 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP Aktie: Führende Einstufung in IDC-Lagerverwaltungsstudien“ (ad-hoc-news.de, Analyst/Kursziel). Gesamtmarkt: „DAX-Prognose: Etwas tiefer, Bitcoin schwach – Nvidia, Alphabet, Munich Re, Rheinmetall, VW im Fokus“ (Der Aktionär, Prognose, eher negativ, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-16",
@@ -1348,7 +1373,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,03 % (+0,04 €), SAP-Aktie −0,02 %, DAX −0,57 %. Haupttreiber beim Zertifikat: Zeitwert; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: UBS hebt Kursziel auf 215 Euro“ (ad-hoc-news.de, Analyst/Kursziel, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „DAX ohne Schwung – Technologieaktien belasten, Zinsängste bremsen“ (Wallstreet Online, Makro)."
         },
         {
           "datum": "2026-11-17",
@@ -1415,7 +1441,8 @@
               "pct": -5.576382,
               "schwelle": 5.0
             }
-          ]
+          ],
+          "zusammenfassung": "Zertifikat −0,34 % (−0,48 €), SAP-Aktie −5,58 %, DAX −2,08 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung; Kurssprung: SAP −5,58 %. Zu SAP: „Die SAP-Aktie (XTRA:SAP) könnte trotz der Meldung über einen Rücktritt aus dem Vorstand um 33 % unterbewertet sein“ (Simply Wall St, Personalie). Gesamtmarkt: „DAX Aktuell & DAX Prognose: Tech-Abverkauf belastet vor Nvidia-Zahlen | Jens Klatt“ (XTB.com, Prognose)."
         },
         {
           "datum": "2026-11-18",
@@ -1476,7 +1503,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,34 % (−0,47 €), SAP-Aktie −3,76 %, DAX −1,19 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie fällt auf Vierwochentief – doch Analysten sehen 243 Euro“ (Investing.com Deutsch, Analyst/Kursziel, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum."
         },
         {
           "datum": "2026-11-19",
@@ -1537,7 +1565,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,40 % (−0,56 €), SAP-Aktie −3,56 %, DAX −1,06 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie Prognose: Analysten sehen im Schnitt rund 244 Euro, die Aktie fällt auf 194 - Wie viel KI-Angst steckt jetzt im Kurs?“ (AktienCheck.de, Analyst/Kursziel, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: DAX-Ausblick, Anthropic-IPO“ (tagesschau.de, Prognose)."
         },
         {
           "datum": "2026-11-20",
@@ -1598,7 +1627,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,20 % (−0,28 €), SAP-Aktie −1,79 %, DAX −2,60 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „DAX-Prognose: Verluste, Asien tiefrot, Gold rutscht ab – Dt. Bank, Infineon, SAP, Anthropic im Fokus“ (Der Aktionär, Prognose). Gesamtmarkt: „Im Sog der Weltbörsen: DAX fällt unter 25.000-Punkte-Marke - sechster Verlusttag“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX)."
         }
       ],
       "wochen": [
@@ -1717,7 +1747,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-22",
@@ -1750,7 +1781,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-23",
@@ -1783,7 +1815,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-26",
@@ -1816,7 +1849,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-27",
@@ -1849,7 +1883,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-28",
@@ -1882,7 +1917,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-29",
@@ -1915,7 +1951,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-30",
@@ -1948,7 +1985,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-02",
@@ -1981,7 +2019,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-03",
@@ -2014,7 +2053,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-04",
@@ -2047,7 +2087,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-05",
@@ -2080,7 +2121,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-06",
@@ -2113,7 +2155,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Zu SAP: „SAP Aktie Prognose 2026 & Kursziel von Analysten“ (Börse Express, Analyst/Kursziel). Gesamtmarkt: „DAX: Rücksetzer nach dem Rekordhoch“ (AktienCheck.de, eher positiv)."
         },
         {
           "datum": "2026-11-09",
@@ -2146,7 +2189,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Zu SAP: „SAP-Aktie: JPMorgan setzt auf produktive KI und hebt Kursziel an“ (ad-hoc-news.de, Analyst/Kursziel, eher positiv). Gesamtmarkt: „Börse: DAX-Ausblick, Was diese Woche wichtig wird“ (tagesschau.de, Prognose)."
         },
         {
           "datum": "2026-11-10",
@@ -2179,7 +2223,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Zu SAP: „SAP-Aktie: JPMorgan hebt Kursziel auf 275 Euro“ (ad-hoc-news.de, Analyst/Kursziel, eher positiv). Gesamtmarkt: „DAX aktuell: Enge Spanne nach Kurssprung – Ausbruch voraus?“ (IG, eher positiv)."
         },
         {
           "datum": "2026-11-11",
@@ -2212,7 +2257,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Zu SAP: „SAP-Aktie: JPMorgan erhöht Kursziel auf 275 Euro“ (ad-hoc-news.de, Analyst/Kursziel, eher positiv). Gesamtmarkt: „US-Inflationsdaten können DAX nicht stoppen: Steht die Rheinmetall-Aktie vor dem nächsten Abverkauf?“ (BörsenNEWS.de, Makro)."
         },
         {
           "datum": "2026-11-12",
@@ -2245,7 +2291,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Zu SAP: „SAP Aktie: Rückkauf-Maschine läuft weiter!“ (Kapitalmarktexperten, Dividende/Rückkauf). Gesamtmarkt: „Woher kommt die Rekordlaune beim DAX?“ (tagesschau.de, eher positiv)."
         },
         {
           "datum": "2026-11-13",
@@ -2278,7 +2325,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Zu SAP: „SAP-Aktie: Kurs erholt sich“ (WELT). Gesamtmarkt: „Dax-Kurs trotzt dem Nvidia-Crash: Drei Favoriten nach dem Rekord“ (WirtschaftsWoche, eher positiv)."
         },
         {
           "datum": "2026-11-16",
@@ -2311,7 +2359,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Zu SAP: „SAP Aktie: UBS hebt Kursziel auf 215 Euro“ (ad-hoc-news.de, Analyst/Kursziel, eher positiv). Gesamtmarkt: „So startet der DAX in die Woche - Gold, Bitcoin, Nvidia, Trump, Amazon, SpaceX, Toyota“ (Börse Online, Makro)."
         },
         {
           "datum": "2026-11-17",
@@ -2344,7 +2393,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Zu SAP: „SAP Aktienanalyse: Rekord-Auftragsbestand, Vorstandsabgang, KI-Angst – wer gewinnt das Tauziehen um Europas Softwareriesen?“ (AktienCheck.de, Personalie, eher positiv). Gesamtmarkt: „Zalando trotzt dem DAX-Abverkauf: BlackRock erhöht Beteiligung“ (BörsenNEWS.de, Übernahme/Beteiligung, eher positiv)."
         },
         {
           "datum": "2026-11-18",
@@ -2377,7 +2427,8 @@
           "beta_geschaetzt": null,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Ohne Vortag oder mit unvollständigen Kursen lässt sich die Bewegung nicht vergleichen. Zu SAP: „SAP-Aktie fällt auf Vierwochentief – doch Analysten sehen 243 Euro“ (Investing.com Deutsch, Analyst/Kursziel, eher negativ). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum."
         },
         {
           "datum": "2026-11-19",
@@ -2444,7 +2495,8 @@
               "pct": -2.782438,
               "schwelle": 2.0
             }
-          ]
+          ],
+          "zusammenfassung": "Zertifikat −2,78 % (−5,39 €), SAP-Aktie −3,56 %, DAX −1,06 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung; Kurssprung: Zertifikat −2,78 %. Zu SAP: „SAP Aktie Prognose: Analysten sehen im Schnitt rund 244 Euro, die Aktie fällt auf 194 - Wie viel KI-Angst steckt jetzt im Kurs?“ (AktienCheck.de, Analyst/Kursziel, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Vorstandsgehälter: Frauen holen auf, doch im DAX bleibt die Lücke“ (Merkur, Personalie)."
         },
         {
           "datum": "2026-11-20",
@@ -2505,7 +2557,8 @@
           "beta_geschaetzt": true,
           "theta_tag": 0.0,
           "iv": 0.1,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,86 % (−1,61 €), SAP-Aktie −2,32 %, DAX −2,07 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „Tops und Flops KW 47/2026: SAP-Aktie verliert im DAX am meisten“ (BÖRSE am Sonntag, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „DAX-Aktie schmiert ab: Analyst sieht Geschäftsmodell bedroht“ (Börse Online, Analyst/Kursziel)."
         }
       ],
       "wochen": [
@@ -2607,7 +2660,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,39 % (+0,60 €), SAP-Aktie +3,52 %, DAX +1,35 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-22",
@@ -2640,7 +2694,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,53 % (+0,83 €), SAP-Aktie +3,21 %, DAX −1,07 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-23",
@@ -2673,7 +2728,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,04 % (−0,07 €), SAP-Aktie −0,44 %, DAX −0,75 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-26",
@@ -2706,7 +2762,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,02 % (+0,03 €), SAP-Aktie −1,00 %, DAX +0,91 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-27",
@@ -2739,7 +2796,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,05 % (+0,08 €), SAP-Aktie +0,42 %, DAX +0,71 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-28",
@@ -2772,7 +2830,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,62 % (−0,97 €), SAP-Aktie −0,91 %, DAX +0,44 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-29",
@@ -2805,7 +2864,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,64 % (+1,00 €), SAP-Aktie −1,09 %, DAX +1,31 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-30",
@@ -2838,7 +2898,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,03 % (+0,05 €), SAP-Aktie +1,12 %, DAX −0,85 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-02",
@@ -2871,7 +2932,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,05 % (+0,08 €), SAP-Aktie −0,36 %, DAX +0,63 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-03",
@@ -2904,7 +2966,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,08 % (−0,12 €), SAP-Aktie −1,83 %, DAX −0,45 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-04",
@@ -2937,7 +3000,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,31 % (+0,49 €), SAP-Aktie +3,70 %, DAX +2,22 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-05",
@@ -2970,7 +3034,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,05 % (+0,08 €), SAP-Aktie +0,68 %, DAX −0,43 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-06",
@@ -3031,7 +3096,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,20 % (−0,31 €), SAP-Aktie −2,32 %, DAX −1,92 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu SAP: „SAP Aktie Prognose 2026 & Kursziel von Analysten“ (Börse Express, Analyst/Kursziel). Gesamtmarkt: „Börse: DAX-Ausblick, Wall Street bricht ein“ (tagesschau.de, Prognose, eher negativ, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-09",
@@ -3092,7 +3158,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,07 % (+0,11 €), SAP-Aktie +0,43 %, DAX +1,73 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie: JPMorgan setzt auf produktive KI und hebt Kursziel an“ (ad-hoc-news.de, Analyst/Kursziel, eher positiv, läuft gegen die Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: DAX-Ausblick, Was diese Woche wichtig wird“ (tagesschau.de, Prognose)."
         },
         {
           "datum": "2026-11-10",
@@ -3153,7 +3220,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,03 % (−0,05 €), SAP-Aktie −0,80 %, DAX +0,31 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP Aktie: JPMorgan hievt das Kursziel auf 275 Euro“ (Finanztrends, Analyst/Kursziel). Gesamtmarkt: „DAX aktuell: Enge Spanne nach Kurssprung – Ausbruch voraus?“ (IG, eher positiv, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-11",
@@ -3214,7 +3282,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,13 % (+0,20 €), SAP-Aktie +0,48 %, DAX +1,20 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie: Kurs erholt sich“ (WELT). Gesamtmarkt: „DAX bleibt gut unterwegs – Zinssorgen und KI-Hoffnungen halten sich die Waage“ (wallstreetONLINE, Makro)."
         },
         {
           "datum": "2026-11-12",
@@ -3275,7 +3344,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,07 % (+0,11 €), SAP-Aktie +0,76 %, DAX +0,41 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Im normalen Rauschen. Zu SAP: „SAP Aktie: Rückkauf-Maschine läuft weiter!“ (Kapitalmarktexperten, Dividende/Rückkauf). Gesamtmarkt: „Woher kommt die Rekordlaune beim DAX?“ (tagesschau.de, eher positiv, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-13",
@@ -3336,7 +3406,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,01 % (+0,01 €), SAP-Aktie +0,42 %, DAX −0,08 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP-Aktie: Kurs erholt sich“ (WELT). Gesamtmarkt: „Jahresendrally ja oder nein? DAX fällt nach Sprung über 27.000er-Marke wieder zurück und schließt moderat im Plus“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-16",
@@ -3397,7 +3468,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,04 % (−0,06 €), SAP-Aktie −0,02 %, DAX −0,57 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: UBS hebt Kursziel auf 215 Euro“ (ad-hoc-news.de, Analyst/Kursziel, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Schwacher Handel: DAX verbucht am Montagnachmittag Verluste“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-17",
@@ -3464,7 +3536,8 @@
               "pct": -5.576382,
               "schwelle": 5.0
             }
-          ]
+          ],
+          "zusammenfassung": "Zertifikat −0,35 % (−0,55 €), SAP-Aktie −5,58 %, DAX −2,08 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung; Kurssprung: SAP −5,58 %. Zu SAP: „Die SAP-Aktie (XTRA:SAP) könnte trotz der Meldung über einen Rücktritt aus dem Vorstand um 33 % unterbewertet sein“ (Simply Wall St, Personalie). Gesamtmarkt: „Vorwürfe gegen Dax-Konzern: Deutsche-Bank-Aufsichtsratschef stellt sich hinter Sewing“ (DIE ZEIT, Personalie)."
         },
         {
           "datum": "2026-11-18",
@@ -3525,7 +3598,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,67 % (−1,05 €), SAP-Aktie −3,76 %, DAX −1,19 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Wahrscheinlicher Zusammenhang. Zu SAP: „SAP-Aktie fällt auf Vierwochentief – doch Analysten sehen 243 Euro“ (Investing.com Deutsch, Analyst/Kursziel, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum."
         },
         {
           "datum": "2026-11-19",
@@ -3586,7 +3660,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,60 % (−0,94 €), SAP-Aktie −3,56 %, DAX −1,06 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie Prognose: Analysten sehen im Schnitt rund 244 Euro, die Aktie fällt auf 194 - Wie viel KI-Angst steckt jetzt im Kurs?“ (AktienCheck.de, Analyst/Kursziel, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Vorstandsgehälter: Frauen holen auf, doch im DAX bleibt die Lücke“ (Merkur, Personalie)."
         },
         {
           "datum": "2026-11-20",
@@ -3647,7 +3722,8 @@
           "beta_geschaetzt": false,
           "theta_tag": 0.0615303636145,
           "iv": 40.7215639114,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,23 % (−0,36 €), SAP-Aktie −2,29 %, DAX −2,05 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „Tops und Flops KW 47/2026: SAP-Aktie verliert im DAX am meisten“ (BÖRSE am Sonntag, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „DAX vor der 25.000er-Marke – ifo, PCE und Dell entscheiden die Woche“ (Investing.com Deutsch, Makro)."
         }
       ],
       "wochen": [
@@ -3749,7 +3825,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,28 % (+0,41 €), SAP-Aktie +3,52 %, DAX +1,35 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-22",
@@ -3782,7 +3859,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,36 % (+0,53 €), SAP-Aktie +3,21 %, DAX −1,07 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-23",
@@ -3815,7 +3893,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,04 % (−0,06 €), SAP-Aktie −0,44 %, DAX −0,75 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-26",
@@ -3848,7 +3927,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,11 % (+0,16 €), SAP-Aktie −1,00 %, DAX +0,91 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-27",
@@ -3881,7 +3961,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,01 % (+0,02 €), SAP-Aktie +0,42 %, DAX +0,71 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-28",
@@ -3914,7 +3995,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,38 % (−0,56 €), SAP-Aktie −0,91 %, DAX +0,44 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-29",
@@ -3947,7 +4029,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,26 % (+0,38 €), SAP-Aktie −1,09 %, DAX +1,31 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-10-30",
@@ -3980,7 +4063,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,09 % (+0,14 €), SAP-Aktie +1,12 %, DAX −0,85 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-02",
@@ -4013,7 +4097,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat 0,00 % (−0,01 €), SAP-Aktie −0,36 %, DAX +0,63 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-03",
@@ -4046,7 +4131,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,30 % (−0,44 €), SAP-Aktie −1,83 %, DAX −0,45 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-04",
@@ -4079,7 +4165,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,43 % (+0,62 €), SAP-Aktie +3,70 %, DAX +2,22 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-05",
@@ -4112,7 +4199,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,06 % (+0,09 €), SAP-Aktie +0,68 %, DAX −0,43 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Für diesen Tag wurden keine Schlagzeilen abgerufen."
         },
         {
           "datum": "2026-11-06",
@@ -4173,7 +4261,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,27 % (−0,40 €), SAP-Aktie −2,32 %, DAX −1,92 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu SAP: „SAP Aktie Prognose 2026 & Kursziel von Analysten“ (Börse Express, Analyst/Kursziel). Gesamtmarkt: „Börse: DAX-Ausblick, Wall Street bricht ein“ (tagesschau.de, Prognose, eher negativ, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-09",
@@ -4234,7 +4323,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,10 % (+0,14 €), SAP-Aktie +0,43 %, DAX +1,73 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie: JPMorgan setzt auf produktive KI und hebt Kursziel an“ (ad-hoc-news.de, Analyst/Kursziel, eher positiv, läuft gegen die Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: DAX-Ausblick, Was diese Woche wichtig wird“ (tagesschau.de, Prognose)."
         },
         {
           "datum": "2026-11-10",
@@ -4295,7 +4385,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,01 % (+0,01 €), SAP-Aktie −0,80 %, DAX +0,31 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP Aktie: JPMorgan hievt das Kursziel auf 275 Euro“ (Finanztrends, Analyst/Kursziel). Gesamtmarkt: „DAX aktuell: Enge Spanne nach Kurssprung – Ausbruch voraus?“ (IG, eher positiv, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-11",
@@ -4356,7 +4447,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,07 % (+0,10 €), SAP-Aktie +0,48 %, DAX +1,20 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie: Kurs erholt sich“ (WELT). Gesamtmarkt: „US-Inflationsdaten können DAX nicht stoppen: Steht die Rheinmetall-Aktie vor dem nächsten Abverkauf?“ (BörsenNEWS.de, Makro)."
         },
         {
           "datum": "2026-11-12",
@@ -4417,7 +4509,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,02 % (−0,03 €), SAP-Aktie +0,76 %, DAX +0,41 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Im normalen Rauschen. Zu SAP: „SAP Aktie: Rückkauf-Maschine läuft weiter!“ (Kapitalmarktexperten, Dividende/Rückkauf). Gesamtmarkt: „Woher kommt die Rekordlaune beim DAX?“ (tagesschau.de, eher positiv, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-13",
@@ -4478,7 +4571,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,07 % (+0,11 €), SAP-Aktie +0,42 %, DAX −0,08 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu SAP: „SAP-Aktie: Kurs erholt sich“ (WELT). Gesamtmarkt: „Jahresendrally ja oder nein? DAX fällt nach Sprung über 27.000er-Marke wieder zurück und schließt moderat im Plus“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-16",
@@ -4539,7 +4633,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,02 % (+0,03 €), SAP-Aktie −0,02 %, DAX −0,57 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: UBS hebt Kursziel auf 215 Euro“ (ad-hoc-news.de, Analyst/Kursziel, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Schwacher Handel: DAX verbucht am Montagnachmittag Verluste“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-17",
@@ -4606,7 +4701,8 @@
               "pct": -5.576382,
               "schwelle": 5.0
             }
-          ]
+          ],
+          "zusammenfassung": "Zertifikat −0,38 % (−0,56 €), SAP-Aktie −5,58 %, DAX −2,08 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Wahrscheinlicher Zusammenhang; Kurssprung: SAP −5,58 %. Zu SAP: „Die SAP-Aktie (XTRA:SAP) könnte trotz der Meldung über einen Rücktritt aus dem Vorstand um 33 % unterbewertet sein“ (Simply Wall St, Personalie). Gesamtmarkt: „DAX-Aktie fällt weiter: Jetzt verkaufen, rät Analyst“ (Börse Online, Analyst/Kursziel, eher negativ, passt zur Bewegung des DAX)."
         },
         {
           "datum": "2026-11-18",
@@ -4667,7 +4763,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,52 % (−0,77 €), SAP-Aktie −3,76 %, DAX −1,19 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Wahrscheinlicher Zusammenhang. Zu SAP: „SAP-Aktie fällt auf Vierwochentief – doch Analysten sehen 243 Euro“ (Investing.com Deutsch, Analyst/Kursziel, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum."
         },
         {
           "datum": "2026-11-19",
@@ -4728,7 +4825,8 @@
           "beta_geschaetzt": false,
           "theta_tag": null,
           "iv": null,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,50 % (−0,72 €), SAP-Aktie −3,56 %, DAX −1,06 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie Prognose: Analysten sehen im Schnitt rund 244 Euro, die Aktie fällt auf 194 - Wie viel KI-Angst steckt jetzt im Kurs?“ (AktienCheck.de, Analyst/Kursziel, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Vorstandsgehälter: Frauen holen auf, doch im DAX bleibt die Lücke“ (Merkur, Personalie)."
         },
         {
           "datum": "2026-11-20",
@@ -4789,7 +4887,8 @@
           "beta_geschaetzt": false,
           "theta_tag": 0.0490489431959,
           "iv": 43.6508468628,
-          "spruenge": []
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,23 % (−0,34 €), SAP-Aktie −1,27 %, DAX −1,82 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „DAX-Prognose: Verluste, Asien tiefrot, Gold rutscht ab – Dt. Bank, Infineon, SAP, Anthropic im Fokus“ (Der Aktionär, Prognose). Gesamtmarkt: „Im Sog der Weltbörsen: DAX fällt unter 25.000-Punkte-Marke - sechster Verlusttag“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX)."
         }
       ],
       "wochen": [

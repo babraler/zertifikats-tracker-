@@ -124,13 +124,15 @@ def _wochen(ws, d):
 
 
 def _erklaerungen(ws, d):
-    _kopf(ws, ["Datum", "Erklärung", "Einordnung", "Wichtigste Schlagzeile"], [12, 90, 26, 60])
+    _kopf(ws, ["Datum", "Erklärung", "Einordnung", "Wichtigste Schlagzeile", "Zusammenfassung des Tages"],
+          [12, 90, 26, 60, 90])
     for i, t in enumerate(d["tage"], start=2):
         _zelle(ws, i, 1, _datum(t["datum"]), FMT_DATUM)
         _zelle(ws, i, 2, t["text"] or "").alignment = Alignment(wrap_text=True, vertical="top")
         _zelle(ws, i, 3, t["verdikt"] or "")
         n = t["nachrichten"][0] if t["nachrichten"] else None
         _zelle(ws, i, 4, f"{n['titel']} ({n['quelle'] or 'Quelle unbekannt'})" if n else "")
+        _zelle(ws, i, 5, t.get("zusammenfassung") or "").alignment = Alignment(wrap_text=True, vertical="top")
     _filter_bis(ws, len(d["tage"]))
 
 

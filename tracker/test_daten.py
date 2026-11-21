@@ -49,7 +49,7 @@ class TestBaue(unittest.TestCase):
         t = self.d["tage"][-1]
         for k in ("datum", "phase", "z_geld", "z_brief", "z_quelle", "basis", "dax", "z_pct", "basis_pct", "dax_pct", "dz",
                   "delta", "beta", "effekt_markt", "effekt_aktie", "effekt_zeit", "effekt_rest", "haupttreiber",
-                  "auffaellig", "z_score", "text", "verdikt", "nachrichten"):
+                  "auffaellig", "z_score", "text", "verdikt", "nachrichten", "zusammenfassung"):
             self.assertIn(k, t)
         self.assertEqual(t["nachrichten"], [])
 
