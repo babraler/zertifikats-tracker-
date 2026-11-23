@@ -33,6 +33,13 @@
       "wochen": 10,
       "demo": false,
       "basis_suchbegriff": null
+    },
+    {
+      "isin": "DE000VY25L94",
+      "start": "2026-11-23",
+      "wochen": 10,
+      "demo": false,
+      "basis_suchbegriff": null
     }
   ]
 }
