@@ -1,0 +1,24 @@
+{
+  "produkt": {
+    "isin": "DE000VJ996M9",
+    "wkn": "VJ996M",
+    "name": "PROTECT PRO DISCOUNT ZERTIFIKAT AUF BEIERSDORF",
+    "emittent": "Vontobel",
+    "cap": 79.0,
+    "bezug": 1.0,
+    "faellig": "2027-03-19",
+    "basis_name": "Beiersdorf",
+    "basis_isin": "DE0005200000"
+  },
+  "kennzahlen": {
+    "max_ertrag_eur": 2.55,
+    "max_ertrag_pct": 3.33551340746,
+    "discount_pct": 3.00380228137
+  },
+  "abruf": {
+    "datum": "2026-11-23",
+    "handelstag": "2026-11-23",
+    "zeit": "2026-11-23T09:27:06+01:00"
+  },
+  "quelle": "onvista.de"
+}

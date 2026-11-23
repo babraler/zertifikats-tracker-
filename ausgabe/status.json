@@ -1,7 +1,7 @@
 {
   "ok": true,
   "meldung": "",
-  "letzter_lauf": "2026-11-23T09:26:02+01:00",
+  "letzter_lauf": "2026-11-23T09:27:06+01:00",
   "je_zertifikat": {
     "DE000JE3NTM6": {
       "ok": true,
@@ -19,7 +19,7 @@
       "ok": true,
       "meldung": "Heute (2026-11-21) kein Handelstag, letzter Handelstag 2026-11-20."
     },
-    "DE000VY25L94": {
+    "DE000VJ996M9": {
       "ok": true,
       "meldung": ""
     }
