@@ -2,6 +2,22 @@
 
 Automatisch erstellt, regelbasiert. Zeitlicher Zusammenhang, kein Beweis.
 
+## Montag, 23.11.2026
+
+Zertifikat +0,36 % (+0,53 €), SAP-Aktie +0,92 %, DAX +1,34 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP im freien Fall: Aktie verliert fast 14 Prozent in fünf Tagen“ (BörsenNEWS.de, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „DAX Aktuell & Prognose (23.11.2026) \| Analyse Jens Klatt“ (XTB.com, Prognose).
+
+**Schlagzeilen zu SAP**
+
+- [SAP im freien Fall: Aktie verliert fast 14 Prozent in fünf Tagen](https://news.google.com/rss/articles/CBMizAFBVV95cUxOLTlCYUYxTmJWUFlobTR3dVY2UW1CZTZyWEhXR2pnYzhjcTdCakhOUS14Q3ZjckFxTjkwLVE4UmVqdjZMT1JqTVBmSTJPNzUzNl93cEVnY2t1VmhkUTBWRlZoMzFmcmlvdEZwTTlmRjRpVU1uSnpYWWNmaW9hWVRpWnU3QWVXSjlScS1rYUNfTy1GSkFkLXZxdWRwTFVaSTBCazVvWWwxS1pQbjloSGI0XzVhbENfaF9QTkg2REJ4NlBVajJkR2VORmZNOTg?oc=5) (BörsenNEWS.de, 23.11. 14:02, Sonstiges, eher negativ)
+- [SAP Aktie: TechWolf-Übernahme ist unter Dach und Fach](https://news.google.com/rss/articles/CBMihgFBVV95cUxNUUtJaUM2N0lJd1R3VnhrZThHbGl6SFR6NU8tQlRkcVpUbWtHeGVtZTFsa3ZuR3pOOEprR0VJM2NXODRmMUlNazVJQl95UFloaERTTTBnZ0hyNmVKYXhHeENUY2t3X3VBd0E1dnRJcWRIdGJvVHdmM0ZuWi01czdZYnV1X0luZw?oc=5) (Finanztrends, 23.11. 12:11, Übernahme/Beteiligung)
+- [Auch SAP weiter unter Druck: Für diese deutsche Software-Aktie wurde das Kursziel jetzt brutal gekürzt!](https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ0Y3WkR1NVNKY0duU21PZXZmZnZUSnUzSldLU0lpVnpVZ0ltOFpBSHFtdm5OOHh6MVl5cF9SSjVLTUFRZmpyUFJuQ2JmVHgxZlI0RjVRampVRXpKdjRDTFBPbGt5MmtfT0pkS0RzaEtWSmxlcXpqWXZ5dlc2YzZNOEdfZTI3VkZYNE9NanYxZVhBX2hKSWZmRWNQeUt6QXo1RmRkUEdHRjUtMTVBSzE1QkdxV2l5MktWWFRNem03SThobkJtZ09sMVZEY2l1a3JnQU5wVE1XMzRHaEJEQVZJOWRfU05vdmlIQkJ6LXk3djd0MDMySGV6cERkWUZIdXlQc2gw?oc=5) (FinanzNachrichten.de, 23.11. 11:53, Analyst/Kursziel)
+
+**Schlagzeilen zum Markt**
+
+- [DAX Aktuell & Prognose (23.11.2026) \| Analyse Jens Klatt](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOanA2T0VmTk15U3VHSTdPbG82VnBkcFVLNGlqdi1MMFBld1RDY2JlQlZ6S2YxMmdUX3phaEI5YjdfOVYtREJEMVlFTDBub1hUaE85MDlrTnZBaWVKeWZCbGZXRGlDUGd0Z0RibWhLVkRPbk5VVUtuMHBnUngzbjVISjJ0UmVfNU96dHpDTWZUbm5rcHpjNzNoUFVXNGR6TGdOQk05dXkwR0Nkek83ZF9ybF80ZjdpU1c4N0JJUVBJZFk?oc=5) (XTB.com, 23.11. 09:47, Prognose)
+- [DAX-Ausblick, Anleger hoffen auf Erholungsrally](https://news.google.com/rss/articles/CBMibkFVX3lxTE5EeUszenhfWUl3TFhCcWhFdEE4UzE4a1AyTnJhS1BPY2dEYWNWOXhNOW5aUWluVmUyeGlHZkFpVGZMdUxfcnBNOHFTRm50SmV4VE5keGVKSmw1Q2JxSmlDRW8zbzlpZTJXMG5BeTJ3?oc=5) (tagesschau.de, 23.11. 06:22, Prognose)
+- [DAX AKTUELL: Größter Wochenverlust des Jahres! DAX Prognose \| Jens Chrzanowski](https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbEY2OXJSaks2YnNLN3I0cDBKWjdFMUhSQlJnOGpCSU0xRmFMNGotM1k1TEt0R1JmazBBZFI3VjJMZExfelgyQVByQ3g3em9ZMjI2eU5STl9PRVNTQS0xS2tHMlByR2lFeHlvN2hvaTlJckc3eXJiS3Fpb0lDU1FmWmFjZ0k1YVlwNlpKU3hRWUs0VUVvbDdRLVdKWE1reFNwOFBFOGFJaHlHNVhNVzVUazh0SGVxYUJQS296dllCSEY4clk?oc=5) (XTB.com, 22.11. 11:23, Prognose)
+
 ## Freitag, 20.11.2026
 
 Zertifikat −0,23 % (−0,34 €), SAP-Aktie −1,27 %, DAX −1,82 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „DAX-Prognose: Verluste, Asien tiefrot, Gold rutscht ab – Dt. Bank, Infineon, SAP, Anthropic im Fokus“ (Der Aktionär, Prognose). Gesamtmarkt: „Im Sog der Weltbörsen: DAX fällt unter 25.000-Punkte-Marke - sechster Verlusttag“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX).

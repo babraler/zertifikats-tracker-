@@ -834,5 +834,83 @@
   ],
   "nachrichten_gesamt": 30,
   "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-23": {
+  "datum": "2026-11-23",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat +0,10 % (+0,15 €), SAP-Aktie +1,97 %, DAX +1,59 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu SAP: „SAP Aktie stabilisiert sich nach starkem Kursrückgang“ (SuaraGarut.ID, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „DAX Aktuell & Prognose (23.11.2026) | Analyse Jens Klatt“ (XTB.com, Prognose).",
+  "kurse": {
+   "z_geld": 154.96,
+   "basis": 186.34,
+   "dax": 25337.27,
+   "z_pct": 0.096893,
+   "basis_pct": 1.970012,
+   "dax_pct": 1.589807,
+   "dz": 0.15,
+   "haupttreiber": "Sonstiges (Spread, Vola, Zinsen)",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP Aktie stabilisiert sich nach starkem Kursrückgang",
+    "quelle": "SuaraGarut.ID",
+    "zeit": "2026-11-23T17:01:44+01:00",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBjS0ZQWGRPTmJIcXluaDFWR0hCdk9HUVRVLWxfaHkwQ1VBeUlkMmF0cTZuYm42QklSc0h6RlpvUnc1T1lEeXBDMTBxYk8wOWM4QkZDcFNhbHBGWU9IUUpnM2dTV3dIbHJDNllqZ3JteEs?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "SAP Aktie: TechWolf-Übernahme ist unter Dach und Fach",
+    "quelle": "Finanztrends",
+    "zeit": "2026-11-23T12:11:14+01:00",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUUtJaUM2N0lJd1R3VnhrZThHbGl6SFR6NU8tQlRkcVpUbWtHeGVtZTFsa3ZuR3pOOEprR0VJM2NXODRmMUlNazVJQl95UFloaERTTTBnZ0hyNmVKYXhHeENUY2t3X3VBd0E1dnRJcWRIdGJvVHdmM0ZuWi01czdZYnV1X0luZw?oc=5",
+    "kategorie": "Übernahme/Beteiligung",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Auch SAP weiter unter Druck: Für diese deutsche Software-Aktie wurde das Kursziel jetzt brutal gekürzt!",
+    "quelle": "FinanzNachrichten.de",
+    "zeit": "2026-11-23T11:53:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ0Y3WkR1NVNKY0duU21PZXZmZnZUSnUzSldLU0lpVnpVZ0ltOFpBSHFtdm5OOHh6MVl5cF9SSjVLTUFRZmpyUFJuQ2JmVHgxZlI0RjVRampVRXpKdjRDTFBPbGt5MmtfT0pkS0RzaEtWSmxlcXpqWXZ5dlc2YzZNOEdfZTI3VkZYNE9NanYxZVhBX2hKSWZmRWNQeUt6QXo1RmRkUEdHRjUtMTVBSzE1QkdxV2l5MktWWFRNem03SThobkJtZ09sMVZEY2l1a3JnQU5wVE1XMzRHaEJEQVZJOWRfU05vdmlIQkJ6LXk3djd0MDMySGV6cERkWUZIdXlQc2gw?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "DAX Aktuell & Prognose (23.11.2026) | Analyse Jens Klatt",
+    "quelle": "XTB.com",
+    "zeit": "2026-11-23T09:47:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOanA2T0VmTk15U3VHSTdPbG82VnBkcFVLNGlqdi1MMFBld1RDY2JlQlZ6S2YxMmdUX3phaEI5YjdfOVYtREJEMVlFTDBub1hUaE85MDlrTnZBaWVKeWZCbGZXRGlDUGd0Z0RibWhLVkRPbk5VVUtuMHBnUngzbjVISjJ0UmVfNU96dHpDTWZUbm5rcHpjNzNoUFVXNGR6TGdOQk05dXkwR0Nkek83ZF9ybF80ZjdpU1c4N0JJUVBJZFk?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "DAX-Ausblick, Anleger hoffen auf Erholungsrally",
+    "quelle": "tagesschau.de",
+    "zeit": "2026-11-23T06:22:26+01:00",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5EeUszenhfWUl3TFhCcWhFdEE4UzE4a1AyTnJhS1BPY2dEYWNWOXhNOW5aUWluVmUyeGlHZkFpVGZMdUxfcnBNOHFTRm50SmV4VE5keGVKSmw1Q2JxSmlDRW8zbzlpZTJXMG5BeTJ3?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "DAX AKTUELL: Größter Wochenverlust des Jahres! DAX Prognose | Jens Chrzanowski",
+    "quelle": "XTB.com",
+    "zeit": "2026-11-22T11:23:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbEY2OXJSaks2YnNLN3I0cDBKWjdFMUhSQlJnOGpCSU0xRmFMNGotM1k1TEt0R1JmazBBZFI3VjJMZExfelgyQVByQ3g3em9ZMjI2eU5STl9PRVNTQS0xS2tHMlByR2lFeHlvN2hvaTlJckc3eXJiS3Fpb0lDU1FmWmFjZ0k1YVlwNlpKU3hRWUs0VUVvbDdRLVdKWE1reFNwOFBFOGFJaHlHNVhNVzVUazh0SGVxYUJQS296dllCSEY4clk?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
  }
 }
