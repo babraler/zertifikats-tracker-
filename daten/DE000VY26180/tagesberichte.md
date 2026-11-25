@@ -2,6 +2,22 @@
 
 Automatisch erstellt, regelbasiert. Zeitlicher Zusammenhang, kein Beweis.
 
+## Dienstag, 24.11.2026
+
+Zertifikat +0,28 % (+0,41 €), SAP-Aktie +2,01 %, DAX −1,26 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: Der Rückkauf rollt weiter“ (Börse Express, Dividende/Rückkauf). Gesamtmarkt: „Schwacher Wochentag in Frankfurt: LUS-DAX am Dienstagnachmittag im Minus“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX).
+
+**Schlagzeilen zu SAP**
+
+- [SAP Aktie: Der Rückkauf rollt weiter](https://news.google.com/rss/articles/CBMikgFBVV95cUxOeWIxb1BUQTRHLW4ydUJJZ0M0aEZsYWZ5YjUtWnhKdlFSekQ3aFI4MUF6cldNdGxqWllSUVpRVDg2Z1NSOElETnNpNzdIVEsyempyY0JoNkxxdHN4cEY3b2JRcEUya25wUUJjQ1dvdUwzY2ZEMkd4emw4cnQ1NFphcjFZR3Z2S0h6dUVtbUl4WXd2QQ?oc=5) (Börse Express, 24.11. 14:16, Dividende/Rückkauf)
+- [IONOS Aktie: TecDAX Gewinner – neuer Chef von SAP und bestätigte Prognose](https://news.google.com/rss/articles/CBMipAFBVV95cUxQb2RYTTRyLVkydzB4ZzV4VC1SQkIxNVBSNzZMZGVNRlhYb09MeWpGZm5aMVA0N1MzMlVEMTdiZ0dvaWNQUjJDeXlDV3FWRnFNWjk0QklVdER0VjRtNnlSRGFtdkRWYTdZcjByZkVheXpxY2Q1REREQWcwRnFaazdzbXVuMHQxNVY5eGpodk84OGdLT0l4S1pja2hLNXZFYnFwR1Nqdg?oc=5) (AktienCheck.de, 24.11. 12:54, Prognose)
+- [SAP Aktie: JPMorgan hat auf Overweight gedreht](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeWd1VzBEaVRsRDlmNmdWYk1rQW5PY0tRaWVuUDhQaFFtLW9jWmNuV21FQWVtb1N4NVAzRUJSemJwTlJqS2lFR2lsRTJmMlVJbDhYZlgzN1RQaE1JcUtLYnpMaG8yNDgxTFE5Q3NGNmZoZjBtQnMyY3MtWmp4UC11bU5wUlljVFBh?oc=5) (Börse Global, 24.11. 10:09, Analyst/Kursziel)
+
+**Schlagzeilen zum Markt**
+
+- [Schwacher Wochentag in Frankfurt: LUS-DAX am Dienstagnachmittag im Minus](https://news.google.com/rss/articles/CBMivwFBVV95cUxPZDZZNXUwNm9yTVZBLTJ0bXh2ZW5TbUNMc0RnXzh1M0N0X2VUenppS0dqNDVoVUE4WkcwOFFvRnJ4ZElDZFZoS3Q0Uzh0eWpOUjlDTld6allaMUQ1a2thZ00tanloT3Ewa0pOZHRwdFlab1pPN19VNy01LW5qRGphdFpCbFVhV3pWd05RSUxYMTJCUnUxUmVTRE5CUVhzUUVSWHlGMWg0Zkl6Y19UeVhuN0F4QVkyU21wcWVPSHBMaw?oc=5) (Finanzen.net, 24.11. 15:59, Sonstiges, eher negativ)
+- [Schwache Performance in Frankfurt: LUS-DAX schwächelt zum Start des Dienstagshandels](https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdFVkLTVYMVFXMUZMRFNLSW5RWVVaSlNUS19kYXVrb1JYekVOZTBncnJLMFB2V3RzX09kQlZmeVlQQlFCR1NqbXZ3MVBaUVJhcDFILS1WRkoyN0Q3ZmJYaUtqbENUNTJlRVl2dVU1UlFzVWhfWnVzQXVFdVBOSjdITEYwTFZKR0pTR3VKS05SaThEa1FYZFJVQjNiZGlWOWJ1SjNsc3FQMkJnSU9ST2VrQ0YzMEE5VnEteWlaUXZDY0Vna1hhTDd2d3hOM2ctQi10?oc=5) (Finanzen.net, 24.11. 09:27, Sonstiges, eher negativ)
+- [Börse heute: DAX – Nvidia-Comeback bringt 2 % Plus, Ifo im Blick](https://news.google.com/rss/articles/CBMisAFBVV95cUxQNlVWLTlHQmM1OHkyYmxVQnBqY3NaU2o0bUo4RnVVamR1akg2cE94UVVzbXVrZllKdlBudTJrWnljVE1tcmV4ZExGVExFdlpLWUtfbk42d2YwUmpITHF3SGs0RGsyb1I3TnVTZERnb3dsZlBFSUY5c0VZLTQ5d0J0a3I4V3pIdUt6cUFjRUR2dEt0MUVnWWxBR1dzX29pTjgxTi1qek0yZjAtZzRCandhaw?oc=5) (Investing.com Deutsch, 24.11. 08:04, Makro)
+
 ## Montag, 23.11.2026
 
 Zertifikat +0,36 % (+0,53 €), SAP-Aktie +0,92 %, DAX +1,34 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP im freien Fall: Aktie verliert fast 14 Prozent in fünf Tagen“ (BörsenNEWS.de, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „DAX Aktuell & Prognose (23.11.2026) \| Analyse Jens Klatt“ (XTB.com, Prognose).

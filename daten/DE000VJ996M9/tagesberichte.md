@@ -2,6 +2,21 @@
 
 Automatisch erstellt, regelbasiert. Zeitlicher Zusammenhang, kein Beweis.
 
+## Dienstag, 24.11.2026
+
+Zertifikat +0,78 % (+0,59 €), Beiersdorf-Aktie +1,95 %, DAX +0,54 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu Beiersdorf: „Beiersdorf-Aktie: Unveränderter Start in den Handelstag“ (WELT). Gesamtmarkt: „DAX: Starke Gegenreaktion - UBS“ (4investors.de, eher positiv, passt zur Bewegung des DAX).
+
+**Schlagzeilen zu Beiersdorf**
+
+- [Beiersdorf-Aktie: Unveränderter Start in den Handelstag](https://news.google.com/rss/articles/CBMixwFBVV95cUxQcThTdW1CdGRydUlqZWpDMWI1QkNEMTA3aTBXRlRtMXpEaUhtS2syNVl3NTFKU0dPZ1RMU1V4ZGY5R2NCZkx5UTVlN3hGVFZMcjhyWWlDcUM5cGlkVnJGYUVDSjdFckc3UjBaV1UwTkJJRUFWVnRPMTR3RXBXTWFnaGxYclhBYmM5ZWNGNTdhc2xnREhSN1lwMVBrWWxCdTdzY0lxd2N4WHQ2VlE5VDhoYkhmNEtQNS1JX0s0d3dpdlYxRkxVaXAw?oc=5) (WELT, 24.11. 11:03, Sonstiges)
+- [Beiersdorf Aktie DAX Verlierer: Nur minus 0,23 % an einem DAX-Tag mit plus 2,2 % – was hält den Konsumwert zurück?](https://news.google.com/rss/articles/CBMirAFBVV95cUxPcjBUNHY0UFRVR1lVMWlGdDFrR3Zkbk5uNDFrSlB1TVZQbHFYZThPSkp1QklWREJrQnd1dmdxdXdZNW5rMlZrTFRKRmg3eXRwaDNSLXpSNktQSEV1ZHFlbzNLaTRaRDNxWE9LMnJkdGRwS2I1N1lhNTc0N3RXVmFmV2hJVjJ1ZEpOYXRvS1Frczl4OUNSbDVYLXNxY0NFdnYtVTZiTFE3VlZ4THlQ?oc=5) (AktienCheck.de, 23.11. 18:15, Sonstiges)
+
+**Schlagzeilen zum Markt**
+
+- [DAX: Starke Gegenreaktion - UBS](https://news.google.com/rss/articles/CBMifEFVX3lxTE4yOVFoLXpfc0dsb2p1SFd4NThjVXd5ZDJzZDNMNjVLSnNDdnFnUUxtN1B3cWxNeWpPMGVnSW5mTkFRZHVYNDlkWnJCcFQ0Ymd0T1NWTms3d3ZXNWZ2ZWZUbzdiU1dSX2JCeGZ3NnR0cmlLaEczQXFOR2hxcU4?oc=5) (4investors.de, 24.11. 09:00, Sonstiges, eher positiv)
+- [Börse heute: DAX – Nvidia-Comeback bringt 2 % Plus, Ifo im Blick](https://news.google.com/rss/articles/CBMisAFBVV95cUxQNlVWLTlHQmM1OHkyYmxVQnBqY3NaU2o0bUo4RnVVamR1akg2cE94UVVzbXVrZllKdlBudTJrWnljVE1tcmV4ZExGVExFdlpLWUtfbk42d2YwUmpITHF3SGs0RGsyb1I3TnVTZERnb3dsZlBFSUY5c0VZLTQ5d0J0a3I4V3pIdUt6cUFjRUR2dEt0MUVnWWxBR1dzX29pTjgxTi1qek0yZjAtZzRCandhaw?oc=5) (Investing.com Deutsch, 24.11. 08:04, Makro)
+- [Schwacher Wochentag in Frankfurt: LUS-DAX präsentiert sich am Dienstagnachmittag leichter](https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeGwxclRHc3hYMzVZVXFRRWdZSFNZeFAzWVg0TjRnU0VHdEVUbDNMQVdDQTN4VEFSRXoxZ2NSMVZyQWhQTnRoYjdocENkUHpEVWIwXzJFLWhBcXNvblJvYzdINXlTaHJWbHYxWkd4d1djZkVpZ2JDaEpwV1A0MndZVmFzN1pGR1NUWU5RQmd6TGVLLUgxWHZlYWg0RU9RT0EzRjVKdnkwSTg5SG5vWkNCak4xTlFReDRoMENwQWxiTHJaampId2xWNmMxOFYzaVN6UUJTZkRGa0o4dVk?oc=5) (finanzen.ch, 24.11. 16:01, Sonstiges, eher negativ)
+
 ## Montag, 23.11.2026
 
 Zertifikat −0,07 % (−0,06 €), Beiersdorf-Aktie −0,08 %, DAX +0,33 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu Beiersdorf: „Beiersdorf: Die Charttechnik meldet "Sekt oder Selters"“ (FinanzNachrichten.de). Gesamtmarkt: „DAX 8 Prozent unter Rekord: Was der Kursrutsch für Ihren ETF-Sparplan bedeutet“ (Merkur, eher positiv, passt zur Bewegung des DAX).

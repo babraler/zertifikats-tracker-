@@ -912,5 +912,83 @@
   ],
   "nachrichten_gesamt": 30,
   "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-24": {
+  "datum": "2026-11-24",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat +0,40 % (+0,62 €), SAP-Aktie +2,01 %, DAX −1,26 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: Der Rückkauf rollt weiter“ (Börse Express, Dividende/Rückkauf). Gesamtmarkt: „Schwacher Wochentag in Frankfurt: LUS-DAX am Dienstagnachmittag im Minus“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX).",
+  "kurse": {
+   "z_geld": 155.58,
+   "basis": 190.08,
+   "dax": 25017.81,
+   "z_pct": 0.400103,
+   "basis_pct": 2.007084,
+   "dax_pct": -1.26083,
+   "dz": 0.62,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Marktbewegung",
+   "auffaellig": true
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "SAP Aktie: Der Rückkauf rollt weiter",
+    "quelle": "Börse Express",
+    "zeit": "2026-11-24T14:16:10+01:00",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeWIxb1BUQTRHLW4ydUJJZ0M0aEZsYWZ5YjUtWnhKdlFSekQ3aFI4MUF6cldNdGxqWllSUVpRVDg2Z1NSOElETnNpNzdIVEsyempyY0JoNkxxdHN4cEY3b2JRcEUya25wUUJjQ1dvdUwzY2ZEMkd4emw4cnQ1NFphcjFZR3Z2S0h6dUVtbUl4WXd2QQ?oc=5",
+    "kategorie": "Dividende/Rückkauf",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "IONOS Aktie: TecDAX Gewinner – neuer Chef von SAP und bestätigte Prognose",
+    "quelle": "AktienCheck.de",
+    "zeit": "2026-11-24T12:54:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb2RYTTRyLVkydzB4ZzV4VC1SQkIxNVBSNzZMZGVNRlhYb09MeWpGZm5aMVA0N1MzMlVEMTdiZ0dvaWNQUjJDeXlDV3FWRnFNWjk0QklVdER0VjRtNnlSRGFtdkRWYTdZcjByZkVheXpxY2Q1REREQWcwRnFaazdzbXVuMHQxNVY5eGpodk84OGdLT0l4S1pja2hLNXZFYnFwR1Nqdg?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP Aktie: JPMorgan hat auf Overweight gedreht",
+    "quelle": "Börse Global",
+    "zeit": "2026-11-24T10:09:26+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeWd1VzBEaVRsRDlmNmdWYk1rQW5PY0tRaWVuUDhQaFFtLW9jWmNuV21FQWVtb1N4NVAzRUJSemJwTlJqS2lFR2lsRTJmMlVJbDhYZlgzN1RQaE1JcUtLYnpMaG8yNDgxTFE5Q3NGNmZoZjBtQnMyY3MtWmp4UC11bU5wUlljVFBh?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Schwacher Wochentag in Frankfurt: LUS-DAX am Dienstagnachmittag im Minus",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-24T15:59:49+01:00",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZDZZNXUwNm9yTVZBLTJ0bXh2ZW5TbUNMc0RnXzh1M0N0X2VUenppS0dqNDVoVUE4WkcwOFFvRnJ4ZElDZFZoS3Q0Uzh0eWpOUjlDTld6allaMUQ1a2thZ00tanloT3Ewa0pOZHRwdFlab1pPN19VNy01LW5qRGphdFpCbFVhV3pWd05RSUxYMTJCUnUxUmVTRE5CUVhzUUVSWHlGMWg0Zkl6Y19UeVhuN0F4QVkyU21wcWVPSHBMaw?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "Schwache Performance in Frankfurt: LUS-DAX schwächelt zum Start des Dienstagshandels",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-24T09:27:41+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdFVkLTVYMVFXMUZMRFNLSW5RWVVaSlNUS19kYXVrb1JYekVOZTBncnJLMFB2V3RzX09kQlZmeVlQQlFCR1NqbXZ3MVBaUVJhcDFILS1WRkoyN0Q3ZmJYaUtqbENUNTJlRVl2dVU1UlFzVWhfWnVzQXVFdVBOSjdITEYwTFZKR0pTR3VKS05SaThEa1FYZFJVQjNiZGlWOWJ1SjNsc3FQMkJnSU9ST2VrQ0YzMEE5VnEteWlaUXZDY0Vna1hhTDd2d3hOM2ctQi10?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "Börse heute: DAX – Nvidia-Comeback bringt 2 % Plus, Ifo im Blick",
+    "quelle": "Investing.com Deutsch",
+    "zeit": "2026-11-24T08:04:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNlVWLTlHQmM1OHkyYmxVQnBqY3NaU2o0bUo4RnVVamR1akg2cE94UVVzbXVrZllKdlBudTJrWnljVE1tcmV4ZExGVExFdlpLWUtfbk42d2YwUmpITHF3SGs0RGsyb1I3TnVTZERnb3dsZlBFSUY5c0VZLTQ5d0J0a3I4V3pIdUt6cUFjRUR2dEt0MUVnWWxBR1dzX29pTjgxTi1qek0yZjAtZzRCandhaw?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
  }
 }
