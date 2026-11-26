@@ -2,6 +2,22 @@
 
 Automatisch erstellt, regelbasiert. Zeitlicher Zusammenhang, kein Beweis.
 
+## Mittwoch, 25.11.2026
+
+Zertifikat +0,27 % (+0,21 €), Beiersdorf-Aktie +2,23 %, DAX −1,26 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu Beiersdorf: „Buy or Goodbye?: British American Tobacco, BASF, Beiersdorf & Henkel - Analystenstimmen des Tages“ (FinanzNachrichten.de, Analyst/Kursziel). Gesamtmarkt: „Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte“ (Finanzen.net, Makro).
+
+**Schlagzeilen zu Beiersdorf**
+
+- [Buy or Goodbye?: British American Tobacco, BASF, Beiersdorf & Henkel - Analystenstimmen des Tages](https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYjBPYWFIRVNWcEVpYkNuYVkyQmZ1dmxrS1J3dE5MRXN3VGZfLXp6dW9TanJrRWp3cEZkZFAwdkxGU0tyaThyejRPSVJQdzBmU0JYVUV0clk3Mmh6VXdPaDZqaTl0SWhEOHk5Rm83ek10a1pvdlROZm5YeVNRYnFWTjhUM1pWbnlJMG5BdkNHMWxWZEh2T3k2blJIX29IWHl6TTNWVkV0OTNjY0JreGtIRUhGaUpmbDUyUkFLYlZZRUFEM2R3Mkh0NndETDI3TWJKbmttUHJFMUZIM1R0cy1SdHFuMmNuMjJfajF0WnlFOUU?oc=5) (FinanzNachrichten.de, 25.11. 12:23, Analyst/Kursziel)
+- [Beiersdorf Outperform (Bernstein Research) 25.11.2026 \| Analyse](https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaWVyZGtnamtsdldvN2JEOUNhaGc0QnR2RlhWN1dEbUVZLTE3MUVEWEw3QnNoQ3JVaE50MWRMUHZ2cFVncVVoczQtOGtETU9FM1RxaGtHN0RtWWNPZ0w5bTc2RE9GM0JaNWVvRWEtaUg4ODczZlE5UUkwbUNWRjhYQTNwbC02TmJ4?oc=5) (Finanzen.net, 25.11. 08:52, Analyst/Kursziel)
+- [Beiersdorf Aktie: Nivea schrumpft, die Marge sinkt, der Rückkauf läuft – findet der DAX-Verlierer jetzt seinen Boden?](https://news.google.com/rss/articles/CBMijgFBVV95cUxPLXU1NXNGb0dJdGlqcldBa0lTMDlUMVZTSm41Mk51alNPOEVHV1R1a3pEMGNfMHNkdllKZEhFZTN2eHBGbHI2UzJPTldoRDRxbmhIOUpoSGhfOGdWRHdibHFubFdGUGtlRXAzeWxGeUIteWJFX0ZzelJLSHYzUnBqOVRzbXFwOEdPdjN6bU9R?oc=5) (AktienCheck.de, 25.11. 07:57, Dividende/Rückkauf)
+
+**Schlagzeilen zum Markt**
+
+- [Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbVI3aERmZ3BTSmVYZ2phYml2WUR4X2d0c1dhcFBTLUg4R0cxdmsyQnlYNG1YQnNRNEZXWG5xOW9xVzZFU21DQTdiVTg3cWRxNzZ6cFpjQi1iZ0Y4aVdzaFZ1a2h0aTZHbkc5N0ZRS2s3QlpBQU5YSkZFRDJFYTQ2ZHB0aDRjbE5tdVA4TjEycWd2Umk5YmxEdDE0cEVIWDdXMmhZSFFtTUVLdVZWRnpZNktyR2dXNGlnNjFfdzgtOUc2R3gwMTU3LUxfRmM3THctTVE?oc=5) (Finanzen.net, 25.11. 14:30, Makro)
+- [US-Strafzölle: Erneute Zollsorgen treiben Dax-Anleger um](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSDFPbUFEZEtsT0s5T3FzSm9JVkp2U1VZeDN2a2VVWXBWMjJtU0U5aEI2TEFoTmwyX3MzdmU3dGNzV0lDazhNTlhobTA3VWNfa2g0WDBGNDFwcTk1REtwOW9SVmktdFlpdHFUMVZPTE82eEdsdzEwbzZyMXk3cXdKYVRrZ3JydksyaURuLVNWY3Y1b1FwNEZraVgya1YtZFVpQ1dyTXg2V3VfUjg?oc=5) (WirtschaftsWoche, 25.11. 13:04, Makro)
+- [Dax am Mittag kaum verändert – BIP-Daten sorgen für Dämpfer](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODJqQXdEZkdwUTBxQlA5RlV0RC1IWDZWMkI3RV9xb09XbUhLMVBiVGJmMkVFdWNxaUdVc0hxa1pDd0Q2NHVLcS1RZGFGRHE0Q1dEQmtYLUlZa01pcW51UnpsXzBLNzFFQUtOSjBzUGo1VDNEd1FCNS1ZY2JyQ3pFR0ZMNGMzV3g0dmtFSlVWLUhtbi11bzUySks2OHZFalZ1WlZEdzI0U0hoVTZjNkNXd2tybHZzS1NZbkZidDd5Yjloa2c?oc=5) (Oldenburger Online Zeitung, 25.11. 12:45, Makro)
+
 ## Dienstag, 24.11.2026
 
 Zertifikat +0,78 % (+0,59 €), Beiersdorf-Aktie +1,95 %, DAX +0,54 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu Beiersdorf: „Beiersdorf-Aktie: Unveränderter Start in den Handelstag“ (WELT). Gesamtmarkt: „DAX: Starke Gegenreaktion - UBS“ (4investors.de, eher positiv, passt zur Bewegung des DAX).

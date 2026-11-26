@@ -1,8 +1,8 @@
 {
-  "stand": "2026-11-25T02:08:04+01:00",
+  "stand": "2026-11-26T01:42:53+01:00",
   "zertifikate": [
     {
-      "stand": "2026-11-25T02:08:04+01:00",
+      "stand": "2026-11-26T01:42:53+01:00",
       "produkt": {
         "isin": "DE000JE3NTM6",
         "wkn": "JE3NTM",
@@ -23,23 +23,23 @@
         }
       },
       "aktuell": {
-        "z_geld": 139.45,
+        "z_geld": 139.33,
         "z_brief": null,
-        "max_ertrag_eur": 3.05,
-        "max_ertrag_pct": 2.18716385801,
+        "max_ertrag_eur": 3.17,
+        "max_ertrag_pct": 2.27517404723,
         "delta": null,
-        "discount_pct": 26.5572390572,
-        "cap_abstand_pct": 33.389473684210536,
+        "discount_pct": 26.5198609209,
+        "cap_abstand_pct": 33.20701754385965,
         "seit_start": {
           "bezug_datum": "2026-11-09",
-          "z_eur": -0.69,
-          "z_pct": -0.492365,
-          "basis_pct": -10.191354,
-          "dax_pct": -4.756428
+          "z_eur": -0.81,
+          "z_pct": -0.577993,
+          "basis_pct": -10.314198,
+          "dax_pct": -5.958232
         }
       },
       "fortschritt": {
-        "tag": 16,
+        "tag": 17,
         "tage_gesamt": 70,
         "woche": 3
       },
@@ -1753,6 +1753,68 @@
           "iv": null,
           "spruenge": [],
           "zusammenfassung": "Zertifikat +0,27 % (+0,38 €), SAP-Aktie +2,01 %, DAX −1,26 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: Der Rückkauf rollt weiter“ (Börse Express, Dividende/Rückkauf). Gesamtmarkt: „Schwacher Wochentag in Frankfurt: LUS-DAX am Dienstagnachmittag im Minus“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX)."
+        },
+        {
+          "datum": "2026-11-25",
+          "phase": "lauf",
+          "z_geld": 139.33,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 189.82,
+          "dax": 24702.13,
+          "z_pct": -0.086052,
+          "basis_pct": -0.136785,
+          "dax_pct": -1.261821,
+          "dz": -0.12,
+          "delta": 0.068461,
+          "beta": 0.777863,
+          "effekt_markt": -0.127726,
+          "effekt_aktie": 0.109927,
+          "effekt_zeit": 0.030996,
+          "effekt_rest": -0.133196,
+          "haupttreiber": "Sonstiges (Spread, Vola, Zinsen)",
+          "auffaellig": false,
+          "z_score": 0.469863,
+          "text": "Das Zertifikat fiel von 139,45 € auf 139,33 € (−0,12 € oder −0,09 %). Die SAP-Aktie fiel um 0,14 %, der DAX fiel um 1,26 %; davon entfallen rechnerisch etwa −0,98 Prozentpunkte auf die allgemeine Marktbewegung. Das Zertifikat liegt nahe seinem Höchstwert (Cap), deshalb kommen Aktienbewegungen kaum an (Delta 0,07); der Zeitwert trug +0,03 € bei. Haupttreiber des Tages: Sonstiges (Spread, Vola, Zinsen) (−0,13 €).",
+          "verdikt": "Marktbewegung",
+          "nachrichten": [
+            {
+              "titel": "SAP-Aktie unter 190 Euro: Warum Analysten 244 Euro sehen",
+              "quelle": "Investor-Verlag",
+              "zeit": "2026-11-25T14:17:25+01:00",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNck82OU9IYmIwcTBPMERpcXhIRVNYNWtfTHdkWEY1b3VIVy1EOXlKV1ZTbWMzVmlFTXlZMXY5dDJKZWJxeGg2SUNGWnJqemtIZlkwSTRyaHNubjBQQThxekMtRW9sdjcxVWpaU1hCbjI0bkdZdGJKc0xKWlB3ek9NM1UzRDJ3M2RYQm1sMVJJX0JaeU0ySXVyOFlfX1JGTmd6ZUEyYkowLTNzNV9Yc2RaVzQyT0tKSnlEUFVucUdwbERJTk9qUDlnQWU2SWhHQQ?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "SAP Aktie Prognose: Analysten-Konsens bei 244 Euro, Kurs bei 189 – reicht der 10-Milliarden-Rückkauf gegen die KI-Angst?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-25T11:23:27+01:00",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWjkxWmttZTV1S0YtaFFUVnQ1dGFxc2sxbXJrVjd0M21TRVE2bVQ3Wjg4bmdudVcxMUduODFfMUFjLTBpUGhyT1FwbHFVVk9XcFlFeFQwbW1zTnU4YWEyQkFuNnFyM0ZqT3FuWW9Zb1dmNWwwQjJCMklLbVV0WGs0MThaMS1qSnNBTkRjekF6TnZBbXAyLTNrcHR1NlpKWVc4VlRjT0hrckg4YjA?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "SAP Aktienanalyse: Rückkäufe, Vorstandswechsel und Workday-Warnsignal – wie viel KI-Angst steckt noch im Kurs?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-25T11:23:26+01:00",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSUtwWDRUeVBISzJENXhXOGlYYVgzMWN2VEkzc2JvUnZDRUNKck1Da1FUN1RidldqdzYxYTJtRmhlNU43NlRlUmhnNU5XOHE5WjR0cVNXUmFDV2dvOTN5SkVHNnJUSThvRjZ0Z2NubWR3MnJsQkxab1BzS1I1X1FFd0tJMkJEX0Q4eGVzYzFoSzNrUzdkTDJfakt1QXY0eXJsS21JWnFUV056QmRrdWc?oc=5",
+              "kategorie": "Personalie",
+              "richtung": "neutral",
+              "passt": null
+            }
+          ],
+          "effekt_basis": -0.0178,
+          "aktie_spez_pct": 0.844739,
+          "cap_abstand_pct": 33.207018,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": false,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,09 % (−0,12 €), SAP-Aktie −0,14 %, DAX −1,26 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie unter 190 Euro: Warum Analysten 244 Euro sehen“ (Investor-Verlag, Analyst/Kursziel). Gesamtmarkt: „Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte“ (Finanzen.net, Makro)."
         }
       ],
       "wochen": [
@@ -1793,29 +1855,29 @@
         {
           "woche": "2026-W48",
           "von": "2026-11-23",
-          "bis": "2026-11-24",
-          "tage": 2,
+          "bis": "2026-11-25",
+          "tage": 3,
           "unvollstaendig": true,
-          "z_schnitt": 139.26,
-          "basis_schnitt": 188.21,
-          "dax_schnitt": 25177.54,
-          "z_vorwoche_pct": -0.074625,
-          "z_schluss": 139.45,
-          "z_woche_pct": 0.671383,
-          "basis_schluss": 190.08,
-          "basis_woche_pct": 3.484321,
-          "dax_schluss": 25017.81,
-          "dax_woche_pct": 0.866959
+          "z_schnitt": 139.283333,
+          "basis_schnitt": 188.746667,
+          "dax_schnitt": 25019.07,
+          "z_vorwoche_pct": -0.057882,
+          "z_schluss": 139.33,
+          "z_woche_pct": 0.584753,
+          "basis_schluss": 189.82,
+          "basis_woche_pct": 3.34277,
+          "dax_schluss": 24702.13,
+          "dax_woche_pct": -0.405801
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24.",
-        "letzter_lauf": "2026-11-25T02:08:04+01:00"
+        "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25.",
+        "letzter_lauf": "2026-11-26T01:42:53+01:00"
       }
     },
     {
-      "stand": "2026-11-25T02:08:04+01:00",
+      "stand": "2026-11-26T01:42:53+01:00",
       "produkt": {
         "isin": "DE000BE4S0F9",
         "wkn": "BE4S0F",
@@ -1836,23 +1898,23 @@
         }
       },
       "aktuell": {
-        "z_geld": 193.885,
+        "z_geld": 194.555,
         "z_brief": null,
-        "max_ertrag_eur": 26.33,
-        "max_ertrag_pct": 13.6086417201,
+        "max_ertrag_eur": 25.66,
+        "max_ertrag_pct": 13.2165851146,
         "delta": null,
-        "discount_pct": -2.00178872054,
-        "cap_abstand_pct": -13.525317319503202,
+        "discount_pct": -2.49446844379,
+        "cap_abstand_pct": -13.643601292024934,
         "seit_start": {
           "bezug_datum": "2026-11-19",
-          "z_eur": 5.56,
-          "z_pct": 2.952343,
-          "basis_pct": 1.636189,
-          "dax_pct": -1.751505
+          "z_eur": 6.23,
+          "z_pct": 3.308111,
+          "basis_pct": 1.497166,
+          "dax_pct": -2.991226
         }
       },
       "fortschritt": {
-        "tag": 6,
+        "tag": 7,
         "tage_gesamt": 70,
         "woche": 1
       },
@@ -2830,6 +2892,68 @@
           "iv": null,
           "spruenge": [],
           "zusammenfassung": "Zertifikat +1,61 % (+3,08 €), SAP-Aktie +2,01 %, DAX −1,26 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: Der Rückkauf rollt weiter“ (Börse Express, Dividende/Rückkauf). Gesamtmarkt: „Schwacher Wochentag in Frankfurt: LUS-DAX am Dienstagnachmittag im Minus“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX)."
+        },
+        {
+          "datum": "2026-11-25",
+          "phase": "lauf",
+          "z_geld": 194.555,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 189.82,
+          "dax": 24702.13,
+          "z_pct": 0.345566,
+          "basis_pct": -0.136785,
+          "dax_pct": -1.261821,
+          "dz": 0.67,
+          "delta": 1.0,
+          "beta": 1.0,
+          "effekt_markt": -2.39847,
+          "effekt_aktie": 2.13847,
+          "effekt_zeit": 0.0,
+          "effekt_rest": 0.93,
+          "haupttreiber": "DAX-Bewegung",
+          "auffaellig": false,
+          "z_score": null,
+          "text": "Das Zertifikat stieg von 193,88 € auf 194,56 € (+0,67 € oder +0,35 %). Die SAP-Aktie fiel um 0,14 %, der DAX fiel um 1,26 %; davon entfallen rechnerisch etwa −1,26 Prozentpunkte auf die allgemeine Marktbewegung. Das Delta von 1,00 sagt, welcher Anteil der Aktienbewegung beim Zertifikat ankommt; so kamen −0,26 € an, der Zeitwert trug 0,00 € bei. Haupttreiber des Tages: DAX-Bewegung (−2,40 €).",
+          "verdikt": "Marktbewegung",
+          "nachrichten": [
+            {
+              "titel": "SAP-Aktie unter 190 Euro: Warum Analysten 244 Euro sehen",
+              "quelle": "Investor-Verlag",
+              "zeit": "2026-11-25T14:17:25+01:00",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNck82OU9IYmIwcTBPMERpcXhIRVNYNWtfTHdkWEY1b3VIVy1EOXlKV1ZTbWMzVmlFTXlZMXY5dDJKZWJxeGg2SUNGWnJqemtIZlkwSTRyaHNubjBQQThxekMtRW9sdjcxVWpaU1hCbjI0bkdZdGJKc0xKWlB3ek9NM1UzRDJ3M2RYQm1sMVJJX0JaeU0ySXVyOFlfX1JGTmd6ZUEyYkowLTNzNV9Yc2RaVzQyT0tKSnlEUFVucUdwbERJTk9qUDlnQWU2SWhHQQ?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "SAP Aktie Prognose: Analysten-Konsens bei 244 Euro, Kurs bei 189 – reicht der 10-Milliarden-Rückkauf gegen die KI-Angst?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-25T11:23:27+01:00",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWjkxWmttZTV1S0YtaFFUVnQ1dGFxc2sxbXJrVjd0M21TRVE2bVQ3Wjg4bmdudVcxMUduODFfMUFjLTBpUGhyT1FwbHFVVk9XcFlFeFQwbW1zTnU4YWEyQkFuNnFyM0ZqT3FuWW9Zb1dmNWwwQjJCMklLbVV0WGs0MThaMS1qSnNBTkRjekF6TnZBbXAyLTNrcHR1NlpKWVc4VlRjT0hrckg4YjA?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "SAP Aktienanalyse: Rückkäufe, Vorstandswechsel und Workday-Warnsignal – wie viel KI-Angst steckt noch im Kurs?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-25T11:23:26+01:00",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSUtwWDRUeVBISzJENXhXOGlYYVgzMWN2VEkzc2JvUnZDRUNKck1Da1FUN1RidldqdzYxYTJtRmhlNU43NlRlUmhnNU5XOHE5WjR0cVNXUmFDV2dvOTN5SkVHNnJUSThvRjZ0Z2NubWR3MnJsQkxab1BzS1I1X1FFd0tJMkJEX0Q4eGVzYzFoSzNrUzdkTDJfakt1QXY0eXJsS21JWnFUV056QmRrdWc?oc=5",
+              "kategorie": "Personalie",
+              "richtung": "neutral",
+              "passt": null
+            }
+          ],
+          "effekt_basis": -0.26,
+          "aktie_spez_pct": 1.125037,
+          "cap_abstand_pct": -13.643601,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": true,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,35 % (+0,67 €), SAP-Aktie −0,14 %, DAX −1,26 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie unter 190 Euro: Warum Analysten 244 Euro sehen“ (Investor-Verlag, Analyst/Kursziel). Gesamtmarkt: „Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte“ (Finanzen.net, Makro)."
         }
       ],
       "wochen": [
@@ -2853,29 +2977,29 @@
         {
           "woche": "2026-W48",
           "von": "2026-11-23",
-          "bis": "2026-11-24",
-          "tage": 2,
+          "bis": "2026-11-25",
+          "tage": 3,
           "unvollstaendig": true,
-          "z_schnitt": 192.345,
-          "basis_schnitt": 188.21,
-          "dax_schnitt": 25177.54,
-          "z_vorwoche_pct": 3.018049,
-          "z_schluss": 193.885,
-          "z_woche_pct": 3.842858,
-          "basis_schluss": 190.08,
-          "basis_woche_pct": 4.050799,
-          "dax_schluss": 25017.81,
-          "dax_woche_pct": 0.32116
+          "z_schnitt": 193.081667,
+          "basis_schnitt": 188.746667,
+          "dax_schnitt": 25019.07,
+          "z_vorwoche_pct": 3.412601,
+          "z_schluss": 194.555,
+          "z_woche_pct": 4.201703,
+          "basis_schluss": 189.82,
+          "basis_woche_pct": 3.908474,
+          "dax_schluss": 24702.13,
+          "dax_woche_pct": -0.944713
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24.",
-        "letzter_lauf": "2026-11-25T02:08:04+01:00"
+        "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25.",
+        "letzter_lauf": "2026-11-26T01:42:53+01:00"
       }
     },
     {
-      "stand": "2026-11-25T02:08:04+01:00",
+      "stand": "2026-11-26T01:42:53+01:00",
       "produkt": {
         "isin": "DE000UN3TQH3",
         "wkn": "UN3TQH",
@@ -2896,23 +3020,23 @@
         }
       },
       "aktuell": {
-        "z_geld": 155.58,
+        "z_geld": 155.68,
         "z_brief": null,
-        "max_ertrag_eur": 4.42,
-        "max_ertrag_pct": 2.84098213138,
+        "max_ertrag_eur": 4.32,
+        "max_ertrag_pct": 2.77492291881,
         "delta": null,
-        "discount_pct": 17.7504208754,
-        "cap_abstand_pct": 18.800000000000008,
+        "discount_pct": 17.5824465283,
+        "cap_abstand_pct": 18.637499999999996,
         "seit_start": {
           "bezug_datum": "2026-11-19",
-          "z_eur": 0.4101,
-          "z_pct": 0.264291,
-          "basis_pct": 1.636189,
-          "dax_pct": -1.751505
+          "z_eur": 0.5101,
+          "z_pct": 0.328736,
+          "basis_pct": 1.497166,
+          "dax_pct": -2.991226
         }
       },
       "fortschritt": {
-        "tag": 6,
+        "tag": 7,
         "tage_gesamt": 70,
         "woche": 1
       },
@@ -4136,6 +4260,68 @@
           "iv": null,
           "spruenge": [],
           "zusammenfassung": "Zertifikat +0,40 % (+0,62 €), SAP-Aktie +2,01 %, DAX −1,26 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: Der Rückkauf rollt weiter“ (Börse Express, Dividende/Rückkauf). Gesamtmarkt: „Schwacher Wochentag in Frankfurt: LUS-DAX am Dienstagnachmittag im Minus“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX)."
+        },
+        {
+          "datum": "2026-11-25",
+          "phase": "lauf",
+          "z_geld": 155.68,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 189.82,
+          "dax": 24702.13,
+          "z_pct": 0.064276,
+          "basis_pct": -0.136785,
+          "dax_pct": -1.261821,
+          "dz": 0.1,
+          "delta": 0.226118,
+          "beta": 0.84065,
+          "effekt_markt": -0.455916,
+          "effekt_aktie": 0.397125,
+          "effekt_zeit": 0.06153,
+          "effekt_rest": 0.09726,
+          "haupttreiber": "DAX-Bewegung",
+          "auffaellig": false,
+          "z_score": 0.522606,
+          "text": "Das Zertifikat stieg von 155,58 € auf 155,68 € (+0,10 € oder +0,06 %). Die SAP-Aktie fiel um 0,14 %, der DAX fiel um 1,26 %; davon entfallen rechnerisch etwa −1,06 Prozentpunkte auf die allgemeine Marktbewegung. Das Delta von 0,23 sagt, welcher Anteil der Aktienbewegung beim Zertifikat ankommt; so kamen −0,06 € an, der Zeitwert trug +0,06 € bei. Haupttreiber des Tages: DAX-Bewegung (−0,46 €).",
+          "verdikt": "Marktbewegung",
+          "nachrichten": [
+            {
+              "titel": "SAP-Aktie unter 190 Euro: Warum Analysten 244 Euro sehen",
+              "quelle": "Investor-Verlag",
+              "zeit": "2026-11-25T14:17:25+01:00",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNck82OU9IYmIwcTBPMERpcXhIRVNYNWtfTHdkWEY1b3VIVy1EOXlKV1ZTbWMzVmlFTXlZMXY5dDJKZWJxeGg2SUNGWnJqemtIZlkwSTRyaHNubjBQQThxekMtRW9sdjcxVWpaU1hCbjI0bkdZdGJKc0xKWlB3ek9NM1UzRDJ3M2RYQm1sMVJJX0JaeU0ySXVyOFlfX1JGTmd6ZUEyYkowLTNzNV9Yc2RaVzQyT0tKSnlEUFVucUdwbERJTk9qUDlnQWU2SWhHQQ?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "SAP Aktie Prognose: Analysten-Konsens bei 244 Euro, Kurs bei 189 – reicht der 10-Milliarden-Rückkauf gegen die KI-Angst?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-25T11:23:27+01:00",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWjkxWmttZTV1S0YtaFFUVnQ1dGFxc2sxbXJrVjd0M21TRVE2bVQ3Wjg4bmdudVcxMUduODFfMUFjLTBpUGhyT1FwbHFVVk9XcFlFeFQwbW1zTnU4YWEyQkFuNnFyM0ZqT3FuWW9Zb1dmNWwwQjJCMklLbVV0WGs0MThaMS1qSnNBTkRjekF6TnZBbXAyLTNrcHR1NlpKWVc4VlRjT0hrckg4YjA?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "SAP Aktienanalyse: Rückkäufe, Vorstandswechsel und Workday-Warnsignal – wie viel KI-Angst steckt noch im Kurs?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-25T11:23:26+01:00",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSUtwWDRUeVBISzJENXhXOGlYYVgzMWN2VEkzc2JvUnZDRUNKck1Da1FUN1RidldqdzYxYTJtRmhlNU43NlRlUmhnNU5XOHE5WjR0cVNXUmFDV2dvOTN5SkVHNnJUSThvRjZ0Z2NubWR3MnJsQkxab1BzS1I1X1FFd0tJMkJEX0Q4eGVzYzFoSzNrUzdkTDJfakt1QXY0eXJsS21JWnFUV056QmRrdWc?oc=5",
+              "kategorie": "Personalie",
+              "richtung": "neutral",
+              "passt": null
+            }
+          ],
+          "effekt_basis": -0.058791,
+          "aktie_spez_pct": 0.923965,
+          "cap_abstand_pct": 18.6375,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": false,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,06 % (+0,10 €), SAP-Aktie −0,14 %, DAX −1,26 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie unter 190 Euro: Warum Analysten 244 Euro sehen“ (Investor-Verlag, Analyst/Kursziel). Gesamtmarkt: „Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte“ (Finanzen.net, Makro)."
         }
       ],
       "wochen": [
@@ -4159,29 +4345,29 @@
         {
           "woche": "2026-W48",
           "von": "2026-11-23",
-          "bis": "2026-11-24",
-          "tage": 2,
+          "bis": "2026-11-25",
+          "tage": 3,
           "unvollstaendig": true,
-          "z_schnitt": 155.27,
-          "basis_schnitt": 188.21,
-          "dax_schnitt": 25177.54,
-          "z_vorwoche_pct": 0.297138,
-          "z_schluss": 155.58,
-          "z_woche_pct": 0.497384,
-          "basis_schluss": 190.08,
-          "basis_woche_pct": 4.016636,
-          "dax_schluss": 25017.81,
-          "dax_woche_pct": 0.308932
+          "z_schnitt": 155.406667,
+          "basis_schnitt": 188.746667,
+          "dax_schnitt": 25019.07,
+          "z_vorwoche_pct": 0.385419,
+          "z_schluss": 155.68,
+          "z_woche_pct": 0.561979,
+          "basis_schluss": 189.82,
+          "basis_woche_pct": 3.874357,
+          "dax_schluss": 24702.13,
+          "dax_woche_pct": -0.956787
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24.",
-        "letzter_lauf": "2026-11-25T02:08:04+01:00"
+        "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25.",
+        "letzter_lauf": "2026-11-26T01:42:53+01:00"
       }
     },
     {
-      "stand": "2026-11-25T02:08:04+01:00",
+      "stand": "2026-11-26T01:42:53+01:00",
       "produkt": {
         "isin": "DE000VY26180",
         "wkn": "VY2618",
@@ -4202,23 +4388,23 @@
         }
       },
       "aktuell": {
-        "z_geld": 146.225,
+        "z_geld": 146.175,
         "z_brief": null,
-        "max_ertrag_eur": 3.97,
-        "max_ertrag_pct": 2.71861946175,
+        "max_ertrag_eur": 4.02,
+        "max_ertrag_pct": 2.75380189067,
         "delta": null,
-        "discount_pct": 23.0718644781,
-        "cap_abstand_pct": 26.72000000000001,
+        "discount_pct": 22.9928353177,
+        "cap_abstand_pct": 26.546666666666663,
         "seit_start": {
           "bezug_datum": "2026-11-19",
-          "z_eur": 0.595,
-          "z_pct": 0.40857,
-          "basis_pct": 1.636189,
-          "dax_pct": -1.751505
+          "z_eur": 0.545,
+          "z_pct": 0.374236,
+          "basis_pct": 1.497166,
+          "dax_pct": -2.991226
         }
       },
       "fortschritt": {
-        "tag": 6,
+        "tag": 7,
         "tage_gesamt": 70,
         "woche": 1
       },
@@ -5442,6 +5628,68 @@
           "iv": null,
           "spruenge": [],
           "zusammenfassung": "Zertifikat +0,28 % (+0,41 €), SAP-Aktie +2,01 %, DAX −1,26 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: Der Rückkauf rollt weiter“ (Börse Express, Dividende/Rückkauf). Gesamtmarkt: „Schwacher Wochentag in Frankfurt: LUS-DAX am Dienstagnachmittag im Minus“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX)."
+        },
+        {
+          "datum": "2026-11-25",
+          "phase": "lauf",
+          "z_geld": 146.175,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 189.82,
+          "dax": 24702.13,
+          "z_pct": -0.034194,
+          "basis_pct": -0.136785,
+          "dax_pct": -1.261821,
+          "dz": -0.05,
+          "delta": 0.170562,
+          "beta": 0.789763,
+          "effekt_markt": -0.323082,
+          "effekt_aktie": 0.278736,
+          "effekt_zeit": 0.049049,
+          "effekt_rest": -0.054703,
+          "haupttreiber": "DAX-Bewegung",
+          "auffaellig": false,
+          "z_score": 0.48708,
+          "text": "Das Zertifikat fiel von 146,22 € auf 146,18 € (−0,05 € oder −0,03 %). Die SAP-Aktie fiel um 0,14 %, der DAX fiel um 1,26 %; davon entfallen rechnerisch etwa −1,00 Prozentpunkte auf die allgemeine Marktbewegung. Das Delta von 0,17 sagt, welcher Anteil der Aktienbewegung beim Zertifikat ankommt; so kamen −0,04 € an, der Zeitwert trug +0,05 € bei. Haupttreiber des Tages: DAX-Bewegung (−0,32 €).",
+          "verdikt": "Marktbewegung",
+          "nachrichten": [
+            {
+              "titel": "SAP-Aktie unter 190 Euro: Warum Analysten 244 Euro sehen",
+              "quelle": "Investor-Verlag",
+              "zeit": "2026-11-25T14:17:25+01:00",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNck82OU9IYmIwcTBPMERpcXhIRVNYNWtfTHdkWEY1b3VIVy1EOXlKV1ZTbWMzVmlFTXlZMXY5dDJKZWJxeGg2SUNGWnJqemtIZlkwSTRyaHNubjBQQThxekMtRW9sdjcxVWpaU1hCbjI0bkdZdGJKc0xKWlB3ek9NM1UzRDJ3M2RYQm1sMVJJX0JaeU0ySXVyOFlfX1JGTmd6ZUEyYkowLTNzNV9Yc2RaVzQyT0tKSnlEUFVucUdwbERJTk9qUDlnQWU2SWhHQQ?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "SAP Aktie Prognose: Analysten-Konsens bei 244 Euro, Kurs bei 189 – reicht der 10-Milliarden-Rückkauf gegen die KI-Angst?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-25T11:23:27+01:00",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWjkxWmttZTV1S0YtaFFUVnQ1dGFxc2sxbXJrVjd0M21TRVE2bVQ3Wjg4bmdudVcxMUduODFfMUFjLTBpUGhyT1FwbHFVVk9XcFlFeFQwbW1zTnU4YWEyQkFuNnFyM0ZqT3FuWW9Zb1dmNWwwQjJCMklLbVV0WGs0MThaMS1qSnNBTkRjekF6TnZBbXAyLTNrcHR1NlpKWVc4VlRjT0hrckg4YjA?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "SAP Aktienanalyse: Rückkäufe, Vorstandswechsel und Workday-Warnsignal – wie viel KI-Angst steckt noch im Kurs?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-25T11:23:26+01:00",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSUtwWDRUeVBISzJENXhXOGlYYVgzMWN2VEkzc2JvUnZDRUNKck1Da1FUN1RidldqdzYxYTJtRmhlNU43NlRlUmhnNU5XOHE5WjR0cVNXUmFDV2dvOTN5SkVHNnJUSThvRjZ0Z2NubWR3MnJsQkxab1BzS1I1X1FFd0tJMkJEX0Q4eGVzYzFoSzNrUzdkTDJfakt1QXY0eXJsS21JWnFUV056QmRrdWc?oc=5",
+              "kategorie": "Personalie",
+              "richtung": "neutral",
+              "passt": null
+            }
+          ],
+          "effekt_basis": -0.044346,
+          "aktie_spez_pct": 0.859756,
+          "cap_abstand_pct": 26.546667,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": false,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,03 % (−0,05 €), SAP-Aktie −0,14 %, DAX −1,26 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie unter 190 Euro: Warum Analysten 244 Euro sehen“ (Investor-Verlag, Analyst/Kursziel). Gesamtmarkt: „Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte“ (Finanzen.net, Makro)."
         }
       ],
       "wochen": [
@@ -5465,29 +5713,29 @@
         {
           "woche": "2026-W48",
           "von": "2026-11-23",
-          "bis": "2026-11-24",
-          "tage": 2,
+          "bis": "2026-11-25",
+          "tage": 3,
           "unvollstaendig": true,
-          "z_schnitt": 146.0225,
-          "basis_schnitt": 188.21,
-          "dax_schnitt": 25177.54,
-          "z_vorwoche_pct": 0.504164,
-          "z_schluss": 146.225,
-          "z_woche_pct": 0.643541,
-          "basis_schluss": 190.08,
-          "basis_woche_pct": 2.946274,
-          "dax_schluss": 25017.81,
-          "dax_woche_pct": 0.066077
+          "z_schnitt": 146.073333,
+          "basis_schnitt": 188.746667,
+          "dax_schnitt": 25019.07,
+          "z_vorwoche_pct": 0.539152,
+          "z_schluss": 146.175,
+          "z_woche_pct": 0.609127,
+          "basis_schluss": 189.82,
+          "basis_woche_pct": 2.805459,
+          "dax_schluss": 24702.13,
+          "dax_woche_pct": -1.196578
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24.",
-        "letzter_lauf": "2026-11-25T02:08:04+01:00"
+        "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25.",
+        "letzter_lauf": "2026-11-26T01:42:53+01:00"
       }
     },
     {
-      "stand": "2026-11-25T02:08:04+01:00",
+      "stand": "2026-11-26T01:42:53+01:00",
       "produkt": {
         "isin": "DE000VJ996M9",
         "wkn": "VJ996M",
@@ -5508,23 +5756,23 @@
         }
       },
       "aktuell": {
-        "z_geld": 77.075,
+        "z_geld": 77.285,
         "z_brief": null,
-        "max_ertrag_eur": 2.13,
-        "max_ertrag_pct": 2.77091192923,
+        "max_ertrag_eur": 1.92,
+        "max_ertrag_pct": 2.49091852621,
         "delta": null,
-        "discount_pct": 4.44458219688,
-        "cap_abstand_pct": 2.101265822784806,
+        "discount_pct": 6.27577007034,
+        "cap_abstand_pct": 4.37974683544303,
         "seit_start": {
           "bezug_datum": "2026-11-20",
-          "z_eur": 0.54,
-          "z_pct": 0.70556,
-          "basis_pct": 1.869159,
-          "dax_pct": 0.866959
+          "z_eur": 0.75,
+          "z_pct": 0.979944,
+          "basis_pct": 4.14246,
+          "dax_pct": -0.405801
         }
       },
       "fortschritt": {
-        "tag": 3,
+        "tag": 4,
         "tage_gesamt": 70,
         "woche": 1
       },
@@ -6612,58 +6860,120 @@
           "iv": null,
           "spruenge": [],
           "zusammenfassung": "Zertifikat +0,78 % (+0,59 €), Beiersdorf-Aktie +1,95 %, DAX +0,54 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu Beiersdorf: „Beiersdorf-Aktie: Unveränderter Start in den Handelstag“ (WELT). Gesamtmarkt: „DAX: Starke Gegenreaktion - UBS“ (4investors.de, eher positiv, passt zur Bewegung des DAX)."
+        },
+        {
+          "datum": "2026-11-25",
+          "phase": "lauf",
+          "z_geld": 77.285,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 82.46,
+          "dax": 24702.13,
+          "z_pct": 0.272462,
+          "basis_pct": 2.231589,
+          "dax_pct": -1.261821,
+          "dz": 0.21,
+          "delta": 0.490381,
+          "beta": 0.247993,
+          "effekt_markt": -0.123774,
+          "effekt_aktie": 1.00646,
+          "effekt_zeit": 0.01045,
+          "effekt_rest": -0.683137,
+          "haupttreiber": "Aktie selbst",
+          "auffaellig": true,
+          "z_score": 1.846319,
+          "text": "Das Zertifikat stieg von 77,08 € auf 77,28 € (+0,21 € oder +0,27 %). Die Beiersdorf-Aktie stieg um 2,23 %, der DAX fiel um 1,26 %; davon entfallen rechnerisch etwa −0,31 Prozentpunkte auf die allgemeine Marktbewegung. Das Delta von 0,49 sagt, welcher Anteil der Aktienbewegung beim Zertifikat ankommt; so kamen +0,88 € an, der Zeitwert trug +0,01 € bei. Haupttreiber des Tages: Aktie selbst (+1,01 €).",
+          "verdikt": "Marktbewegung",
+          "nachrichten": [
+            {
+              "titel": "Buy or Goodbye?: British American Tobacco, BASF, Beiersdorf & Henkel - Analystenstimmen des Tages",
+              "quelle": "FinanzNachrichten.de",
+              "zeit": "2026-11-25T12:23:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYjBPYWFIRVNWcEVpYkNuYVkyQmZ1dmxrS1J3dE5MRXN3VGZfLXp6dW9TanJrRWp3cEZkZFAwdkxGU0tyaThyejRPSVJQdzBmU0JYVUV0clk3Mmh6VXdPaDZqaTl0SWhEOHk5Rm83ek10a1pvdlROZm5YeVNRYnFWTjhUM1pWbnlJMG5BdkNHMWxWZEh2T3k2blJIX29IWHl6TTNWVkV0OTNjY0JreGtIRUhGaUpmbDUyUkFLYlZZRUFEM2R3Mkh0NndETDI3TWJKbmttUHJFMUZIM1R0cy1SdHFuMmNuMjJfajF0WnlFOUU?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "Beiersdorf Outperform (Bernstein Research) 25.11.2026 | Analyse",
+              "quelle": "Finanzen.net",
+              "zeit": "2026-11-25T08:52:07+01:00",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaWVyZGtnamtsdldvN2JEOUNhaGc0QnR2RlhWN1dEbUVZLTE3MUVEWEw3QnNoQ3JVaE50MWRMUHZ2cFVncVVoczQtOGtETU9FM1RxaGtHN0RtWWNPZ0w5bTc2RE9GM0JaNWVvRWEtaUg4ODczZlE5UUkwbUNWRjhYQTNwbC02TmJ4?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "Beiersdorf Aktie: Nivea schrumpft, die Marge sinkt, der Rückkauf läuft – findet der DAX-Verlierer jetzt seinen Boden?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-25T07:57:49+01:00",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLXU1NXNGb0dJdGlqcldBa0lTMDlUMVZTSm41Mk51alNPOEVHV1R1a3pEMGNfMHNkdllKZEhFZTN2eHBGbHI2UzJPTldoRDRxbmhIOUpoSGhfOGdWRHdibHFubFdGUGtlRXAzeWxGeUIteWJFX0ZzelJLSHYzUnBqOVRzbXFwOEdPdjN6bU9R?oc=5",
+              "kategorie": "Dividende/Rückkauf",
+              "richtung": "neutral",
+              "passt": null
+            }
+          ],
+          "effekt_basis": 0.882686,
+          "aktie_spez_pct": 2.544512,
+          "cap_abstand_pct": 4.379747,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": false,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,27 % (+0,21 €), Beiersdorf-Aktie +2,23 %, DAX −1,26 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu Beiersdorf: „Buy or Goodbye?: British American Tobacco, BASF, Beiersdorf & Henkel - Analystenstimmen des Tages“ (FinanzNachrichten.de, Analyst/Kursziel). Gesamtmarkt: „Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte“ (Finanzen.net, Makro)."
         }
       ],
       "wochen": [
         {
           "woche": "2026-W48",
           "von": "2026-11-23",
-          "bis": "2026-11-24",
-          "tage": 2,
+          "bis": "2026-11-25",
+          "tage": 3,
           "unvollstaendig": true,
-          "z_schnitt": 76.7775,
-          "basis_schnitt": 79.89,
-          "dax_schnitt": 24950.895,
+          "z_schnitt": 76.946667,
+          "basis_schnitt": 80.746667,
+          "dax_schnitt": 24867.973333,
           "z_vorwoche_pct": null,
-          "z_schluss": 77.075,
-          "z_woche_pct": 0.70556,
-          "basis_schluss": 80.66,
-          "basis_woche_pct": 1.869159,
-          "dax_schluss": 25017.81,
-          "dax_woche_pct": 0.866959
+          "z_schluss": 77.285,
+          "z_woche_pct": 0.979944,
+          "basis_schluss": 82.46,
+          "basis_woche_pct": 4.14246,
+          "dax_schluss": 24702.13,
+          "dax_woche_pct": -0.405801
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24.",
-        "letzter_lauf": "2026-11-25T02:08:04+01:00"
+        "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25.",
+        "letzter_lauf": "2026-11-26T01:42:53+01:00"
       }
     }
   ],
   "status": {
     "ok": true,
     "meldung": "",
-    "letzter_lauf": "2026-11-25T02:08:04+01:00",
+    "letzter_lauf": "2026-11-26T01:42:53+01:00",
     "je_zertifikat": {
       "DE000JE3NTM6": {
         "ok": true,
-        "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24."
+        "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25."
       },
       "DE000BE4S0F9": {
         "ok": true,
-        "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24."
+        "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25."
       },
       "DE000UN3TQH3": {
         "ok": true,
-        "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24."
+        "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25."
       },
       "DE000VY26180": {
         "ok": true,
-        "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24."
+        "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25."
       },
       "DE000VJ996M9": {
         "ok": true,
-        "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24."
+        "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25."
       }
     }
   },

@@ -816,5 +816,83 @@
   ],
   "nachrichten_gesamt": 30,
   "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-25": {
+  "datum": "2026-11-25",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat +0,27 % (+0,21 €), Beiersdorf-Aktie +2,23 %, DAX −1,26 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu Beiersdorf: „Buy or Goodbye?: British American Tobacco, BASF, Beiersdorf & Henkel - Analystenstimmen des Tages“ (FinanzNachrichten.de, Analyst/Kursziel). Gesamtmarkt: „Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte“ (Finanzen.net, Makro).",
+  "kurse": {
+   "z_geld": 77.285,
+   "basis": 82.46,
+   "dax": 24702.13,
+   "z_pct": 0.272462,
+   "basis_pct": 2.231589,
+   "dax_pct": -1.261821,
+   "dz": 0.21,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Marktbewegung",
+   "auffaellig": true
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "Buy or Goodbye?: British American Tobacco, BASF, Beiersdorf & Henkel - Analystenstimmen des Tages",
+    "quelle": "FinanzNachrichten.de",
+    "zeit": "2026-11-25T12:23:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNYjBPYWFIRVNWcEVpYkNuYVkyQmZ1dmxrS1J3dE5MRXN3VGZfLXp6dW9TanJrRWp3cEZkZFAwdkxGU0tyaThyejRPSVJQdzBmU0JYVUV0clk3Mmh6VXdPaDZqaTl0SWhEOHk5Rm83ek10a1pvdlROZm5YeVNRYnFWTjhUM1pWbnlJMG5BdkNHMWxWZEh2T3k2blJIX29IWHl6TTNWVkV0OTNjY0JreGtIRUhGaUpmbDUyUkFLYlZZRUFEM2R3Mkh0NndETDI3TWJKbmttUHJFMUZIM1R0cy1SdHFuMmNuMjJfajF0WnlFOUU?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Beiersdorf Outperform (Bernstein Research) 25.11.2026 | Analyse",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-25T08:52:07+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaWVyZGtnamtsdldvN2JEOUNhaGc0QnR2RlhWN1dEbUVZLTE3MUVEWEw3QnNoQ3JVaE50MWRMUHZ2cFVncVVoczQtOGtETU9FM1RxaGtHN0RtWWNPZ0w5bTc2RE9GM0JaNWVvRWEtaUg4ODczZlE5UUkwbUNWRjhYQTNwbC02TmJ4?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Beiersdorf Aktie: Nivea schrumpft, die Marge sinkt, der Rückkauf läuft – findet der DAX-Verlierer jetzt seinen Boden?",
+    "quelle": "AktienCheck.de",
+    "zeit": "2026-11-25T07:57:49+01:00",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLXU1NXNGb0dJdGlqcldBa0lTMDlUMVZTSm41Mk51alNPOEVHV1R1a3pEMGNfMHNkdllKZEhFZTN2eHBGbHI2UzJPTldoRDRxbmhIOUpoSGhfOGdWRHdibHFubFdGUGtlRXAzeWxGeUIteWJFX0ZzelJLSHYzUnBqOVRzbXFwOEdPdjN6bU9R?oc=5",
+    "kategorie": "Dividende/Rückkauf",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-25T14:30:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbVI3aERmZ3BTSmVYZ2phYml2WUR4X2d0c1dhcFBTLUg4R0cxdmsyQnlYNG1YQnNRNEZXWG5xOW9xVzZFU21DQTdiVTg3cWRxNzZ6cFpjQi1iZ0Y4aVdzaFZ1a2h0aTZHbkc5N0ZRS2s3QlpBQU5YSkZFRDJFYTQ2ZHB0aDRjbE5tdVA4TjEycWd2Umk5YmxEdDE0cEVIWDdXMmhZSFFtTUVLdVZWRnpZNktyR2dXNGlnNjFfdzgtOUc2R3gwMTU3LUxfRmM3THctTVE?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "US-Strafzölle: Erneute Zollsorgen treiben Dax-Anleger um",
+    "quelle": "WirtschaftsWoche",
+    "zeit": "2026-11-25T13:04:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSDFPbUFEZEtsT0s5T3FzSm9JVkp2U1VZeDN2a2VVWXBWMjJtU0U5aEI2TEFoTmwyX3MzdmU3dGNzV0lDazhNTlhobTA3VWNfa2g0WDBGNDFwcTk1REtwOW9SVmktdFlpdHFUMVZPTE82eEdsdzEwbzZyMXk3cXdKYVRrZ3JydksyaURuLVNWY3Y1b1FwNEZraVgya1YtZFVpQ1dyTXg2V3VfUjg?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Dax am Mittag kaum verändert – BIP-Daten sorgen für Dämpfer",
+    "quelle": "Oldenburger Online Zeitung",
+    "zeit": "2026-11-25T12:45:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODJqQXdEZkdwUTBxQlA5RlV0RC1IWDZWMkI3RV9xb09XbUhLMVBiVGJmMkVFdWNxaUdVc0hxa1pDd0Q2NHVLcS1RZGFGRHE0Q1dEQmtYLUlZa01pcW51UnpsXzBLNzFFQUtOSjBzUGo1VDNEd1FCNS1ZY2JyQ3pFR0ZMNGMzV3g0dmtFSlVWLUhtbi11bzUySks2OHZFalZ1WlZEdzI0U0hoVTZjNkNXd2tybHZzS1NZbkZidDd5Yjloa2c?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
  }
 }

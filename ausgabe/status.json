@@ -1,27 +1,27 @@
 {
   "ok": true,
   "meldung": "",
-  "letzter_lauf": "2026-11-25T02:08:04+01:00",
+  "letzter_lauf": "2026-11-26T01:42:53+01:00",
   "je_zertifikat": {
     "DE000JE3NTM6": {
       "ok": true,
-      "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24."
+      "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25."
     },
     "DE000BE4S0F9": {
       "ok": true,
-      "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24."
+      "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25."
     },
     "DE000UN3TQH3": {
       "ok": true,
-      "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24."
+      "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25."
     },
     "DE000VY26180": {
       "ok": true,
-      "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24."
+      "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25."
     },
     "DE000VJ996M9": {
       "ok": true,
-      "meldung": "Heute (2026-11-25) kein Handelstag, letzter Handelstag 2026-11-24."
+      "meldung": "Heute (2026-11-26) kein Handelstag, letzter Handelstag 2026-11-25."
     }
   }
 }

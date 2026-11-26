@@ -2,6 +2,22 @@
 
 Automatisch erstellt, regelbasiert. Zeitlicher Zusammenhang, kein Beweis.
 
+## Mittwoch, 25.11.2026
+
+Zertifikat +0,35 % (+0,67 €), SAP-Aktie −0,14 %, DAX −1,26 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie unter 190 Euro: Warum Analysten 244 Euro sehen“ (Investor-Verlag, Analyst/Kursziel). Gesamtmarkt: „Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte“ (Finanzen.net, Makro).
+
+**Schlagzeilen zu SAP**
+
+- [SAP-Aktie unter 190 Euro: Warum Analysten 244 Euro sehen](https://news.google.com/rss/articles/CBMizgFBVV95cUxNck82OU9IYmIwcTBPMERpcXhIRVNYNWtfTHdkWEY1b3VIVy1EOXlKV1ZTbWMzVmlFTXlZMXY5dDJKZWJxeGg2SUNGWnJqemtIZlkwSTRyaHNubjBQQThxekMtRW9sdjcxVWpaU1hCbjI0bkdZdGJKc0xKWlB3ek9NM1UzRDJ3M2RYQm1sMVJJX0JaeU0ySXVyOFlfX1JGTmd6ZUEyYkowLTNzNV9Yc2RaVzQyT0tKSnlEUFVucUdwbERJTk9qUDlnQWU2SWhHQQ?oc=5) (Investor-Verlag, 25.11. 14:17, Analyst/Kursziel)
+- [SAP Aktie Prognose: Analysten-Konsens bei 244 Euro, Kurs bei 189 – reicht der 10-Milliarden-Rückkauf gegen die KI-Angst?](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWjkxWmttZTV1S0YtaFFUVnQ1dGFxc2sxbXJrVjd0M21TRVE2bVQ3Wjg4bmdudVcxMUduODFfMUFjLTBpUGhyT1FwbHFVVk9XcFlFeFQwbW1zTnU4YWEyQkFuNnFyM0ZqT3FuWW9Zb1dmNWwwQjJCMklLbVV0WGs0MThaMS1qSnNBTkRjekF6TnZBbXAyLTNrcHR1NlpKWVc4VlRjT0hrckg4YjA?oc=5) (AktienCheck.de, 25.11. 11:23, Analyst/Kursziel)
+- [SAP Aktienanalyse: Rückkäufe, Vorstandswechsel und Workday-Warnsignal – wie viel KI-Angst steckt noch im Kurs?](https://news.google.com/rss/articles/CBMirgFBVV95cUxOSUtwWDRUeVBISzJENXhXOGlYYVgzMWN2VEkzc2JvUnZDRUNKck1Da1FUN1RidldqdzYxYTJtRmhlNU43NlRlUmhnNU5XOHE5WjR0cVNXUmFDV2dvOTN5SkVHNnJUSThvRjZ0Z2NubWR3MnJsQkxab1BzS1I1X1FFd0tJMkJEX0Q4eGVzYzFoSzNrUzdkTDJfakt1QXY0eXJsS21JWnFUV056QmRrdWc?oc=5) (AktienCheck.de, 25.11. 11:23, Personalie)
+
+**Schlagzeilen zum Markt**
+
+- [Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbVI3aERmZ3BTSmVYZ2phYml2WUR4X2d0c1dhcFBTLUg4R0cxdmsyQnlYNG1YQnNRNEZXWG5xOW9xVzZFU21DQTdiVTg3cWRxNzZ6cFpjQi1iZ0Y4aVdzaFZ1a2h0aTZHbkc5N0ZRS2s3QlpBQU5YSkZFRDJFYTQ2ZHB0aDRjbE5tdVA4TjEycWd2Umk5YmxEdDE0cEVIWDdXMmhZSFFtTUVLdVZWRnpZNktyR2dXNGlnNjFfdzgtOUc2R3gwMTU3LUxfRmM3THctTVE?oc=5) (Finanzen.net, 25.11. 14:30, Makro)
+- [US-Strafzölle: Erneute Zollsorgen treiben Dax-Anleger um](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSDFPbUFEZEtsT0s5T3FzSm9JVkp2U1VZeDN2a2VVWXBWMjJtU0U5aEI2TEFoTmwyX3MzdmU3dGNzV0lDazhNTlhobTA3VWNfa2g0WDBGNDFwcTk1REtwOW9SVmktdFlpdHFUMVZPTE82eEdsdzEwbzZyMXk3cXdKYVRrZ3JydksyaURuLVNWY3Y1b1FwNEZraVgya1YtZFVpQ1dyTXg2V3VfUjg?oc=5) (WirtschaftsWoche, 25.11. 13:04, Makro)
+- [Dax am Mittag kaum verändert – BIP-Daten sorgen für Dämpfer](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODJqQXdEZkdwUTBxQlA5RlV0RC1IWDZWMkI3RV9xb09XbUhLMVBiVGJmMkVFdWNxaUdVc0hxa1pDd0Q2NHVLcS1RZGFGRHE0Q1dEQmtYLUlZa01pcW51UnpsXzBLNzFFQUtOSjBzUGo1VDNEd1FCNS1ZY2JyQ3pFR0ZMNGMzV3g0dmtFSlVWLUhtbi11bzUySks2OHZFalZ1WlZEdzI0U0hoVTZjNkNXd2tybHZzS1NZbkZidDd5Yjloa2c?oc=5) (Oldenburger Online Zeitung, 25.11. 12:45, Makro)
+
 ## Dienstag, 24.11.2026
 
 Zertifikat +1,61 % (+3,08 €), SAP-Aktie +2,01 %, DAX −1,26 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu SAP: „SAP Aktie: Der Rückkauf rollt weiter“ (Börse Express, Dividende/Rückkauf). Gesamtmarkt: „Schwacher Wochentag in Frankfurt: LUS-DAX am Dienstagnachmittag im Minus“ (Finanzen.net, eher negativ, passt zur Bewegung des DAX).
