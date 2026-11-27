@@ -2,6 +2,22 @@
 
 Automatisch erstellt, regelbasiert. Zeitlicher Zusammenhang, kein Beweis.
 
+## Donnerstag, 26.11.2026
+
+Zertifikat +0,24 % (+0,35 €), SAP-Aktie +2,28 %, DAX +2,08 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP erhöht Aktienrückkäufe plötzlich um mehr als 3.700 Prozent: Was weiß das Management?“ (Börse Online, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: DAX-Ausblick, Kurssprung dank Schnäppchenjägern“ (tagesschau.de, Prognose, eher positiv, passt zur Bewegung des DAX).
+
+**Schlagzeilen zu SAP**
+
+- [SAP erhöht Aktienrückkäufe plötzlich um mehr als 3.700 Prozent: Was weiß das Management?](https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbUMzdm9lS3ZRV2Q0NEFULWJhaWxRcTVIS212Q29sbTJLZUJ1cGlrX3FfeWl1X2c2ZVo5SktkV2RhcXE2Z1NRNzNaYl9sdVU3cjliamlTX3prUmplb3lJWWxzVmxZRjB6bkw2Rm1yYk4ycGNYMWVjbmxUSmoyWjVWYzh0d2hGTFR6MGNmY3lTblR4WkJTQXBWTC1zS093UWFNYmhkM2lVZUs3aDAzWnF1RDdSZlc4cEFabkNldDg2LWVkeHpCbThnVXBwc0tma1BwUmdoMXE3UjVNTUpZdnNiSzJWRmk4VVk?oc=5) (Börse Online, 26.11. 17:03, Sonstiges, eher positiv)
+- [SAP Aktie: Saueressig will den Vorstand verlassen](https://news.google.com/rss/articles/CBMijAFBVV95cUxNSEZNYkUwTTRjdVdIUnRmYVN4VFpxcGZDQmRmUjZwQmppY09INElfRUxUVHVfb0ZzVkVhdzVJa1dUbUp0cDZwTUlXUi14b01qLVhINGRfd01jdzNaamZYaW5WMVpDb2NSaGVJN1piVnloRWZoWlpYTEZVai14QmxOWVJGUUUxdE54Y0ZtNA?oc=5) (Börse Global, 26.11. 10:07, Personalie)
+- [SAP Aktie: 14 Prozent in einer Woche verloren – reicht ein 10-Milliarden-Rückkauf gegen die KI-Angst?](https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ2dIcDV2X2NDUDVON2FudkwtUEw2ODAtLUxPNEMzRHpueFdQWFd5TloyMEh3V1NrM040X1JJTHdYeWh1aV9DRTN1b011d1AxbEJ3dnlMektzZHNGYUN4NjQ4Rk43MVhrZ2RTaGQzZTd5NllRbDI5NmQtU1BEYVlaWXVtTGtXb3A2MjJ1QlcwVlk?oc=5) (AktienCheck.de, 26.11. 09:50, Dividende/Rückkauf)
+
+**Schlagzeilen zum Markt**
+
+- [Börse: DAX-Ausblick, Kurssprung dank Schnäppchenjägern](https://news.google.com/rss/articles/CBMibkFVX3lxTE13VUNHU1YtcmVFOGZRZzl4Vy01SlhlOWRkRnlmQXpXOHVSSHJQVmVuX05lWktxOE43SWZsdGNXYkhHVGhwUDVlWFJOcWVVMWRhODRpb3gzN3pxQUxkMlVjMkFXQUtINERQTHVDVFlR?oc=5) (tagesschau.de, 26.11. 06:15, Prognose, eher positiv)
+- [„28.800 Punkte“ – Deutsche-Bank-Stratege wagt seine DAX-Prognose für 2027](https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcVNzU0VQaEwzb2htZ0ZnY1RGX2UyWUo4S0VuTTZJODZFaXFmX240dmhzbHhVaXdUV3l2dk5WRnlfcl8yb3p4OGs1aVBoTzh0eV9CZlRnbW85U09xdjVFcEhka0hRc2lfS3hVOWhXeVJNa2FyT0xISlB4MWRQVGlad2NhdG9lOC15SWJxb0NGU2dNc1d3ckdlZ3NkTHdQWDBKVHRVNHh3Zk9BT0lTTmNxMmVTVUgzaVZDT2l4QktySzZ5NDQtUmQ5ZTl3MGVlUDJhQnRJ?oc=5) (WELT, 26.11. 14:18, Prognose)
+- [DAX-Prognose: Höher, kein US-Handel – Rheinmetall, Bayer, Infineon, Siemens Energy, Nvidia im Fokus](https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ3o4NUEwVDlXWUQzM1pWMFlaVnE0UV9YVmJJTzNvQ2xfTU5kZVZ6TlZLeTBLb3kxNm92RG8zLXBZRUZ6MnB3U0lFbF82bGd5N0t3Q0JST04zdjlJOW5pdVJsd05CSVdwOGhfTXFQRHlqMXpkcFJycGxWZzZydjIyZVZpU3JHd1VBRVJ0ZFBLbTRlbkktcVpfZWViMjVOa3ZZbmh5SHlpZ0swZElKRjVubEV1WEJGOW11TEJrRERFZldJV0Z3eUtUbFBfemNSX2gzX1BMUUdkenlTTUVlZXZ2eGRSZ2c?oc=5) (Der Aktionär, 26.11. 06:59, Prognose)
+
 ## Mittwoch, 25.11.2026
 
 Zertifikat −0,03 % (−0,05 €), SAP-Aktie −0,14 %, DAX −1,26 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP-Aktie unter 190 Euro: Warum Analysten 244 Euro sehen“ (Investor-Verlag, Analyst/Kursziel). Gesamtmarkt: „Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte“ (Finanzen.net, Makro).

@@ -2,6 +2,22 @@
 
 Automatisch erstellt, regelbasiert. Zeitlicher Zusammenhang, kein Beweis.
 
+## Donnerstag, 26.11.2026
+
+Zertifikat −0,06 % (−0,05 €), Beiersdorf-Aktie +1,31 %, DAX +2,08 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu Beiersdorf: „Beiersdorf-Aktie: Bernstein hält an Outperform und 95 Euro fest“ (ad-hoc-news.de, Analyst/Kursziel). Gesamtmarkt: „Aktien Frankfurt: Kurse erholt - Deutsche Bank: 2027 Dax-Rekord möglich“ (Finanzen.net, eher positiv, passt zur Bewegung des DAX).
+
+**Schlagzeilen zu Beiersdorf**
+
+- [Beiersdorf-Aktie: Bernstein hält an Outperform und 95 Euro fest](https://news.google.com/rss/articles/CBMixAFBVV95cUxOSmRRZ2xfYXlzTndVUld4YW9JMmtBc1Z0ZGRQWVBOUnJ0OEgya3Y0dW9YRjVFcV9IMk5DM2tOUWgzRUhRdk91NU9rTDV6ZUR0TVk0SWRhRXZObjh6UnFaVzI5WHFLZDdUdHV4dVIwalJoY3oyRU95ZGxWZXVjeTVYOENWRVdqQ2hOV3RqUXZocmtSRUE4Q3JMd3pjVkE0Rkl2bkFScl9nanI2ZHF3QnY2VXpxTVR1OXdtZng3YlY5eFl4TUpl?oc=5) (ad-hoc-news.de, 26.11. 15:24, Analyst/Kursziel)
+- [Beiersdorf-Aktie: Zweiter Tag in Folge Gewinne](https://news.google.com/rss/articles/CBMiugFBVV95cUxQcVlZNEhUZ3ozb1V4eVJ0SXdvVkJ0c0JISGRMU3V3bjIxRTFmU0VVOUdnX1otVTNrcHZyeGZQNTMzelJaTENTQmNPeGNUQXRnM2V3YlgwbHo3cVQwTEJEaXMzaWU4VVVUbENJS1dtZVJLTGZKbFhQeFBIZ0llazd1WWdNNFB6cF96YUd0MEpDN01pdC01Qmg4SkVEUHlDUmN1RzIybHdDNFBpOFFIZWtBLUJ3TDlfek9VQmc?oc=5) (WELT, 26.11. 11:02, Sonstiges)
+- [Beiersdorf-Aktie über 100-Tage-Linie](https://news.google.com/rss/articles/CBMihwFBVV95cUxPQzN2T29lbDdFcTFCOThHaVJEdXphTXk4YXh0STBwcmpwUDdJemM4N045QkhJb0sxUE1sT0EyRUt6RTVIWjZ1LW40YzZrQy01RjZKN1UyUF9tY0xLX2kxeGRNX2hMcENaUXlxM3NfeHA1ZENZV2VDUFFoX2hLeGMyUlRpMnI2MTQ?oc=5) (boerse.de, 26.11. 08:10, Sonstiges)
+
+**Schlagzeilen zum Markt**
+
+- [Aktien Frankfurt: Kurse erholt - Deutsche Bank: 2027 Dax-Rekord möglich](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ2dIZkJTUHhmTU5DdGdjUkN2bjFxWnplR2IyTzVlVkRVbE1tc3FFLW95bEt1aTJ4OFBPZjhrNEdmUnRkVWh5UHB3eVVXaTh6ZHVraHMwV0VHODBrSUhiQ0NncHlIdmVWRUFOc05pMjRoZG9KQVFYcUpPdzJYX2dabjIxeHg3c3JRSGJvdEsyejBBWVBpMEJBckNSR3M5YlhDM1A1dkVuMmlhYW5SVlMxTFJpRUppcURLRFU4?oc=5) (Finanzen.net, 26.11. 14:51, Sonstiges, eher positiv)
+- [Börse: DAX-Ausblick, Kurssprung dank Schnäppchenjägern](https://news.google.com/rss/articles/CBMibkFVX3lxTE13VUNHU1YtcmVFOGZRZzl4Vy01SlhlOWRkRnlmQXpXOHVSSHJQVmVuX05lWktxOE43SWZsdGNXYkhHVGhwUDVlWFJOcWVVMWRhODRpb3gzN3pxQUxkMlVjMkFXQUtINERQTHVDVFlR?oc=5) (tagesschau.de, 26.11. 06:15, Prognose, eher positiv)
+- [BY8XPY \| X-Unlimited Turbo Optionsschein auf DAX von BNP Paribas \| DE000BY8XPY1](https://news.google.com/rss/articles/CBMibkFVX3lxTFBFcWdJVkVBTm1kQ2FFRHZWMU9wa0s4bU5KcjE4WjJjZzNTLWdZay1NSEJPRHd4MTQzcFg1T01zei1hN3RjYzRJbVltQnZtOW01dTRvV0JVWTh6emhjVnhpY3lDUXJrWEJmOGhnbW13?oc=5) (Finanzen.net, 26.11. 17:21, Sonstiges)
+
 ## Mittwoch, 25.11.2026
 
 Zertifikat +0,27 % (+0,21 €), Beiersdorf-Aktie +2,23 %, DAX −1,26 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Marktbewegung. Zu Beiersdorf: „Buy or Goodbye?: British American Tobacco, BASF, Beiersdorf & Henkel - Analystenstimmen des Tages“ (FinanzNachrichten.de, Analyst/Kursziel). Gesamtmarkt: „Trading Idee: DAX — Zollsorgen bremsen die Erholung, Ziel 26.000 Punkte“ (Finanzen.net, Makro).
