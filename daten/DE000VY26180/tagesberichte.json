@@ -1146,5 +1146,55 @@
   ],
   "nachrichten_gesamt": 30,
   "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-27": {
+  "datum": "2026-11-27",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat +0,13 % (+0,18 €), SAP-Aktie +0,77 %, DAX +0,90 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „DAX-Prognose: Höher, Gold legt zu – SAP, Commerzbank, Rheinmetall, Adidas, Siemens Energy im Fokus“ (Der Aktionär, Prognose, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum.",
+  "kurse": {
+   "z_geld": 146.71,
+   "basis": 195.64,
+   "dax": 25441.24,
+   "z_pct": 0.126258,
+   "basis_pct": 0.772638,
+   "dax_pct": 0.895163,
+   "dz": 0.185,
+   "haupttreiber": "DAX-Bewegung",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "DAX-Prognose: Höher, Gold legt zu – SAP, Commerzbank, Rheinmetall, Adidas, Siemens Energy im Fokus",
+    "quelle": "Der Aktionär",
+    "zeit": "2026-11-27T06:54:02+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNFZTWVFTY3dhSWNzUEc2a3E0UkR2bGJYMERnRGVtbXRBb19wWlhkNzVrN0lHbUZzcG1ldms4cmR3NUlVOFVSR2xRM0N1ZVhhMmJuTVJpNFEwZkJqUzhSZDhHczFPWWtRTmNWdGFvMXYtbHMyamJ3SGZtRUVNM2RyQWtCR3Znai1tVmxxNEJaajA1TEY4WlBfN2RmVGtaa0wyVnpMbFgydjFvNkVZS1VIYl9OSFlqQ3pZLTFpWnNld0lzM3lobkVWOTYzZ2hsWG4xaTI5TTZQZXYyTHV1NjdyYlN3cw?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "SAP-Aktie steigt: 10.000 Jobs in Gefahr – und eine Vorständin kauft für 229.000 Euro Aktien",
+    "quelle": "BörsenNEWS.de",
+    "zeit": "2026-11-26T19:13:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOTVxdEhFUmNfX1pYN0lUd3FLSUNOMXVoV0ZSOUhISTVERWtCUjFkbjRIdlFvbXlBTHVkSjlCRGRvRzQ1LXRtRzFCdFFWZlV6VUhybzkxcW9sWUNVc3pXVU5ibXlWNU9nMmhxV0ZuR3RpQTdyd0lxSlJ0dFoyLW5aa1BxRHZRR3d5U2JuakJaTXZKQjlRWUNkNjd4TEVBLWFIZUhJelhadmREU25vdVVsQnl1TnE5REo0WnNOQldDLXU5ZXYweUNGY1dtMnctSDVXLTFSTm5CbTNWUXQ5TUd0aXlpdTMtRDRPNlNSdlVLTQ?oc=5",
+    "kategorie": "Übernahme/Beteiligung",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "Börse – Dax steigt, SAP-Aktie gerät unter Druck",
+    "quelle": "Nau",
+    "zeit": "2026-11-27T13:01:23+01:00",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNblA0NF9FN245dENET3cwUGJKdXFYUTREZHZ0N0owY285S0o1bWhqY2xJaE9lOXFwUHFlc3M1b0MtM214V1h5Q09Qa3h2YTN2UjRrV1hOeEVEbXZsNlBDdFpUQUhDa2VSNzdLOWNrOW40bXFtVU5zWkd0REZRcUJYWjRfWU9sdVpwZEp1TEtTTC1KQQ?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "positiv",
+    "passt": true
+   }
+  ],
+  "nachrichten_markt": [],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
  }
 }

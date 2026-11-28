@@ -2,6 +2,16 @@
 
 Automatisch erstellt, regelbasiert. Zeitlicher Zusammenhang, kein Beweis.
 
+## Freitag, 27.11.2026
+
+Zertifikat +0,86 % (+1,65 €), SAP-Aktie +0,77 %, DAX +0,90 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „AKTIE IM FOKUS: SAP in positiven Umfeld schwach - Stellenabbau und Hackerangriff“ (Finanzen.net, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum.
+
+**Schlagzeilen zu SAP**
+
+- [AKTIE IM FOKUS: SAP in positiven Umfeld schwach - Stellenabbau und Hackerangriff](https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ0g0MUIxdmtDTEk2ZlJIQVpvUElhRUxCMUNOajh0ZXJ3T1owS29oWVp3bEFXMkRxMkRvcWZuanRZTl9hUHNYZl9KQU5wbzhUUFJ0N3V4OEN4SDM4N0dtSVFNSXJ6c3ZQYU5ZVktKUFdVc29NcHFJbW1iWGtmN3Z6STZuazlOSVpBekpzelRIUzM1dy05Z3F0dVNobHdLMnRnaHNCNkFKdnp5WEdaUTVNVVBwUjV5WHdPeTNrNXB4N0NhTW5FVnFR?oc=5) (Finanzen.net, 27.11. 08:38, Sonstiges, eher negativ)
+- [SAP-Aktie und KI: Warum Analysten den Software-Konzern jetzt neu bewerten](https://news.google.com/rss/articles/CBMivwFBVV95cUxNNVBmeTRvd2ZuRGVJQzRGSlE0QXNtd2lobHlJZWp6R3plMVBfN0FwWEtPMTlmUkVUYV84anBmSVVnalpYYTRXZTZReGhuX2NLaGdudm1wNUxRVVdZX2Y5UGdHdjFNUWtfdG1RWi1Vd0paYzEzWDIwZWlWcmlIYnpvNkcwTmstV2FrNUVYemJfYmVRdE94eTJaa3QtVUhPVndtVjlKaEk5bnpfMUxrMXpneFZ1YjJ5YUd0U2lrT2RRQQ?oc=5) (WirtschaftsWoche, 27.11. 12:12, Analyst/Kursziel)
+- [SAP plant offenbar Kahlschlag – Analysten sehen Chancen](https://news.google.com/rss/articles/CBMizAFBVV95cUxPekRTTU53YjdLYVZUYTBhcnBRS0E5bzF1bEhjSkQ5TC1aQVBVOVJobzdxWXl6eVZFRzlBdWJrNHZubTRCci01a01pb0NvUzVsd3RBcnQzaXlyRWlaTmk4TDJEeWZoTTN5Qzd1UGFqUDdoelJ4ZHE0QUNiQzh0VlRFcWV0ZFkxQS1MYnJfTTRIU2RFejZWcmE3ZE9wR2lSa3R1TW9hN0xxYmN2SUN6bUo5TWpBRGR1T3dvWC1QQml6Nm8yQkd5QkNxN21CZkM?oc=5) (FOCUS online, 27.11. 10:21, Analyst/Kursziel)
+
 ## Donnerstag, 26.11.2026
 
 Zertifikat −0,86 % (−1,67 €), SAP-Aktie +2,28 %, DAX +2,08 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu SAP: „SAP erhöht Aktienrückkäufe plötzlich um mehr als 3.700 Prozent: Was weiß das Management?“ (Börse Online, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: DAX-Ausblick, Kurssprung dank Schnäppchenjägern“ (tagesschau.de, Prognose, eher positiv, passt zur Bewegung des DAX).

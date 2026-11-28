@@ -2,6 +2,22 @@
 
 Automatisch erstellt, regelbasiert. Zeitlicher Zusammenhang, kein Beweis.
 
+## Freitag, 27.11.2026
+
+Zertifikat −0,22 % (−0,17 €), Beiersdorf-Aktie −0,96 %, DAX +0,90 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu Beiersdorf: „Bernstein Research: Beiersdorf-Aktie erhält Outperform“ (finanzen.at, Analyst/Kursziel). Gesamtmarkt: „Riedls Dax-Radar: Erst KI-Erholung, dann zittern vor der US-Notenbank“ (WirtschaftsWoche, Makro).
+
+**Schlagzeilen zu Beiersdorf**
+
+- [Bernstein Research: Beiersdorf-Aktie erhält Outperform](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazFnNDZBTWJiWEMwLW1WTzNYMUJBVHBGc05FYTBrQTBQVTI0cjNaUkRETExITTVSZHRXbWZ6STdmTlBYdmtyVHp6Z2QxRFJvdk1WUkR4WlktYXlLU3AwWGxISHQ4S1pDV2UydWpfTVNVQkctbVh2QUpGRlZsZWZlVkV4UUJDMUduNnI1c1RTblBubFJCNF9XbDVtWFl0TnRJUFg4a1F4MHA4Slk?oc=5) (finanzen.at, 27.11. 16:22, Analyst/Kursziel)
+- [Outperform-Note für Beiersdorf-Aktie: Neue Analyse von Bernstein Research](https://news.google.com/rss/articles/CBMixgFBVV95cUxNMTRxZUc2LU9oN2pMcVBSbnlMS1ZTLTlQeFB4dFQ4NGVEZUVUQnJjajQxcVI2aFFyckc0WWVsLVhWdjdYUC1rXzZvemVBVVVhXzAtcDlKUTN2cjVTLWNwWVRqUkFyQUU4ZXJIUnZFS1lFVk0zdWYxdjdSVGJwRmtrWG1ENTBkeTRnRnJ4NUc3algtOHE4X3pncEQ0bXJpS3FiZlYxZkw0QnQySVpRUmtLSVFIV1hQOGpya2ViTFFmbExSY1l0WEE?oc=5) (finanzen.ch, 27.11. 16:22, Analyst/Kursziel)
+- [Beiersdorf Aktie: Kursziel halbiert, Nivea schrumpft – wie lange dauert die Wende in Hamburg?](https://news.google.com/rss/articles/CBMisAFBVV95cUxPOTdmb0Q2N2o2RXg2em9EdXM2NWZ4dUF6VkhCUVEyalhEcGhPMWhrMGlQY2o0V0hubjh1cDlndzJKdkNqUm5kcjZWRUJtdTdnaU1LLTFna0M0eV9nUHlyWU1VV0UyVWRidWRWQUhVNk9kMWVsM2FhWkNNZXFrVVZKa056ZEFnQ1htVmhJTWVPNi11WTJBX1NER2lpT2ZSTTJFOXB3RElNTG5iWWhBTkM1Vw?oc=5) (AktienCheck.de, 27.11. 16:11, Analyst/Kursziel)
+
+**Schlagzeilen zum Markt**
+
+- [Riedls Dax-Radar: Erst KI-Erholung, dann zittern vor der US-Notenbank](https://news.google.com/rss/articles/CBMiugFBVV95cUxPOXpzM2NrdmVtM3FNcVJVb0N4WWdTZ3hJeXN1WGMtMEZCUWVXeWwxS3JGcUt0T3BmOXNydmdKbHRKeUJMZ2E5MS1KSEV3Vng2WjNrTHhVa2syd05PY2ppODhNN0JIU19yeTRyVDl0U0pqaEJJMnIzcDFIYzNpNE90ajF5bDBfNlgwUWtHNElhNjlSY3p4YWRlX2pTRjJVSDRPMXJmWkdvaElHZTM5STRqdDMyZnpVLVBhSHc?oc=5) (WirtschaftsWoche, 27.11. 14:47, Makro)
+- [DAX-Prognose: Höher, Gold legt zu – SAP, Commerzbank, Rheinmetall, Adidas, Siemens Energy im Fokus](https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNFZTWVFTY3dhSWNzUEc2a3E0UkR2bGJYMERnRGVtbXRBb19wWlhkNzVrN0lHbUZzcG1ldms4cmR3NUlVOFVSR2xRM0N1ZVhhMmJuTVJpNFEwZkJqUzhSZDhHczFPWWtRTmNWdGFvMXYtbHMyamJ3SGZtRUVNM2RyQWtCR3Znai1tVmxxNEJaajA1TEY4WlBfN2RmVGtaa0wyVnpMbFgydjFvNkVZS1VIYl9OSFlqQ3pZLTFpWnNld0lzM3lobkVWOTYzZ2hsWG4xaTI5TTZQZXYyTHV1NjdyYlN3cw?oc=5) (Der Aktionär, 27.11. 06:54, Prognose, eher positiv)
+- [DAX Turbo S 25701.0827 open end (VON) \| Kurs, Chart, Analysen \| DE000BE4S8F2](https://news.google.com/rss/articles/CBMijgFBVV95cUxPUWdnU3BFN3NHMDBuSDFuNWUtNkVvY2dxRml2SlRGcHlrUWxuSUhIY1BEemRZSDVVd1dabGZXbnhELWZpOE54YkZVT2JqU1o0X0NNaEVEVkdjUDJSbTY4MFhSUE8tSTdXaC04Q3BPSHRjUEZtb0Roel9Hc25ybjdQUm5hbHBjUjcxOGhnbDh3?oc=5) (n-tv.de, 27.11. 17:11, Sonstiges)
+
 ## Donnerstag, 26.11.2026
 
 Zertifikat −0,06 % (−0,05 €), Beiersdorf-Aktie +1,31 %, DAX +2,08 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu Beiersdorf: „Beiersdorf-Aktie: Bernstein hält an Outperform und 95 Euro fest“ (ad-hoc-news.de, Analyst/Kursziel). Gesamtmarkt: „Aktien Frankfurt: Kurse erholt - Deutsche Bank: 2027 Dax-Rekord möglich“ (Finanzen.net, eher positiv, passt zur Bewegung des DAX).

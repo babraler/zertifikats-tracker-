@@ -1152,5 +1152,55 @@
   ],
   "nachrichten_gesamt": 30,
   "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-27": {
+  "datum": "2026-11-27",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat +0,86 % (+1,65 €), SAP-Aktie +0,77 %, DAX +0,90 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „AKTIE IM FOKUS: SAP in positiven Umfeld schwach - Stellenabbau und Hackerangriff“ (Finanzen.net, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum.",
+  "kurse": {
+   "z_geld": 194.535,
+   "basis": 195.64,
+   "dax": 25441.24,
+   "z_pct": 0.855432,
+   "basis_pct": 0.772638,
+   "dax_pct": 0.895163,
+   "dz": 1.65,
+   "haupttreiber": "DAX-Bewegung",
+   "verdikt": "Marktbewegung",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "AKTIE IM FOKUS: SAP in positiven Umfeld schwach - Stellenabbau und Hackerangriff",
+    "quelle": "Finanzen.net",
+    "zeit": "2026-11-27T08:38:38+01:00",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ0g0MUIxdmtDTEk2ZlJIQVpvUElhRUxCMUNOajh0ZXJ3T1owS29oWVp3bEFXMkRxMkRvcWZuanRZTl9hUHNYZl9KQU5wbzhUUFJ0N3V4OEN4SDM4N0dtSVFNSXJ6c3ZQYU5ZVktKUFdVc29NcHFJbW1iWGtmN3Z6STZuazlOSVpBekpzelRIUzM1dy05Z3F0dVNobHdLMnRnaHNCNkFKdnp5WEdaUTVNVVBwUjV5WHdPeTNrNXB4N0NhTW5FVnFR?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "negativ",
+    "passt": true
+   },
+   {
+    "titel": "SAP-Aktie und KI: Warum Analysten den Software-Konzern jetzt neu bewerten",
+    "quelle": "WirtschaftsWoche",
+    "zeit": "2026-11-27T12:12:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNVBmeTRvd2ZuRGVJQzRGSlE0QXNtd2lobHlJZWp6R3plMVBfN0FwWEtPMTlmUkVUYV84anBmSVVnalpYYTRXZTZReGhuX2NLaGdudm1wNUxRVVdZX2Y5UGdHdjFNUWtfdG1RWi1Vd0paYzEzWDIwZWlWcmlIYnpvNkcwTmstV2FrNUVYemJfYmVRdE94eTJaa3QtVUhPVndtVjlKaEk5bnpfMUxrMXpneFZ1YjJ5YUd0U2lrT2RRQQ?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "SAP plant offenbar Kahlschlag – Analysten sehen Chancen",
+    "quelle": "FOCUS online",
+    "zeit": "2026-11-27T10:21:00+01:00",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPekRTTU53YjdLYVZUYTBhcnBRS0E5bzF1bEhjSkQ5TC1aQVBVOVJobzdxWXl6eVZFRzlBdWJrNHZubTRCci01a01pb0NvUzVsd3RBcnQzaXlyRWlaTmk4TDJEeWZoTTN5Qzd1UGFqUDdoelJ4ZHE0QUNiQzh0VlRFcWV0ZFkxQS1MYnJfTTRIU2RFejZWcmE3ZE9wR2lSa3R1TW9hN0xxYmN2SUN6bUo5TWpBRGR1T3dvWC1QQml6Nm8yQkd5QkNxN21CZkM?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
  }
 }

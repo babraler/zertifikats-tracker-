@@ -1,8 +1,8 @@
 {
-  "stand": "2026-11-27T01:50:43+01:00",
+  "stand": "2026-11-28T01:16:19+01:00",
   "zertifikate": [
     {
-      "stand": "2026-11-27T01:50:43+01:00",
+      "stand": "2026-11-28T01:16:19+01:00",
       "produkt": {
         "isin": "DE000JE3NTM6",
         "wkn": "JE3NTM",
@@ -23,23 +23,23 @@
         }
       },
       "aktuell": {
-        "z_geld": 139.42,
+        "z_geld": 139.63,
         "z_brief": null,
-        "max_ertrag_eur": 3.08,
-        "max_ertrag_pct": 2.20915220198,
+        "max_ertrag_eur": 2.87,
+        "max_ertrag_pct": 2.05543221371,
         "delta": null,
-        "discount_pct": 28.1085814361,
-        "cap_abstand_pct": 36.23859649122806,
+        "discount_pct": 28.5524432631,
+        "cap_abstand_pct": 37.29122807017543,
         "seit_start": {
           "bezug_datum": "2026-11-09",
-          "z_eur": -0.72,
-          "z_pct": -0.513772,
-          "basis_pct": -8.273092,
-          "dax_pct": -4.00374
+          "z_eur": -0.51,
+          "z_pct": -0.363922,
+          "basis_pct": -7.564375,
+          "dax_pct": -3.144417
         }
       },
       "fortschritt": {
-        "tag": 18,
+        "tag": 19,
         "tage_gesamt": 70,
         "woche": 3
       },
@@ -1877,6 +1877,68 @@
           "iv": null,
           "spruenge": [],
           "zusammenfassung": "Zertifikat +0,06 % (+0,09 €), SAP-Aktie +2,28 %, DAX +2,08 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu SAP: „SAP erhöht Aktienrückkäufe plötzlich um mehr als 3.700 Prozent: Was weiß das Management?“ (Börse Online, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: DAX-Ausblick, Kurssprung dank Schnäppchenjägern“ (tagesschau.de, Prognose, eher positiv, passt zur Bewegung des DAX)."
+        },
+        {
+          "datum": "2026-11-27",
+          "phase": "lauf",
+          "z_geld": 139.63,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 195.64,
+          "dax": 25441.24,
+          "z_pct": 0.150624,
+          "basis_pct": 0.772638,
+          "dax_pct": 0.895163,
+          "dz": 0.21,
+          "delta": 0.068461,
+          "beta": 0.756848,
+          "effekt_markt": 0.090047,
+          "effekt_aktie": 0.012645,
+          "effekt_zeit": 0.030996,
+          "effekt_rest": 0.076313,
+          "haupttreiber": "DAX-Bewegung",
+          "auffaellig": false,
+          "z_score": 0.053317,
+          "text": "Das Zertifikat stieg von 139,42 € auf 139,63 € (+0,21 € oder +0,15 %). Die SAP-Aktie stieg um 0,77 %, der DAX stieg um 0,90 %; davon entfallen rechnerisch etwa +0,68 Prozentpunkte auf die allgemeine Marktbewegung. Das Zertifikat liegt nahe seinem Höchstwert (Cap), deshalb kommen Aktienbewegungen kaum an (Delta 0,07); der Zeitwert trug +0,03 € bei. Haupttreiber des Tages: DAX-Bewegung (+0,09 €).",
+          "verdikt": "Marktbewegung",
+          "nachrichten": [
+            {
+              "titel": "DAX-Prognose: Höher, Gold legt zu – SAP, Commerzbank, Rheinmetall, Adidas, Siemens Energy im Fokus",
+              "quelle": "Der Aktionär",
+              "zeit": "2026-11-27T06:54:02+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNFZTWVFTY3dhSWNzUEc2a3E0UkR2bGJYMERnRGVtbXRBb19wWlhkNzVrN0lHbUZzcG1ldms4cmR3NUlVOFVSR2xRM0N1ZVhhMmJuTVJpNFEwZkJqUzhSZDhHczFPWWtRTmNWdGFvMXYtbHMyamJ3SGZtRUVNM2RyQWtCR3Znai1tVmxxNEJaajA1TEY4WlBfN2RmVGtaa0wyVnpMbFgydjFvNkVZS1VIYl9OSFlqQ3pZLTFpWnNld0lzM3lobkVWOTYzZ2hsWG4xaTI5TTZQZXYyTHV1NjdyYlN3cw?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "positiv",
+              "passt": true
+            },
+            {
+              "titel": "SAP-Aktie steigt: 10.000 Jobs in Gefahr – und eine Vorständin kauft für 229.000 Euro Aktien",
+              "quelle": "BörsenNEWS.de",
+              "zeit": "2026-11-26T19:13:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOTVxdEhFUmNfX1pYN0lUd3FLSUNOMXVoV0ZSOUhISTVERWtCUjFkbjRIdlFvbXlBTHVkSjlCRGRvRzQ1LXRtRzFCdFFWZlV6VUhybzkxcW9sWUNVc3pXVU5ibXlWNU9nMmhxV0ZuR3RpQTdyd0lxSlJ0dFoyLW5aa1BxRHZRR3d5U2JuakJaTXZKQjlRWUNkNjd4TEVBLWFIZUhJelhadmREU25vdVVsQnl1TnE5REo0WnNOQldDLXU5ZXYweUNGY1dtMnctSDVXLTFSTm5CbTNWUXQ5TUd0aXlpdTMtRDRPNlNSdlVLTQ?oc=5",
+              "kategorie": "Übernahme/Beteiligung",
+              "richtung": "positiv",
+              "passt": true
+            },
+            {
+              "titel": "Börse – Dax steigt, SAP-Aktie gerät unter Druck",
+              "quelle": "Nau",
+              "zeit": "2026-11-27T13:01:23+01:00",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNblA0NF9FN245dENET3cwUGJKdXFYUTREZHZ0N0owY285S0o1bWhqY2xJaE9lOXFwUHFlc3M1b0MtM214V1h5Q09Qa3h2YTN2UjRrV1hOeEVEbXZsNlBDdFpUQUhDa2VSNzdLOWNrOW40bXFtVU5zWkd0REZRcUJYWjRfWU9sdVpwZEp1TEtTTC1KQQ?oc=5",
+              "kategorie": "Sonstiges",
+              "richtung": "positiv",
+              "passt": true
+            }
+          ],
+          "effekt_basis": 0.102692,
+          "aktie_spez_pct": 0.095136,
+          "cap_abstand_pct": 37.291228,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": false,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,15 % (+0,21 €), SAP-Aktie +0,77 %, DAX +0,90 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „DAX-Prognose: Höher, Gold legt zu – SAP, Commerzbank, Rheinmetall, Adidas, Siemens Energy im Fokus“ (Der Aktionär, Prognose, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum."
         }
       ],
       "wochen": [
@@ -1917,29 +1979,29 @@
         {
           "woche": "2026-W48",
           "von": "2026-11-23",
-          "bis": "2026-11-26",
-          "tage": 4,
-          "unvollstaendig": true,
-          "z_schnitt": 139.3175,
-          "basis_schnitt": 190.095,
-          "dax_schnitt": 25068.1825,
-          "z_vorwoche_pct": -0.033366,
-          "z_schluss": 139.42,
-          "z_woche_pct": 0.649726,
-          "basis_schluss": 194.14,
-          "basis_woche_pct": 5.694686,
-          "dax_schluss": 25215.52,
-          "dax_woche_pct": 1.664088
+          "bis": "2026-11-27",
+          "tage": 5,
+          "unvollstaendig": false,
+          "z_schnitt": 139.38,
+          "basis_schnitt": 191.204,
+          "dax_schnitt": 25142.794,
+          "z_vorwoche_pct": 0.011481,
+          "z_schluss": 139.63,
+          "z_woche_pct": 0.801328,
+          "basis_schluss": 195.64,
+          "basis_woche_pct": 6.511324,
+          "dax_schluss": 25441.24,
+          "dax_woche_pct": 2.574147
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "Heute (2026-11-27) kein Handelstag, letzter Handelstag 2026-11-26.",
-        "letzter_lauf": "2026-11-27T01:50:43+01:00"
+        "meldung": "Heute (2026-11-28) kein Handelstag, letzter Handelstag 2026-11-27.",
+        "letzter_lauf": "2026-11-28T01:16:19+01:00"
       }
     },
     {
-      "stand": "2026-11-27T01:50:43+01:00",
+      "stand": "2026-11-28T01:16:19+01:00",
       "produkt": {
         "isin": "DE000BE4S0F9",
         "wkn": "BE4S0F",
@@ -1960,23 +2022,23 @@
         }
       },
       "aktuell": {
-        "z_geld": 192.885,
+        "z_geld": 194.535,
         "z_brief": null,
-        "max_ertrag_eur": 27.33,
-        "max_ertrag_pct": 14.1988778055,
+        "max_ertrag_eur": 25.68,
+        "max_ertrag_pct": 13.2282491114,
         "delta": null,
-        "discount_pct": 0.646440712888,
-        "cap_abstand_pct": -11.67826759474092,
+        "discount_pct": 0.564812921693,
+        "cap_abstand_pct": -10.995860060961746,
         "seit_start": {
           "bezug_datum": "2026-11-19",
-          "z_eur": 4.56,
-          "z_pct": 2.421346,
-          "basis_pct": 3.807079,
-          "dax_pct": -0.97507
+          "z_eur": 6.21,
+          "z_pct": 3.297491,
+          "basis_pct": 4.609133,
+          "dax_pct": -0.088636
         }
       },
       "fortschritt": {
-        "tag": 8,
+        "tag": 9,
         "tage_gesamt": 70,
         "woche": 2
       },
@@ -3078,6 +3140,68 @@
           "iv": null,
           "spruenge": [],
           "zusammenfassung": "Zertifikat −0,86 % (−1,67 €), SAP-Aktie +2,28 %, DAX +2,08 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu SAP: „SAP erhöht Aktienrückkäufe plötzlich um mehr als 3.700 Prozent: Was weiß das Management?“ (Börse Online, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: DAX-Ausblick, Kurssprung dank Schnäppchenjägern“ (tagesschau.de, Prognose, eher positiv, passt zur Bewegung des DAX)."
+        },
+        {
+          "datum": "2026-11-27",
+          "phase": "lauf",
+          "z_geld": 194.535,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 195.64,
+          "dax": 25441.24,
+          "z_pct": 0.855432,
+          "basis_pct": 0.772638,
+          "dax_pct": 0.895163,
+          "dz": 1.65,
+          "delta": 1.0,
+          "beta": 1.0,
+          "effekt_markt": 1.737869,
+          "effekt_aktie": -0.237869,
+          "effekt_zeit": 0.0,
+          "effekt_rest": 0.15,
+          "haupttreiber": "DAX-Bewegung",
+          "auffaellig": false,
+          "z_score": null,
+          "text": "Das Zertifikat stieg von 192,88 € auf 194,53 € (+1,65 € oder +0,86 %). Die SAP-Aktie stieg um 0,77 %, der DAX stieg um 0,90 %; davon entfallen rechnerisch etwa +0,90 Prozentpunkte auf die allgemeine Marktbewegung. Das Delta von 1,00 sagt, welcher Anteil der Aktienbewegung beim Zertifikat ankommt; so kamen +1,50 € an, der Zeitwert trug 0,00 € bei. Haupttreiber des Tages: DAX-Bewegung (+1,74 €).",
+          "verdikt": "Marktbewegung",
+          "nachrichten": [
+            {
+              "titel": "SAP-Aktie und KI: Warum Analysten den Software-Konzern jetzt neu bewerten",
+              "quelle": "WirtschaftsWoche",
+              "zeit": "2026-11-27T12:12:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNVBmeTRvd2ZuRGVJQzRGSlE0QXNtd2lobHlJZWp6R3plMVBfN0FwWEtPMTlmUkVUYV84anBmSVVnalpYYTRXZTZReGhuX2NLaGdudm1wNUxRVVdZX2Y5UGdHdjFNUWtfdG1RWi1Vd0paYzEzWDIwZWlWcmlIYnpvNkcwTmstV2FrNUVYemJfYmVRdE94eTJaa3QtVUhPVndtVjlKaEk5bnpfMUxrMXpneFZ1YjJ5YUd0U2lrT2RRQQ?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "SAP plant offenbar Kahlschlag – Analysten sehen Chancen",
+              "quelle": "FOCUS online",
+              "zeit": "2026-11-27T10:21:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPekRTTU53YjdLYVZUYTBhcnBRS0E5bzF1bEhjSkQ5TC1aQVBVOVJobzdxWXl6eVZFRzlBdWJrNHZubTRCci01a01pb0NvUzVsd3RBcnQzaXlyRWlaTmk4TDJEeWZoTTN5Qzd1UGFqUDdoelJ4ZHE0QUNiQzh0VlRFcWV0ZFkxQS1MYnJfTTRIU2RFejZWcmE3ZE9wR2lSa3R1TW9hN0xxYmN2SUN6bUo5TWpBRGR1T3dvWC1QQml6Nm8yQkd5QkNxN21CZkM?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "SAP Aktie: Cloud plus 26 Prozent, JPMorgan dreht auf Kaufen – warum der Dezember jetzt entscheidet",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-27T10:00:49+01:00",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWGZERHBSdk5nZDVpeDZKZUpoaWYwZnR5UHlrYTFaVHFUcUxpaTlELVRRZXJ1QVMwYVpFZjdzUnF1LXdfbUtoUEk5WU1wNzJlRTV3OXRXMy1yNTctekZSOWgtSTczZ3N4OEhPc09UNU13eVMxbzZCbXZnZ0xRZ1lQaDlmZERYY0daZFRPQi1VOUhhdHcyRmxpZGtrWXk1Z3BTbEhpakZhU0RVeGc?oc=5",
+              "kategorie": "Übernahme/Beteiligung",
+              "richtung": "neutral",
+              "passt": null
+            }
+          ],
+          "effekt_basis": 1.5,
+          "aktie_spez_pct": -0.122525,
+          "cap_abstand_pct": -10.99586,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": true,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,86 % (+1,65 €), SAP-Aktie +0,77 %, DAX +0,90 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „AKTIE IM FOKUS: SAP in positiven Umfeld schwach - Stellenabbau und Hackerangriff“ (Finanzen.net, eher negativ, passt zur Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum."
         }
       ],
       "wochen": [
@@ -3101,29 +3225,29 @@
         {
           "woche": "2026-W48",
           "von": "2026-11-23",
-          "bis": "2026-11-26",
-          "tage": 4,
-          "unvollstaendig": true,
-          "z_schnitt": 193.0325,
-          "basis_schnitt": 190.095,
-          "dax_schnitt": 25068.1825,
-          "z_vorwoche_pct": 3.386267,
-          "z_schluss": 192.885,
-          "z_woche_pct": 3.307268,
-          "basis_schluss": 194.14,
-          "basis_woche_pct": 6.273265,
-          "dax_schluss": 25215.52,
-          "dax_woche_pct": 1.113975
+          "bis": "2026-11-27",
+          "tage": 5,
+          "unvollstaendig": false,
+          "z_schnitt": 193.333,
+          "basis_schnitt": 191.204,
+          "dax_schnitt": 25142.794,
+          "z_vorwoche_pct": 3.547212,
+          "z_schluss": 194.535,
+          "z_woche_pct": 4.190991,
+          "basis_schluss": 195.64,
+          "basis_woche_pct": 7.094373,
+          "dax_schluss": 25441.24,
+          "dax_woche_pct": 2.01911
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "Heute (2026-11-27) kein Handelstag, letzter Handelstag 2026-11-26.",
-        "letzter_lauf": "2026-11-27T01:50:43+01:00"
+        "meldung": "Heute (2026-11-28) kein Handelstag, letzter Handelstag 2026-11-27.",
+        "letzter_lauf": "2026-11-28T01:16:19+01:00"
       }
     },
     {
-      "stand": "2026-11-27T01:50:43+01:00",
+      "stand": "2026-11-28T01:16:19+01:00",
       "produkt": {
         "isin": "DE000UN3TQH3",
         "wkn": "UN3TQH",
@@ -3144,23 +3268,23 @@
         }
       },
       "aktuell": {
-        "z_geld": 156.01,
+        "z_geld": 156.47,
         "z_brief": null,
-        "max_ertrag_eur": 3.99,
-        "max_ertrag_pct": 2.55752836357,
+        "max_ertrag_eur": 3.53,
+        "max_ertrag_pct": 2.25602351889,
         "delta": null,
-        "discount_pct": 19.5915318842,
-        "cap_abstand_pct": 21.33749999999999,
+        "discount_pct": 19.9729094255,
+        "cap_abstand_pct": 22.27499999999999,
         "seit_start": {
           "bezug_datum": "2026-11-19",
-          "z_eur": 0.8401,
-          "z_pct": 0.541407,
-          "basis_pct": 3.807079,
-          "dax_pct": -0.97507
+          "z_eur": 1.3001,
+          "z_pct": 0.837856,
+          "basis_pct": 4.609133,
+          "dax_pct": -0.088636
         }
       },
       "fortschritt": {
-        "tag": 8,
+        "tag": 9,
         "tage_gesamt": 70,
         "woche": 2
       },
@@ -4508,6 +4632,68 @@
           "iv": null,
           "spruenge": [],
           "zusammenfassung": "Zertifikat +0,21 % (+0,33 €), SAP-Aktie +2,28 %, DAX +2,08 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP erhöht Aktienrückkäufe plötzlich um mehr als 3.700 Prozent: Was weiß das Management?“ (Börse Online, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: DAX-Ausblick, Kurssprung dank Schnäppchenjägern“ (tagesschau.de, Prognose, eher positiv, passt zur Bewegung des DAX)."
+        },
+        {
+          "datum": "2026-11-27",
+          "phase": "lauf",
+          "z_geld": 156.47,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 195.64,
+          "dax": 25441.24,
+          "z_pct": 0.294853,
+          "basis_pct": 0.772638,
+          "dax_pct": 0.895163,
+          "dz": 0.46,
+          "delta": 0.226118,
+          "beta": 0.81289,
+          "effekt_markt": 0.319437,
+          "effekt_aktie": 0.019741,
+          "effekt_zeit": 0.06153,
+          "effekt_rest": 0.059292,
+          "haupttreiber": "DAX-Bewegung",
+          "auffaellig": false,
+          "z_score": 0.025632,
+          "text": "Das Zertifikat stieg von 156,01 € auf 156,47 € (+0,46 € oder +0,29 %). Die SAP-Aktie stieg um 0,77 %, der DAX stieg um 0,90 %; davon entfallen rechnerisch etwa +0,73 Prozentpunkte auf die allgemeine Marktbewegung. Das Delta von 0,23 sagt, welcher Anteil der Aktienbewegung beim Zertifikat ankommt; so kamen +0,34 € an, der Zeitwert trug +0,06 € bei. Haupttreiber des Tages: DAX-Bewegung (+0,32 €).",
+          "verdikt": "Marktbewegung",
+          "nachrichten": [
+            {
+              "titel": "DAX-Prognose: Höher, Gold legt zu – SAP, Commerzbank, Rheinmetall, Adidas, Siemens Energy im Fokus",
+              "quelle": "Der Aktionär",
+              "zeit": "2026-11-27T06:54:02+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNFZTWVFTY3dhSWNzUEc2a3E0UkR2bGJYMERnRGVtbXRBb19wWlhkNzVrN0lHbUZzcG1ldms4cmR3NUlVOFVSR2xRM0N1ZVhhMmJuTVJpNFEwZkJqUzhSZDhHczFPWWtRTmNWdGFvMXYtbHMyamJ3SGZtRUVNM2RyQWtCR3Znai1tVmxxNEJaajA1TEY4WlBfN2RmVGtaa0wyVnpMbFgydjFvNkVZS1VIYl9OSFlqQ3pZLTFpWnNld0lzM3lobkVWOTYzZ2hsWG4xaTI5TTZQZXYyTHV1NjdyYlN3cw?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "positiv",
+              "passt": true
+            },
+            {
+              "titel": "SAP-Aktie steigt: 10.000 Jobs in Gefahr – und eine Vorständin kauft für 229.000 Euro Aktien",
+              "quelle": "BörsenNEWS.de",
+              "zeit": "2026-11-26T19:13:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOTVxdEhFUmNfX1pYN0lUd3FLSUNOMXVoV0ZSOUhISTVERWtCUjFkbjRIdlFvbXlBTHVkSjlCRGRvRzQ1LXRtRzFCdFFWZlV6VUhybzkxcW9sWUNVc3pXVU5ibXlWNU9nMmhxV0ZuR3RpQTdyd0lxSlJ0dFoyLW5aa1BxRHZRR3d5U2JuakJaTXZKQjlRWUNkNjd4TEVBLWFIZUhJelhadmREU25vdVVsQnl1TnE5REo0WnNOQldDLXU5ZXYweUNGY1dtMnctSDVXLTFSTm5CbTNWUXQ5TUd0aXlpdTMtRDRPNlNSdlVLTQ?oc=5",
+              "kategorie": "Übernahme/Beteiligung",
+              "richtung": "positiv",
+              "passt": true
+            },
+            {
+              "titel": "Börse – Dax steigt, SAP-Aktie gerät unter Druck",
+              "quelle": "Nau",
+              "zeit": "2026-11-27T13:01:23+01:00",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNblA0NF9FN245dENET3cwUGJKdXFYUTREZHZ0N0owY285S0o1bWhqY2xJaE9lOXFwUHFlc3M1b0MtM214V1h5Q09Qa3h2YTN2UjRrV1hOeEVEbXZsNlBDdFpUQUhDa2VSNzdLOWNrOW40bXFtVU5zWkd0REZRcUJYWjRfWU9sdVpwZEp1TEtTTC1KQQ?oc=5",
+              "kategorie": "Sonstiges",
+              "richtung": "positiv",
+              "passt": true
+            }
+          ],
+          "effekt_basis": 0.339177,
+          "aktie_spez_pct": 0.044969,
+          "cap_abstand_pct": 22.275,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": false,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,29 % (+0,46 €), SAP-Aktie +0,77 %, DAX +0,90 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „DAX-Prognose: Höher, Gold legt zu – SAP, Commerzbank, Rheinmetall, Adidas, Siemens Energy im Fokus“ (Der Aktionär, Prognose, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum."
         }
       ],
       "wochen": [
@@ -4531,29 +4717,29 @@
         {
           "woche": "2026-W48",
           "von": "2026-11-23",
-          "bis": "2026-11-26",
-          "tage": 4,
-          "unvollstaendig": true,
-          "z_schnitt": 155.5575,
-          "basis_schnitt": 190.095,
-          "dax_schnitt": 25068.1825,
-          "z_vorwoche_pct": 0.48285,
-          "z_schluss": 156.01,
-          "z_woche_pct": 0.775144,
-          "basis_schluss": 194.14,
-          "basis_woche_pct": 6.238371,
-          "dax_schluss": 25215.52,
-          "dax_woche_pct": 1.10165
+          "bis": "2026-11-27",
+          "tage": 5,
+          "unvollstaendig": false,
+          "z_schnitt": 155.74,
+          "basis_schnitt": 191.204,
+          "dax_schnitt": 25142.794,
+          "z_vorwoche_pct": 0.600736,
+          "z_schluss": 156.47,
+          "z_woche_pct": 1.072282,
+          "basis_schluss": 195.64,
+          "basis_woche_pct": 7.05921,
+          "dax_schluss": 25441.24,
+          "dax_woche_pct": 2.006675
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "Heute (2026-11-27) kein Handelstag, letzter Handelstag 2026-11-26.",
-        "letzter_lauf": "2026-11-27T01:50:43+01:00"
+        "meldung": "Heute (2026-11-28) kein Handelstag, letzter Handelstag 2026-11-27.",
+        "letzter_lauf": "2026-11-28T01:16:19+01:00"
       }
     },
     {
-      "stand": "2026-11-27T01:50:43+01:00",
+      "stand": "2026-11-28T01:16:19+01:00",
       "produkt": {
         "isin": "DE000VY26180",
         "wkn": "VY2618",
@@ -4574,23 +4760,23 @@
         }
       },
       "aktuell": {
-        "z_geld": 146.525,
+        "z_geld": 146.71,
         "z_brief": null,
-        "max_ertrag_eur": 3.69,
-        "max_ertrag_pct": 2.52204223908,
+        "max_ertrag_eur": 3.49,
+        "max_ertrag_pct": 2.38208995973,
         "delta": null,
-        "discount_pct": 24.5261151746,
-        "cap_abstand_pct": 29.426666666666655,
+        "discount_pct": 25.0102228583,
+        "cap_abstand_pct": 30.42666666666666,
         "seit_start": {
           "bezug_datum": "2026-11-19",
-          "z_eur": 0.895,
-          "z_pct": 0.614571,
-          "basis_pct": 3.807079,
-          "dax_pct": -0.97507
+          "z_eur": 1.08,
+          "z_pct": 0.741605,
+          "basis_pct": 4.609133,
+          "dax_pct": -0.088636
         }
       },
       "fortschritt": {
-        "tag": 8,
+        "tag": 9,
         "tage_gesamt": 70,
         "woche": 2
       },
@@ -5938,6 +6124,68 @@
           "iv": null,
           "spruenge": [],
           "zusammenfassung": "Zertifikat +0,24 % (+0,35 €), SAP-Aktie +2,28 %, DAX +2,08 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „SAP erhöht Aktienrückkäufe plötzlich um mehr als 3.700 Prozent: Was weiß das Management?“ (Börse Online, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: DAX-Ausblick, Kurssprung dank Schnäppchenjägern“ (tagesschau.de, Prognose, eher positiv, passt zur Bewegung des DAX)."
+        },
+        {
+          "datum": "2026-11-27",
+          "phase": "lauf",
+          "z_geld": 146.71,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 195.64,
+          "dax": 25441.24,
+          "z_pct": 0.126258,
+          "basis_pct": 0.772638,
+          "dax_pct": 0.895163,
+          "dz": 0.185,
+          "delta": 0.170562,
+          "beta": 0.765623,
+          "effekt_markt": 0.226941,
+          "effekt_aktie": 0.028901,
+          "effekt_zeit": 0.049049,
+          "effekt_rest": -0.119891,
+          "haupttreiber": "DAX-Bewegung",
+          "auffaellig": false,
+          "z_score": 0.049832,
+          "text": "Das Zertifikat stieg von 146,53 € auf 146,71 € (+0,19 € oder +0,13 %). Die SAP-Aktie stieg um 0,77 %, der DAX stieg um 0,90 %; davon entfallen rechnerisch etwa +0,69 Prozentpunkte auf die allgemeine Marktbewegung. Das Delta von 0,17 sagt, welcher Anteil der Aktienbewegung beim Zertifikat ankommt; so kamen +0,26 € an, der Zeitwert trug +0,05 € bei. Haupttreiber des Tages: DAX-Bewegung (+0,23 €).",
+          "verdikt": "Marktbewegung",
+          "nachrichten": [
+            {
+              "titel": "DAX-Prognose: Höher, Gold legt zu – SAP, Commerzbank, Rheinmetall, Adidas, Siemens Energy im Fokus",
+              "quelle": "Der Aktionär",
+              "zeit": "2026-11-27T06:54:02+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNFZTWVFTY3dhSWNzUEc2a3E0UkR2bGJYMERnRGVtbXRBb19wWlhkNzVrN0lHbUZzcG1ldms4cmR3NUlVOFVSR2xRM0N1ZVhhMmJuTVJpNFEwZkJqUzhSZDhHczFPWWtRTmNWdGFvMXYtbHMyamJ3SGZtRUVNM2RyQWtCR3Znai1tVmxxNEJaajA1TEY4WlBfN2RmVGtaa0wyVnpMbFgydjFvNkVZS1VIYl9OSFlqQ3pZLTFpWnNld0lzM3lobkVWOTYzZ2hsWG4xaTI5TTZQZXYyTHV1NjdyYlN3cw?oc=5",
+              "kategorie": "Prognose",
+              "richtung": "positiv",
+              "passt": true
+            },
+            {
+              "titel": "SAP-Aktie steigt: 10.000 Jobs in Gefahr – und eine Vorständin kauft für 229.000 Euro Aktien",
+              "quelle": "BörsenNEWS.de",
+              "zeit": "2026-11-26T19:13:00+01:00",
+              "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOTVxdEhFUmNfX1pYN0lUd3FLSUNOMXVoV0ZSOUhISTVERWtCUjFkbjRIdlFvbXlBTHVkSjlCRGRvRzQ1LXRtRzFCdFFWZlV6VUhybzkxcW9sWUNVc3pXVU5ibXlWNU9nMmhxV0ZuR3RpQTdyd0lxSlJ0dFoyLW5aa1BxRHZRR3d5U2JuakJaTXZKQjlRWUNkNjd4TEVBLWFIZUhJelhadmREU25vdVVsQnl1TnE5REo0WnNOQldDLXU5ZXYweUNGY1dtMnctSDVXLTFSTm5CbTNWUXQ5TUd0aXlpdTMtRDRPNlNSdlVLTQ?oc=5",
+              "kategorie": "Übernahme/Beteiligung",
+              "richtung": "positiv",
+              "passt": true
+            },
+            {
+              "titel": "Börse – Dax steigt, SAP-Aktie gerät unter Druck",
+              "quelle": "Nau",
+              "zeit": "2026-11-27T13:01:23+01:00",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNblA0NF9FN245dENET3cwUGJKdXFYUTREZHZ0N0owY285S0o1bWhqY2xJaE9lOXFwUHFlc3M1b0MtM214V1h5Q09Qa3h2YTN2UjRrV1hOeEVEbXZsNlBDdFpUQUhDa2VSNzdLOWNrOW40bXFtVU5zWkd0REZRcUJYWjRfWU9sdVpwZEp1TEtTTC1KQQ?oc=5",
+              "kategorie": "Sonstiges",
+              "richtung": "positiv",
+              "passt": true
+            }
+          ],
+          "effekt_basis": 0.255842,
+          "aktie_spez_pct": 0.087281,
+          "cap_abstand_pct": 30.426667,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": false,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat +0,13 % (+0,18 €), SAP-Aktie +0,77 %, DAX +0,90 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „DAX-Prognose: Höher, Gold legt zu – SAP, Commerzbank, Rheinmetall, Adidas, Siemens Energy im Fokus“ (Der Aktionär, Prognose, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum."
         }
       ],
       "wochen": [
@@ -5961,29 +6209,29 @@
         {
           "woche": "2026-W48",
           "von": "2026-11-23",
-          "bis": "2026-11-26",
-          "tage": 4,
-          "unvollstaendig": true,
-          "z_schnitt": 146.18625,
-          "basis_schnitt": 190.095,
-          "dax_schnitt": 25068.1825,
-          "z_vorwoche_pct": 0.61687,
-          "z_schluss": 146.525,
-          "z_woche_pct": 0.850024,
-          "basis_schluss": 194.14,
-          "basis_woche_pct": 5.145147,
-          "dax_schluss": 25215.52,
-          "dax_woche_pct": 0.856876
+          "bis": "2026-11-27",
+          "tage": 5,
+          "unvollstaendig": false,
+          "z_schnitt": 146.291,
+          "basis_schnitt": 191.204,
+          "dax_schnitt": 25142.794,
+          "z_vorwoche_pct": 0.688967,
+          "z_schluss": 146.71,
+          "z_woche_pct": 0.977356,
+          "basis_schluss": 195.64,
+          "basis_woche_pct": 5.957539,
+          "dax_schluss": 25441.24,
+          "dax_woche_pct": 1.759709
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "Heute (2026-11-27) kein Handelstag, letzter Handelstag 2026-11-26.",
-        "letzter_lauf": "2026-11-27T01:50:43+01:00"
+        "meldung": "Heute (2026-11-28) kein Handelstag, letzter Handelstag 2026-11-27.",
+        "letzter_lauf": "2026-11-28T01:16:19+01:00"
       }
     },
     {
-      "stand": "2026-11-27T01:50:43+01:00",
+      "stand": "2026-11-28T01:16:19+01:00",
       "produkt": {
         "isin": "DE000VJ996M9",
         "wkn": "VJ996M",
@@ -6004,23 +6252,23 @@
         }
       },
       "aktuell": {
-        "z_geld": 77.235,
+        "z_geld": 77.065,
         "z_brief": null,
-        "max_ertrag_eur": 1.97,
-        "max_ertrag_pct": 2.55744515124,
+        "max_ertrag_eur": 2.14,
+        "max_ertrag_pct": 2.78428311215,
         "delta": null,
-        "discount_pct": 7.54728273881,
-        "cap_abstand_pct": 5.746835443037983,
+        "discount_pct": 6.85883490452,
+        "cap_abstand_pct": 4.734177215189868,
         "seit_start": {
           "bezug_datum": "2026-11-20",
-          "z_eur": 0.7,
-          "z_pct": 0.914614,
-          "basis_pct": 5.506441,
-          "dax_pct": 1.664088
+          "z_eur": 0.53,
+          "z_pct": 0.692494,
+          "basis_pct": 4.496085,
+          "dax_pct": 2.574147
         }
       },
       "fortschritt": {
-        "tag": 5,
+        "tag": 6,
         "tage_gesamt": 70,
         "woche": 1
       },
@@ -7232,58 +7480,120 @@
           "iv": null,
           "spruenge": [],
           "zusammenfassung": "Zertifikat −0,06 % (−0,05 €), Beiersdorf-Aktie +1,31 %, DAX +2,08 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu Beiersdorf: „Beiersdorf-Aktie: Bernstein hält an Outperform und 95 Euro fest“ (ad-hoc-news.de, Analyst/Kursziel). Gesamtmarkt: „Aktien Frankfurt: Kurse erholt - Deutsche Bank: 2027 Dax-Rekord möglich“ (Finanzen.net, eher positiv, passt zur Bewegung des DAX)."
+        },
+        {
+          "datum": "2026-11-27",
+          "phase": "lauf",
+          "z_geld": 77.065,
+          "z_brief": null,
+          "z_quelle": "historie",
+          "basis": 82.74,
+          "dax": 25441.24,
+          "z_pct": -0.220107,
+          "basis_pct": -0.957625,
+          "dax_pct": 0.895163,
+          "dz": -0.17,
+          "delta": 0.490381,
+          "beta": 0.232089,
+          "effekt_markt": 0.085111,
+          "effekt_aktie": -0.477416,
+          "effekt_zeit": 0.01045,
+          "effekt_rest": 0.211855,
+          "haupttreiber": "Aktie selbst",
+          "auffaellig": false,
+          "z_score": -0.832176,
+          "text": "Das Zertifikat fiel von 77,23 € auf 77,06 € (−0,17 € oder −0,22 %). Die Beiersdorf-Aktie fiel um 0,96 %, der DAX stieg um 0,90 %; davon entfallen rechnerisch etwa +0,21 Prozentpunkte auf die allgemeine Marktbewegung. Das Delta von 0,49 sagt, welcher Anteil der Aktienbewegung beim Zertifikat ankommt; so kamen −0,39 € an, der Zeitwert trug +0,01 € bei. Haupttreiber des Tages: Aktie selbst (−0,48 €).",
+          "verdikt": "Im normalen Rauschen",
+          "nachrichten": [
+            {
+              "titel": "Bernstein Research: Beiersdorf-Aktie erhält Outperform",
+              "quelle": "finanzen.at",
+              "zeit": "2026-11-27T16:22:47+01:00",
+              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazFnNDZBTWJiWEMwLW1WTzNYMUJBVHBGc05FYTBrQTBQVTI0cjNaUkRETExITTVSZHRXbWZ6STdmTlBYdmtyVHp6Z2QxRFJvdk1WUkR4WlktYXlLU3AwWGxISHQ4S1pDV2UydWpfTVNVQkctbVh2QUpGRlZsZWZlVkV4UUJDMUduNnI1c1RTblBubFJCNF9XbDVtWFl0TnRJUFg4a1F4MHA4Slk?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "Outperform-Note für Beiersdorf-Aktie: Neue Analyse von Bernstein Research",
+              "quelle": "finanzen.ch",
+              "zeit": "2026-11-27T16:22:44+01:00",
+              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMTRxZUc2LU9oN2pMcVBSbnlMS1ZTLTlQeFB4dFQ4NGVEZUVUQnJjajQxcVI2aFFyckc0WWVsLVhWdjdYUC1rXzZvemVBVVVhXzAtcDlKUTN2cjVTLWNwWVRqUkFyQUU4ZXJIUnZFS1lFVk0zdWYxdjdSVGJwRmtrWG1ENTBkeTRnRnJ4NUc3algtOHE4X3pncEQ0bXJpS3FiZlYxZkw0QnQySVpRUmtLSVFIV1hQOGpya2ViTFFmbExSY1l0WEE?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            },
+            {
+              "titel": "Beiersdorf Aktie: Kursziel halbiert, Nivea schrumpft – wie lange dauert die Wende in Hamburg?",
+              "quelle": "AktienCheck.de",
+              "zeit": "2026-11-27T16:11:47+01:00",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOTdmb0Q2N2o2RXg2em9EdXM2NWZ4dUF6VkhCUVEyalhEcGhPMWhrMGlQY2o0V0hubjh1cDlndzJKdkNqUm5kcjZWRUJtdTdnaU1LLTFna0M0eV9nUHlyWU1VV0UyVWRidWRWQUhVNk9kMWVsM2FhWkNNZXFrVVZKa056ZEFnQ1htVmhJTWVPNi11WTJBX1NER2lpT2ZSTTJFOXB3RElNTG5iWWhBTkM1Vw?oc=5",
+              "kategorie": "Analyst/Kursziel",
+              "richtung": "neutral",
+              "passt": null
+            }
+          ],
+          "effekt_basis": -0.392305,
+          "aktie_spez_pct": -1.165382,
+          "cap_abstand_pct": 4.734177,
+          "delta_geschaetzt": false,
+          "beta_geschaetzt": false,
+          "theta_tag": null,
+          "iv": null,
+          "spruenge": [],
+          "zusammenfassung": "Zertifikat −0,22 % (−0,17 €), Beiersdorf-Aktie −0,96 %, DAX +0,90 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu Beiersdorf: „Bernstein Research: Beiersdorf-Aktie erhält Outperform“ (finanzen.at, Analyst/Kursziel). Gesamtmarkt: „Riedls Dax-Radar: Erst KI-Erholung, dann zittern vor der US-Notenbank“ (WirtschaftsWoche, Makro)."
         }
       ],
       "wochen": [
         {
           "woche": "2026-W48",
           "von": "2026-11-23",
-          "bis": "2026-11-26",
-          "tage": 4,
-          "unvollstaendig": true,
-          "z_schnitt": 77.01875,
-          "basis_schnitt": 81.445,
-          "dax_schnitt": 24954.86,
+          "bis": "2026-11-27",
+          "tage": 5,
+          "unvollstaendig": false,
+          "z_schnitt": 77.028,
+          "basis_schnitt": 81.704,
+          "dax_schnitt": 25052.136,
           "z_vorwoche_pct": null,
-          "z_schluss": 77.235,
-          "z_woche_pct": 0.914614,
-          "basis_schluss": 83.54,
-          "basis_woche_pct": 5.506441,
-          "dax_schluss": 25215.52,
-          "dax_woche_pct": 1.664088
+          "z_schluss": 77.065,
+          "z_woche_pct": 0.692494,
+          "basis_schluss": 82.74,
+          "basis_woche_pct": 4.496085,
+          "dax_schluss": 25441.24,
+          "dax_woche_pct": 2.574147
         }
       ],
       "status": {
         "ok": true,
-        "meldung": "Heute (2026-11-27) kein Handelstag, letzter Handelstag 2026-11-26.",
-        "letzter_lauf": "2026-11-27T01:50:43+01:00"
+        "meldung": "Heute (2026-11-28) kein Handelstag, letzter Handelstag 2026-11-27.",
+        "letzter_lauf": "2026-11-28T01:16:19+01:00"
       }
     }
   ],
   "status": {
     "ok": true,
     "meldung": "",
-    "letzter_lauf": "2026-11-27T01:50:43+01:00",
+    "letzter_lauf": "2026-11-28T01:16:19+01:00",
     "je_zertifikat": {
       "DE000JE3NTM6": {
         "ok": true,
-        "meldung": "Heute (2026-11-27) kein Handelstag, letzter Handelstag 2026-11-26."
+        "meldung": "Heute (2026-11-28) kein Handelstag, letzter Handelstag 2026-11-27."
       },
       "DE000BE4S0F9": {
         "ok": true,
-        "meldung": "Heute (2026-11-27) kein Handelstag, letzter Handelstag 2026-11-26."
+        "meldung": "Heute (2026-11-28) kein Handelstag, letzter Handelstag 2026-11-27."
       },
       "DE000UN3TQH3": {
         "ok": true,
-        "meldung": "Heute (2026-11-27) kein Handelstag, letzter Handelstag 2026-11-26."
+        "meldung": "Heute (2026-11-28) kein Handelstag, letzter Handelstag 2026-11-27."
       },
       "DE000VY26180": {
         "ok": true,
-        "meldung": "Heute (2026-11-27) kein Handelstag, letzter Handelstag 2026-11-26."
+        "meldung": "Heute (2026-11-28) kein Handelstag, letzter Handelstag 2026-11-27."
       },
       "DE000VJ996M9": {
         "ok": true,
-        "meldung": "Heute (2026-11-27) kein Handelstag, letzter Handelstag 2026-11-26."
+        "meldung": "Heute (2026-11-28) kein Handelstag, letzter Handelstag 2026-11-27."
       }
     }
   },

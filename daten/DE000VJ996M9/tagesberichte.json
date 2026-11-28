@@ -972,5 +972,83 @@
   ],
   "nachrichten_gesamt": 30,
   "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
+ },
+ "2026-11-27": {
+  "datum": "2026-11-27",
+  "phase": "lauf",
+  "zusammenfassung": "Zertifikat −0,22 % (−0,17 €), Beiersdorf-Aktie −0,96 %, DAX +0,90 %. Haupttreiber beim Zertifikat: Aktie selbst; Einordnung: Im normalen Rauschen. Zu Beiersdorf: „Bernstein Research: Beiersdorf-Aktie erhält Outperform“ (finanzen.at, Analyst/Kursziel). Gesamtmarkt: „Riedls Dax-Radar: Erst KI-Erholung, dann zittern vor der US-Notenbank“ (WirtschaftsWoche, Makro).",
+  "kurse": {
+   "z_geld": 77.065,
+   "basis": 82.74,
+   "dax": 25441.24,
+   "z_pct": -0.220107,
+   "basis_pct": -0.957625,
+   "dax_pct": 0.895163,
+   "dz": -0.17,
+   "haupttreiber": "Aktie selbst",
+   "verdikt": "Im normalen Rauschen",
+   "auffaellig": false
+  },
+  "spruenge": [],
+  "nachrichten_unternehmen": [
+   {
+    "titel": "Bernstein Research: Beiersdorf-Aktie erhält Outperform",
+    "quelle": "finanzen.at",
+    "zeit": "2026-11-27T16:22:47+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOazFnNDZBTWJiWEMwLW1WTzNYMUJBVHBGc05FYTBrQTBQVTI0cjNaUkRETExITTVSZHRXbWZ6STdmTlBYdmtyVHp6Z2QxRFJvdk1WUkR4WlktYXlLU3AwWGxISHQ4S1pDV2UydWpfTVNVQkctbVh2QUpGRlZsZWZlVkV4UUJDMUduNnI1c1RTblBubFJCNF9XbDVtWFl0TnRJUFg4a1F4MHA4Slk?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Outperform-Note für Beiersdorf-Aktie: Neue Analyse von Bernstein Research",
+    "quelle": "finanzen.ch",
+    "zeit": "2026-11-27T16:22:44+01:00",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMTRxZUc2LU9oN2pMcVBSbnlMS1ZTLTlQeFB4dFQ4NGVEZUVUQnJjajQxcVI2aFFyckc0WWVsLVhWdjdYUC1rXzZvemVBVVVhXzAtcDlKUTN2cjVTLWNwWVRqUkFyQUU4ZXJIUnZFS1lFVk0zdWYxdjdSVGJwRmtrWG1ENTBkeTRnRnJ4NUc3algtOHE4X3pncEQ0bXJpS3FiZlYxZkw0QnQySVpRUmtLSVFIV1hQOGpya2ViTFFmbExSY1l0WEE?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "Beiersdorf Aktie: Kursziel halbiert, Nivea schrumpft – wie lange dauert die Wende in Hamburg?",
+    "quelle": "AktienCheck.de",
+    "zeit": "2026-11-27T16:11:47+01:00",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOTdmb0Q2N2o2RXg2em9EdXM2NWZ4dUF6VkhCUVEyalhEcGhPMWhrMGlQY2o0V0hubjh1cDlndzJKdkNqUm5kcjZWRUJtdTdnaU1LLTFna0M0eV9nUHlyWU1VV0UyVWRidWRWQUhVNk9kMWVsM2FhWkNNZXFrVVZKa056ZEFnQ1htVmhJTWVPNi11WTJBX1NER2lpT2ZSTTJFOXB3RElNTG5iWWhBTkM1Vw?oc=5",
+    "kategorie": "Analyst/Kursziel",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_markt": [
+   {
+    "titel": "Riedls Dax-Radar: Erst KI-Erholung, dann zittern vor der US-Notenbank",
+    "quelle": "WirtschaftsWoche",
+    "zeit": "2026-11-27T14:47:23+01:00",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOXpzM2NrdmVtM3FNcVJVb0N4WWdTZ3hJeXN1WGMtMEZCUWVXeWwxS3JGcUt0T3BmOXNydmdKbHRKeUJMZ2E5MS1KSEV3Vng2WjNrTHhVa2syd05PY2ppODhNN0JIU19yeTRyVDl0U0pqaEJJMnIzcDFIYzNpNE90ajF5bDBfNlgwUWtHNElhNjlSY3p4YWRlX2pTRjJVSDRPMXJmWkdvaElHZTM5STRqdDMyZnpVLVBhSHc?oc=5",
+    "kategorie": "Makro",
+    "richtung": "neutral",
+    "passt": null
+   },
+   {
+    "titel": "DAX-Prognose: Höher, Gold legt zu – SAP, Commerzbank, Rheinmetall, Adidas, Siemens Energy im Fokus",
+    "quelle": "Der Aktionär",
+    "zeit": "2026-11-27T06:54:02+01:00",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNFZTWVFTY3dhSWNzUEc2a3E0UkR2bGJYMERnRGVtbXRBb19wWlhkNzVrN0lHbUZzcG1ldms4cmR3NUlVOFVSR2xRM0N1ZVhhMmJuTVJpNFEwZkJqUzhSZDhHczFPWWtRTmNWdGFvMXYtbHMyamJ3SGZtRUVNM2RyQWtCR3Znai1tVmxxNEJaajA1TEY4WlBfN2RmVGtaa0wyVnpMbFgydjFvNkVZS1VIYl9OSFlqQ3pZLTFpWnNld0lzM3lobkVWOTYzZ2hsWG4xaTI5TTZQZXYyTHV1NjdyYlN3cw?oc=5",
+    "kategorie": "Prognose",
+    "richtung": "positiv",
+    "passt": true
+   },
+   {
+    "titel": "DAX Turbo S 25701.0827 open end (VON) | Kurs, Chart, Analysen | DE000BE4S8F2",
+    "quelle": "n-tv.de",
+    "zeit": "2026-11-27T17:11:27+01:00",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUWdnU3BFN3NHMDBuSDFuNWUtNkVvY2dxRml2SlRGcHlrUWxuSUhIY1BEemRZSDVVd1dabGZXbnhELWZpOE54YkZVT2JqU1o0X0NNaEVEVkdjUDJSbTY4MFhSUE8tSTdXaC04Q3BPSHRjUEZtb0Roel9Hc25ybjdQUm5hbHBjUjcxOGhnbDh3?oc=5",
+    "kategorie": "Sonstiges",
+    "richtung": "neutral",
+    "passt": null
+   }
+  ],
+  "nachrichten_gesamt": 30,
+  "hinweis": "Zeitlicher Zusammenhang, kein Beweis."
  }
 }

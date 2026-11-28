@@ -2,6 +2,16 @@
 
 Automatisch erstellt, regelbasiert. Zeitlicher Zusammenhang, kein Beweis.
 
+## Freitag, 27.11.2026
+
+Zertifikat +0,15 % (+0,21 €), SAP-Aktie +0,77 %, DAX +0,90 %. Haupttreiber beim Zertifikat: DAX-Bewegung; Einordnung: Marktbewegung. Zu SAP: „DAX-Prognose: Höher, Gold legt zu – SAP, Commerzbank, Rheinmetall, Adidas, Siemens Energy im Fokus“ (Der Aktionär, Prognose, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Zum Gesamtmarkt gab es keine Schlagzeile im Zeitraum.
+
+**Schlagzeilen zu SAP**
+
+- [DAX-Prognose: Höher, Gold legt zu – SAP, Commerzbank, Rheinmetall, Adidas, Siemens Energy im Fokus](https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNFZTWVFTY3dhSWNzUEc2a3E0UkR2bGJYMERnRGVtbXRBb19wWlhkNzVrN0lHbUZzcG1ldms4cmR3NUlVOFVSR2xRM0N1ZVhhMmJuTVJpNFEwZkJqUzhSZDhHczFPWWtRTmNWdGFvMXYtbHMyamJ3SGZtRUVNM2RyQWtCR3Znai1tVmxxNEJaajA1TEY4WlBfN2RmVGtaa0wyVnpMbFgydjFvNkVZS1VIYl9OSFlqQ3pZLTFpWnNld0lzM3lobkVWOTYzZ2hsWG4xaTI5TTZQZXYyTHV1NjdyYlN3cw?oc=5) (Der Aktionär, 27.11. 06:54, Prognose, eher positiv)
+- [SAP-Aktie steigt: 10.000 Jobs in Gefahr – und eine Vorständin kauft für 229.000 Euro Aktien](https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOTVxdEhFUmNfX1pYN0lUd3FLSUNOMXVoV0ZSOUhISTVERWtCUjFkbjRIdlFvbXlBTHVkSjlCRGRvRzQ1LXRtRzFCdFFWZlV6VUhybzkxcW9sWUNVc3pXVU5ibXlWNU9nMmhxV0ZuR3RpQTdyd0lxSlJ0dFoyLW5aa1BxRHZRR3d5U2JuakJaTXZKQjlRWUNkNjd4TEVBLWFIZUhJelhadmREU25vdVVsQnl1TnE5REo0WnNOQldDLXU5ZXYweUNGY1dtMnctSDVXLTFSTm5CbTNWUXQ5TUd0aXlpdTMtRDRPNlNSdlVLTQ?oc=5) (BörsenNEWS.de, 26.11. 19:13, Übernahme/Beteiligung, eher positiv)
+- [Börse – Dax steigt, SAP-Aktie gerät unter Druck](https://news.google.com/rss/articles/CBMikgFBVV95cUxNblA0NF9FN245dENET3cwUGJKdXFYUTREZHZ0N0owY285S0o1bWhqY2xJaE9lOXFwUHFlc3M1b0MtM214V1h5Q09Qa3h2YTN2UjRrV1hOeEVEbXZsNlBDdFpUQUhDa2VSNzdLOWNrOW40bXFtVU5zWkd0REZRcUJYWjRfWU9sdVpwZEp1TEtTTC1KQQ?oc=5) (Nau, 27.11. 13:01, Sonstiges, eher positiv)
+
 ## Donnerstag, 26.11.2026
 
 Zertifikat +0,06 % (+0,09 €), SAP-Aktie +2,28 %, DAX +2,08 %. Haupttreiber beim Zertifikat: Sonstiges (Spread, Vola, Zinsen); Einordnung: Marktbewegung. Zu SAP: „SAP erhöht Aktienrückkäufe plötzlich um mehr als 3.700 Prozent: Was weiß das Management?“ (Börse Online, eher positiv, passt zur Bewegung der Aktie ohne Markteinfluss). Gesamtmarkt: „Börse: DAX-Ausblick, Kurssprung dank Schnäppchenjägern“ (tagesschau.de, Prognose, eher positiv, passt zur Bewegung des DAX).
